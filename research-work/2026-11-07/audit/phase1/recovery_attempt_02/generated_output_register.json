@@ -1,0 +1,802 @@
+[
+  {
+    "path": "data\\processed\\target_manifest.csv",
+    "rows": 775,
+    "class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116,
+      "other": 210
+    },
+    "sha256": "3a64890c19311b2e44053f75be64d69db3169e97e51a8d39601327b35d97b6c2",
+    "baseline_exists": true,
+    "baseline_rows": 740,
+    "baseline_class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116,
+      "other": 175
+    },
+    "baseline_sha256": "ac1a8682bf1142d70bf577797d4d03fd335b2f34047b713b5f679f1b2fdde245",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\eval_manifest.csv",
+    "rows": 779,
+    "class_counts": {
+      "siren": 219,
+      "glass_breaking": 115,
+      "scream": 61,
+      "gunshot": 174,
+      "other": 210
+    },
+    "sha256": "acdbbd0ec116b4e4631de00114fe7186ea3e6da14d7a34f712e4b449c31b831a",
+    "baseline_exists": true,
+    "baseline_rows": 744,
+    "baseline_class_counts": {
+      "siren": 219,
+      "glass_breaking": 115,
+      "scream": 61,
+      "gunshot": 174,
+      "other": 175
+    },
+    "baseline_sha256": "d8a3f308810dd453f2b72e379b9fc2197c202acc273ae25225391133e4af5477",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\combined_training_manifest.csv",
+    "rows": 946,
+    "class_counts": {
+      "glass_breaking": 103,
+      "gunshot": 115,
+      "other": 481,
+      "scream": 88,
+      "siren": 159
+    },
+    "sha256": "243f9a33810892b0be099a1dff10dda9d905c26f14619eb344b1b3d7822da7a4",
+    "baseline_exists": true,
+    "baseline_rows": 946,
+    "baseline_class_counts": {
+      "glass_breaking": 103,
+      "gunshot": 115,
+      "other": 481,
+      "scream": 88,
+      "siren": 159
+    },
+    "baseline_sha256": "3faa02bd52eb0a4b303132924e7951f615c5ac1795bafeef380e1e3ac3b9365f",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\test_set_v2_candidates_to_download.csv",
+    "rows": 1060,
+    "class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    },
+    "sha256": "5344e0b8ce7aee4fc6ea9c179f13b2b8a9a359a3a8e4b5a7d793dd4fb607250b",
+    "baseline_exists": true,
+    "baseline_rows": 1060,
+    "baseline_class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    },
+    "baseline_sha256": "722639fffdaa1310b217645aa30acf104d4f6df09a7bcdf45724bb87c3e6df0d",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\shared_val_split_manifest.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "baseline_class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "baseline_sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e1_baseline_manifest.csv",
+    "rows": 527,
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 120,
+      "scream": 37,
+      "siren": 159
+    },
+    "sha256": "82e53fba4124a8a42ba376113360d09fe7e78bf5fc774ca7dc7d37b017ffe457",
+    "baseline_exists": true,
+    "baseline_rows": 527,
+    "baseline_class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 120,
+      "scream": 37,
+      "siren": 159
+    },
+    "baseline_sha256": "82e53fba4124a8a42ba376113360d09fe7e78bf5fc774ca7dc7d37b017ffe457",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e1_train_split_manifest.csv",
+    "rows": 422,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 96,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "bd255a657f6e1ee3cf93616faf66c93deefcb3e62fea65215685d3fc5b363874",
+    "baseline_exists": true,
+    "baseline_rows": 422,
+    "baseline_class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 96,
+      "scream": 30,
+      "siren": 127
+    },
+    "baseline_sha256": "bd255a657f6e1ee3cf93616faf66c93deefcb3e62fea65215685d3fc5b363874",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e1_val_split_manifest.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "baseline_class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "baseline_sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e2_targeted_manifest.csv",
+    "rows": 751,
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    },
+    "sha256": "a2fdf2a944a1f9c5e04bcda518288d742fb106d08f393c0ac5e43970ba588089",
+    "baseline_exists": true,
+    "baseline_rows": 751,
+    "baseline_class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    },
+    "baseline_sha256": "a2fdf2a944a1f9c5e04bcda518288d742fb106d08f393c0ac5e43970ba588089",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e2_train_split_manifest.csv",
+    "rows": 646,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "0fd4a7b020d13c603daecae6e9aca7bcddcc4c3d224fe4630a9bd33b95e474b2",
+    "baseline_exists": true,
+    "baseline_rows": 646,
+    "baseline_class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    },
+    "baseline_sha256": "0fd4a7b020d13c603daecae6e9aca7bcddcc4c3d224fe4630a9bd33b95e474b2",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e2_val_split_manifest.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "e1f72e262f7248f236df08eb850837741fed36163a2bdc10e1d8bd3fecb5fc6e",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "baseline_class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "baseline_sha256": "e1f72e262f7248f236df08eb850837741fed36163a2bdc10e1d8bd3fecb5fc6e",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e3_general_candidate_manifest.csv",
+    "rows": 751,
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    },
+    "sha256": "ace0010e0fd85f15b44a0f70c620ce2f751b0860d3c700999acf48b8c1a92917",
+    "baseline_exists": true,
+    "baseline_rows": 751,
+    "baseline_class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    },
+    "baseline_sha256": "c294382b6be472928d36fbc2373a300f54058c543e50b86a7a03a7c455efe3ea",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\e3_general_train_candidates.csv",
+    "rows": 646,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "d6af3b4d2e514edde761e4ce8aa41f9aceb0740ed09abb707eb150a43ed5caab",
+    "baseline_exists": true,
+    "baseline_rows": 646,
+    "baseline_class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    },
+    "baseline_sha256": "39cbede68c08ae853dfa8581cda026108e40ebd2e5ffcd0398e2ae46311c85e3",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\e3_general_val_candidates.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "87058be96e559d47e01fb9c3672365a4a0e3ad0a0130a527060035216fa1b53b",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "baseline_class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "baseline_sha256": "87058be96e559d47e01fb9c3672365a4a0e3ad0a0130a527060035216fa1b53b",
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e3_candidates_to_download.csv",
+    "rows": 224,
+    "class_counts": {
+      "other": 224
+    },
+    "sha256": "fed62fc03586105b287223243e64ed49925555a8ce1221289085a51e5c9cec83",
+    "baseline_exists": true,
+    "baseline_rows": 224,
+    "baseline_class_counts": {
+      "other": 224
+    },
+    "baseline_sha256": "76eb306be1f5028a62ef1ef07ffe60555189a2483ac20098a7fc800796942e79",
+    "byte_identical_to_baseline": false,
+    "parsed_rows_identical": false
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_car_alarms_detectors_train.csv",
+    "rows": 617,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 291,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "c6edfdb24cbea1c351cf005ac5326a0042ca64ccfbfae30ae5472e914a41580f",
+    "baseline_exists": true,
+    "baseline_rows": 617,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_car_alarms_detectors_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_construction_tools_train.csv",
+    "rows": 616,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 290,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "541c49f907ba92f0ea6fd6f5b75a80428bc4dda8b2b9af6f0f8299f079353899",
+    "baseline_exists": true,
+    "baseline_rows": 616,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_construction_tools_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_door_slams_train.csv",
+    "rows": 613,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 287,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "014de550599c7f0b9f091025fc7a08b9373d491269068a110a73284dd840a632",
+    "baseline_exists": true,
+    "baseline_rows": 613,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_door_slams_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_fireworks_firecrackers_train.csv",
+    "rows": 618,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 292,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "1c6abfa2bd21bc3b3ef1a1d374fe0c1883910b3caea319b2f5965f325173d091",
+    "baseline_exists": true,
+    "baseline_rows": 618,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_fireworks_firecrackers_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_human_shouting_train.csv",
+    "rows": 602,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 276,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "05593109fd1cafb82ace65467255a66ac1abe4c8316a13021d8b33c4b0ac444e",
+    "baseline_exists": true,
+    "baseline_rows": 602,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_human_shouting_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_metal_impacts_train.csv",
+    "rows": 606,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 280,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "6c4ed680fe18dde675deb8fa1169bf4026a8426b3d799ce8c0009e62dcc27ef2",
+    "baseline_exists": true,
+    "baseline_rows": 606,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_metal_impacts_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_whistles_high_pitch_train.csv",
+    "rows": 627,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 301,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "2a34b60ce580d91879f1a73476db63ec9c1ad1c22c77bcc7fc3059aea6796197",
+    "baseline_exists": true,
+    "baseline_rows": 627,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_whistles_high_pitch_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_car_alarms_detectors_train.csv",
+    "rows": 617,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 291,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "34b7143bbe1e4e2250285a6549d926676b8eeff959c419999f9ca5e78f2a33e0",
+    "baseline_exists": true,
+    "baseline_rows": 617,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_car_alarms_detectors_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_construction_tools_train.csv",
+    "rows": 616,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 290,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "80b6e2ec6c0de92274aa9b6c5e99c08c75aa414763f2312f49bf010a36dfb148",
+    "baseline_exists": true,
+    "baseline_rows": 616,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_construction_tools_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_door_slams_train.csv",
+    "rows": 613,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 287,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "e009b68e9a7bcd7680cf16731fe848b023b30947d355763c09c955945eff05ed",
+    "baseline_exists": true,
+    "baseline_rows": 613,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_door_slams_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_fireworks_firecrackers_train.csv",
+    "rows": 618,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 292,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "2f165175de5e0a7cc04e1f03ea1b81ec191e7c14be31767a9dfe1d563bfdcd14",
+    "baseline_exists": true,
+    "baseline_rows": 618,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_fireworks_firecrackers_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_human_shouting_train.csv",
+    "rows": 602,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 276,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "ceb0ebd39d2a41c8b246be40854b9912187f62033a91ecc66c85b41ce93db3d1",
+    "baseline_exists": true,
+    "baseline_rows": 602,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_human_shouting_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_metal_impacts_train.csv",
+    "rows": 606,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 280,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "d79f691cdd53d96778b7a0ed06c4e2b4f24251ce202034cc3ef5c98dff006eed",
+    "baseline_exists": true,
+    "baseline_rows": 606,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_metal_impacts_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_whistles_high_pitch_train.csv",
+    "rows": 627,
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 301,
+      "scream": 30,
+      "siren": 127
+    },
+    "sha256": "0a3d36c46065bce00fec6e1d99e2211fb7dbf29a958ceac089a25a9abdd03915",
+    "baseline_exists": true,
+    "baseline_rows": 627,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_whistles_high_pitch_val.csv",
+    "rows": 105,
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    },
+    "sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "baseline_exists": true,
+    "baseline_rows": 105,
+    "byte_identical_to_baseline": true,
+    "parsed_rows_identical": true
+  }
+]

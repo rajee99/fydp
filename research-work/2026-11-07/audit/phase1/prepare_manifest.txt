@@ -1,0 +1,10 @@
+Command: ['C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe', 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\reproduction_sandbox\\src\\prepare_manifest.py']
+
+Traceback (most recent call last):
+  File "C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\reproduction_sandbox\src\prepare_manifest.py", line 24, in <module>
+    with (RAW / "yamnet_class_map.csv").open(
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt\dependencies\python\Lib\pathlib.py", line 1013, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\reproduction_sandbox\\data\\raw\\yamnet_class_map.csv'

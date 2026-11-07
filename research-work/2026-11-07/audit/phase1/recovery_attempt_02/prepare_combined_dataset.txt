@@ -1,0 +1,32 @@
+Date: 2026-11-07 Asia/Dhaka
+Command: ['C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_combined_dataset.py']
+Exit code: 0
+Elapsed seconds: 5.51
+Script SHA-256: abde8f0cf4dc542b411673ff805b5401b0f642ef259c6168bde649e2929e27ef
+----------------------------------------
+================================================================================
+  PREPARING COMBINED TRAINING DATASET (AUDIOSET + NIGENS)
+================================================================================
+Project Root:     C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox
+NIGENS Dir:       C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\NIGENS
+Output Manifest:  C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\processed\combined_training_manifest.csv
+Output Report:    C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\reports\combined_training_dataset_report.md
+Dry-run Mode:     False
+--------------------------------------------------------------------------------
+
+[Step 1/4] Processing 527 AudioSet training files...
+  Processed 527 AudioSet records.
+
+[Step 2/4] Processing approved NIGENS training-fold samples...
+  Processed 419 approved NIGENS records.
+
+[Step 3/4] Performing cross-dataset isolation and integrity audit...
+  [OK] All isolation and integrity checks PASSED.
+  Total Combined Records: 946
+
+[Step 4/4] Writing combined manifest and report...
+  Saved manifest: C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\processed\combined_training_manifest.csv
+  Saved report:   C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\reports\combined_training_dataset_report.md
+
+[SUCCESS] Combined training dataset preparation complete!
+

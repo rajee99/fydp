@@ -1,0 +1,22 @@
+Date: 2026-11-07 Asia/Dhaka
+Command: ['C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_manifest.py']
+Exit code: 0
+Elapsed seconds: 0.44
+Script SHA-256: e047672783c3517094caf706a77e8a5599bc1129b51bdb1ed0d5e734cb8b731e
+----------------------------------------
+Manifest saved: C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\processed\target_manifest.csv
+Total labelled segments: 775
+  scream: 59
+  glass_breaking: 116
+  gunshot: 178
+  siren: 212
+  other: 210
+Sub-domain distribution for 'other' (210 total):
+  animals: 35
+  environmental: 35
+  household: 35
+  music: 35
+  speech: 35
+  traffic: 35
+Excluded segments (emergency/ambiguous): 1653
+

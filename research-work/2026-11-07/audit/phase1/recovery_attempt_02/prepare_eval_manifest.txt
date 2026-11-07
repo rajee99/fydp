@@ -1,0 +1,23 @@
+Date: 2026-11-07 Asia/Dhaka
+Command: ['C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe', 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_eval_manifest.py']
+Exit code: 0
+Elapsed seconds: 0.52
+Script SHA-256: 31ae1c09481c50a3d3f9866d308b43f49e084cd66031ad30fb0b7294d9e30cf2
+----------------------------------------
+Manifest saved: C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\processed\eval_manifest.csv
+Unique videos: 777
+Unique video-segment-class records: 779
+  scream: 61
+  glass_breaking: 115
+  gunshot: 174
+  siren: 219
+  other: 210
+Sub-domain distribution for 'other' (210 total):
+  animals: 35
+  environmental: 35
+  household: 35
+  music: 35
+  speech: 35
+  traffic: 35
+Excluded segments (emergency/ambiguous): 1665
+

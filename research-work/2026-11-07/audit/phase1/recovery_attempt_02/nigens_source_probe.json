@@ -1,0 +1,30 @@
+{
+  "url": "https://zenodo.org/records/2535878/files/NIGENS.zip?download=1",
+  "status": 206,
+  "headers": {
+    "server": "nginx",
+    "date": "Sat, 07 Nov 2026 14:21:58 GMT",
+    "content-type": "application/octet-stream",
+    "content-length": "32",
+    "content-disposition": "attachment; filename=NIGENS.zip",
+    "set-cookie": "session=5134a94016007793_6aef3406.k99A_k1IN5O8PXKTJsfr720DfBU; Expires=Thu, 12 Nov 2026 14:21:58 GMT; Secure; HttpOnly; Path=/; SameSite=Lax",
+    "content-range": "bytes 0-31/2174918847",
+    "accept-ranges": "bytes",
+    "content-security-policy": "default-src 'self' fonts.googleapis.com *.gstatic.com data: 'unsafe-inline' 'unsafe-eval' blob: zenodo-broker.web.cern.ch zenodo-broker-qa.web.cern.ch maxcdn.bootstrapcdn.com cdnjs.cloudflare.com ajax.googleapis.com webanalytics.web.cern.ch",
+    "x-content-type-options": "nosniff",
+    "x-download-options": "noopen",
+    "x-permitted-cross-domain-policies": "none",
+    "x-frame-options": "sameorigin",
+    "x-xss-protection": "1; mode=block",
+    "x-ratelimit-limit": "133",
+    "x-ratelimit-remaining": "131",
+    "x-ratelimit-reset": "1794061347",
+    "retry-after": "28",
+    "strict-transport-security": "max-age=31556926; includeSubDomains",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "x-source": "files-primary",
+    "connection": "close"
+  },
+  "prefix_hex": "504b0304140000000000ca64564e000000000000000000000000070000004e49",
+  "note": "Range availability check only; archive not recovered"
+}

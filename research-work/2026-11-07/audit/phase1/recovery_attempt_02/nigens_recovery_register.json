@@ -1,0 +1,3104 @@
+{
+  "source_url": "https://zenodo.org/records/2535878/files/NIGENS.zip?download=1",
+  "source_record": "2535878 v1",
+  "archive_bytes": 2174918847,
+  "required_waveforms": 419,
+  "missing_archive_members": [],
+  "files": [
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold1.flist",
+      "success": true,
+      "bytes": 4558,
+      "sha256": "52969b60def439541bb361d58021be48ee86e4f80382b3fceb8d433fddf6fa4e",
+      "zip_crc": 2033839620
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold1_wo_timit.flist",
+      "success": true,
+      "bytes": 4209,
+      "sha256": "d4f256b5625c340afac33b4d78639440c8e11f61cf4e60f5814794c18fde754f",
+      "zip_crc": 2676353464
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold2.flist",
+      "success": true,
+      "bytes": 4569,
+      "sha256": "41460093cb63b6498fa65ea4849a0ec93ffefd29b94532e8c40b523e63eefec2",
+      "zip_crc": 4199471338
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold2_wo_timit.flist",
+      "success": true,
+      "bytes": 4243,
+      "sha256": "4b09d3f30c0ce7faea4d8e7b747551038635052d2dcb7200c61e097909bc6b9d",
+      "zip_crc": 2152565185
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold3.flist",
+      "success": true,
+      "bytes": 4455,
+      "sha256": "daf39c06720bfb87a00201589a1dbba70cf8049cc6fa53b2bc1148461bb355f4",
+      "zip_crc": 2200709551
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold3_wo_timit.flist",
+      "success": true,
+      "bytes": 4119,
+      "sha256": "a5a33ce07fc95255344a0c7a44eba8d09d161ee35d8f4ef3746ff0fda18136c7",
+      "zip_crc": 2160868005
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold4.flist",
+      "success": true,
+      "bytes": 4300,
+      "sha256": "4902d60e7e52b0550327235b892931fd199871bd882552523980ca4c4b62ef3b",
+      "zip_crc": 171260835
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold4_wo_timit.flist",
+      "success": true,
+      "bytes": 3974,
+      "sha256": "2a9c37af82b376aefbb6599b3073fb3f45e72c7c54fcf2269f7541c1f44e3c27",
+      "zip_crc": 1483494237
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold5.flist",
+      "success": true,
+      "bytes": 4445,
+      "sha256": "602ce4e3e04f32780cee73250f7e095bf549d24160804228064eec1cee7efc5a",
+      "zip_crc": 2380039452
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold5_wo_timit.flist",
+      "success": true,
+      "bytes": 4089,
+      "sha256": "5d3d8abcdddc3536e85c2315cccb34a0087cc91b98f6d712bea519c9665e4166",
+      "zip_crc": 2663211462
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold6.flist",
+      "success": true,
+      "bytes": 4389,
+      "sha256": "7777711bf4390b775479f07e32c5fe7a6b989722a00192e4d23ddb91fd9ffad7",
+      "zip_crc": 3424211342
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold6_wo_timit.flist",
+      "success": true,
+      "bytes": 4055,
+      "sha256": "d96e49f0dc06f033f4673f310e9d7721fbf6d14ca9893e3544af0ea85a27236b",
+      "zip_crc": 3693415990
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold7.flist",
+      "success": true,
+      "bytes": 4222,
+      "sha256": "77c58a07275b34390404f83dc95c08b6bdb777604fc77d4c2483f670f990c0c2",
+      "zip_crc": 256703688
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold7_wo_timit.flist",
+      "success": true,
+      "bytes": 3888,
+      "sha256": "4e1617b3c27ff6e98ab1780e9fda652fffad4e8ee3df148096940591a9c0734d",
+      "zip_crc": 3076118465
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold8.flist",
+      "success": true,
+      "bytes": 4031,
+      "sha256": "b7c728a8526a114c81b04bfef9e236adddaaeb09c9a40299a74fa5deed7ce317",
+      "zip_crc": 3431891104
+    },
+    {
+      "name": "NIGENS/NIGENS_8-foldSplit_fold8_wo_timit.flist",
+      "success": true,
+      "bytes": 3747,
+      "sha256": "50eb82d57afc1d759b55aa86196a64089d1d8e89136001d95f4179cd6dca25f7",
+      "zip_crc": 14259094
+    },
+    {
+      "name": "NIGENS/NIGENS_minidebug_8-foldSplit_fold1_wo_timit.flist",
+      "success": true,
+      "bytes": 137,
+      "sha256": "9ad7a680f83c2cae1bfc3f36da9fc952850f50340d34270a025e496560ed5e8a",
+      "zip_crc": 3737452415
+    },
+    {
+      "name": "NIGENS/NIGENS_minidebug_8-foldSplit_fold2_wo_timit.flist",
+      "success": true,
+      "bytes": 147,
+      "sha256": "344fc4771dc2b91d5c1c9edbcc4de069b06deacc53e2e765c4024d481bcbea74",
+      "zip_crc": 3178026614
+    },
+    {
+      "name": "NIGENS/NIGENS_minidebug_8-foldSplit_fold7_wo_timit.flist",
+      "success": true,
+      "bytes": 179,
+      "sha256": "321d96cd58cf6fead5fa7ad599ad009de9ece6bf6c8e18bdd3524907f7d57a9a",
+      "zip_crc": 30758644
+    },
+    {
+      "name": "NIGENS/README.md",
+      "success": false,
+      "error": "ValueError('Unsupported compression')"
+    },
+    {
+      "name": "NIGENS/README.md",
+      "success": false,
+      "error": "NotImplementedError('That compression method is not supported')"
+    },
+    {
+      "name": "NIGENS/all.flist",
+      "success": true,
+      "bytes": 34976,
+      "sha256": "95c1a2e09106896f20df1ffeec800be5cd6fef4b475ccae81fd93cec2322f735",
+      "zip_crc": 305204639
+    },
+    {
+      "name": "NIGENS/all_wo_timit.flist",
+      "success": true,
+      "bytes": 32331,
+      "sha256": "687b69ce54bb52b680fb5d89dee567fabf8ac428670039470a13765b18a8641c",
+      "zip_crc": 2532904193
+    },
+    {
+      "name": "NIGENS/alarm/ALARM-ELECTRONIC-BURST-MANY_6EXT8-10013.wav",
+      "success": true,
+      "bytes": 2782668,
+      "sha256": "cb8da691a622b430d83fd35b21514e958ef5a01b6d2183786f09a59c66412f15",
+      "zip_crc": 2562155871
+    },
+    {
+      "name": "NIGENS/alarm/ALARM-ELECTRONIC-BURST-SHORT_6EXT8-10015.wav",
+      "success": true,
+      "bytes": 213548,
+      "sha256": "c394fc937466e1309d5642bbc3563e74d4a0e3ee9750c4ed18c2f5b5f4a863e2",
+      "zip_crc": 2721104645
+    },
+    {
+      "name": "NIGENS/alarm/ALARM-ELECTRONIC_GEN-HDF-00612.wav",
+      "success": true,
+      "bytes": 10625068,
+      "sha256": "f2e61218395f1982ef7ecc9dfbf8baa9e3a6e1ba6a8683096784bebd0d9cdf60",
+      "zip_crc": 3311514132
+    },
+    {
+      "name": "NIGENS/alarm/Alarm+8001_04.wav",
+      "success": true,
+      "bytes": 3967020,
+      "sha256": "1f74bb70d833d45a922ee76898f71e7fd9f6d229e33d90858e884c749798d68b",
+      "zip_crc": 3766593600
+    },
+    {
+      "name": "NIGENS/alarm/Alarm+8001_06.wav",
+      "success": true,
+      "bytes": 5472300,
+      "sha256": "066b21a1bbacf698b8fb25720063ad0cabef8d39b72ae92fdb44503bb16f5fb7",
+      "zip_crc": 1738498451
+    },
+    {
+      "name": "NIGENS/alarm/Alarm+8005_14.wav",
+      "success": true,
+      "bytes": 2095148,
+      "sha256": "ecb396ce716df8b7a0942055ac86f29e4971a3d5a0e3918dcce531da8c4201ba",
+      "zip_crc": 1207570576
+    },
+    {
+      "name": "NIGENS/alarm/Alarm+8005_15.wav",
+      "success": true,
+      "bytes": 2011180,
+      "sha256": "6c23703b79fcac7579b1ac415bd9114101eb3eb7217bc8c7e81580f5309c282a",
+      "zip_crc": 3690026729
+    },
+    {
+      "name": "NIGENS/alarm/Alarm+8005_17.wav",
+      "success": true,
+      "bytes": 4675628,
+      "sha256": "08110ff3b179c2e65b910543d62f42cf7baf0a0d51081e8f725e8a41b7f92dec",
+      "zip_crc": 168988107
+    },
+    {
+      "name": "NIGENS/alarm/AlarmBurglar+2013_42.wav",
+      "success": true,
+      "bytes": 9914412,
+      "sha256": "2a29e50d46d1c4f4d89a4e2c303011c03b73295b934bb13a328a407200acb8c3",
+      "zip_crc": 2331956245
+    },
+    {
+      "name": "NIGENS/alarm/AlarmBurglar_DIGIF2-63.wav",
+      "success": true,
+      "bytes": 5533740,
+      "sha256": "d2e1728b3e70b623d0bd4c80cdbc55a9ca101cbd9d5da8a4fe140f1eb40fe47d",
+      "zip_crc": 1757796958
+    },
+    {
+      "name": "NIGENS/alarm/AlarmCar+PS01_06_2.wav",
+      "success": true,
+      "bytes": 5417004,
+      "sha256": "8ef7e0011c65d6da117987db3e01f673cd4c1e0d9b421315a4b2568e1de81a1b",
+      "zip_crc": 2349667155
+    },
+    {
+      "name": "NIGENS/alarm/AlarmElectronic+6061_42.wav",
+      "success": true,
+      "bytes": 5314604,
+      "sha256": "bc0838f3f75de66c95e13378089989ee855b69e35b7d6e04feee131b79677639",
+      "zip_crc": 3319451650
+    },
+    {
+      "name": "NIGENS/alarm/AlarmElectronic+6061_43.wav",
+      "success": true,
+      "bytes": 5353516,
+      "sha256": "c128383216a717f4f9dc760ca6a3779dff7f5672d01cb66a01326984d38afb8e",
+      "zip_crc": 1421060199
+    },
+    {
+      "name": "NIGENS/alarm/AlarmElectronic+SFSE02_08_2.wav",
+      "success": true,
+      "bytes": 180268,
+      "sha256": "6ca92105e6358b6de8d357b2585400a164155263143ca4c7e44405f34f8457b1",
+      "zip_crc": 1838275081
+    },
+    {
+      "name": "NIGENS/alarm/AlarmElectronic+SFSE02_09_1.wav",
+      "success": true,
+      "bytes": 1753132,
+      "sha256": "29beb234786be3b978f58156363d8eb98ba197c60c385db14053d384a1e652b7",
+      "zip_crc": 113117752
+    },
+    {
+      "name": "NIGENS/alarm/AlarmElectronic_DIGIP02-89.wav",
+      "success": true,
+      "bytes": 2129964,
+      "sha256": "39303dde9fa7205b47c632980bd5a73c5f1f57a77c0662b9162debd7fed69791",
+      "zip_crc": 1490377596
+    },
+    {
+      "name": "NIGENS/alarm/AlarmFire+2013_43.wav",
+      "success": true,
+      "bytes": 11397164,
+      "sha256": "5911fce99fe0c05fc285ce733212e5c5df50809c6ae64eb8db6e3227c382a56b",
+      "zip_crc": 4030129562
+    },
+    {
+      "name": "NIGENS/alarm/AlarmSmokeDetect+SUP01_02_7.wav",
+      "success": true,
+      "bytes": 163884,
+      "sha256": "3604c742088b212e9a8914b6cf3c0e4876e236ada4acd146bc65038da32b85ff",
+      "zip_crc": 8192774
+    },
+    {
+      "name": "NIGENS/alarm/Alarm_FactoryBuzzer_Loop_SFX-KIT.wav",
+      "success": true,
+      "bytes": 127018,
+      "sha256": "dadc3fcc70c6b9eb2e1a4969fd92563cada4d6aeec765b63b04d4353e4b0ab8d",
+      "zip_crc": 3596643574
+    },
+    {
+      "name": "NIGENS/alarm/BellAlarm_DIGIVJ2-60.wav",
+      "success": true,
+      "bytes": 1855532,
+      "sha256": "a878ca8b33f02036d0dedec9b86317ca469cbb4072759c031ef3c54cdef2d114",
+      "zip_crc": 728204901
+    },
+    {
+      "name": "NIGENS/alarm/BoatAlarm+6025_66_1.wav",
+      "success": true,
+      "bytes": 1929260,
+      "sha256": "5dfa6b4ce8388c16440075babde181ca9946f8013e3a99faed373d1d224de600",
+      "zip_crc": 2815072491
+    },
+    {
+      "name": "NIGENS/alarm/CLOCK-ALARM_GEN-HDF-07572.wav",
+      "success": true,
+      "bytes": 5996588,
+      "sha256": "e61139c00006bae93b5fd331bed02eca2867d1cb82dfcf5d8338e99ae31375aa",
+      "zip_crc": 3725526921
+    },
+    {
+      "name": "NIGENS/alarm/CartoonBell+4001_54_3.wav",
+      "success": true,
+      "bytes": 2029612,
+      "sha256": "2f94c5d5e5c87e1343cd9f5a843a0a85d1d8b86f7b785ddc4eeb86e304afb6bd",
+      "zip_crc": 3880788624
+    },
+    {
+      "name": "NIGENS/alarm/ClockAlarm+6020_38.wav",
+      "success": true,
+      "bytes": 3098668,
+      "sha256": "d7247e18822301b9c3a1e11e3a4e718d94863b5762f1ca65bbb833bd973c5f6a",
+      "zip_crc": 2390148787
+    },
+    {
+      "name": "NIGENS/alarm/ClockAlarm+SUP01_41_1.wav",
+      "success": true,
+      "bytes": 174124,
+      "sha256": "036e3ebfc85545b75cc86eca33dde4d079c2399700129dfa5c9f6f01de8f7e72",
+      "zip_crc": 2252796224
+    },
+    {
+      "name": "NIGENS/alarm/ClockAlarm+TL02_39.wav",
+      "success": true,
+      "bytes": 1603628,
+      "sha256": "e1af362d52e1ec4a03e5f8468c444933bdb24f1eea88742f85636cdc73dfe689",
+      "zip_crc": 889409574
+    },
+    {
+      "name": "NIGENS/alarm/ElectronicAlarm+L2SF1_03_3.wav",
+      "success": true,
+      "bytes": 1710124,
+      "sha256": "054f977cb02da835bc72de516e3625cfa7c72ebfc76c950e5688d913870bda0a",
+      "zip_crc": 3400549540
+    },
+    {
+      "name": "NIGENS/alarm/ElectronicAlarm+L2SF2_15.wav",
+      "success": true,
+      "bytes": 1077292,
+      "sha256": "51479a176dd054e3e253699da2386bbcf1116adf6378d2f5c50207d5f5fdae9b",
+      "zip_crc": 3636900827
+    },
+    {
+      "name": "NIGENS/alarm/ElectronicAlarm+L2SF2_18.wav",
+      "success": true,
+      "bytes": 2261036,
+      "sha256": "fe64bbf377e48400f6e6f25f82b312e3030750d10f04f9c3c909539ff8714a3e",
+      "zip_crc": 3613894435
+    },
+    {
+      "name": "NIGENS/alarm/ElectronicAlarm+L2SF2_29.wav",
+      "success": true,
+      "bytes": 954412,
+      "sha256": "2463c92e7c98085c50c0545dc1e5b3d87d29875f38cecaf9828497439f97a515",
+      "zip_crc": 260016659
+    },
+    {
+      "name": "NIGENS/alarm/ElectronicBeep+6063_33.wav",
+      "success": true,
+      "bytes": 3762220,
+      "sha256": "f0f523df06f6566f26a5f12f03d02bbdd0450c5c880b1f188de1d1f15e6f9719",
+      "zip_crc": 2817982736
+    },
+    {
+      "name": "NIGENS/alarm/FireAlarm+EMR01_18_5.wav",
+      "success": true,
+      "bytes": 5414956,
+      "sha256": "6bddbfebaf3611eddd505b1c6913d39342dbaeb96a50f9a0648b5b1e6ba94fc4",
+      "zip_crc": 3605759368
+    },
+    {
+      "name": "NIGENS/alarm/HospitalAlarm+CTV05_11_02.wav",
+      "success": true,
+      "bytes": 5402668,
+      "sha256": "a99f8438d8b91f6ba28b1e2b3cc704ef8b905555d180e931471d793498f65fb2",
+      "zip_crc": 2479942171
+    },
+    {
+      "name": "NIGENS/alarm/Sci-Fi-Alarm-Electric-Two-Tone_GEN-HD2-31349.wav",
+      "success": true,
+      "bytes": 1181740,
+      "sha256": "b8a4cd47fa3f8c21ee4139aab321e4a2a6b23a18d1fa0afb219c09fcd1989d0b",
+      "zip_crc": 86969992
+    },
+    {
+      "name": "NIGENS/alarm/alarm-sci+fi-constant_CAP01-13.wav",
+      "success": true,
+      "bytes": 1683148,
+      "sha256": "f0a4bb1412585e6da75eb8bb5329875d30d49b97cebced40a9b1a3e6b9c28be3",
+      "zip_crc": 2563642079
+    },
+    {
+      "name": "NIGENS/alarm/alarm-smoke+detector_CAP01-15.wav",
+      "success": true,
+      "bytes": 1835012,
+      "sha256": "35fb57b11745194386cd3daf131a531ed70bf0886bdf52ccf2ef657a20853647",
+      "zip_crc": 3269505560
+    },
+    {
+      "name": "NIGENS/baby/Baby+2012_51.wav",
+      "success": true,
+      "bytes": 933932,
+      "sha256": "860f342dec9392fa5763ee480350c0630f69a6ac3d63d3ae2ea41aedde5927b2",
+      "zip_crc": 177985822
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14750.wav",
+      "success": true,
+      "bytes": 714796,
+      "sha256": "e8b4c840a3e97aa781f5ba177ca3e1ca74c731eb4c5632017be71676c4ed6ebf",
+      "zip_crc": 3468886086
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14753.wav",
+      "success": true,
+      "bytes": 968748,
+      "sha256": "0c03b40aeef04f2e5fc3f858034384d3d105ee3a2b3b76e3b954c82abc353651",
+      "zip_crc": 2136738532
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14754.wav",
+      "success": true,
+      "bytes": 1183788,
+      "sha256": "9d305e0070ff617682724d693146c03d79c69481912a0eda92dfa4ab2035bc9b",
+      "zip_crc": 704638757
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14779.wav",
+      "success": true,
+      "bytes": 3971116,
+      "sha256": "0eb47177416140b637371c1f19aee65a535c8ea74fd2536e76b7c8760c9a32ec",
+      "zip_crc": 2922084841
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14803.wav",
+      "success": true,
+      "bytes": 1718316,
+      "sha256": "c535a93d788b93f476d003842f022d6e3f128ae12c8a393bed4aaaa900210682",
+      "zip_crc": 4132888219
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14804.wav",
+      "success": true,
+      "bytes": 978988,
+      "sha256": "f6106ccab0fc0f142838132410cbb26081dcf18a0d4d46cf7fef04f3cee9dd66",
+      "zip_crc": 3159126971
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14805.wav",
+      "success": true,
+      "bytes": 1523756,
+      "sha256": "0b39aff9abd546e9c14d1c4f7ef6ca95d21b42cb802701ed8bcdaf483987f5f2",
+      "zip_crc": 446929862
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14806.wav",
+      "success": true,
+      "bytes": 1951788,
+      "sha256": "916a87e0540ed8f347fd39ccf1f5bab30e2cf131486f5a926f085fcd477c716f",
+      "zip_crc": 1261036514
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14821.wav",
+      "success": true,
+      "bytes": 299052,
+      "sha256": "00b750264e66aa45cdffca97e07933739f04f52ef31ab048aad411defd28d686",
+      "zip_crc": 484821999
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14824.wav",
+      "success": true,
+      "bytes": 4433964,
+      "sha256": "2ef8b67501e2e256dc4eb268d32f5f3b11d4b5e41ded8afd4c363aa853cd91fd",
+      "zip_crc": 1390586482
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14825.wav",
+      "success": true,
+      "bytes": 2170924,
+      "sha256": "33f09912534939359bcb74acc196567b2358f04453adf4dc0301a42df638ea28",
+      "zip_crc": 479385236
+    },
+    {
+      "name": "NIGENS/baby/HUMAN-BABY_GEN-HDF-14827.wav",
+      "success": true,
+      "bytes": 4562988,
+      "sha256": "31f4b2c83d31d1a44226d0eb2d2e5c60c8a0b0ab76c4bd57867a96977269fe67",
+      "zip_crc": 1598795962
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6095_66_1.wav",
+      "success": false,
+      "error": "IncompleteRead(1293176 bytes read, 12393 more expected)"
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6095_66_3.wav",
+      "success": true,
+      "bytes": 1505324,
+      "sha256": "fc72a73648a7b2cbb23ab267f1ed23750064ad173e462fc8f0d6d4d1dd6d05ea",
+      "zip_crc": 4016660026
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6095_72_3.wav",
+      "success": true,
+      "bytes": 602156,
+      "sha256": "924f02a31f45b4879403209ed2dcb9656f250121625f126e11512768b579eb49",
+      "zip_crc": 3039292509
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6105_96.wav",
+      "success": true,
+      "bytes": 11327532,
+      "sha256": "401ead79d295f27ecfeb058357ec9a26e4d174172dd88112a9a3460b14d29773",
+      "zip_crc": 2852207794
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6095_66_1.wav",
+      "success": true,
+      "bytes": 1927212,
+      "sha256": "3b6c76ae0c02790e3c55fedd17d3d638a9269ecb3b0a036692f932a51b15d7c1",
+      "zip_crc": 35195157
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+6105_97_1.wav",
+      "success": true,
+      "bytes": 5400620,
+      "sha256": "045a176f64ccc33524c8fca7d7ff1e2c641c9ddcaaefbb63230d4349f3556a68",
+      "zip_crc": 3025032802
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+CTV05_39_02.wav",
+      "success": true,
+      "bytes": 2250796,
+      "sha256": "281633e0d6fb21619b2025e3b94ca0dca055454a58243968c1d8ac67125c846a",
+      "zip_crc": 1930243150
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+CTV05_40_01.wav",
+      "success": true,
+      "bytes": 2289708,
+      "sha256": "ae7345c614bcbcaa3170cda628bf2eea739a2e08562cd57fd6883568640c7eab",
+      "zip_crc": 1422161545
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+CTV05_40_02.wav",
+      "success": true,
+      "bytes": 14028844,
+      "sha256": "96893b680956aea9f607354d93a1355a6f4b25e943ff9b425cac76f4db24ad66",
+      "zip_crc": 1082965110
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+CTV05_41_02.wav",
+      "success": true,
+      "bytes": 487468,
+      "sha256": "3a767d2b212047ca23829244f1506f593b63c2fcff65b00c155aa4e8a9ec8f9d",
+      "zip_crc": 2042592477
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+CTV05_41_04.wav",
+      "success": true,
+      "bytes": 553004,
+      "sha256": "477eb17bb42f47c0e281467c84a936f980b49b8d990568ec76a7b4631a78c7d0",
+      "zip_crc": 4277849831
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby+IN10_02.wav",
+      "success": true,
+      "bytes": 8204332,
+      "sha256": "1054280b6bc18c7ef808e28b7ad241e641f8edcd7779c4cbf6d2be53bfff7937",
+      "zip_crc": 3692692631
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby_DIGII01-02.wav",
+      "success": true,
+      "bytes": 12363820,
+      "sha256": "1a4979a65177b4fa2336f8bfa2def68c12bed2cf6afdeb36a7aa770093537e95",
+      "zip_crc": 3202646608
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby_DIGII04-01.wav",
+      "success": true,
+      "bytes": 4882476,
+      "sha256": "cb35230122d5972e3e36d3751c90b268bdf7b8bed632876d196050d7a33ef8b6",
+      "zip_crc": 4163805276
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby_DIGII04-11.wav",
+      "success": true,
+      "bytes": 12931116,
+      "sha256": "94b337995b502664ee2035b4cccdc572707610f53581cc0b4e79676a8aa92fcc",
+      "zip_crc": 778253295
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby_DIGII08-47.wav",
+      "success": true,
+      "bytes": 9912364,
+      "sha256": "c9f37fb1b89fd5c9ece7be1470009355cb7bc7bcf131ae83ca43c28ffad2496f",
+      "zip_crc": 1194053443
+    },
+    {
+      "name": "NIGENS/baby/HumanBaby_DIGII08-48.wav",
+      "success": true,
+      "bytes": 21764140,
+      "sha256": "06612668b1c4da693e37cec9caa3eed34a578a8f2d4f06eb2f935904851f5440",
+      "zip_crc": 1026752007
+    },
+    {
+      "name": "NIGENS/baby/HumanCry+6032_09_3.wav",
+      "success": true,
+      "bytes": 6088748,
+      "sha256": "2741c3dc2799f7fcb96729f59608e2b763c050ec6a462fff913f338539414a98",
+      "zip_crc": 1407487976
+    },
+    {
+      "name": "NIGENS/crash/CrashGlass+6004_94_1.wav",
+      "success": true,
+      "bytes": 698412,
+      "sha256": "1bdb55080b5192203d305bbdf2179bf322f4a2f8a2cd632a447f8e84de49a19f",
+      "zip_crc": 2899967823
+    },
+    {
+      "name": "NIGENS/crash/CrashGlass+6082_56.wav",
+      "success": true,
+      "bytes": 864300,
+      "sha256": "0c5b17cc0a90182e725ae47fac434482ffd8edb72b24ec70835def22527936cb",
+      "zip_crc": 1839046940
+    },
+    {
+      "name": "NIGENS/crash/GlassSmash+6064_08.wav",
+      "success": true,
+      "bytes": 1998892,
+      "sha256": "19685080315bfc0762331c18135ae4a9c3383f3f6f8ba9774da414793cfd0482",
+      "zip_crc": 1720952574
+    },
+    {
+      "name": "NIGENS/crash/GlassSmash+SUP01_51_10.wav",
+      "success": true,
+      "bytes": 483372,
+      "sha256": "71af20ac701e74340866972e946e94e0f11d9c0e9647fe81a0f7546b3468be50",
+      "zip_crc": 1688462259
+    },
+    {
+      "name": "NIGENS/crash/Monitor-Crash_Computer-Monitor-Three-Hard-Shattering-Impacts_DST2-1134.wav",
+      "success": true,
+      "bytes": 682028,
+      "sha256": "f7743fc18611b518fec35fa7165977618e000f1dd19964c388e13de803f2de27",
+      "zip_crc": 870579685
+    },
+    {
+      "name": "NIGENS/crash/smash-window+crash_CAP01-329.wav",
+      "success": true,
+      "bytes": 3313868,
+      "sha256": "4fe44a253ffe386ccd98867049d398ad2f4b001df5ea7aca37becf179d6bf368",
+      "zip_crc": 4233546583
+    },
+    {
+      "name": "NIGENS/crash/smash-window+shatter_CAP01-330.wav",
+      "success": true,
+      "bytes": 792268,
+      "sha256": "33aa2eca8070166169fb2c5486a5dffae3644b01c07dad9c3e876d2e0d730038",
+      "zip_crc": 3592110047
+    },
+    {
+      "name": "NIGENS/dog/ANIMAL-DOG-BARK-SHORT_6EXT8-10047.wav",
+      "success": true,
+      "bytes": 385916,
+      "sha256": "4c23498e13cc6a635ad54125f3b6999b0f88304a5608ed75120b00a2a793b502",
+      "zip_crc": 3187970250
+    },
+    {
+      "name": "NIGENS/dog/ANIMAL-DOG-BARK-VISCIOUS_6EXT8-10055.wav",
+      "success": true,
+      "bytes": 631064,
+      "sha256": "8cba7d7c60f73186a672e42213eda8aec98335868350cc2d28c09e690537d96d",
+      "zip_crc": 3665705224
+    },
+    {
+      "name": "NIGENS/dog/ANIMAL-DOG-GERMAN-SHEPHERD_6EXT8-10073.wav",
+      "success": true,
+      "bytes": 366600,
+      "sha256": "b9e838734ae02c3c872cff0c02c5c0a36510d59d0d864ad224f46497d4201b49",
+      "zip_crc": 4074888505
+    },
+    {
+      "name": "NIGENS/dog/ANIMAL-DOG_GEN-HDF-00939.wav",
+      "success": true,
+      "bytes": 2402348,
+      "sha256": "e911391bdac6560b713fca066d0fa1da9b61eb56e8b0bc135d39243ec0ec98ac",
+      "zip_crc": 3213655522
+    },
+    {
+      "name": "NIGENS/dog/Animal-Dog-Bark_GEN-HD2-26404.wav",
+      "success": true,
+      "bytes": 270380,
+      "sha256": "5f9149cf1c1ddf95f9a9b2183ae8895b094ade800c28ca2b171c9abc3d74fd18",
+      "zip_crc": 2144963130
+    },
+    {
+      "name": "NIGENS/dog/Animal-Dog-Bark_GEN-HD2-26406.wav",
+      "success": true,
+      "bytes": 798764,
+      "sha256": "2a1c4b7464683e25804b2047046abc0f451b27d26922b516ee9f52a0af6d7561",
+      "zip_crc": 3496404072
+    },
+    {
+      "name": "NIGENS/dog/Animal-Dog-Bark_GEN-HD2-26407.wav",
+      "success": true,
+      "bytes": 923692,
+      "sha256": "aa64d898b24e5fcffcd1db6b422e153fe9e87f399f750b9e5c2b47f1fe4d6f6f",
+      "zip_crc": 619286615
+    },
+    {
+      "name": "NIGENS/dog/Animal-Dog-Large-Bark-Exterior_GEN-HD2-26401.wav",
+      "success": true,
+      "bytes": 477228,
+      "sha256": "f56c62ef71d9e92316e9fe5f97c57d4b5774eef6cab72d01c82003ec925e447d",
+      "zip_crc": 1178458315
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+6003_51_3.wav",
+      "success": true,
+      "bytes": 7501868,
+      "sha256": "8a241c039673500966e612df8e158029fe0a48dbbd646af6e9be4e34bf433025",
+      "zip_crc": 1665700073
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+6102_05_4.wav",
+      "success": true,
+      "bytes": 1505324,
+      "sha256": "bb9535fb7b280a366de675f25f741489e7213d71b3b25b51a7b5b854a850e42d",
+      "zip_crc": 14170833
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+CTV01_44_02.wav",
+      "success": true,
+      "bytes": 4646956,
+      "sha256": "9babd229674155d1ce3c3f86268c07252ad9ea562bcc4f22919a1206363bf91a",
+      "zip_crc": 1601122288
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+SUP01_27_10.wav",
+      "success": true,
+      "bytes": 38956,
+      "sha256": "3b06093749f49fd2eccf52dfc9a1943603ea75b61e0ab69c4f16cb348cac493e",
+      "zip_crc": 323622333
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+SUP01_27_11.wav",
+      "success": true,
+      "bytes": 49196,
+      "sha256": "5a761b4f19ad0daaa2688bcf05518afd1a14186f3f893d4bee3f4c33c5ee1ece",
+      "zip_crc": 4072931005
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+SUP01_27_17.wav",
+      "success": true,
+      "bytes": 34860,
+      "sha256": "51b9c33aea5d44d0f8a592fc59bf0fe33e0aa6c6974192ecacf7bd7b42ec3c73",
+      "zip_crc": 2505983886
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+WWA09_42_1.wav",
+      "success": true,
+      "bytes": 3317804,
+      "sha256": "cb7590656cf65e050af29f89da4eb282847cd7ab642edde98e90747f62432f1a",
+      "zip_crc": 3579349574
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+WWA09_44_1.wav",
+      "success": true,
+      "bytes": 2717740,
+      "sha256": "01d90e15f06fd67d85b07900120fd22da105cdda58c3b66cca04094fc542ae6a",
+      "zip_crc": 2100688021
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+WWA09_44_3.wav",
+      "success": true,
+      "bytes": 1173548,
+      "sha256": "6462338be3237f00c36bae6834614cdf3f904c31de20a16e8037ce0cec88b816",
+      "zip_crc": 1850457814
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+WWA09_44_4.wav",
+      "success": true,
+      "bytes": 8718380,
+      "sha256": "0de4a5f48b7a6920fa8dfb2a7cdaa8205ca64536a2a35d0eb2954f516b3ff0d7",
+      "zip_crc": 1076603991
+    },
+    {
+      "name": "NIGENS/dog/AnimalDog+WWA09_48_4.wav",
+      "success": true,
+      "bytes": 6789164,
+      "sha256": "07d2cea20c7d37c218ac91f2f91fbebfa8fc549c1796b25be0d01e310f92b3e7",
+      "zip_crc": 2182671106
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogHusky+6003_53_2.wav",
+      "success": true,
+      "bytes": 1617964,
+      "sha256": "7e5681a4acc152426cfa450df3e5dc17f054f9e2af2228f72707fb628c5b91ac",
+      "zip_crc": 1783060759
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogMastiff+6003_53_3.wav",
+      "success": true,
+      "bytes": 4145196,
+      "sha256": "12cc927be95318fab72260e029c9b65dcfb4c7affc2322f06bb599ab9c27ae01",
+      "zip_crc": 2505202570
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogMixed+6003_52_1.wav",
+      "success": true,
+      "bytes": 722988,
+      "sha256": "0012811780d349c8fccc0a8654ee87909f836cd81f72658ef4f768927f79290f",
+      "zip_crc": 2404433967
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogMixed+6003_55_2.wav",
+      "success": true,
+      "bytes": 2760748,
+      "sha256": "c2b4efbe150f10a3669c466583de2ef4e534f89c9b5f55385b9bd442e48b8e0f",
+      "zip_crc": 3501282081
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogSamoyed+6003_51_2.wav",
+      "success": true,
+      "bytes": 518188,
+      "sha256": "503fb8f9e1bb9a649d51109e04c3901db235cdb7aacf25a9211cbaac98cc1551",
+      "zip_crc": 489063336
+    },
+    {
+      "name": "NIGENS/dog/AnimalDogShepherd+6003_54_2.wav",
+      "success": true,
+      "bytes": 573484,
+      "sha256": "869fc78820c4768ad47c317e7220be2511e2f7b20e67fa68570023ac484bbf2a",
+      "zip_crc": 4082012400
+    },
+    {
+      "name": "NIGENS/dog/Dog+HB02_80_2.wav",
+      "success": true,
+      "bytes": 569388,
+      "sha256": "5c073688955bb41a92aa20cbe2177cd750d7b936fd0677dcf97d937f98bd117d",
+      "zip_crc": 799352933
+    },
+    {
+      "name": "NIGENS/dog/Dog+HB02_81_9.wav",
+      "success": true,
+      "bytes": 2095148,
+      "sha256": "1464847b6058fda0d8165ccf45900947623096a4d6f6e5bbb0592146545f9012",
+      "zip_crc": 1079658610
+    },
+    {
+      "name": "NIGENS/dog/DogDoberman+2004_76_2.wav",
+      "success": true,
+      "bytes": 3012652,
+      "sha256": "deb98e51b3a087154d00ea66e54ed8e534ebca5e81da4144aa9b77085f589501",
+      "zip_crc": 4230349151
+    },
+    {
+      "name": "NIGENS/dog/DogMedium+JBA03_81_2.wav",
+      "success": true,
+      "bytes": 567340,
+      "sha256": "d75d8118e576aa3eaf6a47891033cbfe3511b9cc2e82c6b34fa16a7f6ca8ffa6",
+      "zip_crc": 3033782642
+    },
+    {
+      "name": "NIGENS/dog/DogRottweiller+WWA09_47_2.wav",
+      "success": true,
+      "bytes": 806956,
+      "sha256": "d68d934ae8844209f4ef5af886abdf12351dd556ed8e89f022d1a55b5b12a721",
+      "zip_crc": 3301092560
+    },
+    {
+      "name": "NIGENS/dog/DogRottweiller+WWA09_47_4.wav",
+      "success": true,
+      "bytes": 2521132,
+      "sha256": "cd69a4065fda5109add25487eeb4aaac7eb0195036c6c00bdb1f8636ed4e85ff",
+      "zip_crc": 1318739626
+    },
+    {
+      "name": "NIGENS/dog/DogSmall+JBA03_97_1.wav",
+      "success": true,
+      "bytes": 1396780,
+      "sha256": "e3093f074e158c4bf50a7ae00832a1007f5869460882899c6244a5ca06c060c6",
+      "zip_crc": 258472158
+    },
+    {
+      "name": "NIGENS/dog/DogTerrier+2004_67_2.wav",
+      "success": true,
+      "bytes": 4239404,
+      "sha256": "4f4b1e9c47078e1a260ce3687eb10e1a6d81d9fcd4f6a3a377e28e52f43d71fe",
+      "zip_crc": 3164545150
+    },
+    {
+      "name": "NIGENS/dog/animal-dog+barking-1_CAP01-21.wav",
+      "success": true,
+      "bytes": 730828,
+      "sha256": "c77fe901fe4249faf8be2bf4e1cc253a864ceb6f199ed78e63303b3b40e0358f",
+      "zip_crc": 288034624
+    },
+    {
+      "name": "NIGENS/dog/animal-dog+barking-2_CAP01-22.wav",
+      "success": true,
+      "bytes": 1945804,
+      "sha256": "5fdf06f8edc396be08fd18d3bde425d444e2a2f8553873e214fcb14382672011",
+      "zip_crc": 2053972444
+    },
+    {
+      "name": "NIGENS/engine/AMBULANCE_GEN-HDF-00814.wav",
+      "success": true,
+      "bytes": 10678316,
+      "sha256": "7d5bbd5428f48765d98b4784f65a4e2ac924ed042832a27c6a0e9a49a943edcb",
+      "zip_crc": 1816534103
+    },
+    {
+      "name": "NIGENS/engine/Auto%2763RollsRoyce+5042_41.wav",
+      "success": true,
+      "bytes": 16752684,
+      "sha256": "581135dc7a29ea169203c5c6c31ce707a38b282aeb624867d910665e809d5806",
+      "zip_crc": 4122284838
+    },
+    {
+      "name": "NIGENS/engine/Auto%2767PontiacGto+5038_42.wav",
+      "success": true,
+      "bytes": 7458860,
+      "sha256": "42d168e80148b0a3d52fd5245048479aa895f0c89544e243da82d576c3480a8d",
+      "zip_crc": 2564410602
+    },
+    {
+      "name": "NIGENS/engine/Auto%2767PontiacGto+5038_50.wav",
+      "success": true,
+      "bytes": 5849132,
+      "sha256": "a7fd8ed1a05b4ca13f51039088565fab844a5e79a353de7eb86810b5595d7247",
+      "zip_crc": 2912428301
+    },
+    {
+      "name": "NIGENS/engine/Auto%2775CobraRs427+5041_37.wav",
+      "success": true,
+      "bytes": 6086700,
+      "sha256": "0fd9579b680eab04e789277591bb74f6a642af61da221db4e00bcb542ad76489",
+      "zip_crc": 1939096383
+    },
+    {
+      "name": "NIGENS/engine/Auto-Cadillac-CTS-Exterior-On-Board-Drive-Medium-Engine_GEN-HD2-26824.wav",
+      "success": true,
+      "bytes": 21874732,
+      "sha256": "931d28430190ed363594986a6ebb539466768344c1065ec4b5a0df53cfded83c",
+      "zip_crc": 1394464896
+    },
+    {
+      "name": "NIGENS/engine/AutoFerrariTestaros+5040_01.wav",
+      "success": true,
+      "bytes": 11122732,
+      "sha256": "cfbf9da108773d7f07150f3e7a04b4f1cbb29c222372ee5a9078bd339efb9378",
+      "zip_crc": 4204747193
+    },
+    {
+      "name": "NIGENS/engine/AutoMercedes230_DIGID12-32.wav",
+      "success": true,
+      "bytes": 6475820,
+      "sha256": "32bd0ef1ea77db76d21983c4f54068dab3159ad01e671d8407eaf22bb5e88fb2",
+      "zip_crc": 2304902955
+    },
+    {
+      "name": "NIGENS/engine/AutoPorscheTurboS+5039_41.wav",
+      "success": true,
+      "bytes": 8386604,
+      "sha256": "e2c9f6c0149326af5e668f38f7ffa0864f413fc5c0f71506f63ea586727814ef",
+      "zip_crc": 935024772
+    },
+    {
+      "name": "NIGENS/engine/AutoPorscheTurboS+5039_57.wav",
+      "success": true,
+      "bytes": 16635948,
+      "sha256": "92bb4a5ca2bebbfaabe5c0971716dead7fea34c39537557d39c30a558922dd23",
+      "zip_crc": 888215963
+    },
+    {
+      "name": "NIGENS/engine/BoatFerry+S1201_71.wav",
+      "success": true,
+      "bytes": 9289772,
+      "sha256": "af40eb133e9370d7a380a3c359c4003c9166e27baec06503519111e536ee6ec1",
+      "zip_crc": 2960949685
+    },
+    {
+      "name": "NIGENS/engine/BoatFerry+S1202_06.wav",
+      "success": true,
+      "bytes": 10881068,
+      "sha256": "c4046e6f2db6c049ff0229158c5921b8822673d88b52b1f5a4537231dc15c932",
+      "zip_crc": 562264103
+    },
+    {
+      "name": "NIGENS/engine/BoatInboard_DIGIVD2-42.wav",
+      "success": true,
+      "bytes": 4323372,
+      "sha256": "e5b27ea88345075508dc36563adc5deb196f085a19ae54c2b947737134067816",
+      "zip_crc": 2667360351
+    },
+    {
+      "name": "NIGENS/engine/IndustryMotor+1017_41.wav",
+      "success": true,
+      "bytes": 14872620,
+      "sha256": "96bea1d6214fbe9ee03f49ed63c23dab270e75b7dbaaaddbb2a468e18abf29d4",
+      "zip_crc": 1531188939
+    },
+    {
+      "name": "NIGENS/engine/LawnTractor+6065_21.wav",
+      "success": true,
+      "bytes": 13735980,
+      "sha256": "3f43efc000676ead36054912c372171f78d89d306f3fcd66278ced74ce31ea2b",
+      "zip_crc": 831005842
+    },
+    {
+      "name": "NIGENS/engine/MOTOR-GAS_GEN-HDF-17548.wav",
+      "success": true,
+      "bytes": 3803180,
+      "sha256": "f10c9e6ee09cd534812839f3d263aba6655606d61c6f0e8cb3b99e29a0b6e090",
+      "zip_crc": 579172661
+    },
+    {
+      "name": "NIGENS/engine/MOTOR-GENERATOR_GEN-HDF-17555.wav",
+      "success": true,
+      "bytes": 11849772,
+      "sha256": "f67fdf3eed404d29cfbf2328fc6c6be4b9066a67b3ee402adc895b135192f437",
+      "zip_crc": 433921578
+    },
+    {
+      "name": "NIGENS/engine/MOTOR-GENERATOR_GEN-HDF-17561.wav",
+      "success": true,
+      "bytes": 11419692,
+      "sha256": "622a8568fd0377d27dfc46dacf3d892fd001aefb794882ed0ce566cb02aeb576",
+      "zip_crc": 1701997993
+    },
+    {
+      "name": "NIGENS/engine/MOTOR-GENERATOR_GEN-HDF-17562.wav",
+      "success": true,
+      "bytes": 7852076,
+      "sha256": "7e2ae27dcf5ab0a02277f1e057ccae9c7816e76dbe9b4a6a115e8f24f604c143",
+      "zip_crc": 1413727490
+    },
+    {
+      "name": "NIGENS/engine/Motor+8003_66_1.wav",
+      "success": true,
+      "bytes": 4624428,
+      "sha256": "0a38b8cb8a368932967a7297cdfafbf3d671eac06fd4188e6e4d84079f47172e",
+      "zip_crc": 3568587032
+    },
+    {
+      "name": "NIGENS/engine/MotorElectric+6032_61_1.wav",
+      "success": true,
+      "bytes": 10711084,
+      "sha256": "4efcbf244cc3f8f6622ead90ec96130ac25ee7f4b26c332ac8ba7b60cde29d39",
+      "zip_crc": 2004737658
+    },
+    {
+      "name": "NIGENS/engine/MotorGenerator+HB04_80_1.wav",
+      "success": true,
+      "bytes": 4907052,
+      "sha256": "7b0569cd2f3d231f94c2879d9af323109fd681a772d791fcb114472d88b9cb52",
+      "zip_crc": 225646035
+    },
+    {
+      "name": "NIGENS/engine/RobotMotor+JUR01_78.wav",
+      "success": true,
+      "bytes": 5226540,
+      "sha256": "6e7e1afcc7fbe6b48d1c28a2657b5af84f82639aaca7a1f732ec641c07f3b87e",
+      "zip_crc": 354631337
+    },
+    {
+      "name": "NIGENS/engine/STEAM-ENGINE_GEN-HDF-21765.wav",
+      "success": true,
+      "bytes": 10713132,
+      "sha256": "c4fa3923831cb16be681bd04d8930c91990f9c4ea6d385daac6dd217f75b37f3",
+      "zip_crc": 1384585046
+    },
+    {
+      "name": "NIGENS/engine/STEAM-ENGINE_GEN-HDF-21767.wav",
+      "success": true,
+      "bytes": 12451884,
+      "sha256": "9889bcd5f85d3d144eab448ba4f8ee20b8a7104bb956c76b38fd97f379e6de8c",
+      "zip_crc": 939737882
+    },
+    {
+      "name": "NIGENS/engine/TRUCK-BOX_GEN-HDF-24367.wav",
+      "success": true,
+      "bytes": 17987628,
+      "sha256": "36acf9f067c91288219e83c43456166917e568533e983438ded86ab8b87a2220",
+      "zip_crc": 3231106549
+    },
+    {
+      "name": "NIGENS/engine/TRUCK-PICK-UP-FORD_GEN-HDF-24832.wav",
+      "success": true,
+      "bytes": 23412780,
+      "sha256": "7566cabcfb5cf54071f44319924c6211833d1fae7f3259d43c0a53e5e3cca1db",
+      "zip_crc": 2797970821
+    },
+    {
+      "name": "NIGENS/engine/TRUCK-PICK-UP-FORD_GEN-HDF-24868.wav",
+      "success": true,
+      "bytes": 11624492,
+      "sha256": "53827de8ab03ecdc380d59d646d17c51e508599b3453c8a0565a4a45eb2b1791",
+      "zip_crc": 3279275432
+    },
+    {
+      "name": "NIGENS/engine/Toy+6037_58_3.wav",
+      "success": true,
+      "bytes": 3160108,
+      "sha256": "49c119b39e61c013ac9b4ce4ea826aac37c3b77094cc888e8aa31139f7af98ba",
+      "zip_crc": 1897803769
+    },
+    {
+      "name": "NIGENS/engine/transport+truck-start_CAP01-402.wav",
+      "success": true,
+      "bytes": 2310416,
+      "sha256": "948bf77dd51ee7d661ba75cd293273330860f0dfd68b974cf67a9607d614e5dc",
+      "zip_crc": 2613972933
+    },
+    {
+      "name": "NIGENS/femaleScream/118521__huboftheuniverseprod__thegutbezahlscream.wav",
+      "success": true,
+      "bytes": 244268,
+      "sha256": "3bf84d875267cde8c3f40de1528bf11cb981549135f395b3bc729b82a64f712d",
+      "zip_crc": 2184375691
+    },
+    {
+      "name": "NIGENS/femaleScream/139087__arjanvanhoorn0181__young-girl-screaming-2.wav",
+      "success": true,
+      "bytes": 534572,
+      "sha256": "016cd2549cc579571272af48a00cb5a818629bf341fd067d7721a4c40f1d3ba6",
+      "zip_crc": 2163165471
+    },
+    {
+      "name": "NIGENS/femaleScream/168725__11linda__quick-female-scream.wav",
+      "success": true,
+      "bytes": 126764,
+      "sha256": "463a4324d4a318d42716c99babbd57a62f36459b80c6dbffdcecda2d19b1560d",
+      "zip_crc": 26260051
+    },
+    {
+      "name": "NIGENS/femaleScream/168814__11linda__evil-dark-painful.wav",
+      "success": true,
+      "bytes": 2022956,
+      "sha256": "a759fe501056af4386bbcc3951b026b8a235f14a114d497b93de2795c4eb9c60",
+      "zip_crc": 551862307
+    },
+    {
+      "name": "NIGENS/femaleScream/169810__missozzy__female-scream-01.wav",
+      "success": true,
+      "bytes": 623558,
+      "sha256": "04b2c34610f91f0908c63a5169aed0400a8ce43b47d8e3bb28f4975b3a109bb2",
+      "zip_crc": 3038888961
+    },
+    {
+      "name": "NIGENS/femaleScream/169811__missozzy__female-scream-02.wav",
+      "success": true,
+      "bytes": 173854,
+      "sha256": "dd9f352ab3ea07fe934869942e53b93f3a1f5c0719aecf2de0bccd357a4d3511",
+      "zip_crc": 708997322
+    },
+    {
+      "name": "NIGENS/femaleScream/189339__sangtao__shout.wav",
+      "success": true,
+      "bytes": 96050,
+      "sha256": "ecaf85aa68977593219063a8fd503f138c23adb03627e283b6411724ffbe96df",
+      "zip_crc": 3797790846
+    },
+    {
+      "name": "NIGENS/femaleScream/219663__saraonsins__high-pitched-scream.wav",
+      "success": true,
+      "bytes": 360422,
+      "sha256": "dbb1e5a545952da74ed9e1b69a3e4d5776ff0c444f4692a5ee297138264ba2bf",
+      "zip_crc": 3788574895
+    },
+    {
+      "name": "NIGENS/femaleScream/219666__annatabernero__19-yeard-old-girl-shouting.wav",
+      "success": true,
+      "bytes": 221228,
+      "sha256": "cc13593654b5cd784e3d3a89105451bd8e7b027f235071894dd0c72ba6ef8199",
+      "zip_crc": 3468885200
+    },
+    {
+      "name": "NIGENS/femaleScream/219815__saraonsins__effort-scream.wav",
+      "success": true,
+      "bytes": 175538,
+      "sha256": "f20c08a099dd2fb420acb34014ebe4b9043115775f76c9e0473432c68fec03db",
+      "zip_crc": 361656411
+    },
+    {
+      "name": "NIGENS/femaleScream/219817__saraonsins__horror-scream.wav",
+      "success": true,
+      "bytes": 264900,
+      "sha256": "75caf304d3e892fbd9f5db5f8a34e8901b73226051ff981876f711b9749c1e94",
+      "zip_crc": 2077469963
+    },
+    {
+      "name": "NIGENS/femaleScream/219866__claudia-clim__scream.wav",
+      "success": true,
+      "bytes": 163628,
+      "sha256": "ca4f84dc26815b55409f334cb3819b1facdc002caf3ed314877479ada6866afc",
+      "zip_crc": 2734296492
+    },
+    {
+      "name": "NIGENS/femaleScream/219868__polmdx__old-woman-scream.wav",
+      "success": true,
+      "bytes": 265004,
+      "sha256": "5d883f03cd1969b4b4ff320a6f76dcba828799cae6ab2d0fa6d2f36999fe4391",
+      "zip_crc": 853981415
+    },
+    {
+      "name": "NIGENS/femaleScream/220307__ellenskellington__oneshout.wav",
+      "success": true,
+      "bytes": 97324,
+      "sha256": "a597674ae0795b1cedffba46c547ca1c9c03b71f564acab11965b8161b634f7c",
+      "zip_crc": 3929809791
+    },
+    {
+      "name": "NIGENS/femaleScream/220312__ellenskellington__womanshout.wav",
+      "success": true,
+      "bytes": 251948,
+      "sha256": "f708f6c7d9ac4557abb7c8b16d92f3b912e70d8e6a95c95b7618246a2a149be0",
+      "zip_crc": 2884904538
+    },
+    {
+      "name": "NIGENS/femaleScream/222531__alberttrepat__female-scared-scream.wav",
+      "success": true,
+      "bytes": 92204,
+      "sha256": "76eeafa0d2e758d503bcd22559254ee1f664575b6b184db533e6598ad388ca5c",
+      "zip_crc": 2798402715
+    },
+    {
+      "name": "NIGENS/femaleScream/222545__queen-westeros__woman-scream.wav",
+      "success": true,
+      "bytes": 191490,
+      "sha256": "7a784acf3375af3095788d01ad1908bd1ef67cb65c01a08e44109c6797b8f704",
+      "zip_crc": 2850778477
+    },
+    {
+      "name": "NIGENS/femaleScream/222646__mariallinas__female-scream-1.wav",
+      "success": true,
+      "bytes": 235052,
+      "sha256": "4dc2b8aecd29a79e15605fe111a25b66ae64699735034cad08772fec37e0e9fe",
+      "zip_crc": 4271238735
+    },
+    {
+      "name": "NIGENS/femaleScream/222650__mariallinas__scream.wav",
+      "success": true,
+      "bytes": 126764,
+      "sha256": "2402e12bd75052dc80d8acbc8a4835934f4fe875d0218578b1a8691d958206e4",
+      "zip_crc": 1865080120
+    },
+    {
+      "name": "NIGENS/femaleScream/240223__xtrgamr__nooooaaaah-01.wav",
+      "success": true,
+      "bytes": 337426,
+      "sha256": "957d2805598206f9d4bd4b8862523559e9438982c4c0e30908df509968adc3d6",
+      "zip_crc": 734264593
+    },
+    {
+      "name": "NIGENS/femaleScream/242644__reitanna__another-surprised-oooh.wav",
+      "success": true,
+      "bytes": 132140,
+      "sha256": "38fc051edc0d1736b9ab40205fa827bc7ec1ac9b6f20fecc2fb170c6eb1e6764",
+      "zip_crc": 2105351417
+    },
+    {
+      "name": "NIGENS/femaleScream/261419__archeos__womanscream.wav",
+      "success": true,
+      "bytes": 161904,
+      "sha256": "7f74e596a0781ae6758f5510a9d4ffcefe1713692e819dfd2776dd20def1d8e6",
+      "zip_crc": 3085680671
+    },
+    {
+      "name": "NIGENS/femaleScream/326893__11linda__female-screaming-for-help.wav",
+      "success": true,
+      "bytes": 1992188,
+      "sha256": "9bb1c258b1c888bf0fda61729bdfd69c096d50ed4b8ed659c7a5bd115598ab83",
+      "zip_crc": 758290039
+    },
+    {
+      "name": "NIGENS/femaleScream/328000__hali-pinson__scream-5.wav",
+      "success": true,
+      "bytes": 213666,
+      "sha256": "7618af0ad3c7873520fbd85ff210695422a9c9fd852c8619ae762f28169cdce6",
+      "zip_crc": 4264386761
+    },
+    {
+      "name": "NIGENS/femaleScream/328001__hali-pinson__scream-4.wav",
+      "success": true,
+      "bytes": 235642,
+      "sha256": "27e6019a60ef04d4372bf25bd1cd42ed7f3403e6310db3e96477ade2c22485ff",
+      "zip_crc": 45101377
+    },
+    {
+      "name": "NIGENS/femaleScream/328002__hali-pinson__scream-2.wav",
+      "success": true,
+      "bytes": 192670,
+      "sha256": "86d047be2517f1a5fe74c7204c299d7ec6ece9fdffa22887ea30af785c112f16",
+      "zip_crc": 3076050748
+    },
+    {
+      "name": "NIGENS/femaleScream/328003__hali-pinson__scream-1.wav",
+      "success": true,
+      "bytes": 178174,
+      "sha256": "82cd2daada082b0f75b92a2d6e03a01589d76babb7e6709d6a2da13f944a631b",
+      "zip_crc": 2522189183
+    },
+    {
+      "name": "NIGENS/femaleScream/332044__montblanccandies__crazy-screaming.wav",
+      "success": true,
+      "bytes": 589628,
+      "sha256": "295b1f4a862bf25c7f6aeea1a911acb904a14f54fa26e830b395ae7f0b24f009",
+      "zip_crc": 3018634655
+    },
+    {
+      "name": "NIGENS/femaleScream/42847__freqman__psycho-scream-1.wav",
+      "success": true,
+      "bytes": 502350,
+      "sha256": "749090af19c9d6d4ca55002219ae7065540fe2d9b9809f6fdd072c1ee3365694",
+      "zip_crc": 811644691
+    },
+    {
+      "name": "NIGENS/femaleScream/50156__freesound__000-testing-ariana-scream.wav",
+      "success": true,
+      "bytes": 331630,
+      "sha256": "8977a1f50c46abc1b359b4c1a5249dd89bfc0e38939e20233438564f5a7f4d89",
+      "zip_crc": 1984758120
+    },
+    {
+      "name": "NIGENS/femaleScream/58585__juskiddink__vocal-joy-and-excitement2.wav",
+      "success": true,
+      "bytes": 67200,
+      "sha256": "11327bd6a641eafc4ec07082a374587e20afea3698474badbbd5670546e9286d",
+      "zip_crc": 2030129408
+    },
+    {
+      "name": "NIGENS/femaleScream/80922__hellkt__nooo-without-effects.wav",
+      "success": true,
+      "bytes": 211726,
+      "sha256": "e73b0b9ac2d5be17f7d6c0e14bc5904197ae613fbe8c9e55c29de98a49fdd333",
+      "zip_crc": 1758625679
+    },
+    {
+      "name": "NIGENS/femaleScream/9703__lithe-fider__fl-scream-1.wav",
+      "success": true,
+      "bytes": 121582,
+      "sha256": "240b70fcbb9d99edf6278aa0e359b4991036c971e1acf6ce9efd637d54b74450",
+      "zip_crc": 3563840950
+    },
+    {
+      "name": "NIGENS/femaleScream/HUMAN-SCREAM_GEN-HDF-15246.wav",
+      "success": true,
+      "bytes": 88108,
+      "sha256": "3967d74dab57736776bdc588fb98cc9bc3a5e83f6ab081ec2715c8e964077210",
+      "zip_crc": 4069333474
+    },
+    {
+      "name": "NIGENS/femaleScream/HUMAN-SCREAM_GEN-HDF-15248.wav",
+      "success": true,
+      "bytes": 421932,
+      "sha256": "537a2237a40189f7120bb31976553ef4fb0b21538fb411f0a224ce8ad33ecf46",
+      "zip_crc": 1834017160
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbac7a.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "6f9b855d72a95b6e3ecef28badd62bd86dd7917f113536b753d18b2bfae95328",
+      "zip_crc": 2558264969
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbac8n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "88b5d709b232892a492527e40d6367dcf8156340b7db4e69a1b666a432e225cf",
+      "zip_crc": 2157657483
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbac9n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "ed22f978eb0068dd04e68dbc8821a6adb6d19a320009b4c433fea4a46ecac1f0",
+      "zip_crc": 919248326
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbaczs.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "3b0ac0def3d50950031e7949bd111ee2db68e016d66b4ec60e8cad5130b1ec61",
+      "zip_crc": 55947127
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad2p.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "454f1c24c2a7cbec8d4cfcd9c2bcc6233fc6884dba315f4b0430f0d7a99c57fc",
+      "zip_crc": 418157642
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad2s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "ecf2d6626b67a929f664d54b0b5a3b01ce8c45d5fa4190008d2563d3dc9ea1d3",
+      "zip_crc": 3122831017
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad5n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "5e2f7c2ebef0c0f0c9bd608d2102a2e2176f207e1e91edc224f1b3b7e99298cd",
+      "zip_crc": 3336035249
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad8n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "372ce99ba9320393b377aabf128ddc8d26cff256ab8a73e8a2dee4b97dff31a9",
+      "zip_crc": 2321067652
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad8s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "c1cefd317ae93fdd584cdccd7fd2a46ae43cbb003163eef70c4ba33e6910987d",
+      "zip_crc": 2923730044
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad9p.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "411a72e8da6f4f56cab184a15171619602286fe4e39b3032a64491a2c8c79707",
+      "zip_crc": 3743531845
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbad9s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "f3820f8d820444779bd91a8b06a274e8976c02849f54551034aca487508d23ef",
+      "zip_crc": 2371805956
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbadzp.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "4ef1969bc457f1390b1dcd9c9030000dbd862d210c852650c2c338a8e8fd9384",
+      "zip_crc": 2876560511
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbadzs.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "f4b734c3bd2bb8ede7b22840ce5f3ec3c22090dd1a1f268c97ec0600d4d84f2e",
+      "zip_crc": 1480383788
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbae1a.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "bb1a3e4d57278e0387f1bcf883f3ef6dc9a99fba1e460afb318fbee7d6d635a8",
+      "zip_crc": 2286420669
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbai9s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "277f4cedc1d7fd4eb43ae1b9009e2dd7a4e7f5f67692d9a55a2b03569f32c000",
+      "zip_crc": 556303422
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbaj2n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "011baa3109fcd4236cff9b80088c01684101e76337be86af7d18a687fb87168d",
+      "zip_crc": 3453142620
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbaj3n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "143254a47dff0db4a05706f241bb0b8d0f9a566a31477ad1f1e907c844dfba34",
+      "zip_crc": 17869706
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbaj3s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "7329bd1097c745de2a4bafff9ea5167a798f6a142afb98e3eee8340ff96e97af",
+      "zip_crc": 3129641399
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbak1n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "932106407be2a9955cd0cd9a85f18503cdcec7f2e7c56b421e4eddcfea1916b4",
+      "zip_crc": 2245324571
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbak2n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "74891629fcc01288ffba8305eccb37173d29e7bff44e60ac807e344d23eaa61f",
+      "zip_crc": 2668438737
+    },
+    {
+      "name": "NIGENS/femaleSpeech/bbak2s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "67723e0209ec847097de0edaeb0531736c79b33dbd156dbe7af9ce08479425df",
+      "zip_crc": 2718583654
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwi5n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "1649f150c6df60eec776e01672001c960761e4d18a9b56ccc7dbc39ede888b29",
+      "zip_crc": 3334275849
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwi7p.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "d84654aaf089d05b17cd94ef15b5f9e3e1b185f92911b1fa8f86789d96a60101",
+      "zip_crc": 3988876215
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwi8a.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "f05b31d0e4ce407d0a9d71d85512a436f1263c418fba3e4c3cfe552868f130c8",
+      "zip_crc": 2386962164
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwo6n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "b01e597ece781371d7bca11e9f2115f41a12a3a0e0b70aebdcb013032e82c796",
+      "zip_crc": 3719238148
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwo7s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "5619ff23c3a2802f20897e4d93f56db9435e52fa08957c4bff07dfef5df87220",
+      "zip_crc": 2321914494
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwo8p.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "b824e2366dea2b99c74b1141a337e141f6b3e9226cbb032a7451739e012b2efa",
+      "zip_crc": 1135184811
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwo9a.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "8de76f08d644c61e3c1e3efcdf359168f1d296e99d875385f34fd534432fdc4a",
+      "zip_crc": 348283833
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwo9n.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "1890cd966d9b09d284750cf51fc82ff02c0f2df26f040f295d07b62e2e0741e9",
+      "zip_crc": 18645721
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwp1p.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "01279bd9743b6538ee20eea39f284e781befdbaac68476f7c700b4b2d1f6e248",
+      "zip_crc": 586213825
+    },
+    {
+      "name": "NIGENS/femaleSpeech/swwv1s.wav",
+      "success": true,
+      "bytes": 150044,
+      "sha256": "8d2364c40ec4f79dbd370879678d2d9f23419d1b83c553cc5a6de68ddea14201",
+      "zip_crc": 1097131644
+    },
+    {
+      "name": "NIGENS/fire/ExplosionOilDrum+CRB01_83_7.wav",
+      "success": true,
+      "bytes": 10580012,
+      "sha256": "0d637f708a5168e3192d3b4fd74aac46e88f0a7864694f2b1852df1835732a8a",
+      "zip_crc": 1892003799
+    },
+    {
+      "name": "NIGENS/fire/FIRE-CAMP_GEN-HDF-11090.wav",
+      "success": true,
+      "bytes": 7770156,
+      "sha256": "9893a5d6cb06a80266d15bc122ba1885e976bf2f7053bd7ea15ee4241caa5100",
+      "zip_crc": 2106262429
+    },
+    {
+      "name": "NIGENS/fire/Fire+6049_16.wav",
+      "success": true,
+      "bytes": 15677484,
+      "sha256": "8c1bb1ca450e291d8ddd3458e0127b8d82bae04f04951e937e584a6da7675e4b",
+      "zip_crc": 2740968875
+    },
+    {
+      "name": "NIGENS/fire/Fire+6049_19.wav",
+      "success": true,
+      "bytes": 16091180,
+      "sha256": "a741f660b91b47a466c229de10be82f62171a3c32d158cc2add8c975a9def6b9",
+      "zip_crc": 3031968263
+    },
+    {
+      "name": "NIGENS/fire/Fire+6049_23.wav",
+      "success": true,
+      "bytes": 10508332,
+      "sha256": "f9c4db7354adfb94542e1aeec76d4962b86b667fd5d74e34675c3a462e2ad7eb",
+      "zip_crc": 1020647931
+    },
+    {
+      "name": "NIGENS/fire/Fire+6049_24.wav",
+      "success": true,
+      "bytes": 11937836,
+      "sha256": "bf3a9de380ee975a5b7468806ad19e6a8eb08b9e584cb2b824b85535e1b19438",
+      "zip_crc": 2564904341
+    },
+    {
+      "name": "NIGENS/fire/Fire+6063_54.wav",
+      "success": true,
+      "bytes": 13514796,
+      "sha256": "3e3f24e23e63c740567a63cdd948fd3696f4c5a7a3da087fafd3bf342cb75183",
+      "zip_crc": 284846345
+    },
+    {
+      "name": "NIGENS/fire/Fire+6083_89.wav",
+      "success": true,
+      "bytes": 4522028,
+      "sha256": "5e529b7209c83058463fc0d0deb230cef9d203868072a9513ae3c7d4f19d1461",
+      "zip_crc": 2949630539
+    },
+    {
+      "name": "NIGENS/fire/Fire+6095_19.wav",
+      "success": true,
+      "bytes": 16021548,
+      "sha256": "82e287a0e6f740a71c8820a675b3dfeedfe8695f9abf31af08e0a62f54fe9bb1",
+      "zip_crc": 1765799364
+    },
+    {
+      "name": "NIGENS/fire/Fire+DSS02_03.wav",
+      "success": true,
+      "bytes": 16171052,
+      "sha256": "8c0cb1340c1d04646280d665ff0b27890ed758800dae2e571b4b8fec2806eb98",
+      "zip_crc": 1117837969
+    },
+    {
+      "name": "NIGENS/fire/Fire+HB03_90_3.wav",
+      "success": true,
+      "bytes": 3076140,
+      "sha256": "99664289e4919a6c7274e6fa5293fce2f875ca7b299f647c2d7cbd0fdf230088",
+      "zip_crc": 960965144
+    },
+    {
+      "name": "NIGENS/fire/Fire+IN17_15.wav",
+      "success": true,
+      "bytes": 5247020,
+      "sha256": "3e4dd662cd22582abccb0fef4851eb45c709b5e2986c49c019e69c3b3d21cafb",
+      "zip_crc": 929586482
+    },
+    {
+      "name": "NIGENS/fire/Fire+IN17_16.wav",
+      "success": true,
+      "bytes": 6328364,
+      "sha256": "1d859f46e6b1c5af7dd36295cc2dfad9e90a9c1a36e71923a7ed617caea2e380",
+      "zip_crc": 2709339624
+    },
+    {
+      "name": "NIGENS/fire/Fire-Massive-Structure_GEN-HD2-30009.wav",
+      "success": true,
+      "bytes": 16484396,
+      "sha256": "6a0a07ab663f96477cdcc400c2ce7b058d37dc8d5eb4725911952e126cc83ac8",
+      "zip_crc": 4050413493
+    },
+    {
+      "name": "NIGENS/fire/FireAuto+CRB01_89_2.wav",
+      "success": true,
+      "bytes": 15005740,
+      "sha256": "6f64e20d39876abac5a086027a214336c2bc418510afaf050c47f0ce217a00b3",
+      "zip_crc": 1041896794
+    },
+    {
+      "name": "NIGENS/fire/FireBall+6015_26_1.wav",
+      "success": true,
+      "bytes": 469036,
+      "sha256": "904b1f70f26d3a804cefd751f44720edb7be091d365fdd3c54c612b51d4f0112",
+      "zip_crc": 3425794614
+    },
+    {
+      "name": "NIGENS/fire/FireBonfire+6015_13.wav",
+      "success": true,
+      "bytes": 16177196,
+      "sha256": "9e47fc69fb56b3225cad80b9cf2f9a149b543c1865e7b70f2b7795c3500de6e3",
+      "zip_crc": 4158097591
+    },
+    {
+      "name": "NIGENS/fire/FireBonfire_DIGIVJ2-16.wav",
+      "success": true,
+      "bytes": 5290028,
+      "sha256": "7753a461ae8d3513eaec1c4c324335573689ca3f4465e94f294114f9a61a22aa",
+      "zip_crc": 358560900
+    },
+    {
+      "name": "NIGENS/fire/FireCampfire_DIGIP06-71.wav",
+      "success": true,
+      "bytes": 5472300,
+      "sha256": "2ab4271609c7a4d311900ab4cd9851094ae4c6b9b35737b27050c686a5ba58dc",
+      "zip_crc": 2456069973
+    },
+    {
+      "name": "NIGENS/fire/FireCrackle+6076_11.wav",
+      "success": true,
+      "bytes": 16314412,
+      "sha256": "26c78b34d8c67b1dae8058532e375619e214205c3e5d0d70cf74f27eb1f6e936",
+      "zip_crc": 4205070160
+    },
+    {
+      "name": "NIGENS/fire/FireFireplace_DIGIB03-62.wav",
+      "success": true,
+      "bytes": 28598316,
+      "sha256": "ab712e2f60c56b83135a5b37d1e6c6016d3e5d8cd65a6375868968120baff0a7",
+      "zip_crc": 2697424983
+    },
+    {
+      "name": "NIGENS/fire/FireForest+6015_16.wav",
+      "success": true,
+      "bytes": 14710828,
+      "sha256": "d161ccf55a32969e7d41ac433ab30e03a54507a574d4a9c842810f7ed6b5b182",
+      "zip_crc": 61808857
+    },
+    {
+      "name": "NIGENS/fire/FireGas_DIGIJ02-69.wav",
+      "success": true,
+      "bytes": 12118060,
+      "sha256": "86883698ae0e21ee3884f2cd43fa2c95ca56e410bfb4fdbc7d1c3c1301807bf9",
+      "zip_crc": 2922215417
+    },
+    {
+      "name": "NIGENS/fire/FireGas_DIGIJ05-78.wav",
+      "success": true,
+      "bytes": 13776940,
+      "sha256": "67928f4365d421ab98edd2042b659147f0f14a1dc71b201d200accc24fcd10f0",
+      "zip_crc": 423526075
+    },
+    {
+      "name": "NIGENS/fire/FireHouse+CRB02_22.wav",
+      "success": true,
+      "bytes": 14573612,
+      "sha256": "0793a3a12d6a2657a9f4c8357c67294bb51c809cb39548d5c085a0e49756bbb1",
+      "zip_crc": 3758243181
+    },
+    {
+      "name": "NIGENS/fire/FireHouse+CRB02_23.wav",
+      "success": true,
+      "bytes": 14241836,
+      "sha256": "54dab5e277e7633a6a1b53d2b3f6fdaf39cb02516e717422b144e787ab871912",
+      "zip_crc": 849587315
+    },
+    {
+      "name": "NIGENS/fire/FirePaper+6015_03_1.wav",
+      "success": true,
+      "bytes": 8849452,
+      "sha256": "9694acd31cf2810bc1ed21a6c4f8fddf24a6cbd29146b6a7360dc32d167f91f1",
+      "zip_crc": 3436608797
+    },
+    {
+      "name": "NIGENS/fire/Fire_CampfireLoop2_SFX-KIT.wav",
+      "success": true,
+      "bytes": 332434,
+      "sha256": "775c8d302ef349ebd87da3658477f9e84d3779f839b63d98961520fc735104ad",
+      "zip_crc": 1097974300
+    },
+    {
+      "name": "NIGENS/fire/Fire_CampfireLoop5_SFX-KIT.wav",
+      "success": true,
+      "bytes": 410424,
+      "sha256": "17357e78ad6a69b42afde35d59b24a9efc75ae9d57d4925cbc8efd82b8957d45",
+      "zip_crc": 4007880976
+    },
+    {
+      "name": "NIGENS/fire/Fire_DIGIP03-31.wav",
+      "success": true,
+      "bytes": 5679148,
+      "sha256": "c72fb4014306e9fda62f89840c2263eb74f6cb627a430a98dec51f76e34533ea",
+      "zip_crc": 1213015310
+    },
+    {
+      "name": "NIGENS/fire/Fire_Loop07_SFX-KIT.wav",
+      "success": true,
+      "bytes": 259848,
+      "sha256": "4fd232b21b2a7e42adbf45f13f181d99d13ec4d106debec5f0f00c75023d8c0f",
+      "zip_crc": 1521241866
+    },
+    {
+      "name": "NIGENS/fire/Fire_Loop08_SFX-KIT.wav",
+      "success": true,
+      "bytes": 210988,
+      "sha256": "6fd4ac2fff27203bd8abb8ba54bd7f5222b1a51248322393a99dd1996c80f7b7",
+      "zip_crc": 3280204094
+    },
+    {
+      "name": "NIGENS/fire/Fire_Torch_Loop3_SFX-KIT.wav",
+      "success": true,
+      "bytes": 237606,
+      "sha256": "746fa5e759d219eaa3d10f34ef55357efe7e8e703da95c0296a60dd46c567ab9",
+      "zip_crc": 2820846315
+    },
+    {
+      "name": "NIGENS/fire/StoveWoodBurning+6087_35.wav",
+      "success": true,
+      "bytes": 7432236,
+      "sha256": "5504df07b9a533357dad50c833e57615593dc40c07e4a5ce0d59b090f11e25e2",
+      "zip_crc": 58401716
+    },
+    {
+      "name": "NIGENS/fire/fire-burning+building_CAP01-182.wav",
+      "success": true,
+      "bytes": 2776780,
+      "sha256": "0da15206962006584a9115e2b871b603f4dde46c99ef439cd7bee436890441c9",
+      "zip_crc": 808888668
+    },
+    {
+      "name": "NIGENS/fire/fire-forest+burning_CAP01-183.wav",
+      "success": true,
+      "bytes": 2892484,
+      "sha256": "f35babedaac3fe3bd535800c1ed2ad4b3b2ade9cbbade3df1e87219a78e1374f",
+      "zip_crc": 3883114254
+    },
+    {
+      "name": "NIGENS/fire/fire-raging_CAP01-185.wav",
+      "success": true,
+      "bytes": 2730700,
+      "sha256": "82bcca23de466ebc7bc7a89b9b60cf9fd0744436ef67a198d5cd4c932a401ae5",
+      "zip_crc": 2296026805
+    },
+    {
+      "name": "NIGENS/fire/fireplace-wood-crackling_CAP01-184.wav",
+      "success": true,
+      "bytes": 2788224,
+      "sha256": "6f874e3b4607cff023a62505b6655292eb83f030361343acebde237d034ce817",
+      "zip_crc": 1384595623
+    },
+    {
+      "name": "NIGENS/footsteps/CartoonFootsteps+4003_46_1.wav",
+      "success": true,
+      "bytes": 5642284,
+      "sha256": "6a9bdffa2ff2202d229e212c8aa5a6f1eed337bdff16de34d107a30be4e39f4c",
+      "zip_crc": 379352034
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-INDOOR_GEN-HDF-11495.wav",
+      "success": true,
+      "bytes": 3995692,
+      "sha256": "af1a1a4903eda267454e6f6ab4a80063c0808503b9ef5f45d8eabb82a2a8c078",
+      "zip_crc": 2140124984
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-INDOOR_GEN-HDF-11641.wav",
+      "success": true,
+      "bytes": 4417580,
+      "sha256": "bd89f07685fd565184f9b0e049176b48eac734d9aa20a014da20164cd072412c",
+      "zip_crc": 3925577184
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-INDOOR_GEN-HDF-11717.wav",
+      "success": true,
+      "bytes": 4466732,
+      "sha256": "f37aa31ce075adf7284cc6c860c3391bfd53939eac8f763c32a4ac064e9ee1be",
+      "zip_crc": 3988073051
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-INDOOR_GEN-HDF-11743.wav",
+      "success": true,
+      "bytes": 3977260,
+      "sha256": "2053e64dacaf58d1b38bd6d771595f4529334cdd4f23a3ce73c372722bf07aff",
+      "zip_crc": 2321832485
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-INDOOR_GEN-HDF-12063.wav",
+      "success": true,
+      "bytes": 3700780,
+      "sha256": "07764767525ded729299ffbf45bba321fda512d3db4a855333a8dcf88f831fe1",
+      "zip_crc": 1885402742
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12185.wav",
+      "success": true,
+      "bytes": 4399148,
+      "sha256": "9923cf9e83e49297518e1b8a896b169ee44e5dc88f3c7c5bf9385f5677ff8244",
+      "zip_crc": 4154298367
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12186.wav",
+      "success": true,
+      "bytes": 4720684,
+      "sha256": "eca2bf89dca57948c6285cf2e5009cdd278d7866747499ee7a6172e172eba14d",
+      "zip_crc": 4164104387
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12243.wav",
+      "success": true,
+      "bytes": 3940396,
+      "sha256": "d0cfff9b2c345750a2b5cc88558b8a199e6df62a2933a19eec729d6fffb757bb",
+      "zip_crc": 2603269769
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12298.wav",
+      "success": true,
+      "bytes": 4071468,
+      "sha256": "45ab283e144fd79b2cad42ff92ff8fb42d2925f2fe5570a75875a938ff59d6c8",
+      "zip_crc": 1307391007
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12316.wav",
+      "success": true,
+      "bytes": 4151340,
+      "sha256": "1310d5e6873a929ff599feaf16fdf2450b49ff1ee40815fc62fb236263c94949",
+      "zip_crc": 982889537
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12338.wav",
+      "success": true,
+      "bytes": 5431340,
+      "sha256": "e0b722b7057c5deec24d2a26ce38fc07364eb6c66f46969bd187ad5e5a2fbf68",
+      "zip_crc": 529877925
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12353.wav",
+      "success": true,
+      "bytes": 3801132,
+      "sha256": "d8b98d5350b700f9a18f05acd90828b5c73a88d26c7508fc1aa9b69a1a0bbed6",
+      "zip_crc": 3899528743
+    },
+    {
+      "name": "NIGENS/footsteps/FOOTSTEPS-OUTDOOR_GEN-HDF-12371.wav",
+      "success": true,
+      "bytes": 1468460,
+      "sha256": "8bd67a2dbe669b4e922ce0df125bb5368c0dada3905918469e8a9aa6ccc0553d",
+      "zip_crc": 994046440
+    },
+    {
+      "name": "NIGENS/footsteps/Footsteps-Carpet-Bare+Feet-Walk-1+Walker-Close-Take2_UFC-DVD-1-0049.wav",
+      "success": true,
+      "bytes": 2680876,
+      "sha256": "59be1dce2096da4a853606a5c59a3b57ecfd7dcb4252d1450efc53f847ce9a4b",
+      "zip_crc": 1501435508
+    },
+    {
+      "name": "NIGENS/footsteps/Footsteps-Carpet-Boots-Walk-1+Walker-Close-Take2_UFC-DVD-1-0079.wav",
+      "success": true,
+      "bytes": 2657324,
+      "sha256": "f90a7b64da833be3f12c97a419eca936d6b82a6fc6d373e5b0e2fa2436e8ef6b",
+      "zip_crc": 1806664748
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsConGritt+6016_31_1.wav",
+      "success": true,
+      "bytes": 5589036,
+      "sha256": "a28d51b1a96b919d64a4d98a851a5273377a3c2e5698950da63337caa9d9cd6e",
+      "zip_crc": 3631620035
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsConcrete+6016_01_1.wav",
+      "success": true,
+      "bytes": 5298220,
+      "sha256": "101a80f2eadc8b2b92e9cae8cadf65286ca17cee258af2440604d6ca44fbcc76",
+      "zip_crc": 3572053089
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsConcrete+6016_07_1.wav",
+      "success": true,
+      "bytes": 5273644,
+      "sha256": "ac7b001e61b067cf1cb2cea2541c2e8d3cdd7aca817e66dec01a741eaf38b79d",
+      "zip_crc": 2832268459
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsConcrete+6016_10_1.wav",
+      "success": true,
+      "bytes": 5382188,
+      "sha256": "fc1433823961af9d152e8864b0ad3ecdfd9acc61ef4fc300a7db9a720e38f8c8",
+      "zip_crc": 2798617589
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsConcrete+6016_16_1.wav",
+      "success": true,
+      "bytes": 5566508,
+      "sha256": "55a36a07d4513acddaeb7f657c73861abe7f52654d0c75b03f82eab4750526bd",
+      "zip_crc": 331423442
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsCreakyFl+6016_48_1.wav",
+      "success": true,
+      "bytes": 5169196,
+      "sha256": "19b7a78e5c40b459f5cd9316286afad0d42856202d63d60b385571d2871b6d3c",
+      "zip_crc": 2690980064
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsCreakyRu+6016_57_1.wav",
+      "success": true,
+      "bytes": 5474348,
+      "sha256": "ad8a47954f1741925750f5000362766acb1da378173160e9be1f58f93968f629",
+      "zip_crc": 1736879830
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsDeck+6016_69_1.wav",
+      "success": true,
+      "bytes": 5566508,
+      "sha256": "1686e118adf1b38212adbec94f7cc792c6f4c1e5346de105053c631cd77f4a12",
+      "zip_crc": 1509138011
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsDirt+2011_11_1.wav",
+      "success": true,
+      "bytes": 5822508,
+      "sha256": "03da5c0accbfea7289d3765da83ca46503fc1a592ec5cb16ffdb5cbf261f34e9",
+      "zip_crc": 2802531266
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsDirt+6016_87_1.wav",
+      "success": true,
+      "bytes": 5066796,
+      "sha256": "73d4e973b120a9d7c842fc32d4a651603146b15e21eebed75ff23185e649cd8d",
+      "zip_crc": 4105702891
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsGrass+2011_13_1.wav",
+      "success": true,
+      "bytes": 5646380,
+      "sha256": "f6375c4034bcd749db8495f5f8d2421b6435e5f9eeced5530639b7ffe8934a07",
+      "zip_crc": 1218193790
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsGravel+6016_92_1.wav",
+      "success": true,
+      "bytes": 4958252,
+      "sha256": "3edaf1aff63a3b72174fbb7226d718a6688e8e58d3b2f3430eb6a53d96c7c441",
+      "zip_crc": 3456199002
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsHardwood+2011_15_1.wav",
+      "success": true,
+      "bytes": 5822508,
+      "sha256": "1486a37070757c664e8d473851c6d876995d78c8d008660f2b9e3fc3c6be20d7",
+      "zip_crc": 1114821876
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsLinoleum+2011_20_1.wav",
+      "success": true,
+      "bytes": 5292076,
+      "sha256": "0ae0aacb898ee987529d7476ec5b378afe48d53eddae7b89a0ecf560433e872b",
+      "zip_crc": 408911214
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsWood+6017_16_1.wav",
+      "success": true,
+      "bytes": 5306412,
+      "sha256": "05d39c16f18ce7bb9c03a4ce42f05e7980116a331f3f403cb798a07a4dcd13bc",
+      "zip_crc": 3210913224
+    },
+    {
+      "name": "NIGENS/footsteps/FootstepsWoodSoli+6017_54_1.wav",
+      "success": true,
+      "bytes": 5283884,
+      "sha256": "eded956223a73a35992e981cc135663e96647e71e2340f9b2d220885fbed8e03",
+      "zip_crc": 3375610585
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCKER_GEN-HDF-09740.wav",
+      "success": true,
+      "bytes": 385068,
+      "sha256": "7ea43b690ba2793ffb0bb3680ba29b9a59212b6f728cb07318dc2c5a1ee59843",
+      "zip_crc": 2746933329
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09699.wav",
+      "success": true,
+      "bytes": 317484,
+      "sha256": "0271493b589c372f70b2cbfa0ab9b9292abd48307af8fb10f789d0601291708b",
+      "zip_crc": 2547477430
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09703.wav",
+      "success": true,
+      "bytes": 157740,
+      "sha256": "4558581c1cbd3bb292c4618bcc4f89fc928b298854ac38b2afeda75b60549518",
+      "zip_crc": 3939792479
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09704.wav",
+      "success": true,
+      "bytes": 354348,
+      "sha256": "644182cd95a1a8405c63714c316efeba60c11a16484f656ae339162394f54e61",
+      "zip_crc": 3895989933
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09714.wav",
+      "success": true,
+      "bytes": 444460,
+      "sha256": "c991c8ef98326b06977174126e5c95e3f083c4bad34774af0963bc7c57c12be5",
+      "zip_crc": 541766296
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09716.wav",
+      "success": true,
+      "bytes": 245804,
+      "sha256": "2590ce71574fa8a0be1a6e0d6895887ba1525481ab42e0da761b2bc32b4afb5a",
+      "zip_crc": 2722535906
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09720.wav",
+      "success": true,
+      "bytes": 335916,
+      "sha256": "dcf22ead46a6fd63dfcc2205f7aad522daa35927ccb8e71f1144cb37deb32725",
+      "zip_crc": 171712858
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09722.wav",
+      "success": true,
+      "bytes": 253996,
+      "sha256": "e2e98a007e34fef7637791f99733a69091a9c566bf53b3083de5cb1a1286de94",
+      "zip_crc": 2699161885
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09724.wav",
+      "success": true,
+      "bytes": 454700,
+      "sha256": "3d2566ac240da6d9b7f42093ce6f1e3b40ced99378bb57b0130fe26171dd7821",
+      "zip_crc": 1534329934
+    },
+    {
+      "name": "NIGENS/knock/DOOR-KNOCK_GEN-HDF-09725.wav",
+      "success": true,
+      "bytes": 421932,
+      "sha256": "3d2ff9d4bbdb6b228edbb3df4328ba350dd6b189318505f573aeb852485f9340",
+      "zip_crc": 2733752923
+    },
+    {
+      "name": "NIGENS/knock/Door-Knock-Wood-Entrance-Other-Side_GEN-HD2-29498.wav",
+      "success": true,
+      "bytes": 184364,
+      "sha256": "7acb26b44012751e83a10303f5f42352e7a5f8ed2f9e963c345493a9d3b041f5",
+      "zip_crc": 1763564654
+    },
+    {
+      "name": "NIGENS/knock/DoorKnock+6048_29_3.wav",
+      "success": true,
+      "bytes": 192556,
+      "sha256": "466c8149424ac46e32206b092df2cf81012669275d3e8631b19fd8bb2d7f1d6f",
+      "zip_crc": 1436748358
+    },
+    {
+      "name": "NIGENS/knock/DoorKnock+6048_31_3.wav",
+      "success": true,
+      "bytes": 450604,
+      "sha256": "54eb2c7378d231a6dbc170e56f2d5b279ad3504a5a2b263800e55750f22d8c1e",
+      "zip_crc": 423804518
+    },
+    {
+      "name": "NIGENS/knock/DoorKnock+6105_29_5.wav",
+      "success": true,
+      "bytes": 98348,
+      "sha256": "ac357eb875cd71d83ca368e75660aad4a51bb02d9c6ec43e5c06c364bc4c5386",
+      "zip_crc": 3405955654
+    },
+    {
+      "name": "NIGENS/knock/DoorKnocker+6048_34_2.wav",
+      "success": true,
+      "bytes": 536620,
+      "sha256": "dfb49dc721b90bbaedbfa781812044d84fc7658f638adc95254ba74b766e7cd5",
+      "zip_crc": 1655492529
+    },
+    {
+      "name": "NIGENS/knock/GLASS-HIT_GEN-HDF-12928.wav",
+      "success": true,
+      "bytes": 536620,
+      "sha256": "d3cd802ef7bb34f95a35ec57b6e71721c5011655c6691618c54a2c7ea7becc7c",
+      "zip_crc": 2662270538
+    },
+    {
+      "name": "NIGENS/knock/GLASS-HIT_GEN-HDF-12929.wav",
+      "success": true,
+      "bytes": 389164,
+      "sha256": "5c01c8f5af9ef7511c099f5049c47fd930753dcad4f3741117bfa1ce5d55ce76",
+      "zip_crc": 27818894
+    },
+    {
+      "name": "NIGENS/knock/GLASS-HIT_GEN-HDF-12932.wav",
+      "success": true,
+      "bytes": 450604,
+      "sha256": "625e8aefbbf8955d4a71b8fda0dba2f295a2d09e44fc8834383eee9e75dd2031",
+      "zip_crc": 3705408186
+    },
+    {
+      "name": "NIGENS/knock/GLASS-KNOCK_GEN-HDF-12935.wav",
+      "success": true,
+      "bytes": 174124,
+      "sha256": "5d396f8a5e25227b875fd5a40a13fd78eef36faaadbd004c305cb3d067bde352",
+      "zip_crc": 1546781448
+    },
+    {
+      "name": "NIGENS/knock/GLASS-KNOCK_GEN-HDF-12936.wav",
+      "success": true,
+      "bytes": 409644,
+      "sha256": "8fc9602962eb81dd9bc9e95fc38119147b1c82bb8c26f5d14a5c8e4a787fa4d0",
+      "zip_crc": 1663200281
+    },
+    {
+      "name": "NIGENS/knock/KnockDoor+HB01_66_3.wav",
+      "success": true,
+      "bytes": 565292,
+      "sha256": "86cc4b4206279a9a91ad97801f3b4438df3705bc7ed98ec51f8bcd0b7c8950ad",
+      "zip_crc": 3012343056
+    },
+    {
+      "name": "NIGENS/knock/KnockDoor+HB01_66_6.wav",
+      "success": true,
+      "bytes": 288812,
+      "sha256": "112af70056f6e46d144931fcd3e50f51fa740b7d12e4ac40eb509d20a159dfac",
+      "zip_crc": 1962203122
+    },
+    {
+      "name": "NIGENS/knock/KnockDoor+HB01_66_7.wav",
+      "success": true,
+      "bytes": 278572,
+      "sha256": "d9f073fd866e99a1358b379ed9e01182b53b2db272b11318dd1fbbb9c65124fe",
+      "zip_crc": 2516197213
+    },
+    {
+      "name": "NIGENS/knock/KnockWindow+CTV05_77_03.wav",
+      "success": true,
+      "bytes": 239660,
+      "sha256": "699b74935861baf6bde7913c233e158b1e2a51b10c3af61a3564745b7b23696f",
+      "zip_crc": 2402858167
+    },
+    {
+      "name": "NIGENS/knock/KnockWindow+HB01_66_8.wav",
+      "success": true,
+      "bytes": 405548,
+      "sha256": "adff83d3703cc6c7033333349c1d4cd13f36c65f947c930135a4c81fded71d04",
+      "zip_crc": 1180349962
+    },
+    {
+      "name": "NIGENS/knock/KnockWood+CTV05_78_03.wav",
+      "success": true,
+      "bytes": 176172,
+      "sha256": "555038ddc7a3cd8ccabfd976a01b3b5a2f182989b499a76ac85e3ed1dc7aac5b",
+      "zip_crc": 3995074720
+    },
+    {
+      "name": "NIGENS/knock/KnockerDoor+9006_37_6.wav",
+      "success": true,
+      "bytes": 354348,
+      "sha256": "7ad178a1b80a4aa0aaf4b2757a07de7c498f86abaae50f3c98b639c037d00821",
+      "zip_crc": 608857818
+    },
+    {
+      "name": "NIGENS/knock/KnockerDoor+9006_37_8.wav",
+      "success": true,
+      "bytes": 299052,
+      "sha256": "799ca321f275805998c640fbb3daf73bdebe954d4fcf8e2645dd823772514b40",
+      "zip_crc": 1184897412
+    },
+    {
+      "name": "NIGENS/knock/KnockerDoor+9006_38_8.wav",
+      "success": true,
+      "bytes": 380972,
+      "sha256": "7d7ea389f4348c36bf5dc28c711036378e6001cf7cc6bda211db72b81e1abdd8",
+      "zip_crc": 2665951439
+    },
+    {
+      "name": "NIGENS/knock/WindowKnock_DIGIB01-12.wav",
+      "success": true,
+      "bytes": 2541612,
+      "sha256": "6d3a606c68153728011968e8df5c71e0e779ee3d3b967adee69be0470968f86e",
+      "zip_crc": 1667466424
+    },
+    {
+      "name": "NIGENS/maleScream/125127__thanvannispen__schreeuw1clean.wav",
+      "success": true,
+      "bytes": 359142,
+      "sha256": "1e876e6044b8dcadce038f25b1cb2d59a95885fcf2d130799d8134756e4316bc",
+      "zip_crc": 3812570279
+    },
+    {
+      "name": "NIGENS/maleScream/135758__skytheguy__victim.wav",
+      "success": true,
+      "bytes": 111396,
+      "sha256": "ec412172d463f94915989fed245e2c19bb6ac33eb7a4b4d0753b64d4ea4e43b8",
+      "zip_crc": 1036781513
+    },
+    {
+      "name": "NIGENS/maleScream/154583__ecfike__scream-1.wav",
+      "success": true,
+      "bytes": 116930,
+      "sha256": "fb54a92f15329be61bbe961e29c7555de9e2f911816534274135e21ac8bf30d0",
+      "zip_crc": 162883358
+    },
+    {
+      "name": "NIGENS/maleScream/169628__dinsfire__male-voice-screaming-loudly.wav",
+      "success": true,
+      "bytes": 582336,
+      "sha256": "147a9bd917dd94c54035f6a66ae2cf35507f754603ff9a0c3b01dc616e2aada5",
+      "zip_crc": 3485187445
+    },
+    {
+      "name": "NIGENS/maleScream/180314__jorickhoofd__sad-cry-7.wav",
+      "success": true,
+      "bytes": 222048,
+      "sha256": "99efb2413145f6925ff7eb14f12b28d541c15ef0ada989440f2c4851f737ec68",
+      "zip_crc": 502580141
+    },
+    {
+      "name": "NIGENS/maleScream/219654__annatabernero__young-male-scream.wav",
+      "success": true,
+      "bytes": 186586,
+      "sha256": "7c7b97aca44c0d581e4a1741b71a56d6d8fdf142aae4c8da685e3328d6f73f38",
+      "zip_crc": 2724833099
+    },
+    {
+      "name": "NIGENS/maleScream/219814__saraonsins__man-s-scream.wav",
+      "success": true,
+      "bytes": 200044,
+      "sha256": "5cb2e51267b45630d8ece80d0fd6f99088710e46d4cc58641570d437dfad4c03",
+      "zip_crc": 1235856019
+    },
+    {
+      "name": "NIGENS/maleScream/219858__adriancalzon__scream-01.wav",
+      "success": true,
+      "bytes": 99116,
+      "sha256": "3fa08412a3067e69c7ce0c950f6e9617af246d8e4ac54837ab53d711e6cb7641",
+      "zip_crc": 289450073
+    },
+    {
+      "name": "NIGENS/maleScream/219863__acehell__crit-marc.wav",
+      "success": true,
+      "bytes": 246644,
+      "sha256": "066b8a75b015e4c243dc5a4cf214ca70cd706853db4384903b209bcdf47fa721",
+      "zip_crc": 514474543
+    },
+    {
+      "name": "NIGENS/maleScream/219869__polmdx__high-tone-scream.wav",
+      "success": true,
+      "bytes": 118480,
+      "sha256": "5db25512c1568f01ebcdd6a71b1bf50de99a21cd9c7d158159b2d7e191920b02",
+      "zip_crc": 2794092830
+    },
+    {
+      "name": "NIGENS/maleScream/220311__ellenskellington__manshout.wav",
+      "success": true,
+      "bytes": 120586,
+      "sha256": "9122f26f981b6e325b20a330cc822599cc74b783e9d319a319ce4c6ee33249a9",
+      "zip_crc": 3723596006
+    },
+    {
+      "name": "NIGENS/maleScream/222530__alberttrepat__male-screaming.wav",
+      "success": true,
+      "bytes": 113318,
+      "sha256": "3ada03eb65b8adf623aeabc370ae704457035f173734e631ff760438a4125ee4",
+      "zip_crc": 1204131163
+    },
+    {
+      "name": "NIGENS/maleScream/222535__alberttrepat__male-screaming-out-loud.wav",
+      "success": true,
+      "bytes": 113318,
+      "sha256": "3fff36953c85f4d98456d2fd27145f7f569c3db092aa23f98f0be5c569c9fb6c",
+      "zip_crc": 1299025552
+    },
+    {
+      "name": "NIGENS/maleScream/222649__mariallinas__shout.wav",
+      "success": true,
+      "bytes": 225908,
+      "sha256": "1960e6afc0d9c7bccfe53ae643e3127855651c6325ef2f8126e9b619d1f98aae",
+      "zip_crc": 138696639
+    },
+    {
+      "name": "NIGENS/maleScream/238043__paltsug__wahha-yanga-ripi-a-raja-bip-gonog.wav",
+      "success": true,
+      "bytes": 206064,
+      "sha256": "d0a31199fb6333806ff89f780c7ef04f24416e40d72fcb7d47c6c281e6c21fbd",
+      "zip_crc": 1047124139
+    },
+    {
+      "name": "NIGENS/maleScream/267480__islandan__male-scream.wav",
+      "success": true,
+      "bytes": 97202,
+      "sha256": "3be11f324861bd3b48298bac44ec399982ce21b50f4fedbff0f8fa9942d0b16a",
+      "zip_crc": 3137418087
+    },
+    {
+      "name": "NIGENS/maleScream/275170__lodovico__terrifying-scream.wav",
+      "success": true,
+      "bytes": 1676214,
+      "sha256": "cceef544b799eae4d5468a7604ab473050df293b69437797c951e7322c112a36",
+      "zip_crc": 3748576001
+    },
+    {
+      "name": "NIGENS/maleScream/30988__unclesigmund__ahhh.wav",
+      "success": true,
+      "bytes": 308892,
+      "sha256": "78437cbc632a143adb956eea81c50e23f6b54a0df309715b2448377511c6fc5c",
+      "zip_crc": 1413091287
+    },
+    {
+      "name": "NIGENS/maleScream/31818__malexmedia__malexmedia-man-scream.wav",
+      "success": true,
+      "bytes": 213824,
+      "sha256": "b8b900b7861b7f329a6071969142069c2d75b64a3dbe8e64a01dd7465278e13f",
+      "zip_crc": 4234697339
+    },
+    {
+      "name": "NIGENS/maleScream/320247__nicktermer__scream.wav",
+      "success": true,
+      "bytes": 160440,
+      "sha256": "bc0805c21c45c7af9b8a1b38f12e25c64ede599b5f4a66311503a807b1b8cc61",
+      "zip_crc": 1346648186
+    },
+    {
+      "name": "NIGENS/maleScream/330673__gutturalgutfuck__pissed-off-screams.wav",
+      "success": true,
+      "bytes": 1767212,
+      "sha256": "81898ab4f869442f10184ffb7602b902eff2d120e27d14308d034c134443b4a8",
+      "zip_crc": 124345075
+    },
+    {
+      "name": "NIGENS/maleScream/63632__vtownpunks__screaming-1.wav",
+      "success": true,
+      "bytes": 102646,
+      "sha256": "7eeecda2fc4685b23e5b860c71a27ee5af55a5f96e9fb10e7e8d4097d1830a44",
+      "zip_crc": 205434339
+    },
+    {
+      "name": "NIGENS/maleScream/84351__patopurific__scream-and-death.wav",
+      "success": true,
+      "bytes": 8334554,
+      "sha256": "3f69d5ab58d6afbb296a21e6cbf9057da82f1cc3fa7e588a9490692b0abdf897",
+      "zip_crc": 722957667
+    },
+    {
+      "name": "NIGENS/maleScream/84352__creativeheroes__helmutscream.wav",
+      "success": true,
+      "bytes": 474326,
+      "sha256": "6c9c5360321ada2955a972b86339f9b0060b76cab3645c54dafb5dd3b4bc36cc",
+      "zip_crc": 2013076942
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbal7p.wav",
+      "success": true,
+      "bytes": 84046,
+      "sha256": "a8cc7a75855a8b0d9f26dd0a7010bbd2a239dfdedd5ed5ed36173e8356f755e3",
+      "zip_crc": 2164627758
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbas2a.wav",
+      "success": true,
+      "bytes": 77046,
+      "sha256": "2f86a365f2d661b7a9a22ff9a808425e79d9e2a95a036f744316cadd62ec4814",
+      "zip_crc": 4034937819
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbaszs.wav",
+      "success": true,
+      "bytes": 93046,
+      "sha256": "8bab4cb4c88e03839496642b3754cfbfe540a428f99924ec63a375a7b6027c96",
+      "zip_crc": 4190720863
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbaz3n.wav",
+      "success": true,
+      "bytes": 83046,
+      "sha256": "dbc76f2eeaedd1867d293d392237b1553add775abdad536456d53d428672ae20",
+      "zip_crc": 1074023868
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbbf6s.wav",
+      "success": true,
+      "bytes": 86546,
+      "sha256": "ec8f2c5f413961a7926a24bc669b3b663c0189e098dcb5dbcdde9f6cf233e14e",
+      "zip_crc": 1177293817
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbbl9n.wav",
+      "success": true,
+      "bytes": 97546,
+      "sha256": "42428bed95909e12de3f89e1b60d51d2cf79d28c550ac1e744160d13d44e4c9c",
+      "zip_crc": 3826467040
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbbs6a.wav",
+      "success": true,
+      "bytes": 92546,
+      "sha256": "df66988e96b986dd1706e3028cbe565f7ce4e6ea08720956339644f13fff734a",
+      "zip_crc": 1691364582
+    },
+    {
+      "name": "NIGENS/maleSpeech/bbbz7n.wav",
+      "success": true,
+      "bytes": 95546,
+      "sha256": "6942f60b8f35306cea16fa1b3f9ee14d3605fd71151ac6863da797b54863f1fe",
+      "zip_crc": 3011704708
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbbd8p.wav",
+      "success": true,
+      "bytes": 103546,
+      "sha256": "a46f0326c274c4c6c16a36b37b0575d9bc6dcca55ef7c0b01ff42ccdffb3bdf4",
+      "zip_crc": 2742867693
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbbq4n.wav",
+      "success": true,
+      "bytes": 96546,
+      "sha256": "55c1ff7774a52e442da96b4ab4cd86b38379bf3b9b914376fe3eb299aeab428b",
+      "zip_crc": 437271210
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbbx9s.wav",
+      "success": true,
+      "bytes": 109046,
+      "sha256": "4a4a4a3fd755c3698595edc5b88b5b54d47e81e9fb20a4516c83e833bb57c6c5",
+      "zip_crc": 1084642683
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbby1a.wav",
+      "success": true,
+      "bytes": 105046,
+      "sha256": "7b02df6524c20022cf61ca11e437f8e2549389c1307c3f9dfe7a63b5d0232501",
+      "zip_crc": 3168484520
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbbyzp.wav",
+      "success": true,
+      "bytes": 104046,
+      "sha256": "e74ad6222706287c4a224d27a05b0a2ae98379af69b2ea2bf16f1df8dd146271",
+      "zip_crc": 149809309
+    },
+    {
+      "name": "NIGENS/maleSpeech/lbic8n.wav",
+      "success": true,
+      "bytes": 81046,
+      "sha256": "671a506d9ef793f027aafdde7e34c7a68562f5fb242226f15d8509ca8cf239fd",
+      "zip_crc": 3812962556
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgakza.wav",
+      "success": true,
+      "bytes": 87046,
+      "sha256": "28b8c8d55711d1554b6bc73ca373a321c72a5a00ee7fbf340bd8765b8241cd71",
+      "zip_crc": 2081547165
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgbeza.wav",
+      "success": true,
+      "bytes": 98046,
+      "sha256": "b94415a872f9a29630a24efffa1c1abf4bf9d7d02796d55e3d7c1c0791e589cb",
+      "zip_crc": 3547219433
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgbk1n.wav",
+      "success": true,
+      "bytes": 106546,
+      "sha256": "0fd3be8bb6f9c7c7a2c9f62d99decbb492967e7a55a841b6f42f1d3b56c13223",
+      "zip_crc": 2673482323
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgbq7p.wav",
+      "success": true,
+      "bytes": 96546,
+      "sha256": "5f22e2372fb60544285c451ceb124a7fd9120ef448c95428b725aa6c49d532d5",
+      "zip_crc": 348181479
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgbq8a.wav",
+      "success": true,
+      "bytes": 96546,
+      "sha256": "a376ae9b3c4e5d806def1921e6a1fec3718af1005a1c10f503247d7c611ef3de",
+      "zip_crc": 13525956
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgbyzs.wav",
+      "success": true,
+      "bytes": 98546,
+      "sha256": "e61c3d2532c31860c0e036a8a8583d15028aa7f1e2bf0c3282eb21540ed63434",
+      "zip_crc": 3266418220
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgid2a.wav",
+      "success": true,
+      "bytes": 91046,
+      "sha256": "5f8c2dcb0366a9967dbace57c2400f82c35af2c14dcf7d42bb4fefa870ab96a7",
+      "zip_crc": 786087918
+    },
+    {
+      "name": "NIGENS/maleSpeech/pgij3n.wav",
+      "success": true,
+      "bytes": 88546,
+      "sha256": "2a85dafd8b6a866579a6ff07cab505ffcca32055716a3887c4af318abb2df214",
+      "zip_crc": 736848409
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgbu5n.wav",
+      "success": true,
+      "bytes": 81046,
+      "sha256": "3145ee3ae10b4e57a79f3c99a3cac0e94ba7fcfec1da528018ce00805dc220f9",
+      "zip_crc": 2390608209
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgig9n.wav",
+      "success": true,
+      "bytes": 74046,
+      "sha256": "12892d4b94ec27c9cbf1bb78b15d394e7e5ac92174b34e3b3d77aa8c060fa09a",
+      "zip_crc": 3914292150
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgwcza.wav",
+      "success": true,
+      "bytes": 88046,
+      "sha256": "8014167c9dcacffdecd84c80ed4871379cb475f9f0c06db546a74a539bbadc35",
+      "zip_crc": 963540143
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgwi2s.wav",
+      "success": true,
+      "bytes": 102546,
+      "sha256": "45c018e1b9465d6946b832c9f709e568bf1283ec945d965174f1e6b195aea24d",
+      "zip_crc": 850907764
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgwo6s.wav",
+      "success": true,
+      "bytes": 74046,
+      "sha256": "333c4fafadf56248c601d2af5abd9ff006fdc38bfba7a49e656f47bbb8a0f3ff",
+      "zip_crc": 2990176078
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgwv1p.wav",
+      "success": true,
+      "bytes": 81046,
+      "sha256": "68b15f85168adf7ea4a7d02676057aa3e6735b16bf19cd3c137de3aa3c4e9c4e",
+      "zip_crc": 3188765671
+    },
+    {
+      "name": "NIGENS/maleSpeech/sgwv2a.wav",
+      "success": true,
+      "bytes": 75546,
+      "sha256": "3a6650df8772f9900a1c88c12524d4b9283dd7e5764c79fd35ec543075afc1b7",
+      "zip_crc": 1403529455
+    },
+    {
+      "name": "NIGENS/phone/TELEPHONE-ELECTRONIC_GEN-HDF-22838.wav",
+      "success": true,
+      "bytes": 4573228,
+      "sha256": "a637dc703c177bc8f4779d6782f15f630247332b5071399c28a39710ade861e9",
+      "zip_crc": 1027457082
+    },
+    {
+      "name": "NIGENS/phone/TELEPHONE-ELECTRONIC_GEN-HDF-22843.wav",
+      "success": true,
+      "bytes": 3747884,
+      "sha256": "d5ad62bb42ee244d8a44b852aee21b4d999fbb108a92a82cdaca347f794fb228",
+      "zip_crc": 3115471191
+    },
+    {
+      "name": "NIGENS/phone/TELEPHONE-ELECTRONIC_GEN-HDF-22872.wav",
+      "success": true,
+      "bytes": 3272748,
+      "sha256": "34ce53e875ecd9a4ad7f9f47ecd337c67e6af558f33eccd0a85ab3f13e05e35b",
+      "zip_crc": 173654220
+    },
+    {
+      "name": "NIGENS/phone/TELEPHONE-ELECTRONIC_GEN-HDF-22878.wav",
+      "success": true,
+      "bytes": 3223596,
+      "sha256": "24e1ee5f7d4b0466dab573d3a6ffaf40d631d2405e4f08efdcabd8d5962af017",
+      "zip_crc": 1256358765
+    },
+    {
+      "name": "NIGENS/phone/TELEPHONE-ELECTRONIC_GEN-HDF-22882.wav",
+      "success": true,
+      "bytes": 4290604,
+      "sha256": "0626d4880e9cfbf978d0d0fee4edf53183d5a1f81f87b979f374634d2d3b019a",
+      "zip_crc": 3802859292
+    },
+    {
+      "name": "NIGENS/phone/TelephoneBell+1025_44_4.wav",
+      "success": true,
+      "bytes": 6281260,
+      "sha256": "bd0f7e5f9ed8a7403fa57762da86a8e3291e86fb71ab38f85cce4c114f450e74",
+      "zip_crc": 1769622659
+    },
+    {
+      "name": "NIGENS/phone/TelephoneBell+TL06_01.wav",
+      "success": true,
+      "bytes": 6219820,
+      "sha256": "42a4d62c1ed2d445c959bbf62f82e93405f9c4ecd95fdb8f458f7150ae48acfe",
+      "zip_crc": 2508962619
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCellular+6068_15_4.wav",
+      "success": true,
+      "bytes": 3037228,
+      "sha256": "0999d23102a9349161726aa4733fac3be0825511ad14f47120b086ec454d986b",
+      "zip_crc": 3443619596
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCellular+6068_16_2.wav",
+      "success": true,
+      "bytes": 3057708,
+      "sha256": "f6bdcf4ee1f6c0cfa50f17edefbe59696794864b69c8ba8f3254794ad4c8f80e",
+      "zip_crc": 1741593803
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCellular+6068_16_4.wav",
+      "success": true,
+      "bytes": 5924908,
+      "sha256": "b0690d9ac7945dc0e91ae686efb9ba8e41b0658878a198711153798d73f9e389",
+      "zip_crc": 42202007
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCellular+6068_30_2.wav",
+      "success": true,
+      "bytes": 5697580,
+      "sha256": "a505cd3ac3002ef93a6e5de5dbc0cd338668e71b4e034d875b480012f4859960",
+      "zip_crc": 765356713
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCellular+6068_48_3.wav",
+      "success": true,
+      "bytes": 419884,
+      "sha256": "d7d2b9cacdfc110de5ed1209cd03bdc062928c881b38752572c3c43b71bd75e0",
+      "zip_crc": 249322386
+    },
+    {
+      "name": "NIGENS/phone/TelephoneChildren+6068_70_2.wav",
+      "success": true,
+      "bytes": 3018796,
+      "sha256": "2bb88b7fe3cfac4ef4ccdad7b8238bdae0f1f46fce6b77556b1c7ac809146b9c",
+      "zip_crc": 1946579768
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCordless+6068_73_1.wav",
+      "success": true,
+      "bytes": 192556,
+      "sha256": "d802eaf1a5a32e892f55fc6fc96536be544cbd7985278b97bb0779893cee622f",
+      "zip_crc": 1433854085
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCordless+6068_73_2.wav",
+      "success": true,
+      "bytes": 2990124,
+      "sha256": "744eb0baf685bfa3eba42ac88eea93634f2b4f8f349cf52c4053fd2bcc9f7fd3",
+      "zip_crc": 2585896710
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCordless+6068_74_1.wav",
+      "success": true,
+      "bytes": 215084,
+      "sha256": "7d43f09548e455c92822b77b221eb54d8ca05e9a7cf66e15417f23e77c25507b",
+      "zip_crc": 1073559130
+    },
+    {
+      "name": "NIGENS/phone/TelephoneCordless_DIGIF4-20.wav",
+      "success": true,
+      "bytes": 1984556,
+      "sha256": "eae55be46a84d1a76ad61c5fd4a765f01ff2388aac6840a0ac7cd7a7040dbae2",
+      "zip_crc": 2199875596
+    },
+    {
+      "name": "NIGENS/phone/TelephoneDomesti+6037_30_1.wav",
+      "success": true,
+      "bytes": 5013548,
+      "sha256": "904c01ea888fbb001be2b987fa9d4f3c9a6e2aa0e5f9ae467485be1bef2f2468",
+      "zip_crc": 1335618153
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectr+SUP01_82_14.wav",
+      "success": true,
+      "bytes": 182316,
+      "sha256": "14a79d3f561ed29acf07d4815849b3d178f6ae1b289a2d8b234467d8d8ff8066",
+      "zip_crc": 2842418391
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6037_35_1.wav",
+      "success": true,
+      "bytes": 3547180,
+      "sha256": "086dcbf7cf182a3a6e0cb0a8ac3afe25b8f74fbe96af2bf66f394727addfa4c9",
+      "zip_crc": 1772811321
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6037_36_3.wav",
+      "success": true,
+      "bytes": 2289708,
+      "sha256": "64ed00af9d301ae2b0ad05010c8fca5afa45b6730603dc6a64d9cfa7e7ea38a8",
+      "zip_crc": 4078473291
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6037_37_1.wav",
+      "success": true,
+      "bytes": 3571756,
+      "sha256": "d7d4c8c464779abfbfab8e0873e17c3c51202567dea27834defcf835b9c85a59",
+      "zip_crc": 3709997866
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6068_79_3.wav",
+      "success": true,
+      "bytes": 215084,
+      "sha256": "90e9f2f7217731ee6073d9e4e1fc78dd66ea64a928ce2135e3844c67a1bb468a",
+      "zip_crc": 1438823961
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6068_79_4.wav",
+      "success": true,
+      "bytes": 3043372,
+      "sha256": "363538818a781067ae9d14152475c2a038017571a296a924de57ae234790b6b1",
+      "zip_crc": 1767872720
+    },
+    {
+      "name": "NIGENS/phone/TelephoneElectron+6109_23_2.wav",
+      "success": true,
+      "bytes": 1912876,
+      "sha256": "ae33e2f327e10601b31dd969c32ee9b37641b01118c6548abbd898c763f5544b",
+      "zip_crc": 1769758253
+    },
+    {
+      "name": "NIGENS/phone/TelephoneEuropean+2003_08.wav",
+      "success": true,
+      "bytes": 5371948,
+      "sha256": "efd70478a03420858171d1e0c240e0e479c41502d3537b1137c2c6ad408617bf",
+      "zip_crc": 1048141924
+    },
+    {
+      "name": "NIGENS/phone/TelephoneRing_DIGIF1-58.wav",
+      "success": true,
+      "bytes": 1830956,
+      "sha256": "876e2120a51a9fad10f30a2a186c6da077dc19fe1f2ece2bf8dae8cd5fd5793d",
+      "zip_crc": 1802718538
+    },
+    {
+      "name": "NIGENS/phone/Telephone_DIGIP02-63.wav",
+      "success": true,
+      "bytes": 1052716,
+      "sha256": "1db7d5f09f2ff31458487a7987362251d33b608606ede7acada3e9e169f28207",
+      "zip_crc": 2707942244
+    },
+    {
+      "name": "NIGENS/phone/Telephone_DIGIX01-54.wav",
+      "success": true,
+      "bytes": 2873388,
+      "sha256": "fe924b3f57c16ede8a72d09d3ea606eb8cf650df23e9b7e7c93f8c7b02f211ca",
+      "zip_crc": 1289282697
+    },
+    {
+      "name": "NIGENS/phone/telephone-novelty-ring_CAP01-384.wav",
+      "success": true,
+      "bytes": 189644,
+      "sha256": "5fc958bc40c3378f8e58f136d86cf4746720824f1e006030c04113b9decd0aba",
+      "zip_crc": 2241016740
+    },
+    {
+      "name": "NIGENS/piano/196101__aiwha__piano-note-1.wav",
+      "success": true,
+      "bytes": 894148,
+      "sha256": "69ece1a20a1252faa3eb6a035aaa71c56a61623e134add67bddcaae94b90c029",
+      "zip_crc": 417888786
+    },
+    {
+      "name": "NIGENS/piano/196103__aiwha__piano-discord-1.wav",
+      "success": true,
+      "bytes": 845650,
+      "sha256": "21de467089e5bb9ff5a660065411334b084d2ac3c0a0d40e48c4000fde99f16d",
+      "zip_crc": 3159849935
+    },
+    {
+      "name": "NIGENS/piano/Caravan.wav",
+      "success": true,
+      "bytes": 14980652,
+      "sha256": "d1b43be48eea92f5e007dd46841555afd885e7fac7f43d0e01a6199fb7dee1cb",
+      "zip_crc": 463501581
+    },
+    {
+      "name": "NIGENS/piano/CloseOutsideMic2.wav",
+      "success": true,
+      "bytes": 2676894,
+      "sha256": "e159ebdb27802883137a8aa55ba8a731c467521ab4a9020a80675aafec9c3551",
+      "zip_crc": 225742828
+    },
+    {
+      "name": "NIGENS/piano/LaCariocha.wav",
+      "success": true,
+      "bytes": 4718636,
+      "sha256": "fadfe06a004b7bd3f59717cc4f5159bf0f02441be2045676ee9c06704498d386",
+      "zip_crc": 638834078
+    },
+    {
+      "name": "NIGENS/piano/MusicPiano_DIGIB04-60.wav",
+      "success": true,
+      "bytes": 4786220,
+      "sha256": "dfb17f2d8bc8889a2946785867b5527635cecc87f5d33a19cb49edf65de8b5e2",
+      "zip_crc": 2782008333
+    },
+    {
+      "name": "NIGENS/piano/MusicPiano_DIGIB04-63.wav",
+      "success": true,
+      "bytes": 8497196,
+      "sha256": "d6d3acd61d82237b3a64c3972c5a4e67ebe78ea8f92e5c36a00c6770dc09e19b",
+      "zip_crc": 3819985209
+    },
+    {
+      "name": "NIGENS/piano/MusicPiano_DIGIB04-64.wav",
+      "success": true,
+      "bytes": 7137324,
+      "sha256": "a8c62540c089da18e9be49fa3c95b37c79a756ec49048f95dc11f1f65de74fe5",
+      "zip_crc": 2745387458
+    },
+    {
+      "name": "NIGENS/piano/MusicPiano_DIGIVG1-76.wav",
+      "success": true,
+      "bytes": 34578476,
+      "sha256": "5adc7f87f33ecd3aa832c050243802de20c89ec5ebb125d181e3450eff457dee",
+      "zip_crc": 2757422841
+    },
+    {
+      "name": "NIGENS/piano/MusicPiano_DIGIVG1-77.wav",
+      "success": true,
+      "bytes": 9541676,
+      "sha256": "7f35c9b35706407cd3cfa49e7bfac957a7a8843cc52de4014c89aea9c0a7575c",
+      "zip_crc": 883189190
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_57_11.wav",
+      "success": true,
+      "bytes": 1058860,
+      "sha256": "243544d6b9337989eeaebf0570be7ba9ef828500bc0340ad04d925c754208f07",
+      "zip_crc": 2977470611
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_57_5.wav",
+      "success": true,
+      "bytes": 1765420,
+      "sha256": "21673d425ca14d20b6b995d61a49d8b53b170afc493480eb59f5089414c57cc5",
+      "zip_crc": 867541606
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_57_7.wav",
+      "success": true,
+      "bytes": 1234988,
+      "sha256": "95211172a933ccab50608c56ff70baee25a18642ab18ac7f7d4255c1cc6f5d76",
+      "zip_crc": 1865077996
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_58_10.wav",
+      "success": true,
+      "bytes": 1542188,
+      "sha256": "f95e73a4eb4378916694798876bad2b756b486ac40698d7899e5e394b08cdd30",
+      "zip_crc": 1878974379
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_58_5.wav",
+      "success": true,
+      "bytes": 882732,
+      "sha256": "19075d7432b6dfd2f6bc4cb3fa8c50e5471f406920d1094d6e1db3e356ca65fc",
+      "zip_crc": 1582082100
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_58_7.wav",
+      "success": true,
+      "bytes": 1413164,
+      "sha256": "c4b0d3f7b596576149a87eae1e1715c9dd590e4baf9b2ea475634de756f3bfb6",
+      "zip_crc": 668284423
+    },
+    {
+      "name": "NIGENS/piano/Piano+2017_58_8.wav",
+      "success": true,
+      "bytes": 882732,
+      "sha256": "dbf254674af699604a71983ee39eea6032bb261974d3efc1209b9e123f8d0f43",
+      "zip_crc": 822963469
+    },
+    {
+      "name": "NIGENS/piano/Piano-Horror_GEN-HD2-31110.wav",
+      "success": true,
+      "bytes": 3903532,
+      "sha256": "5cdeac0d432584edc3d50e7c78a50f4054e5f5d29652c9d61718a737e351c47b",
+      "zip_crc": 475611909
+    },
+    {
+      "name": "NIGENS/piano/PianoCartoon+HB01_68_1.wav",
+      "success": true,
+      "bytes": 466988,
+      "sha256": "c005ea6e2ea427c4824a45431d3fddd03fd84277d92750bdbf1398a017856cfa",
+      "zip_crc": 889825754
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_41_1.wav",
+      "success": true,
+      "bytes": 704556,
+      "sha256": "4185a901ee28a7729b8d5db6b9c75e8c3f5c27564ebb866762eabed605bc0252",
+      "zip_crc": 3644303440
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_53_5.wav",
+      "success": true,
+      "bytes": 503852,
+      "sha256": "14c49a643c0b1352ff4250b04dfad260b9f1a1c52abc1b5722f3ffc753d641e8",
+      "zip_crc": 3328922844
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_55_1.wav",
+      "success": true,
+      "bytes": 593964,
+      "sha256": "61d5e8c7a6177b15a3cbb36f63a4282e5757548b747275f4e8178e3020e12fa5",
+      "zip_crc": 2411312454
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_59_1.wav",
+      "success": true,
+      "bytes": 1151020,
+      "sha256": "6320a0d80f093038b271764c09c2069f38dd3f5427c7e45bf17ac665cd123b3e",
+      "zip_crc": 782507011
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_60_3.wav",
+      "success": true,
+      "bytes": 1589292,
+      "sha256": "94ae710ddc74be0a8bbd0ff56eeb57c9ba40384c603ffd087fe4c65cc1d67e51",
+      "zip_crc": 2254936719
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_60_4.wav",
+      "success": true,
+      "bytes": 1765420,
+      "sha256": "3448b5997fe17d351acd16d84cb3c9dec7dbe9d3812d6287d6c21b95b535ce59",
+      "zip_crc": 2072014994
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy+CTE07_61_8.wav",
+      "success": true,
+      "bytes": 516140,
+      "sha256": "868e83842b3e6d759473640a15e15593a4f4fedb371dcf4736d59acb111dced6",
+      "zip_crc": 335129882
+    },
+    {
+      "name": "NIGENS/piano/PianoComedy_DIGIP05-79.wav",
+      "success": true,
+      "bytes": 1761324,
+      "sha256": "3341ac0bc4a0ac5b201953801f82bceff19709d7e0c2825931866ef16b7a369c",
+      "zip_crc": 2609997618
+    },
+    {
+      "name": "NIGENS/piano/Piano_PlayScale_Up2_SFX-KIT.wav",
+      "success": true,
+      "bytes": 203272,
+      "sha256": "d750dbee6cb0f2bc40c6f58ccf8c48cd8017fd98fcebc649e28fe25661870449",
+      "zip_crc": 407618612
+    },
+    {
+      "name": "NIGENS/piano/Piano_PlayScale_UpDown1_SFX-KIT.wav",
+      "success": true,
+      "bytes": 312978,
+      "sha256": "89561a9bda5e701443d46aa197025d7344eb8bdc8481ec7be87ee84f0a0e8834",
+      "zip_crc": 779902339
+    },
+    {
+      "name": "NIGENS/piano/Piano_PlayScale_UpDown2_SFX-KIT.wav",
+      "success": true,
+      "bytes": 292446,
+      "sha256": "e3702465c5298df4b6330fa209b93bd24697261d7526242309a62a9ab8f1523e",
+      "zip_crc": 774562963
+    },
+    {
+      "name": "NIGENS/piano/Piano_PlaySong_RowBoat_SFX-KIT.wav",
+      "success": true,
+      "bytes": 762394,
+      "sha256": "c8f5d76f451980572de81b329184ec179455d87f0ce6244d0a0d97e0683916e0",
+      "zip_crc": 702016136
+    },
+    {
+      "name": "NIGENS/piano/PlayerPiano+1020_36_5.wav",
+      "success": true,
+      "bytes": 10055724,
+      "sha256": "e9455d6224421097b48a5b2a2bcf5867ed8b69649a49692a53a33db858c01230",
+      "zip_crc": 2180067958
+    }
+  ]
+}

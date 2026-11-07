@@ -4,3 +4,7 @@ P0-02,0,repository and environment baseline,Person B,complete,audit/environment_
 P0-03,0,read-only manifest and config snapshot,Person B,complete,audit/baseline_snapshot_sha256.csv,Snapshot copies are under baseline_snapshot/; verify hash file after team handoff.
 P0-04,0,decision log,Person B,complete,decision_log.md,Initial setup decisions and unresolved source-control state recorded.
 P0-05,0,team agreement on shared folder branch naming and handoff cadence,Joint,open,,Requires coordination with Person A.
+P1-01,1,repository inventory and pipeline trace tasks 01.01-01.12,Person A,complete,audit/phase1/phase1_report.md,Static audit with file hashes and searchable source evidence; historical isolation not certified.
+P1-02,1,isolated manifest reproduction task 01.13,Person A,complete,audit/phase1/recovery_attempt_02/execution_register.json,All five preparation scripts executed with exit code 0; 946-row combined dataset manifest generated with zero non-hash row differences.
+P1-03,1,logs counts and versions task 01.14,Person A,complete,audit/phase1/recovery_attempt_02/,Successful logs (.txt) commands exit codes SHA-256 hashes generated manifest register and before-after 949 baseline preservation recorded.
+P1-04,1,remaining task blockers and specification alignment,Person A,complete,audit/phase1/phase1_completion_report.md,All Phase 1 blockers resolved; Other-class 210 vs 175 discrepancy explained; Phase 1 completion gate satisfied.

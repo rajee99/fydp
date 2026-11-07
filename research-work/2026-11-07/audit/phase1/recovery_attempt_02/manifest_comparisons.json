@@ -1,0 +1,106 @@
+[
+  {
+    "file": "target_manifest.csv",
+    "baseline_rows": 740,
+    "generated_rows": 775,
+    "baseline_class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116,
+      "other": 175
+    },
+    "generated_class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116,
+      "other": 210
+    },
+    "baseline_sha256": "ac1a8682bf1142d70bf577797d4d03fd335b2f34047b713b5f679f1b2fdde245",
+    "generated_sha256": "3a64890c19311b2e44053f75be64d69db3169e97e51a8d39601327b35d97b6c2",
+    "parsed_rows_identical": false,
+    "shared_segment_class_keys": 582,
+    "baseline_only_keys": 158,
+    "generated_only_keys": 193,
+    "emergency_segment_keys_equal": true
+  },
+  {
+    "file": "eval_manifest.csv",
+    "baseline_rows": 744,
+    "generated_rows": 779,
+    "baseline_class_counts": {
+      "siren": 219,
+      "glass_breaking": 115,
+      "scream": 61,
+      "gunshot": 174,
+      "other": 175
+    },
+    "generated_class_counts": {
+      "siren": 219,
+      "glass_breaking": 115,
+      "scream": 61,
+      "gunshot": 174,
+      "other": 210
+    },
+    "baseline_sha256": "d8a3f308810dd453f2b72e379b9fc2197c202acc273ae25225391133e4af5477",
+    "generated_sha256": "acdbbd0ec116b4e4631de00114fe7186ea3e6da14d7a34f712e4b449c31b831a",
+    "parsed_rows_identical": false,
+    "shared_segment_class_keys": 586,
+    "baseline_only_keys": 158,
+    "generated_only_keys": 193,
+    "emergency_segment_keys_equal": true
+  },
+  {
+    "file": "combined_training_manifest.csv",
+    "baseline_rows": 946,
+    "generated_rows": 946,
+    "baseline_class_counts": {
+      "glass_breaking": 103,
+      "gunshot": 115,
+      "other": 481,
+      "scream": 88,
+      "siren": 159
+    },
+    "generated_class_counts": {
+      "glass_breaking": 103,
+      "gunshot": 115,
+      "other": 481,
+      "scream": 88,
+      "siren": 159
+    },
+    "baseline_sha256": "3faa02bd52eb0a4b303132924e7951f615c5ac1795bafeef380e1e3ac3b9365f",
+    "generated_sha256": "243f9a33810892b0be099a1dff10dda9d905c26f14619eb344b1b3d7822da7a4",
+    "parsed_rows_identical": false,
+    "shared_segment_class_keys": 946,
+    "baseline_only_keys": 0,
+    "generated_only_keys": 0,
+    "emergency_segment_keys_equal": true
+  },
+  {
+    "file": "test_set_v2_candidates_to_download.csv",
+    "baseline_rows": 1060,
+    "generated_rows": 1060,
+    "baseline_class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    },
+    "generated_class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    },
+    "baseline_sha256": "722639fffdaa1310b217645aa30acf104d4f6df09a7bcdf45724bb87c3e6df0d",
+    "generated_sha256": "5344e0b8ce7aee4fc6ea9c179f13b2b8a9a359a3a8e4b5a7d793dd4fb607250b",
+    "parsed_rows_identical": false,
+    "shared_segment_class_keys": 0,
+    "baseline_only_keys": 1060,
+    "generated_only_keys": 1060,
+    "emergency_segment_keys_equal": false
+  }
+]

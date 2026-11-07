@@ -1,0 +1,15 @@
+Recovered 8 of 751 required segments
+Recovered 16 of 751 required segments
+Recovered 24 of 751 required segments
+Recovered 32 of 751 required segments
+Recovered 40 of 751 required segments
+Recovered 48 of 751 required segments
+Recovered 56 of 751 required segments
+Recovered 64 of 751 required segments
+Recovered 72 of 751 required segments
+Recovered 80 of 751 required segments
+Recovered 88 of 751 required segments
+Recovered 96 of 751 required segments
+Recovered 104 of 751 required segments
+Recovered 111 of 751 required segments
+Stopping on unresolved source failures: [{"video_id": "4Iu-Em87lmA", "start": 6.0, "end": 16.0, "path": "data/raw/targeted_expansion/other/other_4Iu-Em87lmA_6_16.wav", "pool": "reviewed_targeted", "baseline_sha256": null, "success": false, "error": "TRANSIENT_EXHAUSTED: ERROR: ffmpeg exited with code 4294967158", "attempts": 1, "elapsed_seconds": 10.47}]

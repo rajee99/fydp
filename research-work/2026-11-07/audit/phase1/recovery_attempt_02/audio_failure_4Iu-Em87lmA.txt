@@ -1,0 +1,29 @@
+[youtube] Extracting URL: https://www.youtube.com/watch?v=4Iu-Em87lmA
+[youtube] 4Iu-Em87lmA: Downloading webpage
+WARNING: [youtube] No supported JavaScript runtime could be found. Only deno is enabled by default; to use another runtime add  --js-runtimes RUNTIME[:PATH]  to your command/config. YouTube extraction without a JS runtime has been deprecated, and some formats may be missing. See  https://github.com/yt-dlp/yt-dlp/wiki/EJS  for details on installing one
+[youtube] 4Iu-Em87lmA: Downloading visionos player API JSON
+[youtube] 4Iu-Em87lmA: Downloading m3u8 information
+[info] 4Iu-Em87lmA: Downloading 1 format(s): 251
+[info] 4Iu-Em87lmA: Downloading 1 time ranges: 6.0-16.0
+[download] Destination: research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\raw\targeted_expansion\other\other_4Iu-Em87lmA_6_16.webm
+Input #0, matroska,webm, from 'https://rr5---sn-n2xxq-q5j6.googlevideo.com/videoplayback?expire=1794083256&ei=WDXvaouuFsas9fwP3oPzwQE&ip=103.187.94.76&id=o-APkNRRZ4CXwhDikbXQNbnOs-LORKg68seaRFfYbC9tKH&itag=251&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&cps=325&met=1794061656%2C&mh=8c&mm=31%2C29&mn=sn-n2xxq-q5j6%2Csn-x5guiuxaxjvh-q5js&ms=au%2Crdu&mv=m&mvi=5&pl=24&rms=au%2Cau&pcm2=no&initcwndbps=1561250&bui=AZFAFb_6-saLrnl1gZK-Ikk7-y-qn9tWY8SdWXspsmoXElTgSzf98myMVH0mfRtagFM-NB5lSrS5ThsJ&spc=mpRQ_4Ayz4gvreFQgbW96P2khu_dpK1mJ8pkOif_QKyfraHT0YsFEItXUcKt&vprv=1&svpuc=1&mime=audio%2Fwebm&rqh=1&gir=yes&clen=246709&dur=15.501&lmt=1711186676146281&mt=1794060650&fvip=1&epbp=1&keepalive=yes&fexp=51565116%2C52338434&c=VISIONOS&txp=1308224&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cpcm2%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Crqh%2Cgir%2Cclen%2Cdur%2Clmt&sig=AE0s2JYwRQIgL38dOmh8iZbhCNJWhyolz-ee0TEIb7c1COcWhcR96aMCIQCx4THXJNuvGX8XKE1_CiT6_QcRsAc-8zHDAEwGOIewbA%3D%3D&lsparams=cps%2Cmet%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Crms%2Cinitcwndbps&lsig=APaTxxMwRAIgWtjqYa9E29sUVqY8r8VP1m16lA-ewBcJx_R9GH_h8QMCIB9M352UgZaJAYbUC-D-20f0wc3AyuVPnprmhsTQRHrN':
+  Metadata:
+    encoder         : google/video-file
+  Duration: 00:00:15.50, start: 0.000000, bitrate: 127 kb/s
+  Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, fltp (default)
+Stream mapping:
+  Stream #0:0 -> #0:0 (opus (native) -> opus (libopus))
+Press [q] to stop, [?] for help
+[libopus @ 000002113394e0c0] No bit rate set. Defaulting to 96000 bps.
+Output #0, webm, to 'file:research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\raw\targeted_expansion\other\other_4Iu-Em87lmA_6_16.webm.part':
+  Metadata:
+    encoder         : Lavf63.1.102
+  Stream #0:0(eng): Audio: opus, 48000 Hz, stereo, flt, 96 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 libopus
+[out#0/webm @ 00000211353f46c0] video:0KiB audio:101KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 3.780914%
+size=     105KiB time=00:00:09.48 bitrate=  90.3kbits/s speed= 103x elapsed=0:00:00.09    
+
+[download] 100% of  104.62KiB in 00:00:00 at 155.08KiB/s
+[ExtractAudio] Destination: research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\raw\targeted_expansion\other\other_4Iu-Em87lmA_6_16.wav
+Deleting original file research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\raw\targeted_expansion\other\other_4Iu-Em87lmA_6_16.webm (pass -k to keep)

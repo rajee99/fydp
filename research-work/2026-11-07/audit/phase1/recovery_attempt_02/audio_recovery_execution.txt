@@ -1,0 +1,38 @@
+[
+  {
+    "source_url": "https://www.youtube.com/watch?v=7vfZM3gDjBc",
+    "start": 480,
+    "end": 490,
+    "output": "data/raw/targeted_expansion/other/other_7vfZM3gDjBc_480_490.wav",
+    "success": true,
+    "error": "",
+    "attempts": 1,
+    "method": "unchanged batch_downloader.download_single_segment",
+    "yt_dlp_version": "2026.10.26",
+    "sha256": "845ec903f00af5ee1625ebee6376db2c958b6661a07d02c8859b762b7eaf1adf",
+    "audio_info": {
+      "sample_rate": 16000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration": 10.0
+    }
+  },
+  {
+    "source_url": "https://www.youtube.com/watch?v=0H2uMhzSitY",
+    "start": 520,
+    "end": 530,
+    "output": "data/raw/train/glass_breaking/glass_breaking_0H2uMhzSitY_520_530.wav",
+    "success": true,
+    "error": "",
+    "attempts": 1,
+    "method": "unchanged batch_downloader.download_single_segment",
+    "yt_dlp_version": "2026.10.26",
+    "sha256": "f50d65d14c632de7b40ff755bb32f752b21c1130841656779c534b3c74b324c4",
+    "audio_info": {
+      "sample_rate": 16000,
+      "channels": 1,
+      "subtype": "PCM_16",
+      "duration": 10.0
+    }
+  }
+]

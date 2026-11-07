@@ -1,0 +1,35 @@
+Command: ['C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe', 'C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\reproduction_sandbox\\src\\build_matched_e2_manifest.py']
+================================================================================
+BUILDING MATCHED-SIZE E2 DATASET MANIFEST (N = 212 ADDITIONS)
+================================================================================
+Random seed: 42
+Targeted additions in full E2   : 224
+Targeted additions in matched E2: 212
+Excluded from matched selection : 12
+
+Excluded video IDs and subdomains:
+  - [-OcK-WivMW4] subdomain=fireworks_firecrackers filename=other_-OcK-WivMW4_50_60.wav
+  - [6Ff07qMgr6Q] subdomain=construction_tools filename=other_6Ff07qMgr6Q_120_130.wav
+  - [7W0WEE3V2I0] subdomain=fireworks_firecrackers filename=other_7W0WEE3V2I0_30_40.wav
+  - [9FfGXUqa4K4] subdomain=human_shouting filename=other_9FfGXUqa4K4_150_160.wav
+  - [Hw_p5rCIUbY] subdomain=human_shouting filename=other_Hw_p5rCIUbY_250_260.wav
+  - [N0L2e_fGRcA] subdomain=fireworks_firecrackers filename=other_N0L2e_fGRcA_0_6.wav
+  - [YUE4DXquFdo] subdomain=door_slams filename=other_YUE4DXquFdo_30_40.wav
+  - [YZ5oYz6uufU] subdomain=whistles_high_pitch filename=other_YZ5oYz6uufU_30_40.wav
+  - [ZUlKLbr3GuQ] subdomain=metal_impacts filename=other_ZUlKLbr3GuQ_15_25.wav
+  - [_GGxDtGfQVg] subdomain=metal_impacts filename=other__GGxDtGfQVg_30_40.wav
+  - [_blZvAS1SeA] subdomain=metal_impacts filename=other__blZvAS1SeA_560_570.wav
+  - [nL2gkiwtFo8] subdomain=car_alarms_detectors filename=other_nL2gkiwtFo8_80_90.wav
+
+--- Comparative Verification: E2 Matched vs E3 General ---
+E2 Matched Train Samples: 634
+E3 General Train Samples: 634
+  [PASS] Both datasets share the identical 422 baseline training video IDs.
+  [PASS] Both datasets evaluate on the identical 105-sample shared validation set.
+  [PASS] Zero train/validation video ID overlap in E2 matched.
+
+Saved E2 Matched Train Manifest:  e2_matched_train_split_manifest.csv (634 rows)
+Saved E2 Matched Val Manifest:    e2_matched_val_split_manifest.csv (105 rows)
+Saved E2 Matched Master Manifest: e2_matched_manifest.csv (739 rows)
+Saved matched audit record to: e2_matched_audit.json
+

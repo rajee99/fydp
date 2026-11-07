@@ -1,0 +1,67 @@
+C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\src\prepare_experimental_manifests.py:261: Pandas4Warning: The inplace keyword in DataFrame.sort_values is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  e2_train_df.sort_values(by=["target_class", "video_id"], inplace=True, ignore_index=True)
+C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\src\prepare_experimental_manifests.py:424: Pandas4Warning: The inplace keyword in DataFrame.sort_values is deprecated and will be removed in a future version (PDEP-8).
+See https://pandas.pydata.org/docs/dev/whatsnew/v3.1.0.html#deprecation-inplace for more details.
+  e3_train_df.sort_values(by=["target_class", "video_id"], inplace=True, ignore_index=True)
+================================================================================
+STARTING EXPERIMENTAL DATASET PREPARATION (SHARED VALIDATION DESIGN)
+================================================================================
+
+[Step 1] Resolving human content validation review status...
+  Total reviewed: 400
+  Verdicts: {'ACCEPT': 376, 'REJECT': 19, 'RECLASSIFY': 4, 'NEEDS_SECOND_REVIEW': 1}
+  NEEDS_SECOND_REVIEW: ['ja-Qxq5NAoE'] (strictly excluded)
+  Reclassified (mapped to 'other'): ['ad-8X58aIEM', 'Pdau8nsBqxs', 'd4v3_z0ISrM', 'I1TWWYbjvJ8']
+  Usable targeted hard-negative 'other' samples: 224
+
+[Step 2] Building E1 (Baseline) and Shared Validation manifests...
+  Shared Validation Set: 105 samples -> shared_val_split_manifest.csv
+  E1 Master: 527 samples -> e1_baseline_manifest.csv
+  E1 Train:  422 samples -> e1_train_split_manifest.csv
+  E1 Val:    105 samples -> e1_val_split_manifest.csv
+
+[Step 3] Building E2 (Targeted Hard-Negatives) manifests...
+  E2 Master: 751 samples -> e2_targeted_manifest.csv
+  E2 Train:  646 samples -> e2_train_split_manifest.csv (422 baseline + 224 targeted)
+  E2 Val:    105 samples -> e2_val_split_manifest.csv (shared validation set)
+
+[Step 4] Building E3 (General Background Audio) candidate manifests...
+  E3 Master:   751 candidates -> e3_general_candidate_manifest.csv (PENDING_DOWNLOAD)
+  E3 Train:    646 candidates -> e3_general_train_candidates.csv (422 baseline + 224 general)
+  E3 Val:      105 candidates -> e3_general_val_candidates.csv (shared validation set)
+  E3 Download: 224 candidates -> e3_candidates_to_download.csv (downloader manifest)
+
+[Step 5] Building E4 (Subdomain Ablations & Matched Controls) manifests and configuration...
+  [Ablation] e4_minus_human_shouting               : 602 train + 105 val = 707 samples (excluded 44 human_shouting)
+  [Control ] e4_matched_control_human_shouting     : 602 train + 105 val = 707 samples (excluded 44 human_shouting)
+  [Ablation] e4_minus_metal_impacts                : 606 train + 105 val = 711 samples (excluded 40 metal_impacts)
+  [Control ] e4_matched_control_metal_impacts      : 606 train + 105 val = 711 samples (excluded 40 metal_impacts)
+  [Ablation] e4_minus_door_slams                   : 613 train + 105 val = 718 samples (excluded 33 door_slams)
+  [Control ] e4_matched_control_door_slams         : 613 train + 105 val = 718 samples (excluded 33 door_slams)
+  [Ablation] e4_minus_construction_tools           : 616 train + 105 val = 721 samples (excluded 30 construction_tools)
+  [Control ] e4_matched_control_construction_tools : 616 train + 105 val = 721 samples (excluded 30 construction_tools)
+  [Ablation] e4_minus_car_alarms_detectors         : 617 train + 105 val = 722 samples (excluded 29 car_alarms_detectors)
+  [Control ] e4_matched_control_car_alarms_detectors: 617 train + 105 val = 722 samples (excluded 29 car_alarms_detectors)
+  [Ablation] e4_minus_fireworks_firecrackers       : 618 train + 105 val = 723 samples (excluded 28 fireworks_firecrackers)
+  [Control ] e4_matched_control_fireworks_firecrackers: 618 train + 105 val = 723 samples (excluded 28 fireworks_firecrackers)
+  [Ablation] e4_minus_whistles_high_pitch          : 627 train + 105 val = 732 samples (excluded 19 whistles_high_pitch)
+  [Control ] e4_matched_control_whistles_high_pitch: 627 train + 105 val = 732 samples (excluded 19 whistles_high_pitch)
+
+[Step 6] Running comprehensive data leakage & isolation verification...
+  Check: e1_train_val_overlap -> 0
+  Check: e2_train_val_overlap -> 0
+  Check: e3_train_val_overlap -> 0
+  Check: shared_val_eval_overlap -> 0
+  Check: e1_train_eval_overlap -> 0
+  Check: e2_train_eval_overlap -> 0
+  Check: e3_train_eval_overlap -> 0
+  Check: e2_additions_pilot_overlap -> 0
+  Check: e3_additions_pilot_overlap -> 0
+  Check: ja_Qxq5NAoE_excluded -> True
+  Check: baseline_train_preserved_in_e2 -> True
+  Check: baseline_train_preserved_in_e3 -> True
+  Check: shared_val_count -> 105
+
+[OK] Summary exported to C:\Users\USER\Documents\ChatGPT\Person A\fydp\research-work\2026-11-07\audit\phase1\recovery_attempt_02\sandbox\data\processed\experimental_manifests_summary.json
+================================================================================

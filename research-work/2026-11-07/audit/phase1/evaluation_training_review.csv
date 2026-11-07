@@ -1,0 +1,378 @@
+path,line,text
+scripts\audit_downloaded_test_set_v2.py,1,"""""""Audit all downloaded WAV files in data/raw/test_set_v2."""""""
+scripts\audit_downloaded_test_set_v2.py,10,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\audit_downloaded_test_set_v2.py,11,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\audit_downloaded_test_set_v2.py,24,"AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\audit_downloaded_test_set_v2.py,26,"print(f""Total WAV files in test_set_v2: {len(wavs)}"")"
+scripts\audit_test_set_v2_integrity.py,13,- eval_manifest.csv
+scripts\audit_test_set_v2_integrity.py,17,5. Generates reports/test_set_v2_integrity_audit.md.
+scripts\audit_test_set_v2_integrity.py,30,"TEST_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\audit_test_set_v2_integrity.py,31,"REPORT_PATH = ROOT / ""reports"" / ""test_set_v2_integrity_audit.md"""
+scripts\audit_test_set_v2_integrity.py,39,"""Historical Exploratory Eval (v1)"": ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,59,if not TEST_MANIFEST_PATH.exists():
+scripts\audit_test_set_v2_integrity.py,60,"raise FileNotFoundError(f""Missing {TEST_MANIFEST_PATH}"")"
+scripts\audit_test_set_v2_integrity.py,62,df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\audit_test_set_v2_integrity.py,112,"test_vids = set(df[""video_id""].dropna().str.strip())"
+scripts\audit_test_set_v2_integrity.py,113,"print(f""Unique video IDs in Test Set v2: {len(test_vids)}"")"
+scripts\audit_test_set_v2_integrity.py,126,vid_overlap = test_vids.intersection(hist_vids)
+scripts\audit_test_set_v2_integrity.py,165,**Target Specification:** [`reports/final_test_set_acquisition_specification.md`](file:///d:/ml/fydp/MyNet/reports/final_test_set_acquisition_specification.md)
+scripts\audit_test_set_v2_integrity.py,166,**Manifest File:** [`data/processed/test_set_v2_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/test_set_v2_manifest.csv)
+scripts\download_replenishments.py,14,"MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\download_replenishments.py,15,"RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\download_replenishments.py,16,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\download_test_set_v2.py,4,data/raw/test_set_v2/{target_class}/
+scripts\download_test_set_v2.py,7,data/processed/test_set_v2_download_results.csv
+scripts\download_test_set_v2.py,21,"MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\download_test_set_v2.py,22,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\download_test_set_v2.py,23,"RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_download_results.csv"""
+scripts\download_test_set_v2.py,51,"part_file = ROOT / ""data"" / ""processed"" / f""test_set_v2_download_part{i}.csv"""
+scripts\download_test_set_v2.py,80,"print(""\nMerging part results into test_set_v2_download_results.csv..."")"
+scripts\generate_master_experiment_registry.py,20,"'metrics': 'Accuracy=0.5143; Macro_F1=0.4430; Val_Loss=1.3521; Eval_v1_Macro_F1=0.5471',"
+scripts\generate_master_experiment_registry.py,69,"'prediction_file_location': 'models/experiments/model_comparison/eval_predictions_comparison.csv',"
+scripts\generate_master_experiment_registry.py,103,"'prediction_file_location': 'models/experiments/model_comparison/eval_predictions_comparison.csv',"
+scripts\generate_master_experiment_registry.py,154,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,171,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,188,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,205,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,222,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,239,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,256,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,273,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,290,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,324,"'prediction_file_location': 'models/experiments/phase1_main/test_set_v2_evaluation_summary.json',"
+scripts\generate_master_experiment_registry.py,325,"'evaluation_dataset': 'Test Set v2 (data/processed/test_set_v2_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,328,'report_location': 'reports/test_set_v2_acquisition_report.md'
+scripts\prepare_test_set_v2_candidates.py,31,"EVAL_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""eval_segments.csv"""
+scripts\prepare_test_set_v2_candidates.py,36,"OUT_CANDIDATES_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\prepare_test_set_v2_candidates.py,144,"""relative_path"": f""data/raw/test_set_v2/scream/scream_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,154,"""relative_path"": f""data/raw/test_set_v2/glass_breaking/glass_breaking_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,164,"""relative_path"": f""data/raw/test_set_v2/gunshot/gunshot_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,174,"""relative_path"": f""data/raw/test_set_v2/siren/siren_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,187,"""relative_path"": f""data/raw/test_set_v2/other/other_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,201,"""relative_path"": f""data/raw/test_set_v2/other/other_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,240,# 1. Parse eval_segments first (highest priority)
+scripts\prepare_test_set_v2_candidates.py,241,"eval_candidates = parse_and_collect_candidates(EVAL_SEGMENTS_PATH, ""audioset_eval"", cats, forbidden)"
+scripts\prepare_test_set_v2_candidates.py,243,"for k, v in eval_candidates.items():"
+scripts\prepare_test_set_v2_candidates.py,265,"ev = eval_candidates.get(stratum, [])"
+scripts\replenish_test_set_v2_candidates.py,24,from scripts.prepare_test_set_v2_candidates import (
+scripts\replenish_test_set_v2_candidates.py,26,"EVAL_SEGMENTS_PATH, UNBALANCED_SEGMENTS_PATH, SEED"
+scripts\replenish_test_set_v2_candidates.py,29,"OUT_REPLENISH_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\replenish_test_set_v2_candidates.py,30,"OUT_REPLENISH_RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\replenish_test_set_v2_candidates.py,31,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\replenish_test_set_v2_candidates.py,37,"cand_df = pd.read_csv(ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"")"
+scripts\replenish_test_set_v2_candidates.py,53,"eval_cands = parse_and_collect_candidates(EVAL_SEGMENTS_PATH, ""audioset_eval"", cats, forbidden)"
+scripts\replenish_test_set_v2_candidates.py,62,"ev = eval_cands.get(stratum, [])"
+scripts\run_independent_audit.py,19,"evaluate_checkpoint_on_test_set,"
+scripts\run_independent_audit.py,28,"TEST_MANIFEST_PATH = root / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\run_independent_audit.py,41,manifest_df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\run_independent_audit.py,56,"target_sub = pair[""test_subdomain""]"
+scripts\run_independent_audit.py,90,"""test_subdomain_exists"": exists_in_test,"
+scripts\run_independent_audit.py,108,eval_data = {}
+scripts\run_independent_audit.py,111,eval_data[cond] = {}
+scripts\run_independent_audit.py,117,"pred_df, yt, yp, pr = evaluate_checkpoint_on_test_set(ckpt_path, TEST_MANIFEST_PATH, device)"
+scripts\run_independent_audit.py,119,eval_data[cond][s] = {
+scripts\run_independent_audit.py,128,"probs_by_s = {s: eval_data[cond][s][""probs""] for s in SEEDS}"
+scripts\run_independent_audit.py,144,"subdomain = pair[""test_subdomain""]"
+scripts\run_independent_audit.py,157,"preds_abl = {s: eval_data[abl_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+scripts\run_independent_audit.py,158,"preds_ctl = {s: eval_data[ctl_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+scripts\run_independent_audit.py,159,"probs_abl = {s: eval_data[abl_cond][s][""probs""][sub_mask] for s in SEEDS}"
+scripts\run_independent_audit.py,160,"probs_ctl = {s: eval_data[ctl_cond][s][""probs""][sub_mask] for s in SEEDS}"
+scripts\run_phase1_experiments.py,215,"early_stopping_metric=""macro_f1"","
+scripts\run_phase2_experiments.py,450,"""early_stopping_metric"": ""macro_f1"","
+scripts\run_phase2_experiments.py,471,"early_stopping_metric=""macro_f1"","
+scripts\run_phase2_experiments.py,509,"latest_ckpt = run_dir / ""latest_checkpoint.pt"""
+scripts\run_phase2_experiments.py,510,if latest_ckpt.exists():
+scripts\run_phase2_experiments.py,512,latest_ckpt.unlink()
+scripts\scan_test_set_v2_candidates.py,24,"EVAL_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""eval_segments.csv"""
+scripts\scan_test_set_v2_candidates.py,122,if EVAL_SEGMENTS_PATH.exists():
+scripts\scan_test_set_v2_candidates.py,123,"parse_segments(EVAL_SEGMENTS_PATH, forbidden)"
+scripts\test_replenishment_pool.py,10,"PROCESSED_DIR, EVAL_MANIFEST_PATH, PILOT_MANIFEST_PATH"
+scripts\test_replenishment_pool.py,18,if EVAL_MANIFEST_PATH.exists():
+scripts\test_replenishment_pool.py,19,df = pd.read_csv(EVAL_MANIFEST_PATH)
+scripts\validate_test_set_v2_content.py,15,5. Saves data/processed/test_set_v2_content_validation.csv and data/processed/test_set_v2_manifest.csv.
+scripts\validate_test_set_v2_content.py,38,"AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\validate_test_set_v2_content.py,40,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\validate_test_set_v2_content.py,41,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\validate_test_set_v2_content.py,45,"CONTENT_VALIDATION_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_content_validation.csv"""
+scripts\validate_test_set_v2_content.py,46,"FINAL_MANIFEST_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\validate_test_set_v2_content.py,120,"# e.g. data/raw/test_set_v2/glass_breaking -> cname = ""glass_breaking"""
+scripts\verify_e3_readiness.py,26,"EVAL_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+scripts\verify_e3_readiness.py,90,eval_df = pd.read_csv(EVAL_PATH)
+scripts\verify_e3_readiness.py,91,"eval_vids = set(eval_df[""video_id""].dropna().str.strip())"
+scripts\verify_e3_readiness.py,92,eval_overlap = e3_vids.intersection(eval_vids)
+scripts\verify_e3_readiness.py,93,"print(f""Overlap with Held-out Evaluation (744 rows): {len(eval_overlap)}"")"
+scripts\verify_e3_readiness.py,94,"assert len(eval_overlap) == 0, f""Leakage with Held-out Eval: {eval_overlap}"""
+src\audit_all_experimental_conditions.py,15,4. Zero overlap with held-out evaluation set (eval_manifest.csv).
+src\audit_all_experimental_conditions.py,34,"EVAL_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+src\audit_all_experimental_conditions.py,52,eval_df = pd.read_csv(EVAL_PATH)
+src\audit_all_experimental_conditions.py,53,"eval_vids = set(eval_df[""video_id""].dropna().str.strip())"
+src\audit_all_experimental_conditions.py,54,"print(f""Held-out evaluation video IDs: {len(eval_vids)}"")"
+src\audit_all_experimental_conditions.py,131,train_eval_overlap = set(tr_vids).intersection(eval_vids)
+src\audit_all_experimental_conditions.py,132,"assert len(train_eval_overlap) == 0, f""{name}: Train/Eval leakage: {train_eval_overlap}"""
+src\audit_all_experimental_conditions.py,134,val_eval_overlap = set(val_vids).intersection(eval_vids)
+src\audit_all_experimental_conditions.py,135,"assert len(val_eval_overlap) == 0, f""{name}: Val/Eval leakage: {val_eval_overlap}"""
+src\audit_all_experimental_conditions.py,161,"""train_eval_overlap"": len(train_eval_overlap),"
+src\audit_all_experimental_conditions.py,171,"print(f""  [{r['condition']:<32}] Train: {r['train_samples']} | Val: {r['val_samples']} | Leakage: {r['train_val_overlap']}/{r['train_eval_overlap']} | SHA: {r['train_sha256'][:10]}..."")"
+src\audit_dataset_readiness.py,23,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\audit_dataset_readiness.py,98,"with open(EVAL_MANIFEST, ""r"", encoding=""utf-8"") as f:"
+src\audit_dataset_readiness.py,99,eval_rows = list(csv.DictReader(f))
+src\audit_dataset_readiness.py,110,"print(f""  eval_manifest.csv rows  : {len(eval_rows)} total"")"
+src\audit_dataset_readiness.py,111,eval_by_class = {}
+src\audit_dataset_readiness.py,112,for r in eval_rows:
+src\audit_dataset_readiness.py,114,"eval_by_class[cls] = eval_by_class.get(cls, 0) + 1"
+src\audit_dataset_readiness.py,115,for cls in sorted(eval_by_class.keys()):
+src\audit_dataset_readiness.py,116,"print(f""    - {cls:<16}: {eval_by_class[cls]:>4} rows"")"
+src\audit_dataset_readiness.py,125,"eval_vids = {r[""video_id""].strip() for r in eval_rows if r.get(""video_id"")}"
+src\audit_dataset_readiness.py,126,leakage = train_vids.intersection(eval_vids)
+src\audit_dataset_readiness.py,129,"print(f""    - Unique Eval video IDs : {len(eval_vids)}"")"
+src\audit_dataset_readiness.py,145,eval_in_train = [w.name for w in all_wavs if any(ev in w.name for ev in eval_vids)]
+src\audit_dataset_readiness.py,146,"print(f""  Eval video IDs in train audio : {len(eval_in_train)} (PASSED - zero eval audio in train)"")"
+src\audit_e3_content.py,102,eval_df = manifest_df.copy()
+src\audit_e3_content.py,103,"eval_df[""target_class""] = ""other""  # for dataset compatibility"
+src\audit_e3_content.py,104,"samples = [(ROOT / r[""file_path""], 4, ""other"") for _, r in eval_df.iterrows()]"
+src\audit_e3_content.py,156,"# NEEDS_SECOND_REVIEW: Borderline acoustic ambiguity (e.g. max_emerg_prob between 0.35 and 0.50, or silence_frac near threshold)."
+src\audit_train_inventory.py,5,- data/processed/eval_manifest.csv (leakage preflight check)
+src\audit_train_inventory.py,32,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\audit_train_inventory.py,116,"with open(EVAL_MANIFEST, ""r"", encoding=""utf-8"") as f:"
+src\audit_train_inventory.py,117,"eval_vids = {r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id"")}"
+src\audit_train_inventory.py,119,leakage = manifest_vids.intersection(eval_vids)
+src\audit_train_inventory.py,122,"lines.append(f""  Eval unique video IDs     : {len(eval_vids)}"")"
+src\batch_downloader.py,4,`data/processed/eval_manifest.csv` (eval) to download and extract normalized
+src\batch_downloader.py,40,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\batch_downloader.py,114,"def check_preflight_leakage(train_path: Path, eval_path: Path):"
+src\batch_downloader.py,116,if not train_path.exists() or not eval_path.exists():
+src\batch_downloader.py,117,"raise FileNotFoundError(f""Manifest missing: train={train_path.exists()}, eval={eval_path.exists()}"")"
+src\batch_downloader.py,122,"with open(eval_path, ""r"", encoding=""utf-8"") as f:"
+src\batch_downloader.py,123,"eval_vids = set(r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id""))"
+src\batch_downloader.py,125,overlap = train_vids.intersection(eval_vids)
+src\batch_downloader.py,132,"return train_vids, eval_vids"
+src\batch_downloader.py,311,"train_vids, eval_vids = check_preflight_leakage(TRAIN_MANIFEST, EVAL_MANIFEST)"
+src\batch_downloader.py,313,"print(f""  [OK] Eval manifest unique videos: {len(eval_vids)}"")"
+src\batch_downloader.py,323,custom_overlap = custom_vids.intersection(eval_vids)
+src\batch_downloader.py,330,"manifest_file = TRAIN_MANIFEST if split == ""train"" else EVAL_MANIFEST"
+src\collect_other_dataset.py,16,- All 744 video IDs from eval_manifest.csv (zero eval split leakage)
+src\collect_other_dataset.py,54,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\collect_other_dataset.py,65,"manifests = [TRAIN_MANIFEST, EVAL_MANIFEST, PILOT_MANIFEST]"
+src\compare_eval_models.py,8,- baseline_eval_report.json
+src\compare_eval_models.py,9,- combined_eval_report.json
+src\compare_eval_models.py,10,- eval_predictions_comparison.csv
+src\compare_eval_models.py,43,"from train import compute_classification_metrics, check_eval_isolation"
+src\compare_eval_models.py,56,"from src.train import compute_classification_metrics, check_eval_isolation"
+src\compare_eval_models.py,58,"EVAL_AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""eval"""
+src\compare_eval_models.py,59,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\compare_eval_models.py,98,"print(f""Evaluation Audio Dir:{EVAL_AUDIO_DIR.relative_to(ROOT)}"")"
+src\compare_eval_models.py,99,"print(f""Evaluation Manifest: {EVAL_MANIFEST.relative_to(ROOT)}"")"
+src\compare_eval_models.py,108,if not EVAL_AUDIO_DIR.exists():
+src\compare_eval_models.py,109,"raise FileNotFoundError(f""Evaluation audio dir not found: {EVAL_AUDIO_DIR}"")"
+src\compare_eval_models.py,115,"eval_files = list(EVAL_AUDIO_DIR.rglob(""*.wav""))"
+src\compare_eval_models.py,116,eval_vids = set(extract_video_id_from_path(p) for p in eval_files)
+src\compare_eval_models.py,128,"check_eval_isolation(samples, EVAL_MANIFEST)"
+src\compare_eval_models.py,129,"print(f""  [OK] Zero source overlap between all training splits and evaluation files ({len(eval_files)} audio files verified)."")"
+src\compare_eval_models.py,136,eval_dataset = AudioSetDataset(
+src\compare_eval_models.py,137,"EVAL_AUDIO_DIR,"
+src\compare_eval_models.py,142,eval_loader = DataLoader(
+src\compare_eval_models.py,143,"eval_dataset,"
+src\compare_eval_models.py,149,"print(f""  Accessible evaluation samples: {len(eval_dataset)}"")"
+src\compare_eval_models.py,150,counts = eval_dataset.get_class_counts()
+src\compare_eval_models.py,161,"b_true, b_pred, b_probs, file_paths = evaluate_model(baseline_model, eval_loader, device)"
+src\compare_eval_models.py,172,"c_true, c_pred, c_probs, _ = evaluate_model(combined_model, eval_loader, device)"
+src\compare_eval_models.py,236,"comp_csv_path = OUTPUT_DIR / ""eval_predictions_comparison.csv"""
+src\compare_eval_models.py,279,"""evaluated_clips"": len(eval_dataset),"
+src\compare_eval_models.py,283,"with open(OUTPUT_DIR / ""baseline_eval_report.json"", ""w"", encoding=""utf-8"") as f:"
+src\compare_eval_models.py,289,"""evaluated_clips"": len(eval_dataset),"
+src\compare_eval_models.py,293,"with open(OUTPUT_DIR / ""combined_eval_report.json"", ""w"", encoding=""utf-8"") as f:"
+src\compare_eval_models.py,304,"f.write(f""**Independent Evaluation Clips:** **{len(eval_dataset)} valid WAV clips** across all 5 classes  \n"")"
+src\download_eval.py,4,into `data/processed/eval_download_results.csv`.
+src\download_eval.py,16,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\download_eval.py,18,"EVAL_RESULTS = ROOT / ""data"" / ""processed"" / ""eval_download_results.csv"""
+src\download_eval.py,19,"EVAL_AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""eval"""
+src\download_eval.py,22,def run_parallel_eval_download(num_workers: int = 4):
+src\download_eval.py,27,"with open(EVAL_MANIFEST, ""r"", encoding=""utf-8"") as f:"
+src\download_eval.py,43,"part_file = ROOT / ""data"" / ""processed"" / f""eval_download_results_part{i}.csv"""
+src\download_eval.py,69,# Merge part results into unified eval_download_results.csv
+src\download_eval.py,70,"print(""\nMerging chunk results into unified eval_download_results.csv..."")"
+src\download_eval.py,84,# Sort merged rows in exact order of eval_manifest
+src\download_eval.py,91,"with open(EVAL_RESULTS, ""w"", encoding=""utf-8"", newline="""") as f:"
+src\download_eval.py,96,"print(f""Unified results saved to: {EVAL_RESULTS} ({len(ordered_results)} records)"")"
+src\download_eval.py,110,"is_ready, issues, stats = run_preflight_dataset_check(EVAL_AUDIO_DIR)"
+src\download_eval.py,121,run_parallel_eval_download(num_workers=4)
+src\evaluate_panns.py,7,"- No training, fine-tuning, or threshold tuning."
+src\evaluate_panns.py,55,"EVAL_AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""eval"""
+src\evaluate_panns.py,57,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\evaluate_panns.py,58,"EVAL_RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""eval_download_results.csv"""
+src\evaluate_panns.py,60,"OUTPUT_REPORT_PATH = ROOT / ""models"" / ""experiments"" / ""panns_cnn14"" / ""eval_report.json"""
+src\evaluate_panns.py,93,"print(f""Evaluation Audio Dir:  {EVAL_AUDIO_DIR.relative_to(ROOT)}"")"
+src\evaluate_panns.py,94,"print(f""Evaluation Manifest:   {EVAL_MANIFEST.relative_to(ROOT)}"")"
+src\evaluate_panns.py,100,"is_ready, issues, stats = run_preflight_dataset_check(EVAL_AUDIO_DIR)"
+src\evaluate_panns.py,114,"eval_files = list(EVAL_AUDIO_DIR.rglob(""*.wav""))"
+src\evaluate_panns.py,115,eval_vids = set(extract_video_id_from_path(p) for p in eval_files)
+src\evaluate_panns.py,120,overlap = eval_vids.intersection(train_vids)
+src\evaluate_panns.py,123,"print(f""  Eval valid files: {len(eval_files)} ({len(eval_vids)} unique video IDs)"")"
+src\evaluate_panns.py,143,"best_val_f1 = ckpt_state.get(""metrics"", {}).get(""macro_f1"", ""unknown"")"
+src\evaluate_panns.py,144,"print(f""  Model loaded successfully from epoch {best_epoch} (val macro F1: {best_val_f1})"")"
+src\evaluate_panns.py,149,"eval_dataset = AudioSetDataset(EVAL_AUDIO_DIR, classes=CLASSES, class_to_id=CLASS_TO_ID, return_raw=True)"
+src\evaluate_panns.py,150,eval_loader = DataLoader(
+src\evaluate_panns.py,151,"eval_dataset,"
+src\evaluate_panns.py,157,"print(f""  Total evaluation batches: {len(eval_loader)} (batch size: 16)"")"
+src\evaluate_panns.py,161,"y_true, y_pred, all_probs = evaluate_dataset(model, eval_loader, device)"
+src\evaluate_panns.py,166,"with open(EVAL_MANIFEST, ""r"", encoding=""utf-8"") as f:"
+src\evaluate_panns.py,174,if EVAL_RESULTS_CSV.exists():
+src\evaluate_panns.py,175,df_results = pd.read_csv(EVAL_RESULTS_CSV)
+src\evaluate_panns.py,224,"""best_training_val_macro_f1"": best_val_f1,"
+src\evaluate_phase2_e4.py,43,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_phase2_e4.py,59,"""test_subdomain"": ""confuser_human_shouting"","
+src\evaluate_phase2_e4.py,68,"""test_subdomain"": ""confuser_metal_impacts"","
+src\evaluate_phase2_e4.py,77,"""test_subdomain"": ""confuser_door_slams"","
+src\evaluate_phase2_e4.py,86,"""test_subdomain"": ""confuser_construction_tools"",  # Note: Evaluated on confusers if dedicated slice absent"
+src\evaluate_phase2_e4.py,95,"""test_subdomain"": ""confuser_car_alarms_buzzers"","
+src\evaluate_phase2_e4.py,104,"""test_subdomain"": ""confuser_fireworks"","
+src\evaluate_phase2_e4.py,113,"""test_subdomain"": ""confuser_whistles"","
+src\evaluate_phase2_e4.py,267,- alpha_threshold: alpha / (m - rank + 1)
+src\evaluate_phase2_e4.py,283,threshold = alpha / (m - rank_idx + 1)
+src\evaluate_phase2_e4.py,288,if not stop_rejections and p_raw <= threshold:
+src\evaluate_phase2_e4.py,299,"""alpha_threshold"": round(float(threshold), 6),"
+src\evaluate_phase2_e4.py,478,def evaluate_checkpoint_on_test_set(
+src\evaluate_phase2_e4.py,667,"test_manifest_path: Path,"
+src\evaluate_phase2_e4.py,677,manifest_df = pd.read_csv(test_manifest_path)
+src\evaluate_phase2_e4.py,694,"eval_data: Dict[str, Dict[int, Dict[str, Any]]] = {}"
+src\evaluate_phase2_e4.py,698,"print(f""Benchmark Manifest: {test_manifest_path} (N = {n_total})"")"
+src\evaluate_phase2_e4.py,704,eval_data[cond] = {}
+src\evaluate_phase2_e4.py,717,"pred_df, yt, yp, pr = evaluate_checkpoint_on_test_set(ckpt_path, test_manifest_path, device)"
+src\evaluate_phase2_e4.py,733,eval_data[cond][s] = {
+src\evaluate_phase2_e4.py,749,"probs_by_s = {s: eval_data[cond][s][""probs""] for s in SEEDS}"
+src\evaluate_phase2_e4.py,774,"subdomain = pair[""test_subdomain""]"
+src\evaluate_phase2_e4.py,792,"preds_abl_by_s = {s: eval_data[abl_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,793,"preds_ctl_by_s = {s: eval_data[ctl_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,794,"probs_abl_by_s = {s: eval_data[abl_cond][s][""probs""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,795,"probs_ctl_by_s = {s: eval_data[ctl_cond][s][""probs""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,841,"""test_subdomain"": subdomain,"
+src\evaluate_phase2_e4.py,869,"subdomain = pair[""test_subdomain""]"
+src\evaluate_phase2_e4.py,880,"preds_abl_by_s = {s: eval_data[abl_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,881,"preds_e2_by_s = {s: eval_data[e2_full_cond][s][""y_pred""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,882,"probs_abl_by_s = {s: eval_data[abl_cond][s][""probs""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,883,"probs_e2_by_s = {s: eval_data[e2_full_cond][s][""probs""][sub_mask] for s in SEEDS}"
+src\evaluate_phase2_e4.py,936,"macro_f1s = [eval_data[cond][s][""macro_f1""] for s in SEEDS]"
+src\evaluate_phase2_e4.py,937,"fer_confs = [eval_data[cond][s][""fer_confusers""] for s in SEEDS]"
+src\evaluate_phase2_e4.py,938,"fer_overs = [eval_data[cond][s][""fer_overall""] for s in SEEDS]"
+src\evaluate_phase2_e4.py,955,"""benchmark_manifest"": str(test_manifest_path.relative_to(ROOT)).replace(""\\"", ""/""),"
+src\evaluate_phase2_e4.py,1053,"alpha_t = f""{hb['alpha_threshold']:.6f}"""
+src\evaluate_phase2_e4.py,1090,"alpha_t = f""{hb_ens.get('alpha_threshold', 0.05):.6f}"""
+src\evaluate_phase2_e4.py,1148,"alpha_t = f""{hb_sec.get('alpha_threshold', 0.05):.6f}"" if ""alpha_threshold"" in hb_sec else ""N/A"""
+src\evaluate_phase2_e4.py,1191,"""1. **Exact Binomial Power Threshold:** With $N = 25$ recordings, a single-seed or ensemble comparison requires at least 6 discordant pairs ($b=6, c=0$) for unadjusted significance ($p = 0.031250$) and at least 9 discordant pairs ($b=9, c=0$) to survive Holm-Bonferroni Rank 1 ($p = 0.003906 < 0.007143$)."","
+src\evaluate_phase2_e4.py,1211,"parser.add_argument(""--test-manifest"", type=Path, default=TEST_SET_V2_MANIFEST, help=""Path to Test Set v2 manifest"")"
+src\evaluate_phase2_e4.py,1223,"test_manifest_path=args.test_manifest,"
+src\evaluate_test_set_v2.py,44,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_test_set_v2.py,225,"def evaluate_model_on_test_set_v2(ckpt_path: Path, manifest_path: Path, device: torch.device):"
+src\evaluate_test_set_v2.py,286,"def compute_test_set_v2_metrics(pred_df: pd.DataFrame, y_true: np.ndarray, y_pred: np.ndarray) -> Dict[str, Any]:"
+src\evaluate_test_set_v2.py,370,def run_full_test_set_v2_evaluation():
+src\evaluate_test_set_v2.py,375,if not TEST_SET_V2_MANIFEST.exists():
+src\evaluate_test_set_v2.py,376,"raise FileNotFoundError(f""Test Set v2 manifest not found: {TEST_SET_V2_MANIFEST}"")"
+src\evaluate_test_set_v2.py,378,manifest_df = pd.read_csv(TEST_SET_V2_MANIFEST)
+src\evaluate_test_set_v2.py,379,"print(f""Loaded manifest: {TEST_SET_V2_MANIFEST.name} ({len(manifest_df)} samples)"")"
+src\evaluate_test_set_v2.py,402,"pred_df, y_true, y_pred = evaluate_model_on_test_set_v2(ckpt_path, TEST_SET_V2_MANIFEST, device)"
+src\evaluate_test_set_v2.py,405,"pred_csv_path = PHASE1_MODELS_DIR / run_name / ""test_set_v2_predictions.csv"""
+src\evaluate_test_set_v2.py,409,"metrics = compute_test_set_v2_metrics(pred_df, y_true, y_pred)"
+src\evaluate_test_set_v2.py,414,"run_metrics_path = PHASE1_MODELS_DIR / run_name / ""test_set_v2_metrics.json"""
+src\evaluate_test_set_v2.py,511,"""benchmark_manifest"": str(TEST_SET_V2_MANIFEST.name),"
+src\evaluate_test_set_v2.py,518,"out_json_path = PHASE1_MODELS_DIR / ""test_set_v2_evaluation_summary.json"""
+src\evaluate_test_set_v2.py,527,run_full_test_set_v2_evaluation()
+src\generate_retry_list.py,26,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\generate_retry_list.py,225,"lines.append(f""  [x] Cross-Split Leakage: 0 overlap with {EVAL_MANIFEST.name}."")"
+src\prepare_combined_dataset.py,393,eval_fold_leaks: List[str] = []
+src\prepare_combined_dataset.py,396,"eval_hashes: Dict[str, str] = {}"
+src\prepare_combined_dataset.py,399,"eval_dir = project_root / ""data"" / ""raw"" / ""eval"""
+src\prepare_combined_dataset.py,400,if eval_dir.exists():
+src\prepare_combined_dataset.py,401,"for p in eval_dir.rglob(""*.wav""):"
+src\prepare_combined_dataset.py,402,eval_hashes[compute_file_sha256(p)] = p.as_posix()
+src\prepare_combined_dataset.py,409,"eval_collisions: List[Tuple[str, str]] = []"
+src\prepare_combined_dataset.py,445,eval_fold_leaks.append(rel_path)
+src\prepare_combined_dataset.py,448,if h in eval_hashes:
+src\prepare_combined_dataset.py,449,"eval_collisions.append((rel_path, eval_hashes[h]))"
+src\prepare_combined_dataset.py,464,"""eval_fold_leaks"": eval_fold_leaks,"
+src\prepare_combined_dataset.py,465,"""eval_collisions"": eval_collisions,"
+src\prepare_combined_dataset.py,615,"""| **Existing Manifest Integrity** | **PASS** | `target_manifest.csv`, `eval_manifest.csv`, `train_split_manifest.csv`, and `val_split_manifest.csv` untouched |"","
+src\prepare_combined_dataset.py,702,"if integrity_audit[""eval_fold_leaks""]:"
+src\prepare_combined_dataset.py,703,"raise RuntimeError(f""FATAL: Evaluation fold leaks detected: {integrity_audit['eval_fold_leaks']}"")"
+src\prepare_combined_dataset.py,710,"nigens_eval_collisions = [c for c in integrity_audit[""eval_collisions""] if ""NIGENS"" in c[0]]"
+src\prepare_combined_dataset.py,711,if nigens_eval_collisions:
+src\prepare_combined_dataset.py,712,"raise RuntimeError(f""FATAL: NIGENS collision with evaluation audio: {nigens_eval_collisions}"")"
+src\prepare_combined_dataset.py,715,"if integrity_audit[""eval_collisions""]:"
+src\prepare_combined_dataset.py,716,"print(f""  [NOTE] Identified {len(integrity_audit['eval_collisions'])} pre-existing AudioSet re-upload duplicate between train and eval:"")"
+src\prepare_combined_dataset.py,717,"for tp, ep in integrity_audit[""eval_collisions""]:"
+src\prepare_eval_manifest.py,8,"OUT = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\prepare_eval_manifest.py,44,"with (RAW / ""eval_segments.csv"").open("
+src\prepare_eval_manifest.py,96,"with (RAW / ""eval_segments.csv"").open("
+src\prepare_experimental_manifests.py,70,"EVAL_MANIFEST_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+src\prepare_experimental_manifests.py,475,"for sub, test_purpose in primary_subdomains:"
+src\prepare_experimental_manifests.py,492,"""research_hypothesis"": test_purpose,"
+src\prepare_experimental_manifests.py,571,"eval_manifest_path: Path = EVAL_MANIFEST_PATH,"
+src\prepare_experimental_manifests.py,575,eval_df = pd.read_csv(eval_manifest_path)
+src\prepare_experimental_manifests.py,576,"eval_vids = set(eval_df[""video_id""].dropna().str.strip())"
+src\prepare_experimental_manifests.py,604,"checks[""shared_val_eval_overlap""] = len(va_vids.intersection(eval_vids))"
+src\prepare_experimental_manifests.py,605,"checks[""e1_train_eval_overlap""] = len(e1_tr_vids.intersection(eval_vids))"
+src\prepare_experimental_manifests.py,606,"checks[""e2_train_eval_overlap""] = len(e2_tr_vids.intersection(eval_vids))"
+src\prepare_experimental_manifests.py,607,"checks[""e3_train_eval_overlap""] = len(e3_tr_vids.intersection(eval_vids))"
+src\prepare_experimental_manifests.py,609,"if checks[""shared_val_eval_overlap""] > 0:"
+src\prepare_experimental_manifests.py,610,"raise ValueError(f""Shared val overlaps with eval: {checks['shared_val_eval_overlap']}"")"
+src\prepare_experimental_manifests.py,611,"if checks[""e1_train_eval_overlap""] > 0:"
+src\prepare_experimental_manifests.py,612,"raise ValueError(f""E1 train overlaps with eval: {checks['e1_train_eval_overlap']}"")"
+src\prepare_experimental_manifests.py,613,"if checks[""e2_train_eval_overlap""] > 0:"
+src\prepare_experimental_manifests.py,614,"raise ValueError(f""E2 train overlaps with eval: {checks['e2_train_eval_overlap']}"")"
+src\prepare_experimental_manifests.py,615,"if checks[""e3_train_eval_overlap""] > 0:"
+src\prepare_experimental_manifests.py,616,"raise ValueError(f""E3 train overlaps with eval: {checks['e3_train_eval_overlap']}"")"
+src\prepare_experimental_manifests.py,698,"set(pd.read_csv(EVAL_MANIFEST_PATH)[""video_id""].dropna().str.strip())"
+src\sample_e3_replacements.py,33,"EVAL_MANIFEST_PATH,"
+src\sample_e3_replacements.py,53,if EVAL_MANIFEST_PATH.exists():
+src\sample_e3_replacements.py,54,df = pd.read_csv(EVAL_MANIFEST_PATH)
+src\split_combined_dataset.py,247,leaked_eval_folds = [
+src\split_combined_dataset.py,263,"""leaked_eval_folds"": leaked_eval_folds,"
+src\split_combined_dataset.py,273,and not leaked_eval_folds
+src\split_combined_dataset.py,379,"f""| **Evaluation Folds Isolation** | **PASS** | {len(integrity_info['leaked_eval_folds'])} samples from folds 7/8 | Held-out evaluation set remains strictly isolated |"","
+src\train.py,13,- Strict evaluation split isolation (guarantees 0 overlap with held-out eval_manifest.csv)
+src\train.py,82,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\train.py,105,"def check_eval_isolation(dataset_or_samples, eval_manifest_path: Path):"
+src\train.py,107,if not eval_manifest_path.exists():
+src\train.py,108,"print(f""[WARNING] Evaluation manifest not found at {eval_manifest_path}. Skipping isolation check."")"
+src\train.py,112,"with open(eval_manifest_path, ""r"", encoding=""utf-8"") as f:"
+src\train.py,114,"eval_vids = set(r[""video_id""].strip() for r in reader if r.get(""video_id""))"
+src\train.py,125,if vid in eval_vids:
+src\train.py,132,"print(f""  [OK] Zero overlap with evaluation manifest ({len(eval_vids)} eval video IDs verified)."")"
+src\train.py,319,"latest_path = checkpoint_dir / ""latest_checkpoint.pt"""
+src\train.py,320,"torch.save(state, latest_path)"
+src\train.py,323,"# preserving all epoch metadata JSON files, best_model.pt, and latest_checkpoint.pt"
+src\train.py,347,"early_stopping_metric: str = ""val_loss"","
+src\train.py,416,"print(f""Early Stopping Metric: {early_stopping_metric} (Patience: {patience} epochs) | Random Seed: {seed}"")"
+src\train.py,480,"check_eval_isolation(train_samples + val_samples, EVAL_MANIFEST)"
+src\train.py,508,"check_eval_isolation(full_dataset, EVAL_MANIFEST)"
+src\train.py,681,"""early_stopping_metric"": early_stopping_metric,"
+src\train.py,765,"best_val_loss = float(""inf"")"
+src\train.py,766,"best_val_macro_f1 = float(""-inf"")"
+src\train.py,768,best_val_metrics = {}
+src\train.py,829,# Check Best Model based on early_stopping_metric
+src\train.py,830,"if early_stopping_metric == ""macro_f1"":"
+src\train.py,832,is_best = cur_metric_val > best_val_macro_f1
+src\train.py,835,is_best = val_loss < best_val_loss
+src\train.py,838,best_val_loss = val_loss
+src\train.py,839,"best_val_macro_f1 = val_metrics.get(""macro_f1"", 0.0)"
+src\train.py,841,best_val_metrics = val_metrics
+src\train.py,868,"print(f""\n[EARLY STOPPING] Validation {early_stopping_metric} did not improve for {patience} consecutive epochs. Stopping at epoch {epoch}."")"
+src\train.py,884,"""early_stopping_metric"": early_stopping_metric,"
+src\train.py,885,"""best_val_loss"": round(best_val_loss, 4),"
+src\train.py,886,"""best_val_accuracy"": best_val_metrics.get(""accuracy""),"
+src\train.py,887,"""best_val_macro_f1"": best_val_metrics.get(""macro_f1""),"
+src\train.py,904,"print(f""Selection Metric:       {early_stopping_metric}"")"
+src\train.py,906,"print(f""Best Validation Loss:   {best_val_loss:.4f}"")"
+src\train.py,907,"print(f""Best Validation Acc:    {best_val_metrics.get('accuracy', 0.0):.4f}"")"
+src\train.py,908,"print(f""Best Validation MacroF1:{best_val_metrics.get('macro_f1', 0.0):.4f}"")"
+src\train.py,916,"cm = best_val_metrics.get(""per_class"", {}).get(cname, {})"
+src\train.py,924,"conf_mat = best_val_metrics.get(""confusion_matrix"", [])"
+src\train.py,948,"rf.write(f""- **Best Validation Accuracy:** **{best_val_metrics.get('accuracy', 0.0) * 100:.2f}%**\n"")"
+src\train.py,949,"rf.write(f""- **Best Validation Macro F1:** **{best_val_metrics.get('macro_f1', 0.0):.4f}**\n"")"
+src\train.py,950,"rf.write(f""- **Best Validation Loss:** {best_val_loss:.4f} (Selection Metric: {early_stopping_metric})\n"")"
+src\train.py,978,"acc_cur = best_val_metrics.get(""accuracy"", 0.0)"
+src\train.py,979,"f1_cur = best_val_metrics.get(""macro_f1"", 0.0)"
+src\train.py,984,"cur_c_f1 = best_val_metrics.get(""per_class"", {}).get(cname, {}).get(""f1_score"", 0.0)"
+src\train.py,994,"cm = best_val_metrics.get(""per_class"", {}).get(cname, {})"
+src\train.py,1001,"conf_mat = best_val_metrics.get(""confusion_matrix"", [])"
+src\train.py,1039,stopping_metric = args.early_stopping_metric
+src\train.py,1058,"early_stopping_metric=stopping_metric,"

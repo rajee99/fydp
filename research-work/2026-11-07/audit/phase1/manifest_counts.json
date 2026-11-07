@@ -1,0 +1,1217 @@
+[
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e1_baseline_manifest.csv",
+    "rows": 527,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 120,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e1_train_split_manifest.csv",
+    "rows": 422,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 96,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e1_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e2_targeted_manifest.csv",
+    "rows": 751,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e2_train_split_manifest.csv",
+    "rows": 600,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 274,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e2_val_split_manifest.csv",
+    "rows": 151,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 70,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e3_general_candidate_manifest.csv",
+    "rows": 751,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e3_general_train_candidates.csv",
+    "rows": 600,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 274,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e3_general_val_candidates.csv",
+    "rows": 151,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 70,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_car_alarms_detectors_train.csv",
+    "rows": 577,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 251,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_car_alarms_detectors_val.csv",
+    "rows": 145,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 64,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_construction_tools_train.csv",
+    "rows": 576,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 250,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_construction_tools_val.csv",
+    "rows": 145,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 64,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_door_slams_train.csv",
+    "rows": 574,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 248,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_door_slams_val.csv",
+    "rows": 144,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 63,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_fireworks_firecrackers_train.csv",
+    "rows": 578,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 252,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_fireworks_firecrackers_val.csv",
+    "rows": 145,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 64,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_human_shouting_train.csv",
+    "rows": 565,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 239,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_human_shouting_val.csv",
+    "rows": 142,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 61,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_metal_impacts_train.csv",
+    "rows": 568,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 242,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_metal_impacts_val.csv",
+    "rows": 143,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 62,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_whistles_high_pitch_train.csv",
+    "rows": 585,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 259,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\archive_experimental_manifests_v1\\e4_ablations\\e4_minus_whistles_high_pitch_val.csv",
+    "rows": 147,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 66,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\combined_train_split_manifest.csv",
+    "rows": 756,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 82,
+      "gunshot": 92,
+      "other": 385,
+      "scream": 70,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\combined_training_manifest.csv",
+    "rows": 946,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 103,
+      "gunshot": 115,
+      "other": 481,
+      "scream": 88,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\combined_val_split_manifest.csv",
+    "rows": 190,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 21,
+      "gunshot": 23,
+      "other": 96,
+      "scream": 18,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e1_baseline_manifest.csv",
+    "rows": 527,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 120,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\e1_train_split_manifest.csv",
+    "rows": 422,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 96,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e1_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e2_matched_manifest.csv",
+    "rows": 739,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 332,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\e2_matched_train_split_manifest.csv",
+    "rows": 634,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 308,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e2_matched_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e2_targeted_manifest.csv",
+    "rows": 751,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\e2_train_split_manifest.csv",
+    "rows": 646,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e2_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e3_candidates_to_download.csv",
+    "rows": 224,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 224
+    }
+  },
+  {
+    "path": "data\\processed\\e3_content_validation.csv",
+    "rows": 174,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 174
+    }
+  },
+  {
+    "path": "data\\processed\\e3_download_results.csv",
+    "rows": 224,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 224
+    }
+  },
+  {
+    "path": "data\\processed\\e3_general_candidate_manifest.csv",
+    "rows": 751,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 344,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\e3_general_train_candidates.csv",
+    "rows": 646,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 320,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e3_general_val_candidates.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e3_master_manifest.csv",
+    "rows": 739,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 96,
+      "gunshot": 115,
+      "other": 332,
+      "scream": 37,
+      "siren": 159
+    }
+  },
+  {
+    "path": "data\\processed\\e3_replacement_candidates.csv",
+    "rows": 52,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 52
+    }
+  },
+  {
+    "path": "data\\processed\\e3_replacement_content_validation.csv",
+    "rows": 40,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 40
+    }
+  },
+  {
+    "path": "data\\processed\\e3_replacement_download_results.csv",
+    "rows": 52,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 52
+    }
+  },
+  {
+    "path": "data\\processed\\e3_replacement_review_results.csv",
+    "rows": 40,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 40
+    }
+  },
+  {
+    "path": "data\\processed\\e3_review_results.csv",
+    "rows": 174,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 174
+    }
+  },
+  {
+    "path": "data\\processed\\e3_train_split_manifest.csv",
+    "rows": 634,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 308,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e3_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_car_alarms_detectors_train.csv",
+    "rows": 617,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 291,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_car_alarms_detectors_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_construction_tools_train.csv",
+    "rows": 616,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 290,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_construction_tools_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_door_slams_train.csv",
+    "rows": 613,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 287,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_door_slams_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_fireworks_firecrackers_train.csv",
+    "rows": 618,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 292,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_fireworks_firecrackers_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_human_shouting_train.csv",
+    "rows": 602,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 276,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_human_shouting_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_metal_impacts_train.csv",
+    "rows": 606,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 280,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_metal_impacts_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_whistles_high_pitch_train.csv",
+    "rows": 627,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 301,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_matched_control_whistles_high_pitch_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_car_alarms_detectors_train.csv",
+    "rows": 617,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 291,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_car_alarms_detectors_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_construction_tools_train.csv",
+    "rows": 616,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 290,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_construction_tools_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_door_slams_train.csv",
+    "rows": 613,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 287,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_door_slams_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_fireworks_firecrackers_train.csv",
+    "rows": 618,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 292,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_fireworks_firecrackers_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_human_shouting_train.csv",
+    "rows": 602,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 276,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_human_shouting_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_metal_impacts_train.csv",
+    "rows": 606,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 280,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_metal_impacts_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_whistles_high_pitch_train.csv",
+    "rows": 627,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 301,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\e4_ablations\\e4_minus_whistles_high_pitch_val.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\eval_download_results.csv",
+    "rows": 744,
+    "label_column": "target_class",
+    "class_counts": {
+      "siren": 219,
+      "glass_breaking": 117,
+      "scream": 59,
+      "gunshot": 174,
+      "other": 175
+    }
+  },
+  {
+    "path": "data\\processed\\eval_manifest.csv",
+    "rows": 744,
+    "label_column": "target_class",
+    "class_counts": {
+      "siren": 219,
+      "glass_breaking": 115,
+      "scream": 61,
+      "gunshot": 174,
+      "other": 175
+    }
+  },
+  {
+    "path": "data\\processed\\glass_candidates.csv",
+    "rows": 5,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 5
+    }
+  },
+  {
+    "path": "data\\processed\\gunshot_candidates.csv",
+    "rows": 1,
+    "label_column": "target_class",
+    "class_counts": {
+      "gunshot": 1
+    }
+  },
+  {
+    "path": "data\\processed\\nigens_manifest.csv",
+    "rows": 898,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 822,
+      "scream": 76
+    }
+  },
+  {
+    "path": "data\\processed\\other_download_results.csv",
+    "rows": 151,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 151
+    }
+  },
+  {
+    "path": "data\\processed\\other_manifest.csv",
+    "rows": 120,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 120
+    }
+  },
+  {
+    "path": "data\\processed\\pilot_accessible.csv",
+    "rows": 20,
+    "label_column": "target_class",
+    "class_counts": {
+      "gunshot": 3,
+      "siren": 3,
+      "glass_breaking": 3,
+      "scream": 2,
+      "other": 9
+    }
+  },
+  {
+    "path": "data\\processed\\pilot_manifest.csv",
+    "rows": 8,
+    "label_column": "target_class",
+    "class_counts": {
+      "gunshot": 2,
+      "siren": 2,
+      "scream": 2,
+      "glass_breaking": 2
+    }
+  },
+  {
+    "path": "data\\processed\\pilot_other_candidates.csv",
+    "rows": 10,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 10
+    }
+  },
+  {
+    "path": "data\\processed\\pilot_other_download_results.csv",
+    "rows": 10,
+    "label_column": null,
+    "class_counts": {}
+  },
+  {
+    "path": "data\\processed\\pilot_other_review.csv",
+    "rows": 9,
+    "label_column": null,
+    "class_counts": {}
+  },
+  {
+    "path": "data\\processed\\scream_pilot.csv",
+    "rows": 2,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 2
+    }
+  },
+  {
+    "path": "data\\processed\\scream_replacements.csv",
+    "rows": 10,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 10
+    }
+  },
+  {
+    "path": "data\\processed\\scream_replacements_checked.csv",
+    "rows": 5,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 5
+    }
+  },
+  {
+    "path": "data\\processed\\shared_val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  },
+  {
+    "path": "data\\processed\\target_manifest.csv",
+    "rows": 740,
+    "label_column": "target_class",
+    "class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116,
+      "other": 175
+    }
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_candidates.csv",
+    "rows": 672,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 172,
+      "glass_breaking": 155,
+      "other": 345
+    }
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_content_validation.csv",
+    "rows": 400,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 97,
+      "glass_breaking": 81,
+      "other": 222
+    }
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_download_results.csv",
+    "rows": 542,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 144,
+      "glass_breaking": 102,
+      "other": 296
+    }
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_replacements.csv",
+    "rows": 107,
+    "label_column": "target_class",
+    "class_counts": {
+      "other": 56,
+      "glass_breaking": 17,
+      "scream": 34
+    }
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_replacements_map.csv",
+    "rows": 107,
+    "label_column": null,
+    "class_counts": {}
+  },
+  {
+    "path": "data\\processed\\targeted_expansion_review_results.csv",
+    "rows": 400,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 97,
+      "glass_breaking": 81,
+      "other": 222
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_candidates_to_download.csv",
+    "rows": 1060,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_content_validation.csv",
+    "rows": 826,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 120,
+      "gunshot": 113,
+      "other": 333,
+      "scream": 108,
+      "siren": 152
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_download_results.csv",
+    "rows": 1060,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 150,
+      "glass_breaking": 150,
+      "gunshot": 140,
+      "siren": 200,
+      "other": 420
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_manifest.csv",
+    "rows": 750,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 100,
+      "glass_breaking": 100,
+      "gunshot": 100,
+      "siren": 150,
+      "other": 300
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_replenish_candidates.csv",
+    "rows": 77,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 21,
+      "gunshot": 18,
+      "siren": 8,
+      "other": 30
+    }
+  },
+  {
+    "path": "data\\processed\\test_set_v2_replenish_download_results.csv",
+    "rows": 55,
+    "label_column": null,
+    "class_counts": {}
+  },
+  {
+    "path": "data\\processed\\train_download_results.csv",
+    "rows": 565,
+    "label_column": "target_class",
+    "class_counts": {
+      "gunshot": 178,
+      "siren": 212,
+      "scream": 59,
+      "glass_breaking": 116
+    }
+  },
+  {
+    "path": "data\\processed\\train_download_retry_list.csv",
+    "rows": 158,
+    "label_column": "target_class",
+    "class_counts": {
+      "scream": 22,
+      "gunshot": 63,
+      "glass_breaking": 20,
+      "siren": 53
+    }
+  },
+  {
+    "path": "data\\processed\\train_split_manifest.csv",
+    "rows": 422,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "other": 96,
+      "scream": 30,
+      "siren": 127
+    }
+  },
+  {
+    "path": "data\\processed\\val_split_manifest.csv",
+    "rows": 105,
+    "label_column": "target_class",
+    "class_counts": {
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "other": 24,
+      "scream": 7,
+      "siren": 32
+    }
+  }
+]

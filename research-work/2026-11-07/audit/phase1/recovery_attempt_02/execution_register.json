@@ -1,0 +1,137 @@
+[
+  {
+    "script": "src/prepare_manifest.py",
+    "script_sha256": "e047672783c3517094caf706a77e8a5599bc1129b51bdb1ed0d5e734cb8b731e",
+    "command": [
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_manifest.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.44,
+    "log": "prepare_manifest.txt",
+    "outputs": [
+      {
+        "path": "data\\processed\\target_manifest.csv",
+        "sha256": "3a64890c19311b2e44053f75be64d69db3169e97e51a8d39601327b35d97b6c2",
+        "rows": 775,
+        "class_counts": {
+          "gunshot": 178,
+          "siren": 212,
+          "scream": 59,
+          "glass_breaking": 116,
+          "other": 210
+        },
+        "baseline_exists": true,
+        "byte_identical_to_baseline": false
+      }
+    ]
+  },
+  {
+    "script": "src/prepare_eval_manifest.py",
+    "script_sha256": "31ae1c09481c50a3d3f9866d308b43f49e084cd66031ad30fb0b7294d9e30cf2",
+    "command": [
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_eval_manifest.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.52,
+    "log": "prepare_eval_manifest.txt",
+    "outputs": [
+      {
+        "path": "data\\processed\\eval_manifest.csv",
+        "sha256": "acdbbd0ec116b4e4631de00114fe7186ea3e6da14d7a34f712e4b449c31b831a",
+        "rows": 779,
+        "class_counts": {
+          "siren": 219,
+          "glass_breaking": 115,
+          "scream": 61,
+          "gunshot": 174,
+          "other": 210
+        },
+        "baseline_exists": true,
+        "byte_identical_to_baseline": false
+      }
+    ]
+  },
+  {
+    "script": "src/prepare_combined_dataset.py",
+    "script_sha256": "abde8f0cf4dc542b411673ff805b5401b0f642ef259c6168bde649e2929e27ef",
+    "command": [
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_combined_dataset.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.51,
+    "log": "prepare_combined_dataset.txt",
+    "outputs": [
+      {
+        "path": "data\\processed\\combined_training_manifest.csv",
+        "sha256": "243f9a33810892b0be099a1dff10dda9d905c26f14619eb344b1b3d7822da7a4",
+        "rows": 946,
+        "class_counts": {
+          "glass_breaking": 103,
+          "gunshot": 115,
+          "other": 481,
+          "scream": 88,
+          "siren": 159
+        },
+        "baseline_exists": true,
+        "byte_identical_to_baseline": false
+      }
+    ]
+  },
+  {
+    "script": "src/prepare_experimental_manifests.py",
+    "script_sha256": "badbf1da0435abf5194c8a2d80e4f93635cffacfffcf1aebbf81ee65ec0e3e56",
+    "command": [
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\src\\prepare_experimental_manifests.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.43,
+    "log": "prepare_experimental_manifests.txt",
+    "outputs": [
+      {
+        "path": "data\\processed\\e1_baseline_manifest.csv",
+        "sha256": "82e53fba4124a8a42ba376113360d09fe7e78bf5fc774ca7dc7d37b017ffe457",
+        "rows": 527,
+        "class_counts": {
+          "glass_breaking": 96,
+          "gunshot": 115,
+          "other": 120,
+          "scream": 37,
+          "siren": 159
+        },
+        "baseline_exists": true,
+        "byte_identical_to_baseline": true
+      }
+    ]
+  },
+  {
+    "script": "scripts/prepare_test_set_v2_candidates.py",
+    "script_sha256": "7b734bf178537db7dddedd04c64afe82ee24ccf222ae7b06601db9235c7b66ed",
+    "command": [
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\.venv\\Scripts\\python.exe",
+      "C:\\Users\\USER\\Documents\\ChatGPT\\Person A\\fydp\\research-work\\2026-11-07\\audit\\phase1\\recovery_attempt_02\\sandbox\\scripts\\prepare_test_set_v2_candidates.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 15.7,
+    "log": "prepare_test_set_v2_candidates.txt",
+    "outputs": [
+      {
+        "path": "data\\processed\\test_set_v2_candidates_to_download.csv",
+        "sha256": "5344e0b8ce7aee4fc6ea9c179f13b2b8a9a359a3a8e4b5a7d793dd4fb607250b",
+        "rows": 1060,
+        "class_counts": {
+          "scream": 150,
+          "glass_breaking": 150,
+          "gunshot": 140,
+          "siren": 200,
+          "other": 420
+        },
+        "baseline_exists": true,
+        "byte_identical_to_baseline": false
+      }
+    ]
+  }
+]

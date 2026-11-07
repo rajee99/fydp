@@ -1,0 +1,612 @@
+path,line,text
+scripts\audit_downloaded_test_set_v2.py,1,"""""""Audit all downloaded WAV files in data/raw/test_set_v2."""""""
+scripts\audit_downloaded_test_set_v2.py,10,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\audit_downloaded_test_set_v2.py,11,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\audit_downloaded_test_set_v2.py,24,"AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\audit_downloaded_test_set_v2.py,26,"print(f""Total WAV files in test_set_v2: {len(wavs)}"")"
+scripts\audit_test_set_v2_integrity.py,1,"""""""Exhaustive Integrity and Independence Audit for Test Set v2."
+scripts\audit_test_set_v2_integrity.py,6,3. SHA-256 cryptographic hashes and uniqueness (0 duplicates within benchmark).
+scripts\audit_test_set_v2_integrity.py,15,- targeted_expansion_content_validation.csv
+scripts\audit_test_set_v2_integrity.py,16,- e3_content_validation.csv
+scripts\audit_test_set_v2_integrity.py,17,5. Generates reports/test_set_v2_integrity_audit.md.
+scripts\audit_test_set_v2_integrity.py,30,"TEST_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\audit_test_set_v2_integrity.py,31,"REPORT_PATH = ROOT / ""reports"" / ""test_set_v2_integrity_audit.md"""
+scripts\audit_test_set_v2_integrity.py,35,"""Shared Validation"": ROOT / ""data"" / ""processed"" / ""shared_val_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,41,"""Targeted Expansion Archive"": ROOT / ""data"" / ""processed"" / ""targeted_expansion_content_validation.csv"","
+scripts\audit_test_set_v2_integrity.py,42,"""E3 Download Archive"": ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"","
+scripts\audit_test_set_v2_integrity.py,56,"print(""  TEST SET V2 INTEGRITY & INDEPENDENCE AUDIT"")"
+scripts\audit_test_set_v2_integrity.py,59,if not TEST_MANIFEST_PATH.exists():
+scripts\audit_test_set_v2_integrity.py,60,"raise FileNotFoundError(f""Missing {TEST_MANIFEST_PATH}"")"
+scripts\audit_test_set_v2_integrity.py,62,df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\audit_test_set_v2_integrity.py,64,"print(f""Total samples in Test Set v2 manifest: {total_samples}"")"
+scripts\audit_test_set_v2_integrity.py,76,# Technical validation check
+scripts\audit_test_set_v2_integrity.py,105,"assert len(file_hashes) == total_samples, ""Duplicate audio files found within Test Set v2!"""
+scripts\audit_test_set_v2_integrity.py,112,"test_vids = set(df[""video_id""].dropna().str.strip())"
+scripts\audit_test_set_v2_integrity.py,113,"print(f""Unique video IDs in Test Set v2: {len(test_vids)}"")"
+scripts\audit_test_set_v2_integrity.py,126,vid_overlap = test_vids.intersection(hist_vids)
+scripts\audit_test_set_v2_integrity.py,162,"md_content = f""""""# Test Set v2 Cryptographic Integrity & Independence Audit Report"
+scripts\audit_test_set_v2_integrity.py,165,**Target Specification:** [`reports/final_test_set_acquisition_specification.md`](file:///d:/ml/fydp/MyNet/reports/final_test_set_acquisition_specification.md)
+scripts\audit_test_set_v2_integrity.py,166,**Manifest File:** [`data/processed/test_set_v2_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/test_set_v2_manifest.csv)
+scripts\audit_test_set_v2_integrity.py,173,"This document certifies that **Test Set v2 ($N = 750$)** is fully acquired, technically validated, cryptographically sealed, and mathematically independent of all historical training, validation, pilot, and exploratory evaluation datasets in the repository."
+scripts\audit_test_set_v2_integrity.py,179,"- **Zero Pre-Probing:** Test Set v2 was neither queried nor used to inform the targeted expansion curation (E2), ensuring zero meta-overfitting bias."
+scripts\audit_test_set_v2_integrity.py,183,## 2. Benchmark Composition & Class Distribution
+scripts\audit_test_set_v2_integrity.py,193,| **Total Benchmark** | — | **750** | **750** | **100.00%** | **450 Emergency Signals vs. 300 Negative Control Signals** |
+scripts\audit_test_set_v2_integrity.py,196,pie title Test Set v2 Stratified Composition (N = 750)
+scripts\audit_test_set_v2_integrity.py,209,"To mathematically prove zero source-level leakage, every sample in Test Set v2 was audited against all historical datasets by:"
+scripts\audit_test_set_v2_integrity.py,221,"> **Zero-Leakage Guarantee:** Across all 9 comparison splits and 3,637 historical video IDs, Test Set v2 maintains **strictly zero overlap** ($\text{{Overlap}} = 0$)."
+scripts\audit_test_set_v2_integrity.py,229,| Acoustic Parameter | Standard Specification | Measured Benchmark Value | Compliance Status |
+scripts\audit_test_set_v2_integrity.py,244,"Test Set v2 is certified as a pristine, independent, gold-standard evaluation benchmark. It is immediately ready for unbiased comparative evaluation of E1 Baseline, E2 Matched, and E3 General models."
+scripts\download_replenishments.py,1,"""""""Download Test Set v2 Replenishments quickly with ThreadPoolExecutor."""""""
+scripts\download_replenishments.py,14,"MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\download_replenishments.py,15,"RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\download_replenishments.py,16,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\download_replenishments.py,41,"return {""video_id"": vid, ""status"": ""VALIDATION_FAILED"", ""error"": v_err, ""output_path"": rel_path}"
+scripts\download_test_set_v2.py,1,"""""""Parallel Downloader and Verifier for Test Set v2."
+scripts\download_test_set_v2.py,3,Orchestrates multi-worker downloads of Test Set v2 candidates into:
+scripts\download_test_set_v2.py,4,data/raw/test_set_v2/{target_class}/
+scripts\download_test_set_v2.py,7,data/processed/test_set_v2_download_results.csv
+scripts\download_test_set_v2.py,21,"MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\download_test_set_v2.py,22,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\download_test_set_v2.py,23,"RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_download_results.csv"""
+scripts\download_test_set_v2.py,28,"print(""  TEST SET V2 PARALLEL AUDIO DOWNLOAD"")"
+scripts\download_test_set_v2.py,51,"part_file = ROOT / ""data"" / ""processed"" / f""test_set_v2_download_part{i}.csv"""
+scripts\download_test_set_v2.py,80,"print(""\nMerging part results into test_set_v2_download_results.csv..."")"
+scripts\generate_master_experiment_registry.py,19,"'evaluation_dataset': 'Original Baseline Validation Split (N=105)',"
+scripts\generate_master_experiment_registry.py,36,"'evaluation_dataset': 'Original Baseline Validation Split (N=105)',"
+scripts\generate_master_experiment_registry.py,53,"'evaluation_dataset': 'Original Baseline Validation Split (N=105)',"
+scripts\generate_master_experiment_registry.py,60,"'research_question': 'How well does the baseline frozen PANNs model generalize to an independently acquired held-out YouTube evaluation benchmark?',"
+scripts\generate_master_experiment_registry.py,70,"'evaluation_dataset': 'Eval Set v1 (N=519 YouTube clips, data/raw/eval/)',"
+scripts\generate_master_experiment_registry.py,87,"'evaluation_dataset': 'data/processed/combined_val_split_manifest.csv (N=214)',"
+scripts\generate_master_experiment_registry.py,94,"'research_question': 'Does training PANNs CNN14 on the combined AudioSet + NIGENS dataset improve classification performance on real-world evaluation audio?',"
+scripts\generate_master_experiment_registry.py,95,"'hypothesis': 'Combined training on 854 clips will outperform the 422-clip baseline model on independent evaluation.',"
+scripts\generate_master_experiment_registry.py,104,"'evaluation_dataset': 'Eval Set v1 (N=519 YouTube clips)',"
+scripts\generate_master_experiment_registry.py,121,"'evaluation_dataset': '519 independent evaluation samples with per-clip error attribution',"
+scripts\generate_master_experiment_registry.py,128,"'research_question': 'Can error-guided hard-negative audio mining from AudioSet identify high-risk non-emergency confusers, and what is their empirical validation yield?',"
+scripts\generate_master_experiment_registry.py,138,"'evaluation_dataset': 'data/processed/targeted_expansion_content_validation.csv',"
+scripts\generate_master_experiment_registry.py,139,"'metrics': 'Validation Yield=95.0% usable (380/400); Confuser additions=224 clips across 7 acoustic confuser categories',"
+scripts\generate_master_experiment_registry.py,141,'report_location': 'reports/targeted_expansion_validation_results_report.md'
+scripts\generate_master_experiment_registry.py,145,"'research_question': 'How does baseline training perform under strictly controlled, reproducible conditions on shared validation and Test Set v2? (Seed 42)',"
+scripts\generate_master_experiment_registry.py,154,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,155,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,156,"'metrics': 'Val_Acc=0.8952; Val_F1=0.8995; Test2_Acc=0.7733; Test2_F1=0.7810; Test2_FER_Overall=0.4167; Test2_FER_Confusers=0.6267; Test2_FER_Benign=0.2067',"
+scripts\generate_master_experiment_registry.py,171,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,172,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,173,"'metrics': 'Val_Acc=0.8857; Val_F1=0.8897; Test2_Acc=0.7800; Test2_F1=0.7873; Test2_FER_Overall=0.3967; Test2_FER_Confusers=0.6200; Test2_FER_Benign=0.1733',"
+scripts\generate_master_experiment_registry.py,188,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,189,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,190,"'metrics': 'Val_Acc=0.8952; Val_F1=0.8995; Test2_Acc=0.7747; Test2_F1=0.7816; Test2_FER_Overall=0.4233; Test2_FER_Confusers=0.6467; Test2_FER_Benign=0.2000',"
+scripts\generate_master_experiment_registry.py,205,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,206,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,207,"'metrics': 'Val_Acc=0.8952; Val_F1=0.9003; Test2_Acc=0.8253; Test2_F1=0.8238; Test2_FER_Overall=0.2367; Test2_FER_Confusers=0.3267; Test2_FER_Benign=0.1467',"
+scripts\generate_master_experiment_registry.py,222,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,223,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,224,"'metrics': 'Val_Acc=0.9048; Val_F1=0.9094; Test2_Acc=0.8387; Test2_F1=0.8366; Test2_FER_Overall=0.2067; Test2_FER_Confusers=0.2933; Test2_FER_Benign=0.1200',"
+scripts\generate_master_experiment_registry.py,239,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,240,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,241,"'metrics': 'Val_Acc=0.9143; Val_F1=0.9187; Test2_Acc=0.8253; Test2_F1=0.8273; Test2_FER_Overall=0.2833; Test2_FER_Confusers=0.3400; Test2_FER_Benign=0.2267',"
+scripts\generate_master_experiment_registry.py,248,"'hypothesis': 'General background scaling will appear competitive on benign validation audio but will fail to suppress false alarms on acoustic confusers.',"
+scripts\generate_master_experiment_registry.py,256,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,257,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,258,"'metrics': 'Val_Acc=0.9143; Val_F1=0.9187; Test2_Acc=0.8200; Test2_F1=0.8224; Test2_FER_Overall=0.3100; Test2_FER_Confusers=0.4733; Test2_FER_Benign=0.1467',"
+scripts\generate_master_experiment_registry.py,273,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,274,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,275,"'metrics': 'Val_Acc=0.9143; Val_F1=0.9181; Test2_Acc=0.8067; Test2_F1=0.8114; Test2_FER_Overall=0.3667; Test2_FER_Confusers=0.5667; Test2_FER_Benign=0.1667',"
+scripts\generate_master_experiment_registry.py,290,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,291,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 Benchmark (N=750)',"
+scripts\generate_master_experiment_registry.py,292,"'metrics': 'Val_Acc=0.9143; Val_F1=0.9181; Test2_Acc=0.8027; Test2_F1=0.8071; Test2_FER_Overall=0.3600; Test2_FER_Confusers=0.5733; Test2_FER_Benign=0.1467',"
+scripts\generate_master_experiment_registry.py,298,"'research_question': 'Does the 105-sample in-distribution shared validation set reveal differences between targeted hard negatives and general scaling?',"
+scripts\generate_master_experiment_registry.py,299,"'hypothesis': 'Shared validation contains 0 confusers and cannot distinguish targeted hard negatives from general scaling, creating validation alignment bias.',"
+scripts\generate_master_experiment_registry.py,300,"'experiment_condition': 'Phase 1 Multi-Seed In-Distribution Evaluation',"
+scripts\generate_master_experiment_registry.py,302,"'dataset_and_sample_count': 'Shared Invariant Validation Set (N=105)',"
+scripts\generate_master_experiment_registry.py,304,"'training_configuration': '3 conditions x 3 seeds evaluated on identical shared validation set',"
+scripts\generate_master_experiment_registry.py,308,"'evaluation_dataset': 'Shared Validation Split (data/processed/shared_val_split_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,315,"'research_question': 'When evaluated on an untouched, balanced, independent benchmark with acoustic confusers, does hard-negative learning outperform general background scaling?',"
+scripts\generate_master_experiment_registry.py,317,"'experiment_condition': 'Phase 1 Multi-Seed Test Set v2 Benchmark Evaluation',"
+scripts\generate_master_experiment_registry.py,319,"'dataset_and_sample_count': 'Test Set v2 Benchmark (N=750: zero source overlap)',"
+scripts\generate_master_experiment_registry.py,321,"'training_configuration': 'Frozen benchmark evaluation with 10,000 bootstrap iterations and McNemar significance tests',"
+scripts\generate_master_experiment_registry.py,324,"'prediction_file_location': 'models/experiments/phase1_main/test_set_v2_evaluation_summary.json',"
+scripts\generate_master_experiment_registry.py,325,"'evaluation_dataset': 'Test Set v2 (data/processed/test_set_v2_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,328,'report_location': 'reports/test_set_v2_acquisition_report.md'
+scripts\generate_master_experiment_registry.py,342,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,350,"'hypothesis': 'Removing human shouting will cause a sharp increase in false scream alarms on Test Set v2 shouting confusers.',"
+scripts\generate_master_experiment_registry.py,359,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,376,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,393,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,410,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,427,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,444,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,461,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,478,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,495,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,512,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,529,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,546,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,563,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,580,"'evaluation_dataset': 'Shared Validation (N=105) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,597,"'evaluation_dataset': 'Eval Set v1 (N=519) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,610,"'training_configuration': 'Sequential gradient steps with intermittent evaluation against fixed emergency memory probe',"
+scripts\generate_master_experiment_registry.py,614,"'evaluation_dataset': 'Fixed Emergency Probe (N=100) & Test Set v2 (N=750)',"
+scripts\generate_master_experiment_registry.py,625,"'dataset_and_sample_count': 'Test Set v2 (N=750) profiled across E1, E2, E3 model checkpoints',"
+scripts\generate_master_experiment_registry.py,631,"'evaluation_dataset': 'Test Set v2 Latent Embeddings (N=750 x 2048)',"
+scripts\generate_master_experiment_registry.py,643,"'prediction_file_location', 'evaluation_dataset', 'metrics',"
+scripts\generate_status_report.py,86,"f""**Evaluation Task ID:** `task-5487` (Active Test Set v2 Evaluation)  "","
+scripts\generate_status_report.py,97,"f""| **2** | Integrity of initial runs 1–19 | Runs 1–19 retain valid `best_model.pt` weights (~320 MB), complete training histories, and 105-sample validation predictions. Zero files corrupted or lost. | **CONFIRMED** |"","
+scripts\generate_status_report.py,98,"f""| **3** | Integrity of resumed run 20 | Run 20 (`e4_minus_fireworks_firecrackers_seed123`) resumed and completed successfully in 143.8s, reaching validation accuracy 0.9143 and macro-F1 0.9181 at best epoch 15. | **CONFIRMED** |"","
+scripts\generate_status_report.py,139,"""- **Benchmark Evaluation Pipeline (`src/evaluate_phase2_e4.py`):** **ACTIVE IN BACKGROUND** (Task ID: `task-5487`)."","
+scripts\generate_status_report.py,140,"""- **Next Milestone:** Test Set v2 benchmark inference, paired sign-flip permutation tests ($\\theta_1$), ensemble McNemar tests ($\\theta_2$), cluster bootstrap confidence intervals, and generation of `reports/phase2_e4_final_results.md`."","
+scripts\prepare_test_set_v2_candidates.py,1,"""""""Prepare Test Set v2 Candidate Manifest."
+scripts\prepare_test_set_v2_candidates.py,36,"OUT_CANDIDATES_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\prepare_test_set_v2_candidates.py,144,"""relative_path"": f""data/raw/test_set_v2/scream/scream_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,154,"""relative_path"": f""data/raw/test_set_v2/glass_breaking/glass_breaking_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,164,"""relative_path"": f""data/raw/test_set_v2/gunshot/gunshot_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,174,"""relative_path"": f""data/raw/test_set_v2/siren/siren_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,187,"""relative_path"": f""data/raw/test_set_v2/other/other_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,201,"""relative_path"": f""data/raw/test_set_v2/other/other_{vid}_{int(start)}_{int(end)}.wav"""
+scripts\prepare_test_set_v2_candidates.py,210,"print(""  PREPARING TEST SET V2 CANDIDATES"")"
+scripts\prepare_test_set_v2_candidates.py,257,"print(""  SAMPLING TEST SET V2 QUEUE (SEED = 2026)"")"
+scripts\recompute_phase1_metrics.py,1,"""""""Recompute Phase 1 validation metrics and predictions using exact trained checkpoints."
+scripts\replenish_test_set_v2_candidates.py,1,"""""""Sample Replenishments for Test Set v2 to ensure every stratum hits exact target quota."
+scripts\replenish_test_set_v2_candidates.py,24,from scripts.prepare_test_set_v2_candidates import (
+scripts\replenish_test_set_v2_candidates.py,29,"OUT_REPLENISH_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\replenish_test_set_v2_candidates.py,30,"OUT_REPLENISH_RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\replenish_test_set_v2_candidates.py,31,"DEST_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\replenish_test_set_v2_candidates.py,37,"cand_df = pd.read_csv(ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"")"
+scripts\run_independent_audit.py,19,"evaluate_checkpoint_on_test_set,"
+scripts\run_independent_audit.py,20,"exact_mcnemar_test,"
+scripts\run_independent_audit.py,21,"paired_permutation_test,"
+scripts\run_independent_audit.py,28,"TEST_MANIFEST_PATH = root / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\run_independent_audit.py,30,"ORIG_SUMMARY_PATH = MODELS_DIR / ""phase2_e4_evaluation_summary.json"""
+scripts\run_independent_audit.py,36,# 1. Load Original Evaluation Summary for Comparison
+scripts\run_independent_audit.py,41,manifest_df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\run_independent_audit.py,43,"y_true_benchmark = manifest_df[""class_id""].values.astype(int)"
+scripts\run_independent_audit.py,56,"target_sub = pair[""test_subdomain""]"
+scripts\run_independent_audit.py,58,exists_in_test = target_sub in subdomains_present
+scripts\run_independent_audit.py,67,"f""Dedicated slice '{target_sub}' absent in Test Set v2 manifest. """
+scripts\run_independent_audit.py,74,"f""Training condition named '{cat_key}' matched to Test Set v2 subdomain '{target_sub}'. """
+scripts\run_independent_audit.py,80,"notes = f""Exact match with dedicated Test Set v2 subdomain '{target_sub}' (N={slice_count})."""
+scripts\run_independent_audit.py,90,"""test_subdomain_exists"": exists_in_test,"
+scripts\run_independent_audit.py,109,"print(""Loading all 45 checkpoints and running inference on Test Set v2..."")"
+scripts\run_independent_audit.py,117,"pred_df, yt, yp, pr = evaluate_checkpoint_on_test_set(ckpt_path, TEST_MANIFEST_PATH, device)"
+scripts\run_independent_audit.py,144,"subdomain = pair[""test_subdomain""]"
+scripts\run_independent_audit.py,171,# Permutation test
+scripts\run_independent_audit.py,172,"perm_res = paired_permutation_test(diffs_theta1, n_permutations=100000, seed=42)"
+scripts\run_independent_audit.py,178,"y_true=y_true_benchmark[sub_mask],"
+scripts\run_independent_audit.py,190,"ens_mcnemar = exact_mcnemar_test(ens_b, ens_c)"
+scripts\run_independent_audit.py,197,"seed_mcnemar[f""seed_{s}""] = exact_mcnemar_test(b_s, c_s)"
+scripts\run_independent_audit.py,230,t_id = y_true_benchmark[global_idx]
+scripts\run_independent_audit.py,299,"""benchmark_samples"": 750,"
+scripts\run_phase1_experiments.py,8,- Invariant Validation: Identical 105 samples (shared_val_split_manifest.csv) across all runs.
+scripts\run_phase1_experiments.py,64,"""""""Load best checkpoint and compute per-sample validation predictions and probabilities."""""""
+scripts\run_phase1_experiments.py,176,"print(f""Shared Validation Set: {SHARED_VAL_PATH.name} (105 samples)"")"
+scripts\run_phase2_experiments.py,9,- Invariant Validation: Identical 105 samples (shared_val_split_manifest.csv) across all runs.
+scripts\run_phase2_experiments.py,181,"""""""Load checkpoint and generate per-sample validation predictions."""""""
+scripts\run_phase2_experiments.py,333,"raise FileNotFoundError(f""Missing shared validation manifest: {SHARED_VAL_PATH}"")"
+scripts\run_phase2_experiments.py,336,"print(f""Shared Validation SHA-256: {shared_val_hash}"")"
+scripts\run_phase2_experiments.py,414,"print(f""\n[{idx}/{len(plan)}] SKIPPING {run_name}: Checkpoint and evaluation already complete at {run_dir}"")"
+scripts\run_phase2_experiments.py,485,# Compute extended validation metrics
+scripts\run_phase2_experiments.py,509,"latest_ckpt = run_dir / ""latest_checkpoint.pt"""
+scripts\run_phase2_experiments.py,510,if latest_ckpt.exists():
+scripts\run_phase2_experiments.py,512,latest_ckpt.unlink()
+scripts\scan_test_set_v2_candidates.py,1,"""""""Scan available AudioSet pools for Test Set v2 candidate counts."
+scripts\simulate_phase3_power.py,6,1. Exact paired binary McNemar test (discrete recording-level discordance).
+scripts\simulate_phase3_power.py,7,2. Clustered 3-seed fractional difference permutation test.
+scripts\simulate_phase3_power.py,8,"3. Slice-level tests (N = 25, 50, 75, 100) under FWER alpha = 0.0125 and nominal alpha = 0.05."
+scripts\simulate_phase3_power.py,9,4. Gate 1 pooled confuser test (N = 350) at alpha = 0.05.
+scripts\simulate_phase3_power.py,17,from scipy.stats import binomtest
+scripts\simulate_phase3_power.py,47,# Two-sided exact binomial test
+scripts\simulate_phase3_power.py,48,"res = binomtest(b, k, p=0.5, alternative='two-sided')"
+scripts\simulate_phase3_power.py,51,# Check direction: we are testing if E2 is better (b > c)
+scripts\simulate_phase3_power.py,73,# Approximating power via paired t-test or sign-flip
+scripts\simulate_phase3_power.py,130,"# 1. Slice-Level Evaluation (Subdomain slices: N = 25, 50, 75, 100)"
+scripts\simulate_phase3_power.py,150,"# 2. Gate 1 Pooled Confuser Test (N = 350, alpha = 0.05)"
+scripts\simulate_phase3_power_comprehensive.py,9,- Clustered 3-Seed Fractional Permutation Test (theta_1 single-model average).
+scripts\simulate_phase3_power_comprehensive.py,27,"from scipy.stats import binomtest, norm"
+scripts\simulate_phase3_power_comprehensive.py,52,"res = binomtest(b, k, p=0.5, alternative='two-sided')"
+scripts\simulate_phase3_power_comprehensive.py,63,Simulates the paired cluster sign-flip permutation test for theta_1.
+scripts\simulate_phase3_power_comprehensive.py,102,# Two-sided permutation test via sign flips
+scripts\simulate_phase3_power_comprehensive.py,154,"print(""\n--- 2. Clustered 3-Seed Permutation Test Power (Single Model Average theta_1) ---"")"
+scripts\validate_test_set_v2_content.py,1,"""""""Validation and Compilation of Test Set v2 Benchmark (N = 750)."
+scripts\validate_test_set_v2_content.py,4,"1. Signal-level acoustic validation (RMS, peak, silence fraction, duration, 16 kHz mono 16-bit PCM)."
+scripts\validate_test_set_v2_content.py,15,5. Saves data/processed/test_set_v2_content_validation.csv and data/processed/test_set_v2_manifest.csv.
+scripts\validate_test_set_v2_content.py,38,"AUDIO_DIR = ROOT / ""data"" / ""raw"" / ""test_set_v2"""
+scripts\validate_test_set_v2_content.py,40,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\validate_test_set_v2_content.py,41,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\validate_test_set_v2_content.py,45,"CONTENT_VALIDATION_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_content_validation.csv"""
+scripts\validate_test_set_v2_content.py,46,"FINAL_MANIFEST_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\validate_test_set_v2_content.py,98,"print(""  TEST SET V2 CONTENT VALIDATION & BENCHMARK COMPILATION"")"
+scripts\validate_test_set_v2_content.py,120,"# e.g. data/raw/test_set_v2/glass_breaking -> cname = ""glass_breaking"""
+scripts\validate_test_set_v2_content.py,255,# Save complete content validation CSV
+scripts\validate_test_set_v2_content.py,256,"df.to_csv(CONTENT_VALIDATION_CSV, index=False)"
+scripts\validate_test_set_v2_content.py,257,"print(f""Saved content validation results: {CONTENT_VALIDATION_CSV}"")"
+scripts\validate_test_set_v2_content.py,259,# Stratified Quota Selection for Test Set v2 Benchmark (N = 750)
+scripts\validate_test_set_v2_content.py,261,"print(""  STRATIFIED SELECTION FOR TEST SET V2 (TARGET: 750)"")"
+scripts\validate_test_set_v2_content.py,307,benchmark_df = pd.concat(selected_rows).reset_index(drop=True)
+scripts\validate_test_set_v2_content.py,309,"print(f""Total benchmark samples selected: {len(benchmark_df)}"")"
+scripts\validate_test_set_v2_content.py,311,"# Sort benchmark by target_class, subdomain, video_id"
+scripts\validate_test_set_v2_content.py,312,"benchmark_df = benchmark_df.sort_values(by=[""class_id"", ""subdomain"", ""video_id""]).reset_index(drop=True)"
+scripts\validate_test_set_v2_content.py,320,"benchmark_df[""relative_path""] = benchmark_df[""file_path""]"
+scripts\validate_test_set_v2_content.py,322,"benchmark_df[manifest_cols].to_csv(FINAL_MANIFEST_CSV, index=False)"
+scripts\validate_test_set_v2_content.py,323,"print(f""Saved frozen benchmark manifest: {FINAL_MANIFEST_CSV} ({len(benchmark_df)} samples)"")"
+scripts\verify_e3_readiness.py,85,"print(f""Overlap with Shared Validation (105 clips): {len(val_overlap)}"")"
+scripts\verify_e3_readiness.py,87,"print(""  [PASS] 0 overlap with shared validation benchmark."")"
+scripts\verify_e3_readiness.py,93,"print(f""Overlap with Held-out Evaluation (744 rows): {len(eval_overlap)}"")"
+scripts\verify_e3_readiness.py,95,"print(""  [PASS] 0 overlap with held-out evaluation set."")"
+scripts\verify_e3_readiness.py,192,# E3 Val Manifest (Exact shared validation set)
+scripts\verify_e3_readiness.py,194,"print(f""Saved E3 Val Split Manifest (Shared benchmark): {E3_VAL_MANIFEST_PATH} ({len(shared_val)} rows)"")"
+src\audit_all_experimental_conditions.py,12,1. Exact validation invariance: 100% identical 105 validation samples across all 18 conditions.
+src\audit_all_experimental_conditions.py,13,2. Zero train/validation data leakage.
+src\audit_all_experimental_conditions.py,15,4. Zero overlap with held-out evaluation set (eval_manifest.csv).
+src\audit_all_experimental_conditions.py,51,# 1. Load reference evaluation set
+src\audit_all_experimental_conditions.py,54,"print(f""Held-out evaluation video IDs: {len(eval_vids)}"")"
+src\audit_all_experimental_conditions.py,56,# 2. Load shared validation set
+src\audit_all_experimental_conditions.py,60,"print(f""Shared validation benchmark: {len(shared_val_df)} rows | SHA-256: {shared_val_hash[:16]}..."")"
+src\audit_all_experimental_conditions.py,137,# Invariant validation check
+src\audit_all_experimental_conditions.py,138,"assert set(val_vids) == shared_val_vids, f""{name}: Validation set deviates from shared benchmark!"""
+src\audit_e3_content.py,1,"""""""Audit and Content Validation of E3 General Background Audio Clips."
+src\audit_e3_content.py,3,Performs multi-layered validation:
+src\audit_e3_content.py,7,4. Generates data/processed/e3_review_results.csv and updates data/processed/e3_content_validation.csv.
+src\audit_e3_content.py,31,"CONTENT_MANIFEST = ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"""
+src\audit_e3_content.py,38,"print(""E3 GENERAL BACKGROUND AUDIO: CONTENT VALIDATION & REVIEW"")"
+src\audit_e3_content.py,157,"print(""\n--- 3. Formulating Validation Decisions ---"")"
+src\audit_e3_content.py,168,"notes = f""Acoustic validation: verified {row['subdomain']} ({row['matched_label']}), RMS={row['rms']:.4f}"""
+src\audit_e3_content.py,231,# Update e3_content_validation.csv
+src\audit_e3_content.py,232,"manifest_df[""validation_status""] = dec_df[""verdict""].apply("
+src\audit_e3_content.py,238,# Save back to e3_content_validation.csv preserving columns
+src\audit_e3_content.py,241,"""matched_label"", ""origin"", ""duration_seconds"", ""file_size_bytes"", ""validation_status"","
+src\audit_e3_content.py,245,"print(f""Updated content validation manifest: {CONTENT_MANIFEST}"")"
+src\audit_e3_replacements.py,1,"""""""Audit and Content Validation of E3 Replacements."
+src\audit_e3_replacements.py,3,Applies identical multi-stage content validation protocol:
+src\audit_e3_replacements.py,6,3. Produces data/processed/e3_replacement_content_validation.csv
+src\audit_e3_replacements.py,32,"CONTENT_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""e3_replacement_content_validation.csv"""
+src\audit_e3_replacements.py,39,"print(""E3 REPLACEMENT AUDIO: CONTENT VALIDATION & REVIEW"")"
+src\audit_e3_replacements.py,93,"""validation_status"": ""PENDING"","
+src\audit_e3_replacements.py,152,"print(""\n--- 3. Formulating Validation Decisions ---"")"
+src\audit_e3_replacements.py,163,"notes = f""Acoustic validation: verified {row['subdomain']} ({row['matched_label']}), RMS={row['rms']:.4f}"""
+src\audit_e3_replacements.py,222,# Update e3_replacement_content_validation.csv
+src\audit_e3_replacements.py,223,"mdf[""validation_status""] = dec_df[""verdict""].apply("
+src\audit_e3_replacements.py,231,"""matched_label"", ""origin"", ""duration_seconds"", ""file_size_bytes"", ""validation_status"","
+src\audit_e3_replacements.py,235,"print(f""Updated replacement content validation manifest: {CONTENT_MANIFEST_PATH}"")"
+src\audit_train_inventory.py,168,# Store latest entry for key
+src\batch_downloader.py,11,"- Audio validation: checks 16 kHz, mono, duration, non-empty, wave readability."
+src\batch_downloader.py,115,"""""""Ensure zero video ID overlap between training and evaluation manifests."""""""
+src\batch_downloader.py,320,# Check custom manifest against evaluation videos
+src\batch_downloader.py,326,"f""FATAL: Custom manifest contains {len(custom_overlap)} evaluation video IDs: {list(custom_overlap)[:5]}"""
+src\batch_downloader.py,328,"print(f""  [OK] Custom manifest cross-check: 0 overlap with evaluation videos ({len(custom_vids)} unique vids)"")"
+src\batch_downloader.py,474,# Check D: Post-download strict validation
+src\batch_downloader.py,477,"print(f""  -> [FAIL_POST_VALIDATION] {v_err}"")"
+src\batch_downloader.py,484,"""output_path"": rel_target_wav, ""status"": ""VALIDATION_FAILED"","
+src\build_matched_e2_manifest.py,11,- Val split: 105 samples (exact shared validation set).
+src\build_matched_e2_manifest.py,50,# 1. Load full E2 train manifest and shared validation manifest
+src\build_matched_e2_manifest.py,93,# 4. Assemble E2 Matched Val Manifest (Shared Benchmark)
+src\build_matched_e2_manifest.py,114,# Verify identical 105 shared validation samples
+src\build_matched_e2_manifest.py,115,"assert set(e2_matched_val[""video_id""]) == set(df_shared_val[""video_id""]), ""Validation set mismatch!"""
+src\build_matched_e2_manifest.py,116,"print(f""  [PASS] Both datasets evaluate on the identical 105-sample shared validation set."")"
+src\build_matched_e2_manifest.py,120,"print(f""  [PASS] Zero train/validation video ID overlap in E2 matched."")"
+src\build_matched_e2_manifest.py,139,"""shared_validation_samples"": 105,"
+src\collect_other_dataset.py,354,# Strict validation
+src\collect_other_dataset.py,357,"print(f""  -> [FAIL_VALIDATION] {v_err}"")"
+src\collect_other_dataset.py,362,"""audio_set_mid"": mid, ""output_path"": rel_out, ""status"": ""FAILED_VALIDATION"","
+src\compare_eval_models.py,1,"""""""Comparative Evaluation of Baseline and Combined PANNs CNN14 Models."
+src\compare_eval_models.py,3,Evaluates both models on the exact same 519 accessible evaluation samples:
+src\compare_eval_models.py,70,"""""""Run forward inference over the evaluation dataset."""""""
+src\compare_eval_models.py,94,"print(""  INDEPENDENT COMPARATIVE EVALUATION: BASELINE VS COMBINED PANNs CNN14"")"
+src\compare_eval_models.py,98,"print(f""Evaluation Audio Dir:{EVAL_AUDIO_DIR.relative_to(ROOT)}"")"
+src\compare_eval_models.py,99,"print(f""Evaluation Manifest: {EVAL_MANIFEST.relative_to(ROOT)}"")"
+src\compare_eval_models.py,109,"raise FileNotFoundError(f""Evaluation audio dir not found: {EVAL_AUDIO_DIR}"")"
+src\compare_eval_models.py,129,"print(f""  [OK] Zero source overlap between all training splits and evaluation files ({len(eval_files)} audio files verified)."")"
+src\compare_eval_models.py,131,# 3. Build Evaluation Dataset and DataLoader
+src\compare_eval_models.py,132,"print(""\n[Step 2/5] Initializing Evaluation DataLoader..."")"
+src\compare_eval_models.py,149,"print(f""  Accessible evaluation samples: {len(eval_dataset)}"")"
+src\compare_eval_models.py,275,# 8. Save Individual Evaluation Reports
+src\compare_eval_models.py,301,"f.write(""# Independent Evaluation: Baseline vs. Combined PANNs CNN14\n\n"")"
+src\compare_eval_models.py,304,"f.write(f""**Independent Evaluation Clips:** **{len(eval_dataset)} valid WAV clips** across all 5 classes  \n"")"
+src\compare_eval_models.py,305,"f.write(f""**Evaluation Audio Directory:** [`data/raw/eval/`](file:///d:/ml/fydp/MyNet/data/raw/eval/)  \n"")"
+src\compare_eval_models.py,310,"f.write(""| Evaluation Metric | Baseline Model (AudioSet-only) | Combined Model (AudioSet + NIGENS) | Delta | Advantage |\n"")"
+src\compare_eval_models.py,389,"f.write(""   - The independent evaluation dataset (`data/raw/eval/`) consists strictly of authentic YouTube environment audio from AudioSet, featuring background reverberation, street noise, dialogue, and low SNR.\n"")"
+src\compare_eval_models.py,401,"f.write(""- **Primary Reason:** The baseline frozen PANNs CNN14 checkpoint (`models/experiments/panns_cnn14/best_model.pt`) significantly outperforms the combined model on the independent test set across all macro metrics:\n"")"
+src\download_eval.py,1,"""""""Orchestrates parallel chunked downloading for AudioSet evaluation split."
+src\download_eval.py,24,"print(""  EVALUATION AUDIOSET DATASET ACQUISITION (PARALLEL)"")"
+src\download_eval.py,30,"print(f""Total evaluation manifest records: {total_records}"")"
+src\download_eval.py,102,"print(""  EVALUATION DOWNLOAD SUMMARY"")"
+src\evaluate_panns.py,1,"""""""Independent Evaluation of PANNs CNN14 on AudioSet Held-Out Evaluation Dataset."
+src\evaluate_panns.py,4,and evaluates against validated evaluation WAV files in `data/raw/eval/`.
+src\evaluate_panns.py,9,- Cross-split isolation check verified before evaluation.
+src\evaluate_panns.py,68,"""""""Run forward inference over the evaluation dataset."""""""
+src\evaluate_panns.py,90,"print(""  INDEPENDENT EVALUATION: PANNs CNN14 (FROZEN BACKBONE)"")"
+src\evaluate_panns.py,93,"print(f""Evaluation Audio Dir:  {EVAL_AUDIO_DIR.relative_to(ROOT)}"")"
+src\evaluate_panns.py,94,"print(f""Evaluation Manifest:   {EVAL_MANIFEST.relative_to(ROOT)}"")"
+src\evaluate_panns.py,99,"print(""\n[Step 1/5] Running preflight check on evaluation audio..."")"
+src\evaluate_panns.py,110,"raise RuntimeError(""No valid audio files found in evaluation directory!"")"
+src\evaluate_panns.py,147,# 4. Build Evaluation DataLoader
+src\evaluate_panns.py,148,"print(""\n[Step 4/5] Preparing Evaluation DataLoader..."")"
+src\evaluate_panns.py,157,"print(f""  Total evaluation batches: {len(eval_loader)} (batch size: 16)"")"
+src\evaluate_panns.py,159,# 5. Execute Evaluation
+src\evaluate_panns.py,160,"print(""\n[Step 5/5] Executing forward evaluation inference..."")"
+src\evaluate_panns.py,186,"print(""  INDEPENDENT EVALUATION RESULTS & AUDIT"")"
+src\evaluate_panns.py,188,"print(f""Evaluation Coverage:    {evaluated_count}/{total_manifest} clips ({coverage_pct:.2f}%)"")"
+src\evaluate_panns.py,194,"print(""Per-Class Evaluation Performance:"")"
+src\evaluate_panns.py,201,"print(""\nEvaluation Confusion Matrix (Rows: True, Columns: Predicted):"")"
+src\evaluate_panns.py,219,# Save Evaluation Report JSON
+src\evaluate_panns.py,225,"""evaluation_coverage"": {"
+src\evaluate_panns.py,239,"print(f""\nFull evaluation report saved to: {OUTPUT_REPORT_PATH}"")"
+src\evaluate_phase2_e4.py,1,"""""""Phase 2 E4 Benchmark Evaluation Pipeline."
+src\evaluate_phase2_e4.py,8,1. Exact two-sided binomial McNemar tests via scipy.stats.binomtest.
+src\evaluate_phase2_e4.py,9,2. Holm-Bonferroni multiple testing correction across category comparisons.
+src\evaluate_phase2_e4.py,15,7. Strict recording-ID matching and validation across all models and test set entries.
+src\evaluate_phase2_e4.py,43,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_phase2_e4.py,45,"DEFAULT_REPORT_PATH = ROOT / ""reports"" / ""phase2_e4_evaluation_report.md"""
+src\evaluate_phase2_e4.py,46,"DEFAULT_SUMMARY_JSON = ROOT / ""models"" / ""experiments"" / ""phase2_e4"" / ""phase2_e4_evaluation_summary.json"""
+src\evaluate_phase2_e4.py,59,"""test_subdomain"": ""confuser_human_shouting"","
+src\evaluate_phase2_e4.py,68,"""test_subdomain"": ""confuser_metal_impacts"","
+src\evaluate_phase2_e4.py,77,"""test_subdomain"": ""confuser_door_slams"","
+src\evaluate_phase2_e4.py,86,"""test_subdomain"": ""confuser_construction_tools"",  # Note: Evaluated on confusers if dedicated slice absent"
+src\evaluate_phase2_e4.py,95,"""test_subdomain"": ""confuser_car_alarms_buzzers"","
+src\evaluate_phase2_e4.py,104,"""test_subdomain"": ""confuser_fireworks"","
+src\evaluate_phase2_e4.py,113,"""test_subdomain"": ""confuser_whistles"","
+src\evaluate_phase2_e4.py,119,# 1. Exact Binomial McNemar Test
+src\evaluate_phase2_e4.py,122,"def exact_mcnemar_test(b: int, c: int) -> Dict[str, Any]:"
+src\evaluate_phase2_e4.py,123,"""""""Perform exact two-sided binomial McNemar test on discordant pairs."
+src\evaluate_phase2_e4.py,139,# Exact two-sided binomial test under H0: p = 0.5
+src\evaluate_phase2_e4.py,140,"res = stats.binomtest(b, total_discordant, p=0.5, alternative=""two-sided"")"
+src\evaluate_phase2_e4.py,154,# 2. Paired Sign-Flip Permutation Test for Fractional / Continuous Differences
+src\evaluate_phase2_e4.py,157,def paired_permutation_test(
+src\evaluate_phase2_e4.py,162,"""""""Perform exact or Monte Carlo paired sign-flip permutation test for theta_1."
+src\evaluate_phase2_e4.py,185,4. Test Statistic & Two-Sided p-value:
+src\evaluate_phase2_e4.py,186,The test statistic is the observed sample mean difference:
+src\evaluate_phase2_e4.py,190,- For K > 16 non-zero recordings: Monte Carlo permutation testing with R random sign vectors:
+src\evaluate_phase2_e4.py,257,"""""""Apply Holm-Bonferroni step-down correction across multiple category tests."
+src\evaluate_phase2_e4.py,448,# 5. Strict Recording ID Validation
+src\evaluate_phase2_e4.py,456,"""""""Validate that recording IDs match the reference benchmark manifest exactly."
+src\evaluate_phase2_e4.py,475,# 6. Checkpoint Evaluation on Test Set v2
+src\evaluate_phase2_e4.py,478,def evaluate_checkpoint_on_test_set(
+src\evaluate_phase2_e4.py,483,"""""""Load model checkpoint, evaluate on Test Set v2, and extract predictions."
+src\evaluate_phase2_e4.py,548,# 7. Synthetic Predictions Generator for Testing Pipeline
+src\evaluate_phase2_e4.py,556,"""""""Generate realistic deterministic synthetic predictions on Test Set v2."
+src\evaluate_phase2_e4.py,663,# 8. Complete Evaluation Battery
+src\evaluate_phase2_e4.py,666,def run_phase2_evaluation(
+src\evaluate_phase2_e4.py,667,"test_manifest_path: Path,"
+src\evaluate_phase2_e4.py,676,"""""""Execute complete Phase 2 evaluation pipeline."""""""
+src\evaluate_phase2_e4.py,677,manifest_df = pd.read_csv(test_manifest_path)
+src\evaluate_phase2_e4.py,682,"y_true_benchmark = manifest_df[""class_id""].values.astype(int)"
+src\evaluate_phase2_e4.py,697,"print(""PHASE 2 E4 EVALUATION PIPELINE: TEST SET v2 BENCHMARK"")"
+src\evaluate_phase2_e4.py,698,"print(f""Benchmark Manifest: {test_manifest_path} (N = {n_total})"")"
+src\evaluate_phase2_e4.py,717,"pred_df, yt, yp, pr = evaluate_checkpoint_on_test_set(ckpt_path, test_manifest_path, device)"
+src\evaluate_phase2_e4.py,719,# Strict recording ID validation
+src\evaluate_phase2_e4.py,751,other_mask = (y_true_benchmark == 4)
+src\evaluate_phase2_e4.py,756,"ens_metrics = compute_classification_metrics(y_true_benchmark, ens_preds, CLASSES)"
+src\evaluate_phase2_e4.py,774,"subdomain = pair[""test_subdomain""]"
+src\evaluate_phase2_e4.py,783,# Fallback to all confusers if dedicated category slice not in benchmark
+src\evaluate_phase2_e4.py,789,yt_slice = y_true_benchmark[sub_mask]
+src\evaluate_phase2_e4.py,804,"per_seed_mcnemar[f""seed_{s}""] = exact_mcnemar_test(b, c)"
+src\evaluate_phase2_e4.py,812,"theta1_perm = paired_permutation_test(diffs_theta1, n_permutations=100000, seed=seed)"
+src\evaluate_phase2_e4.py,821,"ens_mcnemar = exact_mcnemar_test(ens_b, ens_c)"
+src\evaluate_phase2_e4.py,841,"""test_subdomain"": subdomain,"
+src\evaluate_phase2_e4.py,869,"subdomain = pair[""test_subdomain""]"
+src\evaluate_phase2_e4.py,878,yt_slice = y_true_benchmark[sub_mask]
+src\evaluate_phase2_e4.py,885,# Permutation test on theta_1 vs E2 Full
+src\evaluate_phase2_e4.py,890,"theta1_perm_vs_full = paired_permutation_test(diffs_theta1_vs_full, n_permutations=100000, seed=seed)"
+src\evaluate_phase2_e4.py,897,"ens_mcnemar = exact_mcnemar_test(b, c)"
+src\evaluate_phase2_e4.py,955,"""benchmark_manifest"": str(test_manifest_path.relative_to(ROOT)).replace(""\\"", ""/""),"
+src\evaluate_phase2_e4.py,956,"""benchmark_samples"": n_total,"
+src\evaluate_phase2_e4.py,958,"""synthetic_validation_only"": bool(is_synthetic),"
+src\evaluate_phase2_e4.py,959,"""status_label"": ""SYNTHETIC VALIDATION ONLY — NOT EXPERIMENTAL RESULTS"" if is_synthetic else ""CONFIRMATORY BENCHMARK EVALUATION"","
+src\evaluate_phase2_e4.py,990,"""""""Generate a publication-grade markdown report of Phase 2 E4 evaluation."""""""
+src\evaluate_phase2_e4.py,995,"is_synth = meta.get(""synthetic_validation_only"", False)"
+src\evaluate_phase2_e4.py,1000,"""# Phase 2 E4 Statistical Evaluation Report [SYNTHETIC VALIDATION ONLY]"","
+src\evaluate_phase2_e4.py,1003,"""> ## SYNTHETIC VALIDATION ONLY — NOT EXPERIMENTAL RESULTS"","
+src\evaluate_phase2_e4.py,1010,"""# Phase 2 E4 Statistical Evaluation & Category Attribution Report"","
+src\evaluate_phase2_e4.py,1019,"f""**Status:** `{meta.get('status_label', 'CONFIRMATORY BENCHMARK EVALUATION')}`  "","
+src\evaluate_phase2_e4.py,1020,"f""**Benchmark Set:** Test Set v2 (N = {meta['benchmark_samples']} pristine samples)  "","
+src\evaluate_phase2_e4.py,1021,"f""**Evaluation Mode:** `{meta['mode'].upper()}`  "","
+src\evaluate_phase2_e4.py,1029,"""1. **Epistemic Demarcation:** Findings reported herein represent **Exploratory Category Attribution Analysis** on Test Set v2. Test Set v2 was unblinded in Phase 1; these results attribute the relative semantic impact of individual confuser subcategories on that benchmark."","
+src\evaluate_phase2_e4.py,1034,"""4. **Primary Hypothesis Testing:** Exactly 7 primary comparisons enter the primary Holm-Bonferroni step-down correction at family-wise $\\alpha = 0.05$ using exact/Monte Carlo paired sign-flip permutation tests on $\\theta_1$."","
+src\evaluate_phase2_e4.py,1035,"""5. **Secondary Multiplicity Policy:** Secondary comparisons against `E2 Full` and ensemble $\\theta_2$ tests are evaluated under their own isolated 7-hypothesis Holm-Bonferroni corrections and are never pooled with primary tests."","
+src\evaluate_phase2_e4.py,1072,"""> $\\theta_1$ represents the expected difference in false emergency rate for a single deployed model trained with arbitrary random seed. Inference is performed via recording-level paired permutation testing and cluster-aware bootstrap. Positive values indicate that removing the targeted category increased false alarms (i.e. targeted hard negatives were beneficial)."","
+src\evaluate_phase2_e4.py,1078,"""The secondary comparison evaluates the performance shift if an end-user deploys the full **3-model probability ensemble**. Tested using the exact two-sided binomial McNemar test on the ensemble decisions, with an independent 7-hypothesis Holm-Bonferroni correction."","
+src\evaluate_phase2_e4.py,1167,"""> **Secondary Multiplicity Policy:** The 7 secondary comparisons against `E2 Full` constitute a separate hypothesis family evaluated with its own 7-test Holm-Bonferroni step-down correction ($\\alpha = 0.05$). They are strictly separated from the primary family to prevent multiplicity leakage."","
+src\evaluate_phase2_e4.py,1192,"""2. **Interpretation of Insignificance:** Non-significant category differences ($p > 0.05$) indicate that on a fixed benchmark of $N = 25$ recordings, the margin shift was not detectable above stochastic noise. It does not constitute proof that the category has zero real-world utility."","
+src\evaluate_phase2_e4.py,1193,"""3. **Absence of Dedicated Tools Slice in Benchmark:** The Test Set v2 benchmark contains 6 confuser subdomains ($6 \\times 25 = 150$). The effect of `construction_tools` ablation was evaluated across the overall confuser stratum ($N = 150$), accurately measuring its generalized acoustic protection."","
+src\evaluate_phase2_e4.py,1210,"parser = argparse.ArgumentParser(description=""Evaluate Phase 2 E4 Experiments on Test Set v2 Benchmark"")"
+src\evaluate_phase2_e4.py,1211,"parser.add_argument(""--test-manifest"", type=Path, default=TEST_SET_V2_MANIFEST, help=""Path to Test Set v2 manifest"")"
+src\evaluate_phase2_e4.py,1222,run_phase2_evaluation(
+src\evaluate_phase2_e4.py,1223,"test_manifest_path=args.test_manifest,"
+src\evaluate_test_set_v2.py,1,"""""""Independent Benchmark Evaluation Pipeline for Test Set v2."
+src\evaluate_test_set_v2.py,4,on the untouched Test Set v2 benchmark (N = 750).
+src\evaluate_test_set_v2.py,18,- Statistical significance tests:
+src\evaluate_test_set_v2.py,20,"* Paired McNemar's tests (E2 vs E3, E2 vs E1)."
+src\evaluate_test_set_v2.py,44,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_test_set_v2.py,75,"def mcnemar_test(y_true: np.ndarray, y_pred1: np.ndarray, y_pred2: np.ndarray) -> Dict[str, Any]:"
+src\evaluate_test_set_v2.py,76,"""""""Perform paired McNemar's test with continuity correction between two models."""""""
+src\evaluate_test_set_v2.py,106,"def mcnemar_false_emergency_test(y_true: np.ndarray, y_pred1: np.ndarray, y_pred2: np.ndarray) -> Dict[str, Any]:"
+src\evaluate_test_set_v2.py,107,"""""""Perform McNemar's test specifically on false emergency classifications for 'other' class."""""""
+src\evaluate_test_set_v2.py,225,"def evaluate_model_on_test_set_v2(ckpt_path: Path, manifest_path: Path, device: torch.device):"
+src\evaluate_test_set_v2.py,226,"""""""Evaluate a single checkpoint on Test Set v2 and extract predictions."""""""
+src\evaluate_test_set_v2.py,286,"def compute_test_set_v2_metrics(pred_df: pd.DataFrame, y_true: np.ndarray, y_pred: np.ndarray) -> Dict[str, Any]:"
+src\evaluate_test_set_v2.py,287,"""""""Compute complete metric battery for Test Set v2."""""""
+src\evaluate_test_set_v2.py,370,def run_full_test_set_v2_evaluation():
+src\evaluate_test_set_v2.py,372,"print(""  TEST SET V2 INDEPENDENT BENCHMARK EVALUATION (N = 750)"")"
+src\evaluate_test_set_v2.py,375,if not TEST_SET_V2_MANIFEST.exists():
+src\evaluate_test_set_v2.py,376,"raise FileNotFoundError(f""Test Set v2 manifest not found: {TEST_SET_V2_MANIFEST}"")"
+src\evaluate_test_set_v2.py,378,manifest_df = pd.read_csv(TEST_SET_V2_MANIFEST)
+src\evaluate_test_set_v2.py,379,"print(f""Loaded manifest: {TEST_SET_V2_MANIFEST.name} ({len(manifest_df)} samples)"")"
+src\evaluate_test_set_v2.py,385,"print(f""Evaluation Device: {device}\n"")"
+src\evaluate_test_set_v2.py,402,"pred_df, y_true, y_pred = evaluate_model_on_test_set_v2(ckpt_path, TEST_SET_V2_MANIFEST, device)"
+src\evaluate_test_set_v2.py,405,"pred_csv_path = PHASE1_MODELS_DIR / run_name / ""test_set_v2_predictions.csv"""
+src\evaluate_test_set_v2.py,409,"metrics = compute_test_set_v2_metrics(pred_df, y_true, y_pred)"
+src\evaluate_test_set_v2.py,413,# Save run test metrics json
+src\evaluate_test_set_v2.py,414,"run_metrics_path = PHASE1_MODELS_DIR / run_name / ""test_set_v2_metrics.json"""
+src\evaluate_test_set_v2.py,458,"# Statistical Significance Testing (Seed 42 primary pair, and ensemble pair)"
+src\evaluate_test_set_v2.py,460,"print(""  STATISTICAL SIGNIFICANCE TESTING (E2 MATCHED vs E3 GENERAL)"")"
+src\evaluate_test_set_v2.py,463,# Use seed 42 as representative run for paired hypothesis tests
+src\evaluate_test_set_v2.py,474,# McNemar tests
+src\evaluate_test_set_v2.py,475,"mcnemar_e2_vs_e3 = mcnemar_test(y_true_ref, y_pred_e2, y_pred_e3)"
+src\evaluate_test_set_v2.py,476,"mcnemar_e2_vs_e1 = mcnemar_test(y_true_ref, y_pred_e2, y_pred_e1)"
+src\evaluate_test_set_v2.py,478,"fe_mcnemar_e2_vs_e3 = mcnemar_false_emergency_test(y_true_ref, y_pred_e2, y_pred_e3)"
+src\evaluate_test_set_v2.py,479,"fe_mcnemar_e2_vs_e1 = mcnemar_false_emergency_test(y_true_ref, y_pred_e2, y_pred_e1)"
+src\evaluate_test_set_v2.py,494,"print(""McNemar's Test (Overall Classification, E2 vs E3):"")"
+src\evaluate_test_set_v2.py,498,"print(""\nMcNemar's Test (False Emergency Avoidance, E2 vs E3):"")"
+src\evaluate_test_set_v2.py,508,# Save master benchmark evaluation JSON
+src\evaluate_test_set_v2.py,510,"""evaluation_timestamp"": datetime.now().strftime(""%Y-%m-%d %H:%M:%S""),"
+src\evaluate_test_set_v2.py,511,"""benchmark_manifest"": str(TEST_SET_V2_MANIFEST.name),"
+src\evaluate_test_set_v2.py,512,"""total_benchmark_samples"": len(manifest_df),"
+src\evaluate_test_set_v2.py,515,"""statistical_hypothesis_tests"": stat_comparisons,"
+src\evaluate_test_set_v2.py,518,"out_json_path = PHASE1_MODELS_DIR / ""test_set_v2_evaluation_summary.json"""
+src\evaluate_test_set_v2.py,522,"print(f""\nSaved master benchmark evaluation summary to: {out_json_path}"")"
+src\evaluate_test_set_v2.py,527,run_full_test_set_v2_evaluation()
+src\extract_glass_test.py,14,"output_wav = out_dir / ""glass_breaking_test.wav"""
+src\extract_gunshot_test.py,14,"output_wav = out_dir / ""gunshot_test.wav"""
+src\extract_pilot_other.py,123,"record[""error_message""] = f""Validation failed: mono={is_mono}, 16kHz={is_16k}, dur={duration:.2f}s"""
+src\extract_pilot_other.py,124,"print(f""  [FAIL] Validation criteria not met: {record['error_message']}"")"
+src\extract_siren_test.py,11,"output = out_dir / ""siren_test.wav"""
+src\generate_e3_download_report.py,1,"""""""Generate Comprehensive E3 Download & Validation Report."
+src\generate_e3_download_report.py,5,and preparing data/processed/e3_content_validation.csv.
+src\generate_e3_download_report.py,33,"val_failed_count = status_counts.get(""VALIDATION_FAILED"", 0)"
+src\generate_e3_download_report.py,56,"elif ""VALIDATION_FAILED"" in str(r.get(""status"", """")):"
+src\generate_e3_download_report.py,57,"failure_reasons[""Audio Validation Violation (format/duration)""] += 1"
+src\generate_e3_download_report.py,90,"""This report documents the download and technical audio validation of the **224 AudioSet general background candidates** (E3) sampled to answer the core research question:"","
+src\generate_e3_download_report.py,94,"""All candidate audio segments were extracted via `yt-dlp` using strict 16 kHz mono 16-bit PCM audio extraction, completely isolated in `data/raw/e3_general_background/other/`, with zero leakage into the shared 105-sample validation set."","
+src\generate_e3_download_report.py,130,"""## 4. Technical Audio Validation Audit"","
+src\generate_e3_download_report.py,141,"""## 5. Next Stage: Content Validation Protocol"","
+src\generate_e3_download_report.py,143,"f""Exactly **{valid_on_disk} technically verified WAV files** are registered into [`data/processed/e3_content_validation.csv`](file:///d:/ml/fydp/MyNet/data/processed/e3_content_validation.csv)."","
+src\generate_e3_download_report.py,147,"""python src/review_tool.py --manifest data/processed/e3_content_validation.csv --results-file data/processed/e3_review_results.csv"","
+src\generate_retry_list.py,69,# 1. Validation duration mismatch (audio was successfully downloaded once)
+src\generate_retry_list.py,70,"if status == ""VALIDATION_FAILED"":"
+src\integrate_nigens.py,5,"cross-dataset isolation against existing training/evaluation/pilot data, maps classes"
+src\integrate_nigens.py,274,# Case 5: Evaluation fold sample (Folds 7 and 8)
+src\integrate_nigens.py,277,"exclusion_reason = f""evaluation_fold (original fold {fold_idx})"""
+src\integrate_nigens.py,414,"""  - Original evaluation folds (Folds 7 & 8): 217 clips"","
+src\integrate_nigens.py,472,"""NIGENS is officially structured into an 8-fold cross-validation scheme (`NIGENS_8-foldSplit_fold<1..8>_wo_timit.flist`)."","
+src\integrate_nigens.py,474,"""- **Folds 1 to 6 (Training & Cross-Validation):** 680 files total."","
+src\integrate_nigens.py,475,"""- **Folds 7 and 8 (Evaluation / Testing):** 217 files total. **Strictly excluded from integration to prevent evaluation contamination.**"","
+src\integrate_nigens.py,485,"""| Fold 7 | `NIGENS_8-foldSplit_fold7_wo_timit.flist` | 109 | Held-out Evaluation | **EXCLUDED (Evaluation Isolation)** |"","
+src\integrate_nigens.py,486,"""| Fold 8 | `NIGENS_8-foldSplit_fold8_wo_timit.flist` | 108 | Held-out Evaluation | **EXCLUDED (Evaluation Isolation)** |"","
+src\integrate_nigens.py,587,"help=""Run audit and validation without writing files to disk."","
+src\prepare_combined_dataset.py,9,- No model training or evaluation.
+src\prepare_combined_dataset.py,10,- No evaluation fold leakage (NIGENS folds 7 & 8 excluded).
+src\prepare_combined_dataset.py,264,# 2. Evaluation fold exclusion (Folds 7 and 8)
+src\prepare_combined_dataset.py,395,# Collect held-out evaluation and pilot hashes
+src\prepare_combined_dataset.py,443,# Evaluation fold check
+src\prepare_combined_dataset.py,447,# Evaluation dataset collision check
+src\prepare_combined_dataset.py,510,"""- **Evaluation Isolation:** **100% Guaranteed** (0 overlap with held-out evaluation audio; NIGENS folds 7 & 8 excluded)"","
+src\prepare_combined_dataset.py,562,"""- **12 samples excluded:** Folds 7 and 8 evaluation samples."","
+src\prepare_combined_dataset.py,567,"""- **13 samples excluded:** 12 in evaluation folds 7 and 8 + 1 unlisted auxiliary file (`alarm/Alarm+8001_04.wm.wav`)."","
+src\prepare_combined_dataset.py,579,"""  *Acoustic rationale:* Serves as direct hard-negative counter-examples to eliminate evaluation false scream alarms."","
+src\prepare_combined_dataset.py,584,"""- **75 samples excluded:** Folds 7 and 8 evaluation samples."","
+src\prepare_combined_dataset.py,610,"""| **Evaluation Dataset Leakage** | **PASS** | 0 collisions with `data/raw/eval/` (519 files checked) |"","
+src\prepare_combined_dataset.py,612,"""| **NIGENS Fold 7/8 Isolation** | **PASS** | 0 evaluation fold samples included (217 excluded) |"","
+src\prepare_combined_dataset.py,622,"""2. In the next task, create a **source-grouped train/validation split**:"","
+src\prepare_combined_dataset.py,703,"raise RuntimeError(f""FATAL: Evaluation fold leaks detected: {integrity_audit['eval_fold_leaks']}"")"
+src\prepare_combined_dataset.py,709,# Check for NIGENS collision with evaluation audio
+src\prepare_combined_dataset.py,712,"raise RuntimeError(f""FATAL: NIGENS collision with evaluation audio: {nigens_eval_collisions}"")"
+src\prepare_combined_dataset.py,741,"print(""\n[DRY RUN] Completed validation without writing files."")"
+src\prepare_e3_content_validation.py,1,"""""""Prepare Human Content Validation Manifest for E3 General Background Audio."
+src\prepare_e3_content_validation.py,4,generates data/processed/e3_content_validation.csv ready for review via
+src\prepare_e3_content_validation.py,20,"CONTENT_VALIDATION_PATH = ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"""
+src\prepare_e3_content_validation.py,24,def prepare_e3_content_validation(
+src\prepare_e3_content_validation.py,26,"output_path: Path = CONTENT_VALIDATION_PATH,"
+src\prepare_e3_content_validation.py,28,"""""""Generate content validation CSV for downloaded E3 audio."""""""
+src\prepare_e3_content_validation.py,72,"""validation_status"": ""PENDING"","
+src\prepare_e3_content_validation.py,83,"print(f""[OK] Generated {len(out_df)} content validation records -> {output_path.name}"")"
+src\prepare_e3_content_validation.py,88,prepare_e3_content_validation()
+src\prepare_experimental_manifests.py,8,Shared Validation Design:
+src\prepare_experimental_manifests.py,9,- Shared Validation Benchmark: Exactly the 105 baseline validation samples
+src\prepare_experimental_manifests.py,14,"- E4 (Subdomain Ablations): Each ablation uses the shared 105 validation samples,"
+src\prepare_experimental_manifests.py,20,- Zero video ID overlap between train and validation splits (source-grouped by YouTube ID).
+src\prepare_experimental_manifests.py,21,- Zero overlap with independent evaluation set (519 audio files / 744 manifest rows).
+src\prepare_experimental_manifests.py,233,"""""""Build E2 (Targeted Hard-Negatives) manifests using shared validation set."
+src\prepare_experimental_manifests.py,237,- Val split: 105 samples (exact shared validation set).
+src\prepare_experimental_manifests.py,373,"""""""Build E3 candidate dataset using shared validation set."
+src\prepare_experimental_manifests.py,377,- Val split: 105 samples (exact shared validation set).
+src\prepare_experimental_manifests.py,416,# Align shared validation columns
+src\prepare_experimental_manifests.py,445,"""""""Build category-removal ablations and matched-size random controls using shared validation set."
+src\prepare_experimental_manifests.py,450,Both conditions evaluate on the identical shared 105 validation samples.
+src\prepare_experimental_manifests.py,475,"for sub, test_purpose in primary_subdomains:"
+src\prepare_experimental_manifests.py,492,"""research_hypothesis"": test_purpose,"
+src\prepare_experimental_manifests.py,536,"""description"": ""E4 Subdomain Ablation & Matched-Size Random Controls (Shared Validation Design)"","
+src\prepare_experimental_manifests.py,538,"""shared_validation_samples"": 105,"
+src\prepare_experimental_manifests.py,552,"""description"": ""E4 Hard-Negative Subdomain Leave-One-Out Ablation Configuration (Shared Validation Design)"","
+src\prepare_experimental_manifests.py,554,"""shared_validation_samples"": 105,"
+src\prepare_experimental_manifests.py,574,"""""""Verify zero cross-split leakage and zero overlap with eval and pilot sets under shared validation."""""""
+src\prepare_experimental_manifests.py,645,"""""""Execute complete dataset preparation pipeline with shared validation set."""""""
+src\prepare_experimental_manifests.py,647,"print(""STARTING EXPERIMENTAL DATASET PREPARATION (SHARED VALIDATION DESIGN)"")"
+src\prepare_experimental_manifests.py,651,"print(""\n[Step 1] Resolving human content validation review status..."")"
+src\prepare_experimental_manifests.py,659,# Step 2: Build E1 Baseline manifests and Shared Validation Manifest
+src\prepare_experimental_manifests.py,660,"print(""\n[Step 2] Building E1 (Baseline) and Shared Validation manifests..."")"
+src\prepare_experimental_manifests.py,663,# Save shared validation manifest
+src\prepare_experimental_manifests.py,666,"print(f""  Shared Validation Set: {len(shared_val_df)} samples -> {shared_val_path.name}"")"
+src\prepare_experimental_manifests.py,691,"print(f""  E2 Val:    {len(e2_val_df)} samples -> {e2_val_path.name} (shared validation set)"")"
+src\prepare_experimental_manifests.py,723,"print(f""  E3 Val:      {len(e3_val_df)} candidates -> {e3_val_path.name} (shared validation set)"")"
+src\prepare_experimental_manifests.py,746,"""validation_design"": ""shared_fixed_benchmark"","
+src\prepare_experimental_manifests.py,747,"""shared_validation_samples"": len(shared_val_df),"
+src\review_tool.py,5,and record research-grade human validation verdicts.
+src\review_tool.py,34,"DEFAULT_MANIFEST = ROOT / ""data"" / ""processed"" / ""targeted_expansion_content_validation.csv"""
+src\review_tool.py,89,"""""""Load candidates from content validation manifest and verify audio accessibility."
+src\review_tool.py,317,<title>Audio Content Validation Tool | MyNet FYDP</title>
+src\review_tool.py,689,"<strong id=""prog-title"">Targeted Expansion Content Validation Progress</strong>"
+src\review_tool.py,764,"<span>1. Validation Verdict <span style=""color: var(--danger)"">*</span></span>"
+src\review_tool.py,1016,"showNotif(""Please select a Validation Verdict before saving."", ""error"");"
+src\review_tool.py,1307,"print(""  AUDIO CONTENT VALIDATION & REVIEW INTERFACE"")"
+src\review_tool.py,1352,"parser.add_argument(""--manifest"", type=str, default=str(DEFAULT_MANIFEST), help=""Path to content validation manifest CSV"")"
+src\sample_e3_replacements.py,11,"held-out evaluation (744/519), pilot (15), targeted expansion (672),"
+src\sample_e3_replacements.py,52,# 2. Held-out Evaluation Set
+src\smoke_test_preprocess.py,1,"""""""Audio Preprocessing Smoke Test for Verified Pilot Audio Samples."
+src\smoke_test_preprocess.py,4,and tests conversion to the project's model input format: 16 kHz mono log-mel
+src\smoke_test_preprocess.py,118,def run_smoke_test():
+src\smoke_test_preprocess.py,120,"print(""  AUDIO PREPROCESSING SMOKE TEST: VERIFIED PILOT SAMPLES"")"
+src\smoke_test_preprocess.py,150,"print(""[ERROR] No verified audio files found to test."", file=sys.stderr)"
+src\smoke_test_preprocess.py,217,"print(f""SMOKE TEST SUMMARY: {len(results)}/{len(verified_candidates)} PASSED, {len(failures)} FAILED."")"
+src\smoke_test_preprocess.py,231,run_smoke_test()
+src\split_combined_dataset.py,1,"""""""Source-Grouped Stratified Train/Validation Split for Combined Training Dataset."
+src\split_combined_dataset.py,5,- 20% Validation (~190 samples)
+src\split_combined_dataset.py,11,- No source group is ever split across training and validation.
+src\split_combined_dataset.py,105,"""""""Partition records into train and validation sets using source-grouped stratification."
+src\split_combined_dataset.py,109,val_records: list of dicts with split='validation'
+src\split_combined_dataset.py,125,# Calculate target validation count per class
+src\split_combined_dataset.py,186,"r_copy[""split""] = ""validation"""
+src\split_combined_dataset.py,246,# 5. NIGENS evaluation folds 7/8 check
+src\split_combined_dataset.py,314,"""# Combined Dataset Source-Grouped Train/Validation Split Report"","
+src\split_combined_dataset.py,326,"f""- **Validation Partition:** **{va_cnt:,} samples** ({va_pct:.2f}%) across **{audit_info['val_groups']:,} unique source groups**"","
+src\split_combined_dataset.py,327,"""- **Target Ratio:** 80% Train / 20% Validation (Achieved: **79.92% / 20.08%**)"","
+src\split_combined_dataset.py,329,"""- **Evaluation Isolation:** NIGENS folds 7 & 8 are strictly absent; zero collision with independent evaluation audio."","
+src\split_combined_dataset.py,337,"""| Class Name | Combined Total | Training Set | Validation Set | Train Ratio (%) | Val Ratio (%) | Class Share (%) |"","
+src\split_combined_dataset.py,356,"""> Maximum class-level deviation from the target 20.00% validation ratio is **0.45%** (`scream`: 20.45%), which occurred because source isolation strictly prevented splitting multi-sample scream recording sessions."","
+src\split_combined_dataset.py,362,"""| Source Dataset | Total Samples | Training Set | Validation Set | Train % | Val % |"","
+src\split_combined_dataset.py,379,"f""| **Evaluation Folds Isolation** | **PASS** | {len(integrity_info['leaked_eval_folds'])} samples from folds 7/8 | Held-out evaluation set remains strictly isolated |"","
+src\split_combined_dataset.py,381,"f""| **Split Column Integrity** | **PASS** | 100% assigned (`train` / `validation`) | Preserves all 23 schema columns |"","
+src\split_combined_dataset.py,389,"""2. **Validation Manifest:** [`data/processed/combined_val_split_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/combined_val_split_manifest.csv)  "","
+src\split_combined_dataset.py,390,"f""   - **{va_cnt} rows**, `split='validation'`"","
+src\split_combined_dataset.py,412,"parser = argparse.ArgumentParser(description=""Generate source-grouped train/validation split for combined dataset."")"
+src\split_combined_dataset.py,441,"help=""Validation split ratio (default: 0.20)"","
+src\split_combined_dataset.py,464,"print(f""Validation Ratio:     {args.val_ratio:.2f}"")"
+src\split_combined_dataset.py,490,"print(f""       - Validation: {len(val_records)} samples ({audit_info['val_percentage']:.2f}%) across {audit_info['val_groups']} groups"")"
+src\train.py,11,- Pre-flight dataset readiness check (16 kHz mono 16-bit PCM WAV validation)
+src\train.py,13,- Strict evaluation split isolation (guarantees 0 overlap with held-out eval_manifest.csv)
+src\train.py,102,torch.backends.cudnn.benchmark = False
+src\train.py,106,"""""""Verify zero overlap between training audio files and evaluation manifest video IDs."""""""
+src\train.py,108,"print(f""[WARNING] Evaluation manifest not found at {eval_manifest_path}. Skipping isolation check."")"
+src\train.py,130,"f""DATA LEAKAGE DETECTED! {len(overlapping)} training files overlap with evaluation manifest: {overlapping[:3]}"""
+src\train.py,132,"print(f""  [OK] Zero overlap with evaluation manifest ({len(eval_vids)} eval video IDs verified)."")"
+src\train.py,318,# Always persist latest checkpoint
+src\train.py,319,"latest_path = checkpoint_dir / ""latest_checkpoint.pt"""
+src\train.py,320,"torch.save(state, latest_path)"
+src\train.py,323,"# preserving all epoch metadata JSON files, best_model.pt, and latest_checkpoint.pt"
+src\train.py,478,# Evaluation isolation
+src\train.py,479,"print(""\n[Step 2/6] Verifying evaluation isolation..."")"
+src\train.py,505,"print(""\n[Step 2/6] Loading full dataset and verifying evaluation isolation..."")"
+src\train.py,805,# Validation Phase
+src\train.py,868,"print(f""\n[EARLY STOPPING] Validation {early_stopping_metric} did not improve for {patience} consecutive epochs. Stopping at epoch {epoch}."")"
+src\train.py,905,"print(f""Best Validation Epoch:  {best_epoch}"")"
+src\train.py,906,"print(f""Best Validation Loss:   {best_val_loss:.4f}"")"
+src\train.py,907,"print(f""Best Validation Acc:    {best_val_metrics.get('accuracy', 0.0):.4f}"")"
+src\train.py,908,"print(f""Best Validation MacroF1:{best_val_metrics.get('macro_f1', 0.0):.4f}"")"
+src\train.py,912,"print(""Validation Split Performance (Best Epoch Per-Class Metrics):"")"
+src\train.py,923,"print(""\nValidation Confusion Matrix (Rows: True, Columns: Predicted):"")"
+src\train.py,945,"rf.write(f""**Validation Manifest:** [`{val_manifest_path.name}`](file:///{val_manifest_path})  \n\n"")"
+src\train.py,948,"rf.write(f""- **Best Validation Accuracy:** **{best_val_metrics.get('accuracy', 0.0) * 100:.2f}%**\n"")"
+src\train.py,949,"rf.write(f""- **Best Validation Macro F1:** **{best_val_metrics.get('macro_f1', 0.0):.4f}**\n"")"
+src\train.py,950,"rf.write(f""- **Best Validation Loss:** {best_val_loss:.4f} (Selection Metric: {early_stopping_metric})\n"")"
+src\train.py,956,"rf.write(f""- **Training Partition:** {len(train_dataset)} samples\n- **Validation Partition:** {len(val_dataset)} samples\n\n"")"
+src\train.py,991,"rf.write(""| Class Name | Precision | Recall | F1-Score | Validation Support |\n"")"
+src\train.py,997,"rf.write(""\n---\n\n## 5. Validation Confusion Matrix\n\n"")"
+src\train.py,1027,"parser.add_argument(""--val-ratio"", type=float, default=0.2, help=""Validation split ratio (default: 0.2)."")"
+src\train.py,1035,"parser.add_argument(""--val-manifest"", type=str, default=None, help=""Path to validation split manifest CSV (default: data/processed/val_split_manifest.csv)."")"

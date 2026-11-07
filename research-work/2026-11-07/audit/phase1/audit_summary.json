@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-07",
+  "timezone": "Asia/Dhaka",
+  "commit": "b737731fd633c6e68ea6a34162747fd9f05f29e2",
+  "branch": "master",
+  "remote": "https://github.com/rajee99/fydp.git",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "executable": "C:\\Program Files\\WindowsApps\\OpenAI.CodexPrimaryRuntime.v26-1105-1297-0_26.1105.1297.0_x64__3k8sg7r9htsxt\\dependencies\\python\\python.exe",
+  "dependencies": {
+    "numpy": true,
+    "pandas": true,
+    "soundfile": false,
+    "torch": false,
+    "torchaudio": false
+  },
+  "raw_directory_exists": false,
+  "audio_files": 0,
+  "weight_files": 0,
+  "inventory_files": 949,
+  "root_experiments_directory_exists": false,
+  "runs": [
+    {
+      "script": "src/prepare_manifest.py",
+      "exit_code": 1,
+      "log": "prepare_manifest.txt",
+      "script_sha256": "e047672783c3517094caf706a77e8a5599bc1129b51bdb1ed0d5e734cb8b731e"
+    },
+    {
+      "script": "src/prepare_eval_manifest.py",
+      "exit_code": 1,
+      "log": "prepare_eval_manifest.txt",
+      "script_sha256": "31ae1c09481c50a3d3f9866d308b43f49e084cd66031ad30fb0b7294d9e30cf2"
+    },
+    {
+      "script": "src/prepare_combined_dataset.py",
+      "exit_code": 1,
+      "log": "prepare_combined_dataset.txt",
+      "script_sha256": "abde8f0cf4dc542b411673ff805b5401b0f642ef259c6168bde649e2929e27ef"
+    },
+    {
+      "script": "src/prepare_experimental_manifests.py",
+      "exit_code": 1,
+      "log": "prepare_experimental_manifests.txt",
+      "script_sha256": "badbf1da0435abf5194c8a2d80e4f93635cffacfffcf1aebbf81ee65ec0e3e56"
+    },
+    {
+      "script": "src/build_matched_e2_manifest.py",
+      "exit_code": 0,
+      "log": "build_matched_e2_manifest.txt",
+      "script_sha256": "61c05f2bd80fdb077ca1a7a6ad41c77f6dc4c4eb587c99a4789e0ea9261a670c"
+    },
+    {
+      "script": "src/split_combined_dataset.py",
+      "exit_code": 0,
+      "log": "split_combined_dataset.txt",
+      "script_sha256": "27af88973d76cfeaf59f3a26ad39007eb5c1a6c0b25f811106609fb6f0517be2"
+    },
+    {
+      "script": "scripts/prepare_test_set_v2_candidates.py",
+      "exit_code": 1,
+      "log": "prepare_test_set_v2_candidates.txt",
+      "script_sha256": "7b734bf178537db7dddedd04c64afe82ee24ccf222ae7b06601db9235c7b66ed"
+    }
+  ],
+  "comparisons": [
+    {
+      "file": "e2_matched_train_split_manifest.csv",
+      "baseline_rows": 634,
+      "reproduced_rows": 634,
+      "byte_identical": true,
+      "parsed_rows_identical": true
+    },
+    {
+      "file": "e2_matched_val_split_manifest.csv",
+      "baseline_rows": 105,
+      "reproduced_rows": 105,
+      "byte_identical": true,
+      "parsed_rows_identical": true
+    },
+    {
+      "file": "e2_matched_manifest.csv",
+      "baseline_rows": 739,
+      "reproduced_rows": 739,
+      "byte_identical": true,
+      "parsed_rows_identical": true
+    },
+    {
+      "file": "combined_train_split_manifest.csv",
+      "baseline_rows": 756,
+      "reproduced_rows": 756,
+      "byte_identical": true,
+      "parsed_rows_identical": true
+    },
+    {
+      "file": "combined_val_split_manifest.csv",
+      "baseline_rows": 190,
+      "reproduced_rows": 190,
+      "byte_identical": true,
+      "parsed_rows_identical": true
+    }
+  ],
+  "baseline_files_changed": []
+}

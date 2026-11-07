@@ -1,0 +1,428 @@
+path,line,text
+scripts\audit_downloaded_test_set_v2.py,10,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\audit_downloaded_test_set_v2.py,11,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\audit_downloaded_test_set_v2.py,17,all_cands.append(pd.read_csv(p))
+scripts\audit_test_set_v2_integrity.py,8,- e1_train_split_manifest.csv
+scripts\audit_test_set_v2_integrity.py,9,- shared_val_split_manifest.csv
+scripts\audit_test_set_v2_integrity.py,10,- e2_matched_train_split_manifest.csv
+scripts\audit_test_set_v2_integrity.py,11,- e2_train_split_manifest.csv
+scripts\audit_test_set_v2_integrity.py,12,- e3_train_split_manifest.csv
+scripts\audit_test_set_v2_integrity.py,13,- eval_manifest.csv
+scripts\audit_test_set_v2_integrity.py,14,- pilot_manifest.csv
+scripts\audit_test_set_v2_integrity.py,15,- targeted_expansion_content_validation.csv
+scripts\audit_test_set_v2_integrity.py,16,- e3_content_validation.csv
+scripts\audit_test_set_v2_integrity.py,30,"TEST_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\audit_test_set_v2_integrity.py,34,"""E1 Baseline Train"": ROOT / ""data"" / ""processed"" / ""e1_train_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,35,"""Shared Validation"": ROOT / ""data"" / ""processed"" / ""shared_val_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,36,"""E2 Matched Train"": ROOT / ""data"" / ""processed"" / ""e2_matched_train_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,37,"""E2 Full Train"": ROOT / ""data"" / ""processed"" / ""e2_train_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,38,"""E3 General Train"": ROOT / ""data"" / ""processed"" / ""e3_train_split_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,39,"""Historical Exploratory Eval (v1)"": ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,40,"""Pilot Dataset"": ROOT / ""data"" / ""processed"" / ""pilot_manifest.csv"","
+scripts\audit_test_set_v2_integrity.py,41,"""Targeted Expansion Archive"": ROOT / ""data"" / ""processed"" / ""targeted_expansion_content_validation.csv"","
+scripts\audit_test_set_v2_integrity.py,42,"""E3 Download Archive"": ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"","
+scripts\audit_test_set_v2_integrity.py,62,df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\audit_test_set_v2_integrity.py,122,hist_df = pd.read_csv(path)
+scripts\audit_test_set_v2_integrity.py,166,**Manifest File:** [`data/processed/test_set_v2_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/test_set_v2_manifest.csv)
+scripts\download_replenishments.py,14,"MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\download_replenishments.py,15,"RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\download_replenishments.py,48,records = list(csv.DictReader(f))
+scripts\download_test_set_v2.py,7,data/processed/test_set_v2_download_results.csv
+scripts\download_test_set_v2.py,21,"MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\download_test_set_v2.py,23,"RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""test_set_v2_download_results.csv"""
+scripts\download_test_set_v2.py,35,records = list(csv.DictReader(f))
+scripts\download_test_set_v2.py,51,"part_file = ROOT / ""data"" / ""processed"" / f""test_set_v2_download_part{i}.csv"""
+scripts\download_test_set_v2.py,80,"print(""\nMerging part results into test_set_v2_download_results.csv..."")"
+scripts\download_test_set_v2.py,87,reader = csv.DictReader(f)
+scripts\generate_master_experiment_registry.py,1,"""""""Generate reports/master_experiment_registry.csv for FYDP research evidence inventory."""""""
+scripts\generate_master_experiment_registry.py,69,"'prediction_file_location': 'models/experiments/model_comparison/eval_predictions_comparison.csv',"
+scripts\generate_master_experiment_registry.py,86,"'prediction_file_location': 'data/processed/combined_training_manifest.csv',"
+scripts\generate_master_experiment_registry.py,87,"'evaluation_dataset': 'data/processed/combined_val_split_manifest.csv (N=214)',"
+scripts\generate_master_experiment_registry.py,103,"'prediction_file_location': 'models/experiments/model_comparison/eval_predictions_comparison.csv',"
+scripts\generate_master_experiment_registry.py,120,"'prediction_file_location': 'models/experiments/model_comparison/acoustic_features_extracted.csv',"
+scripts\generate_master_experiment_registry.py,137,"'prediction_file_location': 'data/processed/targeted_expansion_review_results.csv',"
+scripts\generate_master_experiment_registry.py,138,"'evaluation_dataset': 'data/processed/targeted_expansion_content_validation.csv',"
+scripts\generate_master_experiment_registry.py,154,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,171,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,188,"'prediction_file_location': 'models/experiments/phase1_main/e1_baseline_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,205,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,222,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,239,"'prediction_file_location': 'models/experiments/phase1_main/e2_matched_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,256,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed42/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,273,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed123/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,290,"'prediction_file_location': 'models/experiments/phase1_main/e3_general_seed2026/test_set_v2_predictions.csv',"
+scripts\generate_master_experiment_registry.py,307,"'prediction_file_location': 'models/experiments/phase1_main/*/val_predictions.csv',"
+scripts\generate_master_experiment_registry.py,308,"'evaluation_dataset': 'Shared Validation Split (data/processed/shared_val_split_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,325,"'evaluation_dataset': 'Test Set v2 (data/processed/test_set_v2_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,340,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e2_train_split_manifest.csv)',"
+scripts\generate_master_experiment_registry.py,357,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_human_shouting_train.csv)',"
+scripts\generate_master_experiment_registry.py,374,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_metal_impacts_train.csv)',"
+scripts\generate_master_experiment_registry.py,391,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_door_slams_train.csv)',"
+scripts\generate_master_experiment_registry.py,408,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_construction_tools_train.csv)',"
+scripts\generate_master_experiment_registry.py,425,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_car_alarms_detectors_train.csv)',"
+scripts\generate_master_experiment_registry.py,442,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_fireworks_firecrackers_train.csv)',"
+scripts\generate_master_experiment_registry.py,459,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_minus_whistles_high_pitch_train.csv)',"
+scripts\generate_master_experiment_registry.py,476,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_human_shouting_train.csv)',"
+scripts\generate_master_experiment_registry.py,493,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_metal_impacts_train.csv)',"
+scripts\generate_master_experiment_registry.py,510,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_door_slams_train.csv)',"
+scripts\generate_master_experiment_registry.py,527,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_construction_tools_train.csv)',"
+scripts\generate_master_experiment_registry.py,544,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_car_alarms_detectors_train.csv)',"
+scripts\generate_master_experiment_registry.py,561,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_fireworks_firecrackers_train.csv)',"
+scripts\generate_master_experiment_registry.py,578,"'checkpoint_location': 'Untrained (manifest ready: data/processed/e4_ablations/e4_matched_control_whistles_high_pitch_train.csv)',"
+scripts\generate_master_experiment_registry.py,646,out_path = Path('reports/master_experiment_registry.csv')
+scripts\generate_status_report.py,23,"pred = run_dir / ""val_predictions.csv"""
+scripts\prepare_test_set_v2_candidates.py,31,"EVAL_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""eval_segments.csv"""
+scripts\prepare_test_set_v2_candidates.py,32,"UNBALANCED_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""unbalanced_train_segments.csv"""
+scripts\prepare_test_set_v2_candidates.py,33,"BALANCED_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""balanced_train_segments.csv"""
+scripts\prepare_test_set_v2_candidates.py,34,"CLASS_MAP_PATH = ROOT / ""data"" / ""raw"" / ""yamnet_class_map.csv"""
+scripts\prepare_test_set_v2_candidates.py,36,"OUT_CANDIDATES_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"""
+scripts\prepare_test_set_v2_candidates.py,43,"for p in (ROOT / ""data"" / ""processed"").glob(""*.csv""):"
+scripts\prepare_test_set_v2_candidates.py,45,df = pd.read_csv(p)
+scripts\prepare_test_set_v2_candidates.py,50,"for p in (ROOT / ""data"" / ""raw"").glob(""*manifest*.csv""):"
+scripts\prepare_test_set_v2_candidates.py,52,df = pd.read_csv(p)
+scripts\prepare_test_set_v2_candidates.py,61,df = pd.read_csv(CLASS_MAP_PATH)
+scripts\recompute_phase1_metrics.py,4,"extracts sample-level predictions into val_predictions.csv,"
+scripts\recompute_phase1_metrics.py,58,"pred_csv_path = run_dir / ""val_predictions.csv"""
+scripts\replenish_test_set_v2_candidates.py,29,"OUT_REPLENISH_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"""
+scripts\replenish_test_set_v2_candidates.py,30,"OUT_REPLENISH_RESULTS = ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_download_results.csv"""
+scripts\replenish_test_set_v2_candidates.py,37,"cand_df = pd.read_csv(ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"")"
+scripts\run_independent_audit.py,28,"TEST_MANIFEST_PATH = root / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\run_independent_audit.py,41,manifest_df = pd.read_csv(TEST_MANIFEST_PATH)
+scripts\run_independent_audit.py,98,"cat_mapping_csv = REPORTS_DIR / ""phase2_e4_category_mapping_audit.csv"""
+scripts\run_independent_audit.py,290,"rec_audit_csv = REPORTS_DIR / ""phase2_e4_recording_level_audit.csv"""
+scripts\run_phase1_experiments.py,8,- Invariant Validation: Identical 105 samples (shared_val_split_manifest.csv) across all runs.
+scripts\run_phase1_experiments.py,35,"SHARED_VAL_PATH = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+scripts\run_phase1_experiments.py,42,"""train_manifest"": PROCESSED_DIR / ""e1_train_split_manifest.csv"","
+scripts\run_phase1_experiments.py,48,"""train_manifest"": PROCESSED_DIR / ""e2_matched_train_split_manifest.csv"","
+scripts\run_phase1_experiments.py,54,"""train_manifest"": PROCESSED_DIR / ""e3_train_split_manifest.csv"","
+scripts\run_phase1_experiments.py,223,# Evaluate best checkpoint and generate val_predictions.csv
+scripts\run_phase1_experiments.py,226,"pred_csv_path = run_dir / ""val_predictions.csv"""
+scripts\run_phase2_experiments.py,9,- Invariant Validation: Identical 105 samples (shared_val_split_manifest.csv) across all runs.
+scripts\run_phase2_experiments.py,39,"SHARED_VAL_PATH = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+scripts\run_phase2_experiments.py,46,"""train_manifest"": PROCESSED_DIR / ""e2_train_split_manifest.csv"","
+scripts\run_phase2_experiments.py,55,"""train_manifest"": E4_DIR / ""e4_minus_human_shouting_train.csv"","
+scripts\run_phase2_experiments.py,63,"""train_manifest"": E4_DIR / ""e4_minus_metal_impacts_train.csv"","
+scripts\run_phase2_experiments.py,71,"""train_manifest"": E4_DIR / ""e4_minus_door_slams_train.csv"","
+scripts\run_phase2_experiments.py,79,"""train_manifest"": E4_DIR / ""e4_minus_construction_tools_train.csv"","
+scripts\run_phase2_experiments.py,87,"""train_manifest"": E4_DIR / ""e4_minus_car_alarms_detectors_train.csv"","
+scripts\run_phase2_experiments.py,95,"""train_manifest"": E4_DIR / ""e4_minus_fireworks_firecrackers_train.csv"","
+scripts\run_phase2_experiments.py,103,"""train_manifest"": E4_DIR / ""e4_minus_whistles_high_pitch_train.csv"","
+scripts\run_phase2_experiments.py,112,"""train_manifest"": E4_DIR / ""e4_matched_control_human_shouting_train.csv"","
+scripts\run_phase2_experiments.py,120,"""train_manifest"": E4_DIR / ""e4_matched_control_metal_impacts_train.csv"","
+scripts\run_phase2_experiments.py,128,"""train_manifest"": E4_DIR / ""e4_matched_control_door_slams_train.csv"","
+scripts\run_phase2_experiments.py,136,"""train_manifest"": E4_DIR / ""e4_matched_control_construction_tools_train.csv"","
+scripts\run_phase2_experiments.py,144,"""train_manifest"": E4_DIR / ""e4_matched_control_car_alarms_detectors_train.csv"","
+scripts\run_phase2_experiments.py,152,"""train_manifest"": E4_DIR / ""e4_matched_control_fireworks_firecrackers_train.csv"","
+scripts\run_phase2_experiments.py,160,"""train_manifest"": E4_DIR / ""e4_matched_control_whistles_high_pitch_train.csv"","
+scripts\run_phase2_experiments.py,347,df = pd.read_csv(mpath)
+scripts\run_phase2_experiments.py,409,"pred_file = run_dir / ""val_predictions.csv"""
+scripts\run_phase2_experiments.py,479,# Evaluate best checkpoint and generate val_predictions.csv
+scripts\run_phase2_experiments.py,482,"pred_csv_path = run_dir / ""val_predictions.csv"""
+scripts\run_phase2_experiments.py,503,"# preserving best_model.pt, val_predictions.csv, metrics.json, and all JSON metadata"
+scripts\scan_test_set_v2_candidates.py,24,"EVAL_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""eval_segments.csv"""
+scripts\scan_test_set_v2_candidates.py,25,"UNBALANCED_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""unbalanced_train_segments.csv"""
+scripts\scan_test_set_v2_candidates.py,26,"BALANCED_SEGMENTS_PATH = ROOT / ""data"" / ""raw"" / ""balanced_train_segments.csv"""
+scripts\scan_test_set_v2_candidates.py,31,"for p in (ROOT / ""data"" / ""processed"").glob(""*.csv""):"
+scripts\scan_test_set_v2_candidates.py,33,df = pd.read_csv(p)
+scripts\scan_test_set_v2_candidates.py,38,"for p in (ROOT / ""data"" / ""raw"").glob(""*manifest*.csv""):"
+scripts\scan_test_set_v2_candidates.py,40,df = pd.read_csv(p)
+scripts\test_replenishment_pool.py,14,"for p in [PROCESSED_DIR / 'e1_baseline_manifest.csv', PROCESSED_DIR / 'shared_val_split_manifest.csv']:"
+scripts\test_replenishment_pool.py,16,df = pd.read_csv(p)
+scripts\test_replenishment_pool.py,19,df = pd.read_csv(EVAL_MANIFEST_PATH)
+scripts\test_replenishment_pool.py,22,df = pd.read_csv(PILOT_MANIFEST_PATH)
+scripts\test_replenishment_pool.py,24,exp_p = PROCESSED_DIR / 'targeted_expansion_candidates.csv'
+scripts\test_replenishment_pool.py,26,df = pd.read_csv(exp_p)
+scripts\test_replenishment_pool.py,28,e3_p = PROCESSED_DIR / 'e3_general_candidate_manifest.csv'
+scripts\test_replenishment_pool.py,30,df = pd.read_csv(e3_p)
+scripts\validate_test_set_v2_content.py,15,5. Saves data/processed/test_set_v2_content_validation.csv and data/processed/test_set_v2_manifest.csv.
+scripts\validate_test_set_v2_content.py,40,"ROOT / ""data"" / ""processed"" / ""test_set_v2_candidates_to_download.csv"","
+scripts\validate_test_set_v2_content.py,41,"ROOT / ""data"" / ""processed"" / ""test_set_v2_replenish_candidates.csv"","
+scripts\validate_test_set_v2_content.py,45,"CONTENT_VALIDATION_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_content_validation.csv"""
+scripts\validate_test_set_v2_content.py,46,"FINAL_MANIFEST_CSV = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+scripts\validate_test_set_v2_content.py,104,all_cands.append(pd.read_csv(cp))
+scripts\verify_e3_readiness.py,9,6. Compiles verified e3_train_split_manifest.csv (422 baseline + accepted E3).
+scripts\verify_e3_readiness.py,22,"INITIAL_REVIEW_PATH = PROCESSED_DIR / ""e3_review_results.csv"""
+scripts\verify_e3_readiness.py,23,"REPL_REVIEW_PATH = PROCESSED_DIR / ""e3_replacement_review_results.csv"""
+scripts\verify_e3_readiness.py,24,"E1_TRAIN_PATH = PROCESSED_DIR / ""e1_train_split_manifest.csv"""
+scripts\verify_e3_readiness.py,25,"SHARED_VAL_PATH = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+scripts\verify_e3_readiness.py,26,"EVAL_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+scripts\verify_e3_readiness.py,27,"PILOT_PATH = PROCESSED_DIR / ""pilot_manifest.csv"""
+scripts\verify_e3_readiness.py,28,"TARGETED_EXP_PATH = PROCESSED_DIR / ""targeted_expansion_candidates.csv"""
+scripts\verify_e3_readiness.py,30,"E3_TRAIN_MANIFEST_PATH = PROCESSED_DIR / ""e3_train_split_manifest.csv"""
+scripts\verify_e3_readiness.py,31,"E3_VAL_MANIFEST_PATH = PROCESSED_DIR / ""e3_val_split_manifest.csv"""
+scripts\verify_e3_readiness.py,32,"E3_MASTER_MANIFEST_PATH = PROCESSED_DIR / ""e3_master_manifest.csv"""
+scripts\verify_e3_readiness.py,41,df_init = pd.read_csv(INITIAL_REVIEW_PATH)
+scripts\verify_e3_readiness.py,42,df_repl = pd.read_csv(REPL_REVIEW_PATH)
+scripts\verify_e3_readiness.py,74,e1_train = pd.read_csv(E1_TRAIN_PATH)
+scripts\verify_e3_readiness.py,82,shared_val = pd.read_csv(SHARED_VAL_PATH)
+scripts\verify_e3_readiness.py,90,eval_df = pd.read_csv(EVAL_PATH)
+scripts\verify_e3_readiness.py,98,pilot_df = pd.read_csv(PILOT_PATH)
+scripts\verify_e3_readiness.py,106,exp_df = pd.read_csv(TARGETED_EXP_PATH)
+src\audit_all_experimental_conditions.py,15,4. Zero overlap with held-out evaluation set (eval_manifest.csv).
+src\audit_all_experimental_conditions.py,33,"SHARED_VAL_PATH = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+src\audit_all_experimental_conditions.py,34,"EVAL_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+src\audit_all_experimental_conditions.py,52,eval_df = pd.read_csv(EVAL_PATH)
+src\audit_all_experimental_conditions.py,57,shared_val_df = pd.read_csv(SHARED_VAL_PATH)
+src\audit_all_experimental_conditions.py,64,"(""E1_Baseline"", PROCESSED_DIR / ""e1_train_split_manifest.csv"", PROCESSED_DIR / ""e1_val_split_manifest.csv"", 422),"
+src\audit_all_experimental_conditions.py,65,"(""E2_Matched"", PROCESSED_DIR / ""e2_matched_train_split_manifest.csv"", PROCESSED_DIR / ""e2_matched_val_split_manifest.csv"", 634),"
+src\audit_all_experimental_conditions.py,66,"(""E2_Full"", PROCESSED_DIR / ""e2_train_split_manifest.csv"", PROCESSED_DIR / ""e2_val_split_manifest.csv"", 646),"
+src\audit_all_experimental_conditions.py,67,"(""E3_General"", PROCESSED_DIR / ""e3_train_split_manifest.csv"", PROCESSED_DIR / ""e3_val_split_manifest.csv"", 634),"
+src\audit_all_experimental_conditions.py,84,"E4_DIR / f""e4_minus_{sub}_train.csv"","
+src\audit_all_experimental_conditions.py,85,"E4_DIR / f""e4_minus_{sub}_val.csv"","
+src\audit_all_experimental_conditions.py,93,"E4_DIR / f""e4_matched_control_{sub}_train.csv"","
+src\audit_all_experimental_conditions.py,94,"E4_DIR / f""e4_matched_control_{sub}_val.csv"","
+src\audit_all_experimental_conditions.py,109,df_tr = pd.read_csv(tr_path)
+src\audit_all_experimental_conditions.py,110,df_val = pd.read_csv(val_path)
+src\audit_dataset_readiness.py,22,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\audit_dataset_readiness.py,23,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\audit_dataset_readiness.py,24,"RETRY_LIST = ROOT / ""data"" / ""processed"" / ""train_download_retry_list.csv"""
+src\audit_dataset_readiness.py,26,"PILOT_CSV = ROOT / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\audit_dataset_readiness.py,97,train_rows = list(csv.DictReader(f))
+src\audit_dataset_readiness.py,99,eval_rows = list(csv.DictReader(f))
+src\audit_dataset_readiness.py,101,retry_rows = list(csv.DictReader(f))
+src\audit_dataset_readiness.py,106,"print(f""  target_manifest.csv rows: {len(train_rows)} total"")"
+src\audit_dataset_readiness.py,110,"print(f""  eval_manifest.csv rows  : {len(eval_rows)} total"")"
+src\audit_dataset_readiness.py,174,pilot_records = list(csv.DictReader(f))
+src\audit_dataset_readiness.py,176,"print(f""  pilot_accessible.csv entries: {len(pilot_records)}"")"
+src\audit_e3_content.py,7,4. Generates data/processed/e3_review_results.csv and updates data/processed/e3_content_validation.csv.
+src\audit_e3_content.py,31,"CONTENT_MANIFEST = ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"""
+src\audit_e3_content.py,32,"REVIEW_RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""e3_review_results.csv"""
+src\audit_e3_content.py,44,manifest_df = pd.read_csv(CONTENT_MANIFEST)
+src\audit_e3_content.py,227,# Save e3_review_results.csv
+src\audit_e3_content.py,231,# Update e3_content_validation.csv
+src\audit_e3_content.py,238,# Save back to e3_content_validation.csv preserving columns
+src\audit_e3_replacements.py,6,3. Produces data/processed/e3_replacement_content_validation.csv
+src\audit_e3_replacements.py,7,and data/processed/e3_replacement_review_results.csv.
+src\audit_e3_replacements.py,30,"DOWNLOAD_RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""e3_replacement_download_results.csv"""
+src\audit_e3_replacements.py,31,"CANDIDATE_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""e3_replacement_candidates.csv"""
+src\audit_e3_replacements.py,32,"CONTENT_MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""e3_replacement_content_validation.csv"""
+src\audit_e3_replacements.py,33,"REVIEW_RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""e3_replacement_review_results.csv"""
+src\audit_e3_replacements.py,42,dl_df = pd.read_csv(DOWNLOAD_RESULTS_PATH)
+src\audit_e3_replacements.py,218,# Save e3_replacement_review_results.csv
+src\audit_e3_replacements.py,222,# Update e3_replacement_content_validation.csv
+src\audit_train_inventory.py,4,- data/processed/target_manifest.csv (training manifest)
+src\audit_train_inventory.py,5,- data/processed/eval_manifest.csv (leakage preflight check)
+src\audit_train_inventory.py,6,- data/processed/train_download_results.csv (download operation log)
+src\audit_train_inventory.py,8,- data/processed/pilot_accessible.csv / data/raw/pilot/ (pilot cache)
+src\audit_train_inventory.py,31,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\audit_train_inventory.py,32,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\audit_train_inventory.py,33,"RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""train_download_results.csv"""
+src\audit_train_inventory.py,35,"PILOT_CSV = ROOT / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\audit_train_inventory.py,89,manifest_rows = list(csv.DictReader(f))
+src\audit_train_inventory.py,117,"eval_vids = {r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id"")}"
+src\audit_train_inventory.py,163,for r in csv.DictReader(f):
+src\audit_train_inventory.py,181,"lines.append(""\n[4] DOWNLOAD LOG STATUS SUMMARY (data/processed/train_download_results.csv)"")"
+src\audit_train_inventory.py,200,for r in csv.DictReader(f):
+src\batch_downloader.py,3,This script processes `data/processed/target_manifest.csv` (train) and
+src\batch_downloader.py,4,`data/processed/eval_manifest.csv` (eval) to download and extract normalized
+src\batch_downloader.py,14,- Comprehensive status tracking: data/processed/{split}_download_results.csv
+src\batch_downloader.py,39,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\batch_downloader.py,40,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\batch_downloader.py,41,"PILOT_MANIFEST = ROOT / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\batch_downloader.py,120,"train_vids = set(r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id""))"
+src\batch_downloader.py,123,"eval_vids = set(r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id""))"
+src\batch_downloader.py,142,for r in csv.DictReader(f):
+src\batch_downloader.py,165,reader = csv.DictReader(f)
+src\batch_downloader.py,322,"custom_vids = set(r[""video_id""].strip() for r in csv.DictReader(f) if r.get(""video_id""))"
+src\batch_downloader.py,344,"results_path = ROOT / ""data"" / ""processed"" / (f""{split}_download_results.csv"" if not manifest else ""expansion_download_results.csv"")"
+src\batch_downloader.py,348,all_records = list(csv.DictReader(f))
+src\build_matched_e2_manifest.py,27,"SHARED_VAL_PATH = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+src\build_matched_e2_manifest.py,28,"E2_FULL_TRAIN_PATH = PROCESSED_DIR / ""e2_train_split_manifest.csv"""
+src\build_matched_e2_manifest.py,29,"E3_TRAIN_PATH = PROCESSED_DIR / ""e3_train_split_manifest.csv"""
+src\build_matched_e2_manifest.py,31,"E2_MATCHED_TRAIN_PATH = PROCESSED_DIR / ""e2_matched_train_split_manifest.csv"""
+src\build_matched_e2_manifest.py,32,"E2_MATCHED_VAL_PATH = PROCESSED_DIR / ""e2_matched_val_split_manifest.csv"""
+src\build_matched_e2_manifest.py,33,"E2_MATCHED_MASTER_PATH = PROCESSED_DIR / ""e2_matched_manifest.csv"""
+src\build_matched_e2_manifest.py,51,df_e2_full = pd.read_csv(E2_FULL_TRAIN_PATH)
+src\build_matched_e2_manifest.py,52,df_shared_val = pd.read_csv(SHARED_VAL_PATH)
+src\build_matched_e2_manifest.py,53,df_e3_train = pd.read_csv(E3_TRAIN_PATH)
+src\build_matched_e2_manifest.py,147,"""e2_matched_train_split_manifest.csv"": sha256_file(E2_MATCHED_TRAIN_PATH),"
+src\build_matched_e2_manifest.py,148,"""e2_matched_val_split_manifest.csv"": sha256_file(E2_MATCHED_VAL_PATH),"
+src\build_matched_e2_manifest.py,149,"""e2_matched_manifest.csv"": sha256_file(E2_MATCHED_MASTER_PATH),"
+src\build_matched_e2_manifest.py,150,"""e3_train_split_manifest.csv"": sha256_file(E3_TRAIN_PATH),"
+src\build_matched_e2_manifest.py,151,"""shared_val_split_manifest.csv"": sha256_file(SHARED_VAL_PATH),"
+src\check_pilot.py,5,"df = pd.read_csv(""data/processed/pilot_manifest.csv"")"
+src\check_scream_replacements.py,7,"source = root / ""data"" / ""processed"" / ""scream_replacements.csv"""
+src\check_scream_replacements.py,8,"output = root / ""data"" / ""processed"" / ""scream_replacements_checked.csv"""
+src\check_scream_replacements.py,10,df = pd.read_csv(source)
+src\collect_other_dataset.py,15,- All 740 video IDs from target_manifest.csv (emergency + existing 175 other)
+src\collect_other_dataset.py,16,- All 744 video IDs from eval_manifest.csv (zero eval split leakage)
+src\collect_other_dataset.py,17,- All 20 video IDs from pilot_accessible.csv (zero pilot reuse)
+src\collect_other_dataset.py,52,"BALANCED_SEGMENTS = ROOT / ""data"" / ""raw"" / ""balanced_train_segments.csv"""
+src\collect_other_dataset.py,53,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\collect_other_dataset.py,54,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\collect_other_dataset.py,55,"PILOT_MANIFEST = ROOT / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\collect_other_dataset.py,58,"RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""other_download_results.csv"""
+src\collect_other_dataset.py,59,"MANIFEST_CSV = ROOT / ""data"" / ""processed"" / ""other_manifest.csv"""
+src\collect_other_dataset.py,69,reader = csv.DictReader(f)
+src\collect_other_dataset.py,83,"""""""Parse balanced_train_segments.csv and extract clean candidates grouped by subdomain."""""""
+src\compare_eval_models.py,10,- eval_predictions_comparison.csv
+src\compare_eval_models.py,59,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\compare_eval_models.py,120,"ROOT / ""data"" / ""processed"" / ""train_split_manifest.csv"","
+src\compare_eval_models.py,121,"ROOT / ""data"" / ""processed"" / ""val_split_manifest.csv"","
+src\compare_eval_models.py,122,"ROOT / ""data"" / ""processed"" / ""combined_train_split_manifest.csv"","
+src\compare_eval_models.py,123,"ROOT / ""data"" / ""processed"" / ""combined_val_split_manifest.csv"","
+src\compare_eval_models.py,236,"comp_csv_path = OUTPUT_DIR / ""eval_predictions_comparison.csv"""
+src\dataset.py,446,reader = csv.DictReader(f)
+src\download_eval.py,4,into `data/processed/eval_download_results.csv`.
+src\download_eval.py,16,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\download_eval.py,17,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\download_eval.py,18,"EVAL_RESULTS = ROOT / ""data"" / ""processed"" / ""eval_download_results.csv"""
+src\download_eval.py,28,records = list(csv.DictReader(f))
+src\download_eval.py,43,"part_file = ROOT / ""data"" / ""processed"" / f""eval_download_results_part{i}.csv"""
+src\download_eval.py,69,# Merge part results into unified eval_download_results.csv
+src\download_eval.py,70,"print(""\nMerging chunk results into unified eval_download_results.csv..."")"
+src\download_eval.py,77,reader = csv.DictReader(f)
+src\evaluate_panns.py,57,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\evaluate_panns.py,58,"EVAL_RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""eval_download_results.csv"""
+src\evaluate_panns.py,167,manifest_entries = list(csv.DictReader(f))
+src\evaluate_panns.py,175,df_results = pd.read_csv(EVAL_RESULTS_CSV)
+src\evaluate_phase2_e4.py,43,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_phase2_e4.py,488,manifest_df = pd.read_csv(manifest_path)
+src\evaluate_phase2_e4.py,677,manifest_df = pd.read_csv(test_manifest_path)
+src\evaluate_test_set_v2.py,44,"TEST_SET_V2_MANIFEST = ROOT / ""data"" / ""processed"" / ""test_set_v2_manifest.csv"""
+src\evaluate_test_set_v2.py,227,manifest_df = pd.read_csv(manifest_path)
+src\evaluate_test_set_v2.py,378,manifest_df = pd.read_csv(TEST_SET_V2_MANIFEST)
+src\evaluate_test_set_v2.py,405,"pred_csv_path = PHASE1_MODELS_DIR / run_name / ""test_set_v2_predictions.csv"""
+src\extract_glass_test.py,13,"manifest_path = root / ""data"" / ""processed"" / ""glass_candidates.csv"""
+src\extract_glass_test.py,21,reader = csv.DictReader(f)
+src\extract_gunshot_test.py,13,"manifest_path = root / ""data"" / ""processed"" / ""gunshot_candidates.csv"""
+src\extract_gunshot_test.py,21,reader = csv.DictReader(f)
+src\extract_pilot_other.py,12,"manifest_path = root / ""data"" / ""processed"" / ""pilot_other_candidates.csv"""
+src\extract_pilot_other.py,13,"results_path = root / ""data"" / ""processed"" / ""pilot_other_download_results.csv"""
+src\extract_pilot_other.py,20,candidates = list(csv.DictReader(f))
+src\extract_pilot_other.py,133,# Save results to data/processed/pilot_other_download_results.csv
+src\extract_scream_test.py,17,"manifest_path = root / ""data"" / ""processed"" / ""scream_pilot.csv"""
+src\extract_scream_test.py,19,"manifest_path = root / ""data"" / ""processed"" / ""scream_replacements_checked.csv"""
+src\extract_scream_test.py,27,reader = csv.DictReader(f)
+src\filter_pilot.py,7,"source = root / ""data"" / ""processed"" / ""pilot_manifest.csv"""
+src\filter_pilot.py,8,"output = root / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\filter_pilot.py,10,df = pd.read_csv(source)
+src\generate_e3_download_report.py,3,Analyzes data/processed/e3_download_results.csv and audio files in
+src\generate_e3_download_report.py,5,and preparing data/processed/e3_content_validation.csv.
+src\generate_e3_download_report.py,18,"DOWNLOAD_RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""e3_download_results.csv"""
+src\generate_e3_download_report.py,27,df = pd.read_csv(DOWNLOAD_RESULTS_PATH)
+src\generate_e3_download_report.py,81,"f""**Candidate Manifest:** [`data/processed/e3_general_train_candidates.csv`](file:///d:/ml/fydp/MyNet/data/processed/e3_general_train_candidates.csv)  "","
+src\generate_e3_download_report.py,82,"f""**Results Log:** [`data/processed/e3_download_results.csv`](file:///d:/ml/fydp/MyNet/data/processed/e3_download_results.csv)  "","
+src\generate_e3_download_report.py,143,"f""Exactly **{valid_on_disk} technically verified WAV files** are registered into [`data/processed/e3_content_validation.csv`](file:///d:/ml/fydp/MyNet/data/processed/e3_content_validation.csv)."","
+src\generate_e3_download_report.py,147,"""python src/review_tool.py --manifest data/processed/e3_content_validation.csv --results-file data/processed/e3_review_results.csv"","
+src\generate_retry_list.py,4,- data/processed/train_download_retry_list.csv
+src\generate_retry_list.py,25,"TRAIN_MANIFEST = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\generate_retry_list.py,26,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\generate_retry_list.py,27,"RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""train_download_results.csv"""
+src\generate_retry_list.py,29,"RETRY_CSV = ROOT / ""data"" / ""processed"" / ""train_download_retry_list.csv"""
+src\generate_retry_list.py,99,all_manifest_rows = list(csv.DictReader(f))
+src\generate_retry_list.py,110,for r in csv.DictReader(f):
+src\integrate_nigens.py,575,"default=ROOT / ""data"" / ""processed"" / ""nigens_manifest.csv"","
+src\prepare_combined_dataset.py,131,"target_m_path = project_root / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\prepare_combined_dataset.py,132,"other_m_path = project_root / ""data"" / ""processed"" / ""other_manifest.csv"""
+src\prepare_combined_dataset.py,137,for row in csv.DictReader(f):
+src\prepare_combined_dataset.py,143,for row in csv.DictReader(f):
+src\prepare_combined_dataset.py,500,"""**Combined Manifest:** [`data/processed/combined_training_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/combined_training_manifest.csv)  "","
+src\prepare_combined_dataset.py,615,"""| **Existing Manifest Integrity** | **PASS** | `target_manifest.csv`, `eval_manifest.csv`, `train_split_manifest.csv`, and `val_split_manifest.csv` untouched |"","
+src\prepare_combined_dataset.py,647,"default=ROOT / ""data"" / ""processed"" / ""combined_training_manifest.csv"","
+src\prepare_e3_content_validation.py,3,Consumes the results from data/processed/e3_download_results.csv and
+src\prepare_e3_content_validation.py,4,generates data/processed/e3_content_validation.csv ready for review via
+src\prepare_e3_content_validation.py,19,"DOWNLOAD_RESULTS_PATH = ROOT / ""data"" / ""processed"" / ""e3_download_results.csv"""
+src\prepare_e3_content_validation.py,20,"CONTENT_VALIDATION_PATH = ROOT / ""data"" / ""processed"" / ""e3_content_validation.csv"""
+src\prepare_e3_content_validation.py,32,df_results = pd.read_csv(results_path)
+src\prepare_eval_manifest.py,8,"OUT = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\prepare_eval_manifest.py,24,"with (RAW / ""yamnet_class_map.csv"").open("
+src\prepare_eval_manifest.py,29,for row in csv.DictReader(f)
+src\prepare_eval_manifest.py,44,"with (RAW / ""eval_segments.csv"").open("
+src\prepare_eval_manifest.py,96,"with (RAW / ""eval_segments.csv"").open("
+src\prepare_experimental_manifests.py,67,"TARGET_MANIFEST_PATH = PROCESSED_DIR / ""target_manifest.csv"""
+src\prepare_experimental_manifests.py,68,"TRAIN_SPLIT_MANIFEST_PATH = PROCESSED_DIR / ""train_split_manifest.csv"""
+src\prepare_experimental_manifests.py,69,"VAL_SPLIT_MANIFEST_PATH = PROCESSED_DIR / ""val_split_manifest.csv"""
+src\prepare_experimental_manifests.py,70,"EVAL_MANIFEST_PATH = PROCESSED_DIR / ""eval_manifest.csv"""
+src\prepare_experimental_manifests.py,71,"PILOT_MANIFEST_PATH = PROCESSED_DIR / ""pilot_manifest.csv"""
+src\prepare_experimental_manifests.py,72,"REVIEW_RESULTS_PATH = PROCESSED_DIR / ""targeted_expansion_review_results.csv"""
+src\prepare_experimental_manifests.py,73,"BALANCED_SEGMENTS_PATH = RAW_DIR / ""balanced_train_segments.csv"""
+src\prepare_experimental_manifests.py,74,"UNBALANCED_SEGMENTS_PATH = RAW_DIR / ""unbalanced_train_segments.csv"""
+src\prepare_experimental_manifests.py,89,df = pd.read_csv(review_results_path)
+src\prepare_experimental_manifests.py,190,train_df = pd.read_csv(TRAIN_SPLIT_MANIFEST_PATH)
+src\prepare_experimental_manifests.py,191,val_df = pd.read_csv(VAL_SPLIT_MANIFEST_PATH)
+src\prepare_experimental_manifests.py,198,"if (PROCESSED_DIR / ""other_manifest.csv"").exists():"
+src\prepare_experimental_manifests.py,199,"om_df = pd.read_csv(PROCESSED_DIR / ""other_manifest.csv"")"
+src\prepare_experimental_manifests.py,482,"train_path_ablation = E4_DIR / f""{exp_name_ablation}_train.csv"""
+src\prepare_experimental_manifests.py,483,"val_path_ablation = E4_DIR / f""{exp_name_ablation}_val.csv"""
+src\prepare_experimental_manifests.py,516,"train_path_control = E4_DIR / f""{exp_name_control}_train.csv"""
+src\prepare_experimental_manifests.py,517,"val_path_control = E4_DIR / f""{exp_name_control}_val.csv"""
+src\prepare_experimental_manifests.py,575,eval_df = pd.read_csv(eval_manifest_path)
+src\prepare_experimental_manifests.py,580,pilot_df = pd.read_csv(pilot_manifest_path)
+src\prepare_experimental_manifests.py,664,"shared_val_path = PROCESSED_DIR / ""shared_val_split_manifest.csv"""
+src\prepare_experimental_manifests.py,668,"e1_master_path = PROCESSED_DIR / ""e1_baseline_manifest.csv"""
+src\prepare_experimental_manifests.py,669,"e1_train_path = PROCESSED_DIR / ""e1_train_split_manifest.csv"""
+src\prepare_experimental_manifests.py,670,"e1_val_path = PROCESSED_DIR / ""e1_val_split_manifest.csv"""
+src\prepare_experimental_manifests.py,683,"e2_master_path = PROCESSED_DIR / ""e2_targeted_manifest.csv"""
+src\prepare_experimental_manifests.py,684,"e2_train_path = PROCESSED_DIR / ""e2_train_split_manifest.csv"""
+src\prepare_experimental_manifests.py,685,"e2_val_path = PROCESSED_DIR / ""e2_val_split_manifest.csv"""
+src\prepare_experimental_manifests.py,696,"set(pd.read_csv(TARGET_MANIFEST_PATH)[""video_id""].dropna().str.strip())"
+src\prepare_experimental_manifests.py,698,"set(pd.read_csv(EVAL_MANIFEST_PATH)[""video_id""].dropna().str.strip())"
+src\prepare_experimental_manifests.py,700,"if (PROCESSED_DIR / ""targeted_expansion_candidates.csv"").exists():"
+src\prepare_experimental_manifests.py,701,"exp_cands = pd.read_csv(PROCESSED_DIR / ""targeted_expansion_candidates.csv"")"
+src\prepare_experimental_manifests.py,704,pilot_df = pd.read_csv(PILOT_MANIFEST_PATH)
+src\prepare_experimental_manifests.py,711,"e3_master_path = PROCESSED_DIR / ""e3_general_candidate_manifest.csv"""
+src\prepare_experimental_manifests.py,712,"e3_train_path = PROCESSED_DIR / ""e3_general_train_candidates.csv"""
+src\prepare_experimental_manifests.py,713,"e3_val_path = PROCESSED_DIR / ""e3_general_val_candidates.csv"""
+src\prepare_experimental_manifests.py,714,"e3_download_path = PROCESSED_DIR / ""e3_candidates_to_download.csv"""
+src\prepare_glass_candidates.py,7,"target_manifest_path = root / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\prepare_glass_candidates.py,8,"pilot_accessible_path = root / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\prepare_glass_candidates.py,9,"output_path = root / ""data"" / ""processed"" / ""glass_candidates.csv"""
+src\prepare_glass_candidates.py,11,target_df = pd.read_csv(target_manifest_path)
+src\prepare_glass_candidates.py,12,pilot_df = pd.read_csv(pilot_accessible_path)
+src\prepare_gunshot_candidates.py,7,"target_manifest_path = root / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\prepare_gunshot_candidates.py,8,"pilot_accessible_path = root / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\prepare_gunshot_candidates.py,9,"output_path = root / ""data"" / ""processed"" / ""gunshot_candidates.csv"""
+src\prepare_gunshot_candidates.py,11,target_df = pd.read_csv(target_manifest_path)
+src\prepare_gunshot_candidates.py,12,pilot_df = pd.read_csv(pilot_accessible_path)
+src\prepare_manifest.py,8,"OUT = ROOT / ""data"" / ""processed"" / ""target_manifest.csv"""
+src\prepare_manifest.py,24,"with (RAW / ""yamnet_class_map.csv"").open("
+src\prepare_manifest.py,29,for row in csv.DictReader(f)
+src\prepare_manifest.py,44,"with (RAW / ""balanced_train_segments.csv"").open("
+src\prepare_manifest.py,93,"with (RAW / ""balanced_train_segments.csv"").open("
+src\prepare_scream_pilot.py,5,"source = root / ""data"" / ""processed"" / ""scream_replacements_checked.csv"""
+src\prepare_scream_pilot.py,6,"output = root / ""data"" / ""processed"" / ""scream_pilot.csv"""
+src\prepare_scream_pilot.py,8,df = pd.read_csv(source)
+src\prepare_scream_replacements.py,5,"manifest = pd.read_csv(root / ""data"" / ""processed"" / ""target_manifest.csv"")"
+src\prepare_scream_replacements.py,6,"previous = pd.read_csv(root / ""data"" / ""processed"" / ""pilot_manifest.csv"")"
+src\prepare_scream_replacements.py,14,"output = root / ""data"" / ""processed"" / ""scream_replacements.csv"""
+src\review_tool.py,34,"DEFAULT_MANIFEST = ROOT / ""data"" / ""processed"" / ""targeted_expansion_content_validation.csv"""
+src\review_tool.py,35,"DEFAULT_RESULTS = ROOT / ""data"" / ""processed"" / ""targeted_expansion_review_results.csv"""
+src\review_tool.py,38,"PILOT_RESULTS_CSV = ROOT / ""data"" / ""processed"" / ""pilot_other_download_results.csv"""
+src\review_tool.py,39,"PILOT_REVIEW_CSV = ROOT / ""data"" / ""processed"" / ""pilot_other_review.csv"""
+src\review_tool.py,99,reader = csv.DictReader(f)
+src\review_tool.py,145,reader = csv.DictReader(f)
+src\sample_e3_replacements.py,8,- Source: AudioSet balanced_train_segments.csv
+src\sample_e3_replacements.py,38,"REPLACEMENT_MANIFEST_PATH = PROCESSED_DIR / ""e3_replacement_candidates.csv"""
+src\sample_e3_replacements.py,47,"for p in [PROCESSED_DIR / ""e1_baseline_manifest.csv"", PROCESSED_DIR / ""shared_val_split_manifest.csv""]:"
+src\sample_e3_replacements.py,49,df = pd.read_csv(p)
+src\sample_e3_replacements.py,54,df = pd.read_csv(EVAL_MANIFEST_PATH)
+src\sample_e3_replacements.py,59,df = pd.read_csv(PILOT_MANIFEST_PATH)
+src\sample_e3_replacements.py,64,"exp_p = PROCESSED_DIR / ""targeted_expansion_candidates.csv"""
+src\sample_e3_replacements.py,66,df = pd.read_csv(exp_p)
+src\sample_e3_replacements.py,70,"e3_p = PROCESSED_DIR / ""e3_general_candidate_manifest.csv"""
+src\sample_e3_replacements.py,72,df = pd.read_csv(e3_p)
+src\smoke_test_preprocess.py,3,This module inspects verified WAV files in `data/processed/pilot_accessible.csv`
+src\smoke_test_preprocess.py,45,"MANIFEST_PATH = ROOT / ""data"" / ""processed"" / ""pilot_accessible.csv"""
+src\smoke_test_preprocess.py,134,reader = csv.DictReader(f)
+src\split_combined_dataset.py,318,"""**Source Manifest:** [`data/processed/combined_training_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/combined_training_manifest.csv)  "","
+src\split_combined_dataset.py,387,"""1. **Training Manifest:** [`data/processed/combined_train_split_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/combined_train_split_manifest.csv)  "","
+src\split_combined_dataset.py,389,"""2. **Validation Manifest:** [`data/processed/combined_val_split_manifest.csv`](file:///d:/ml/fydp/MyNet/data/processed/combined_val_split_manifest.csv)  "","
+src\split_combined_dataset.py,400,"""produces identical SHA256 file digests for both `combined_train_split_manifest.csv` and `combined_val_split_manifest.csv`."","
+src\split_combined_dataset.py,416,"default=ROOT / ""data"" / ""processed"" / ""combined_training_manifest.csv"","
+src\split_combined_dataset.py,417,"help=""Path to combined_training_manifest.csv"","
+src\split_combined_dataset.py,422,"default=ROOT / ""data"" / ""processed"" / ""combined_train_split_manifest.csv"","
+src\split_combined_dataset.py,423,"help=""Path for combined_train_split_manifest.csv"","
+src\split_combined_dataset.py,428,"default=ROOT / ""data"" / ""processed"" / ""combined_val_split_manifest.csv"","
+src\split_combined_dataset.py,429,"help=""Path for combined_val_split_manifest.csv"","
+src\split_combined_dataset.py,473,records = list(csv.DictReader(f))
+src\train.py,13,- Strict evaluation split isolation (guarantees 0 overlap with held-out eval_manifest.csv)
+src\train.py,82,"EVAL_MANIFEST = ROOT / ""data"" / ""processed"" / ""eval_manifest.csv"""
+src\train.py,83,"TRAIN_SPLIT_MANIFEST = ROOT / ""data"" / ""processed"" / ""train_split_manifest.csv"""
+src\train.py,84,"VAL_SPLIT_MANIFEST = ROOT / ""data"" / ""processed"" / ""val_split_manifest.csv"""
+src\train.py,90,"COMBINED_TRAIN_SPLIT_MANIFEST = ROOT / ""data"" / ""processed"" / ""combined_train_split_manifest.csv"""
+src\train.py,91,"COMBINED_VAL_SPLIT_MANIFEST = ROOT / ""data"" / ""processed"" / ""combined_val_split_manifest.csv"""
+src\train.py,113,reader = csv.DictReader(f)
+src\train.py,150,reader = csv.DictReader(f)
+src\train.py,1034,"parser.add_argument(""--train-manifest"", type=str, default=None, help=""Path to training split manifest CSV (default: data/processed/train_split_manifest.csv)."")"
+src\train.py,1035,"parser.add_argument(""--val-manifest"", type=str, default=None, help=""Path to validation split manifest CSV (default: data/processed/val_split_manifest.csv)."")"
