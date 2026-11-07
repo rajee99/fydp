@@ -1,0 +1,56 @@
+video_id,status,output_path,error
+I9GLG8Bh5dE,SUCCESS,data/raw/test_set_v2/scream/scream_I9GLG8Bh5dE_30_40.wav,
+1Zm5OzLxNqo,FAILED,data/raw/test_set_v2/scream/scream_1Zm5OzLxNqo_0_8.wav,PERMANENT: ERROR: [youtube] 1Zm5OzLxNqo: Video unavailable
+b6LdFZM8PXI,SUCCESS,data/raw/test_set_v2/scream/scream_b6LdFZM8PXI_0_10.wav,
+K0korwnQLa0,SUCCESS,data/raw/test_set_v2/scream/scream_K0korwnQLa0_10_20.wav,
+FuIU4qtoKfw,SUCCESS,data/raw/test_set_v2/scream/scream_FuIU4qtoKfw_230_240.wav,
+rYI4AOVgjq8,SUCCESS,data/raw/test_set_v2/scream/scream_rYI4AOVgjq8_50_60.wav,
+ja5_3urXc9E,FAILED,data/raw/test_set_v2/scream/scream_ja5_3urXc9E_180_190.wav,PERMANENT: ERROR: [youtube] ja5_3urXc9E: This video has been removed for violating YouTube's policy on harassment and bullying
+8LYY2pQPd80,SUCCESS,data/raw/test_set_v2/scream/scream_8LYY2pQPd80_100_110.wav,
+t2qftVADnoM,SUCCESS,data/raw/test_set_v2/scream/scream_t2qftVADnoM_340_350.wav,
+381WxsQvL8E,FAILED,data/raw/test_set_v2/scream/scream_381WxsQvL8E_140_150.wav,PERMANENT: ERROR: [youtube] 381WxsQvL8E: This video is unavailable
+E-V7blxcItc,SUCCESS,data/raw/test_set_v2/scream/scream_E-V7blxcItc_0_10.wav,
+2t3GNtr5TLg,FAILED,data/raw/test_set_v2/scream/scream_2t3GNtr5TLg_10_20.wav,PERMANENT: ERROR: [youtube] 2t3GNtr5TLg: This video is unavailable
+W-CwUhhYa6Y,VALIDATION_FAILED,data/raw/test_set_v2/scream/scream_W-CwUhhYa6Y_0_6.wav,Duration 5.00s deviates from expected 6.00s
+2sSDVIV7kdA,SUCCESS,data/raw/test_set_v2/scream/scream_2sSDVIV7kdA_210_220.wav,
+_XPPISqmXSE,SUCCESS,data/raw/test_set_v2/scream/scream__XPPISqmXSE_40_50.wav,
+-22tna7KHzI,SUCCESS,data/raw/test_set_v2/gunshot/gunshot_-22tna7KHzI_28_38.wav,
+UM0jtD_OWLU,SUCCESS,data/raw/test_set_v2/gunshot/gunshot_UM0jtD_OWLU_80_90.wav,
+LIPprUxFap8,VALIDATION_FAILED,data/raw/test_set_v2/gunshot/gunshot_LIPprUxFap8_6_16.wav,Duration 9.00s deviates from expected 10.00s
+OruXpELHHkA,SUCCESS,data/raw/test_set_v2/gunshot/gunshot_OruXpELHHkA_30_40.wav,
+NLF7fxBO2_g,FAILED,data/raw/test_set_v2/gunshot/gunshot_NLF7fxBO2_g_30_40.wav,PERMANENT: ERROR: [youtube] NLF7fxBO2_g: This video has been removed for violating YouTube's Terms of Service
+hZQYX-bCQ94,SUCCESS,data/raw/test_set_v2/gunshot/gunshot_hZQYX-bCQ94_40_50.wav,
+-9O1cb8z7Mk,FAILED,data/raw/test_set_v2/gunshot/gunshot_-9O1cb8z7Mk_0_10.wav,PERMANENT: ERROR: [youtube] -9O1cb8z7Mk: Private video
+BqL897JQBSA,SUCCESS,data/raw/test_set_v2/gunshot/gunshot_BqL897JQBSA_0_10.wav,
+ocuafce02Ck,SUCCESS,data/raw/test_set_v2/siren/siren_ocuafce02Ck_40_50.wav,
+GvtJ_5Ab5eA,VALIDATION_FAILED,data/raw/test_set_v2/siren/siren_GvtJ_5Ab5eA_0_8.wav,Duration 7.00s deviates from expected 8.00s
+1HAUyxiMxaU,SUCCESS,data/raw/test_set_v2/siren/siren_1HAUyxiMxaU_30_40.wav,
+81Hi898O3wk,SUCCESS,data/raw/test_set_v2/siren/siren_81Hi898O3wk_300_310.wav,
+EiWkTD26E-c,SUCCESS,data/raw/test_set_v2/siren/siren_EiWkTD26E-c_170_180.wav,
+hyalCK4558U,SUCCESS,data/raw/test_set_v2/siren/siren_hyalCK4558U_30_40.wav,
+C4ti_g9zz5g,FAILED,data/raw/test_set_v2/siren/siren_C4ti_g9zz5g_12_22.wav,PERMANENT: ERROR: [youtube] C4ti_g9zz5g: This video is unavailable
+RPTUoHKUN2I,SUCCESS,data/raw/test_set_v2/siren/siren_RPTUoHKUN2I_20_30.wav,
+KMrpYyZNpWw,SUCCESS,data/raw/test_set_v2/other/other_KMrpYyZNpWw_25_35.wav,
+O-VVb8Ag49g,SUCCESS,data/raw/test_set_v2/other/other_O-VVb8Ag49g_40_50.wav,
+LK0um3j89a0,SUCCESS,data/raw/test_set_v2/other/other_LK0um3j89a0_30_40.wav,
+jH6-RU2or84,SUCCESS,data/raw/test_set_v2/other/other_jH6-RU2or84_40_50.wav,
+HpA4ldGoHRQ,SUCCESS,data/raw/test_set_v2/other/other_HpA4ldGoHRQ_24_34.wav,
+UQ_ikxReo4Y,FAILED,data/raw/test_set_v2/other/other_UQ_ikxReo4Y_20_30.wav,PERMANENT: ERROR: [youtube] UQ_ikxReo4Y: Private video
+CDABuTQLNe8,SUCCESS,data/raw/test_set_v2/other/other_CDABuTQLNe8_140_150.wav,
+lqMjDyHbhXk,SUCCESS,data/raw/test_set_v2/other/other_lqMjDyHbhXk_30_40.wav,
+mCJ0aqIygWE,SUCCESS,data/raw/test_set_v2/other/other_mCJ0aqIygWE_24_34.wav,
+H0hTOJUj5yw,SUCCESS,data/raw/test_set_v2/other/other_H0hTOJUj5yw_30_40.wav,
+usAbPEHJsdI,SUCCESS,data/raw/test_set_v2/other/other_usAbPEHJsdI_80_90.wav,
+Ef0c2AieZ24,SUCCESS,data/raw/test_set_v2/other/other_Ef0c2AieZ24_130_140.wav,
+Lh3cr_mfrnI,SUCCESS,data/raw/test_set_v2/other/other_Lh3cr_mfrnI_110_120.wav,
+_lkms3GZd1k,FAILED,data/raw/test_set_v2/other/other__lkms3GZd1k_420_430.wav,PERMANENT: ERROR: [youtube] _lkms3GZd1k: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+j233WrRShRY,SUCCESS,data/raw/test_set_v2/other/other_j233WrRShRY_30_40.wav,
+bfOLFECH_W8,FAILED,data/raw/test_set_v2/other/other_bfOLFECH_W8_350_360.wav,PERMANENT: ERROR: [youtube] bfOLFECH_W8: Private video
+Y7n-Fw0uwOc,FAILED,data/raw/test_set_v2/other/other_Y7n-Fw0uwOc_230_240.wav,PERMANENT: ERROR: [youtube] Y7n-Fw0uwOc: Private video
+R0bAuQ3vfgA,SUCCESS,data/raw/test_set_v2/other/other_R0bAuQ3vfgA_30_40.wav,
+BeDIckb14z0,SUCCESS,data/raw/test_set_v2/other/other_BeDIckb14z0_30_40.wav,
+-1PZQg5Gi8A,SUCCESS,data/raw/test_set_v2/other/other_-1PZQg5Gi8A_30_40.wav,
+o1Y_xdXcE9Q,FAILED,data/raw/test_set_v2/other/other_o1Y_xdXcE9Q_110_120.wav,PERMANENT: ERROR: [youtube] o1Y_xdXcE9Q: Private video
+dDiJVPw5hAY,FAILED,data/raw/test_set_v2/other/other_dDiJVPw5hAY_30_40.wav,PERMANENT: ERROR: [youtube] dDiJVPw5hAY: Private video
+pG03K9lZATA,SUCCESS,data/raw/test_set_v2/other/other_pG03K9lZATA_30_40.wav,
+ESO0HMAmwCI,SUCCESS,data/raw/test_set_v2/other/other_ESO0HMAmwCI_20_30.wav,

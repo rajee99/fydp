@@ -1,0 +1,879 @@
+{
+  "audit_metadata": {
+    "timestamp": "2026-11-02T20:05:00",
+    "benchmark_samples": 750,
+    "seeds": [
+      42,
+      123,
+      2026
+    ],
+    "device": "cuda",
+    "primary_hypotheses_evaluated": 7
+  },
+  "reproduced_primary_results": {
+    "human_shouting": {
+      "category": "human_shouting",
+      "display_name": "Human Shouting",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.36,
+        "ci_95": [
+          0.1867,
+          0.5333
+        ],
+        "bootstrap_mean": 0.3585,
+        "p_value": 0.000977,
+        "method": "exact_enumeration_2^12",
+        "non_zero_count": 12
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 8,
+          "c": 1,
+          "total_discordant": 9,
+          "net_shift": 7,
+          "p_value": 0.039062,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_123": {
+          "b": 10,
+          "c": 1,
+          "total_discordant": 11,
+          "net_shift": 9,
+          "p_value": 0.011719,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.36,
+        "b": 10,
+        "c": 1,
+        "total_discordant": 11,
+        "net_shift": 9,
+        "p_value": 0.011719,
+        "ci_95": [
+          0.12,
+          0.56
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "human_shouting",
+        "raw_p_value": 0.000977,
+        "rank": 2,
+        "m": 7,
+        "alpha_threshold": 0.008333,
+        "adjusted_p_value": 0.005862,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "human_shouting",
+        "raw_p_value": 0.011719,
+        "rank": 2,
+        "m": 7,
+        "alpha_threshold": 0.008333,
+        "adjusted_p_value": 0.070314,
+        "rejected": false
+      }
+    },
+    "metal_impacts": {
+      "category": "metal_impacts",
+      "display_name": "Metal Impacts",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ],
+        "bootstrap_mean": 0.0,
+        "p_value": 1.0,
+        "method": "trivial_null",
+        "non_zero_count": 0
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.0,
+        "b": 0,
+        "c": 0,
+        "total_discordant": 0,
+        "net_shift": 0,
+        "p_value": 1.0,
+        "ci_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "metal_impacts",
+        "raw_p_value": 1.0,
+        "rank": 7,
+        "m": 7,
+        "alpha_threshold": 0.05,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "metal_impacts",
+        "raw_p_value": 1.0,
+        "rank": 5,
+        "m": 7,
+        "alpha_threshold": 0.016667,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "door_slams": {
+      "category": "door_slams",
+      "display_name": "Door Slams",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.0667,
+        "ci_95": [
+          -0.0,
+          0.1467
+        ],
+        "bootstrap_mean": 0.0669,
+        "p_value": 0.1875,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 3,
+          "c": 1,
+          "total_discordant": 4,
+          "net_shift": 2,
+          "p_value": 0.625,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 2,
+          "c": 0,
+          "total_discordant": 2,
+          "net_shift": 2,
+          "p_value": 0.5,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 2,
+          "c": 1,
+          "total_discordant": 3,
+          "net_shift": 1,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.04,
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "ci_95": [
+          0.0,
+          0.12
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "door_slams",
+        "raw_p_value": 0.1875,
+        "rank": 5,
+        "m": 7,
+        "alpha_threshold": 0.016667,
+        "adjusted_p_value": 0.5625,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "door_slams",
+        "raw_p_value": 1.0,
+        "rank": 6,
+        "m": 7,
+        "alpha_threshold": 0.025,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "construction_tools": {
+      "category": "construction_tools",
+      "display_name": "Construction Tools",
+      "slice_type": "all_confusers_fallback",
+      "sample_count": 150,
+      "theta_1": {
+        "point_estimate": -0.0422,
+        "ci_95": [
+          -0.0711,
+          -0.0156
+        ],
+        "bootstrap_mean": -0.0422,
+        "p_value": 0.00388,
+        "method": "monte_carlo_100000",
+        "non_zero_count": 23
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 10,
+          "c": 12,
+          "total_discordant": 22,
+          "net_shift": -2,
+          "p_value": 0.831812,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 12,
+          "total_discordant": 12,
+          "net_shift": -12,
+          "p_value": 0.000488,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 0,
+          "c": 5,
+          "total_discordant": 5,
+          "net_shift": -5,
+          "p_value": 0.0625,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": -0.0467,
+        "b": 0,
+        "c": 7,
+        "total_discordant": 7,
+        "net_shift": -7,
+        "p_value": 0.015625,
+        "ci_95": [
+          -0.08,
+          -0.0133
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "construction_tools",
+        "raw_p_value": 0.00388,
+        "rank": 3,
+        "m": 7,
+        "alpha_threshold": 0.01,
+        "adjusted_p_value": 0.0194,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "construction_tools",
+        "raw_p_value": 0.015625,
+        "rank": 3,
+        "m": 7,
+        "alpha_threshold": 0.01,
+        "adjusted_p_value": 0.078125,
+        "rejected": false
+      }
+    },
+    "car_alarms_detectors": {
+      "category": "car_alarms_detectors",
+      "display_name": "Car Alarms & Detectors",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.1467,
+        "ci_95": [
+          0.04,
+          0.2667
+        ],
+        "bootstrap_mean": 0.1474,
+        "p_value": 0.03125,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 5,
+          "c": 0,
+          "total_discordant": 5,
+          "net_shift": 5,
+          "p_value": 0.0625,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 3,
+          "c": 0,
+          "total_discordant": 3,
+          "net_shift": 3,
+          "p_value": 0.25,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 3,
+          "c": 0,
+          "total_discordant": 3,
+          "net_shift": 3,
+          "p_value": 0.25,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.12,
+        "b": 3,
+        "c": 0,
+        "total_discordant": 3,
+        "net_shift": 3,
+        "p_value": 0.25,
+        "ci_95": [
+          0.0,
+          0.28
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "car_alarms_detectors",
+        "raw_p_value": 0.03125,
+        "rank": 4,
+        "m": 7,
+        "alpha_threshold": 0.0125,
+        "adjusted_p_value": 0.125,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "car_alarms_detectors",
+        "raw_p_value": 0.25,
+        "rank": 4,
+        "m": 7,
+        "alpha_threshold": 0.0125,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "fireworks_firecrackers": {
+      "category": "fireworks_firecrackers",
+      "display_name": "Fireworks & Firecrackers",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.4133,
+        "ci_95": [
+          0.24,
+          0.5867
+        ],
+        "bootstrap_mean": 0.412,
+        "p_value": 0.000244,
+        "method": "exact_enumeration_2^13",
+        "non_zero_count": 13
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_123": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 9,
+          "c": 0,
+          "total_discordant": 9,
+          "net_shift": 9,
+          "p_value": 0.003906,
+          "statistically_significant_unadjusted": true
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.44,
+        "b": 11,
+        "c": 0,
+        "total_discordant": 11,
+        "net_shift": 11,
+        "p_value": 0.000977,
+        "ci_95": [
+          0.24,
+          0.64
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "fireworks_firecrackers",
+        "raw_p_value": 0.000244,
+        "rank": 1,
+        "m": 7,
+        "alpha_threshold": 0.007143,
+        "adjusted_p_value": 0.001708,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "fireworks_firecrackers",
+        "raw_p_value": 0.000977,
+        "rank": 1,
+        "m": 7,
+        "alpha_threshold": 0.007143,
+        "adjusted_p_value": 0.006839,
+        "rejected": true
+      }
+    },
+    "whistles_high_pitch": {
+      "category": "whistles_high_pitch",
+      "display_name": "Whistles & High Pitch",
+      "slice_type": "isolated_subdomain",
+      "sample_count": 25,
+      "theta_1": {
+        "point_estimate": 0.04,
+        "ci_95": [
+          0.0,
+          0.1067
+        ],
+        "bootstrap_mean": 0.0402,
+        "p_value": 0.5,
+        "method": "exact_enumeration_2^2",
+        "non_zero_count": 2
+      },
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 1,
+          "c": 0,
+          "total_discordant": 1,
+          "net_shift": 1,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 2,
+          "c": 0,
+          "total_discordant": 2,
+          "net_shift": 2,
+          "p_value": 0.5,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_2_ensemble": {
+        "point_estimate": 0.04,
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "ci_95": [
+          0.0,
+          0.12
+        ]
+      },
+      "holm_bonferroni_primary": {
+        "category": "whistles_high_pitch",
+        "raw_p_value": 0.5,
+        "rank": 6,
+        "m": 7,
+        "alpha_threshold": 0.025,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "whistles_high_pitch",
+        "raw_p_value": 1.0,
+        "rank": 7,
+        "m": 7,
+        "alpha_threshold": 0.05,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    }
+  },
+  "reproduction_verification": {
+    "human_shouting": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.36,
+        "reproduced": 0.36,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 12,
+        "reproduced": 12,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.000977,
+        "reproduced": 0.000977,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          0.1867,
+          0.5333
+        ],
+        "reproduced": [
+          0.1867,
+          0.5333
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 10,
+        "reproduced": 10,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 1,
+        "reproduced": 1,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 0.011719,
+        "reproduced": 0.011719,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 2,
+        "reproduced_rank": 2,
+        "original_rejected": true,
+        "reproduced_rejected": true,
+        "match": true
+      }
+    },
+    "metal_impacts": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.0,
+        "reproduced": 0.0,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 1.0,
+        "reproduced": 1.0,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          0.0,
+          0.0
+        ],
+        "reproduced": [
+          0.0,
+          0.0
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 1.0,
+        "reproduced": 1.0,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 7,
+        "reproduced_rank": 7,
+        "original_rejected": false,
+        "reproduced_rejected": false,
+        "match": true
+      }
+    },
+    "door_slams": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.0667,
+        "reproduced": 0.0667,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 6,
+        "reproduced": 6,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.1875,
+        "reproduced": 0.1875,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          -0.0,
+          0.1467
+        ],
+        "reproduced": [
+          -0.0,
+          0.1467
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 1,
+        "reproduced": 1,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 1.0,
+        "reproduced": 1.0,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 5,
+        "reproduced_rank": 5,
+        "original_rejected": false,
+        "reproduced_rejected": false,
+        "match": true
+      }
+    },
+    "construction_tools": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": -0.0422,
+        "reproduced": -0.0422,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 23,
+        "reproduced": 23,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.00388,
+        "reproduced": 0.00388,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          -0.0711,
+          -0.0156
+        ],
+        "reproduced": [
+          -0.0711,
+          -0.0156
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 7,
+        "reproduced": 7,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 0.015625,
+        "reproduced": 0.015625,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 3,
+        "reproduced_rank": 3,
+        "original_rejected": true,
+        "reproduced_rejected": true,
+        "match": true
+      }
+    },
+    "car_alarms_detectors": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.1467,
+        "reproduced": 0.1467,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 6,
+        "reproduced": 6,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.03125,
+        "reproduced": 0.03125,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          0.04,
+          0.2667
+        ],
+        "reproduced": [
+          0.04,
+          0.2667
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 3,
+        "reproduced": 3,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 0.25,
+        "reproduced": 0.25,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 4,
+        "reproduced_rank": 4,
+        "original_rejected": false,
+        "reproduced_rejected": false,
+        "match": true
+      }
+    },
+    "fireworks_firecrackers": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.4133,
+        "reproduced": 0.4133,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 13,
+        "reproduced": 13,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.000244,
+        "reproduced": 0.000244,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          0.24,
+          0.5867
+        ],
+        "reproduced": [
+          0.24,
+          0.5867
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 11,
+        "reproduced": 11,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 0.000977,
+        "reproduced": 0.000977,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 1,
+        "reproduced_rank": 1,
+        "original_rejected": true,
+        "reproduced_rejected": true,
+        "match": true
+      }
+    },
+    "whistles_high_pitch": {
+      "status": "PASS",
+      "theta1_point_estimate": {
+        "original": 0.04,
+        "reproduced": 0.04,
+        "match": true
+      },
+      "theta1_non_zero_count": {
+        "original": 2,
+        "reproduced": 2,
+        "match": true
+      },
+      "theta1_p_value": {
+        "original": 0.5,
+        "reproduced": 0.5,
+        "match": true
+      },
+      "theta1_ci_95": {
+        "original": [
+          0.0,
+          0.1067
+        ],
+        "reproduced": [
+          0.0,
+          0.1067
+        ]
+      },
+      "theta2_discordant_b": {
+        "original": 1,
+        "reproduced": 1,
+        "match": true
+      },
+      "theta2_discordant_c": {
+        "original": 0,
+        "reproduced": 0,
+        "match": true
+      },
+      "theta2_p_value": {
+        "original": 1.0,
+        "reproduced": 1.0,
+        "match": true
+      },
+      "holm_bonferroni_primary": {
+        "original_rank": 6,
+        "reproduced_rank": 6,
+        "original_rejected": false,
+        "reproduced_rejected": false,
+        "match": true
+      }
+    }
+  },
+  "overall_reproduction_status": "ALL_PASS"
+}

@@ -1,0 +1,148 @@
+{
+  "epoch": 2,
+  "val_loss": 1.4266181065922692,
+  "metrics": {
+    "accuracy": 0.3905,
+    "macro_f1": 0.2896,
+    "macro_precision": 0.4334,
+    "macro_recall": 0.3411,
+    "per_class": {
+      "scream": {
+        "precision": 0.5,
+        "recall": 0.1429,
+        "f1_score": 0.2222,
+        "support": 7
+      },
+      "glass_breaking": {
+        "precision": 0.2549,
+        "recall": 0.6842,
+        "f1_score": 0.3714,
+        "support": 19
+      },
+      "gunshot": {
+        "precision": 0.6667,
+        "recall": 0.087,
+        "f1_score": 0.1538,
+        "support": 23
+      },
+      "siren": {
+        "precision": 0.5455,
+        "recall": 0.75,
+        "f1_score": 0.6316,
+        "support": 32
+      },
+      "other": {
+        "precision": 0.2,
+        "recall": 0.0417,
+        "f1_score": 0.069,
+        "support": 24
+      }
+    },
+    "confusion_matrix": [
+      [
+        1,
+        2,
+        0,
+        4,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        3,
+        3
+      ],
+      [
+        1,
+        17,
+        2,
+        2,
+        1
+      ],
+      [
+        0,
+        8,
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        11,
+        1,
+        11,
+        1
+      ]
+    ]
+  },
+  "classes": [
+    "scream",
+    "glass_breaking",
+    "gunshot",
+    "siren",
+    "other"
+  ],
+  "class_to_id": {
+    "scream": 0,
+    "glass_breaking": 1,
+    "gunshot": 2,
+    "siren": 3,
+    "other": 4
+  },
+  "config": {
+    "model": "CompactAudioCNN",
+    "num_classes": 5,
+    "classes": [
+      "scream",
+      "glass_breaking",
+      "gunshot",
+      "siren",
+      "other"
+    ],
+    "class_to_id": {
+      "scream": 0,
+      "glass_breaking": 1,
+      "gunshot": 2,
+      "siren": 3,
+      "other": 4
+    },
+    "sample_rate": 16000,
+    "target_duration_sec": 10.0,
+    "target_samples": 160000,
+    "n_mels": 64,
+    "epochs": 20,
+    "batch_size": 16,
+    "initial_lr": 0.001,
+    "weight_decay": 0.0001,
+    "imbalance_strategy": "class_weights",
+    "train_class_weights": [
+      2.2081,
+      0.8603,
+      0.72,
+      0.5216,
+      0.69
+    ],
+    "train_samples": 422,
+    "val_samples": 105,
+    "train_counts": {
+      "scream": 30,
+      "glass_breaking": 77,
+      "gunshot": 92,
+      "siren": 127,
+      "other": 96
+    },
+    "val_counts": {
+      "scream": 7,
+      "glass_breaking": 19,
+      "gunshot": 23,
+      "siren": 32,
+      "other": 24
+    },
+    "val_ratio": 0.2,
+    "seed": 42,
+    "device": "cuda",
+    "timestamp": "2026-10-30T09:57:38.443331"
+  },
+  "timestamp": "2026-10-30T09:57:44.018589"
+}

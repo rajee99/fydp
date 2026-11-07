@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-02T19:22:13.935499",
+  "run_name": "e4_matched_control_car_alarms_detectors_seed42",
+  "condition_key": "e4_matched_control_car_alarms_detectors",
+  "display_name": "E4 Matched Control Car Alarms",
+  "type": "matched_size_control",
+  "target_subdomain": "car_alarms_detectors",
+  "seed": 42,
+  "train_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\e4_ablations\\e4_matched_control_car_alarms_detectors_train.csv",
+  "train_manifest_sha256": "c6edfdb24cbea1c351cf005ac5326a0042ca64ccfbfae30ae5472e914a41580f",
+  "train_samples": 617,
+  "val_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\shared_val_split_manifest.csv",
+  "val_manifest_sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+  "hyperparameters": {
+    "model_name": "panns_cnn14",
+    "pretrained_path": "D:\\ml\\fydp\\MyNet\\models\\pretrained\\Cnn14_16k_mAP=0.438.pth",
+    "freeze_backbone": true,
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "patience": 7,
+    "early_stopping_metric": "macro_f1"
+  },
+  "command_line": "scripts/run_phase2_experiments.py"
+}

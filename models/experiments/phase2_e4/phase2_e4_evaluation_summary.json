@@ -1,0 +1,1177 @@
+{
+  "metadata": {
+    "timestamp": "2026-11-02T19:49:45.959025",
+    "benchmark_manifest": "data/processed/test_set_v2_manifest.csv",
+    "benchmark_samples": 750,
+    "mode": "real_weights",
+    "synthetic_validation_only": false,
+    "status_label": "CONFIRMATORY BENCHMARK EVALUATION",
+    "bootstrap_iterations": 10000,
+    "random_seed": 42,
+    "seeds_evaluated": [
+      42,
+      123,
+      2026
+    ],
+    "num_conditions": 15,
+    "primary_family_hypotheses": 7,
+    "secondary_family_hypotheses": 7
+  },
+  "condition_summary": {
+    "e2_full": {
+      "condition": "e2_full",
+      "macro_f1_mean": 0.8308,
+      "macro_f1_std": 0.0026,
+      "fer_confusers_mean": 0.3066,
+      "fer_overall_mean": 0.23,
+      "ensemble_macro_f1": 0.8386,
+      "ensemble_fer_confusers": 0.3067,
+      "ensemble_fer_overall": 0.22
+    },
+    "e4_minus_human_shouting": {
+      "condition": "e4_minus_human_shouting",
+      "macro_f1_mean": 0.8143,
+      "macro_f1_std": 0.0075,
+      "fer_confusers_mean": 0.4089,
+      "fer_overall_mean": 0.2944,
+      "ensemble_macro_f1": 0.8226,
+      "ensemble_fer_confusers": 0.4133,
+      "ensemble_fer_overall": 0.28
+    },
+    "e4_matched_control_human_shouting": {
+      "condition": "e4_matched_control_human_shouting",
+      "macro_f1_mean": 0.8175,
+      "macro_f1_std": 0.0021,
+      "fer_confusers_mean": 0.3444,
+      "fer_overall_mean": 0.2789,
+      "ensemble_macro_f1": 0.8224,
+      "ensemble_fer_confusers": 0.34,
+      "ensemble_fer_overall": 0.2833
+    },
+    "e4_minus_metal_impacts": {
+      "condition": "e4_minus_metal_impacts",
+      "macro_f1_mean": 0.8235,
+      "macro_f1_std": 0.006,
+      "fer_confusers_mean": 0.34,
+      "fer_overall_mean": 0.2867,
+      "ensemble_macro_f1": 0.8246,
+      "ensemble_fer_confusers": 0.34,
+      "ensemble_fer_overall": 0.2833
+    },
+    "e4_matched_control_metal_impacts": {
+      "condition": "e4_matched_control_metal_impacts",
+      "macro_f1_mean": 0.8218,
+      "macro_f1_std": 0.0075,
+      "fer_confusers_mean": 0.3333,
+      "fer_overall_mean": 0.2556,
+      "ensemble_macro_f1": 0.8227,
+      "ensemble_fer_confusers": 0.32,
+      "ensemble_fer_overall": 0.2433
+    },
+    "e4_minus_door_slams": {
+      "condition": "e4_minus_door_slams",
+      "macro_f1_mean": 0.8278,
+      "macro_f1_std": 0.0009,
+      "fer_confusers_mean": 0.34,
+      "fer_overall_mean": 0.2589,
+      "ensemble_macro_f1": 0.8373,
+      "ensemble_fer_confusers": 0.3267,
+      "ensemble_fer_overall": 0.2467
+    },
+    "e4_matched_control_door_slams": {
+      "condition": "e4_matched_control_door_slams",
+      "macro_f1_mean": 0.8258,
+      "macro_f1_std": 0.0022,
+      "fer_confusers_mean": 0.3289,
+      "fer_overall_mean": 0.2522,
+      "ensemble_macro_f1": 0.8359,
+      "ensemble_fer_confusers": 0.32,
+      "ensemble_fer_overall": 0.2367
+    },
+    "e4_minus_construction_tools": {
+      "condition": "e4_minus_construction_tools",
+      "macro_f1_mean": 0.8324,
+      "macro_f1_std": 0.009,
+      "fer_confusers_mean": 0.3111,
+      "fer_overall_mean": 0.2456,
+      "ensemble_macro_f1": 0.8386,
+      "ensemble_fer_confusers": 0.3067,
+      "ensemble_fer_overall": 0.2367
+    },
+    "e4_matched_control_construction_tools": {
+      "condition": "e4_matched_control_construction_tools",
+      "macro_f1_mean": 0.8032,
+      "macro_f1_std": 0.0192,
+      "fer_confusers_mean": 0.3534,
+      "fer_overall_mean": 0.2611,
+      "ensemble_macro_f1": 0.8134,
+      "ensemble_fer_confusers": 0.3533,
+      "ensemble_fer_overall": 0.2667
+    },
+    "e4_minus_car_alarms_detectors": {
+      "condition": "e4_minus_car_alarms_detectors",
+      "macro_f1_mean": 0.8137,
+      "macro_f1_std": 0.008,
+      "fer_confusers_mean": 0.3489,
+      "fer_overall_mean": 0.2855,
+      "ensemble_macro_f1": 0.8245,
+      "ensemble_fer_confusers": 0.34,
+      "ensemble_fer_overall": 0.2767
+    },
+    "e4_matched_control_car_alarms_detectors": {
+      "condition": "e4_matched_control_car_alarms_detectors",
+      "macro_f1_mean": 0.8241,
+      "macro_f1_std": 0.0051,
+      "fer_confusers_mean": 0.32,
+      "fer_overall_mean": 0.2389,
+      "ensemble_macro_f1": 0.8238,
+      "ensemble_fer_confusers": 0.3133,
+      "ensemble_fer_overall": 0.24
+    },
+    "e4_minus_fireworks_firecrackers": {
+      "condition": "e4_minus_fireworks_firecrackers",
+      "macro_f1_mean": 0.8059,
+      "macro_f1_std": 0.0055,
+      "fer_confusers_mean": 0.3955,
+      "fer_overall_mean": 0.3033,
+      "ensemble_macro_f1": 0.8189,
+      "ensemble_fer_confusers": 0.38,
+      "ensemble_fer_overall": 0.2867
+    },
+    "e4_matched_control_fireworks_firecrackers": {
+      "condition": "e4_matched_control_fireworks_firecrackers",
+      "macro_f1_mean": 0.8227,
+      "macro_f1_std": 0.0067,
+      "fer_confusers_mean": 0.3356,
+      "fer_overall_mean": 0.2578,
+      "ensemble_macro_f1": 0.8252,
+      "ensemble_fer_confusers": 0.3267,
+      "ensemble_fer_overall": 0.2533
+    },
+    "e4_minus_whistles_high_pitch": {
+      "condition": "e4_minus_whistles_high_pitch",
+      "macro_f1_mean": 0.7841,
+      "macro_f1_std": 0.0452,
+      "fer_confusers_mean": 0.3311,
+      "fer_overall_mean": 0.2467,
+      "ensemble_macro_f1": 0.8164,
+      "ensemble_fer_confusers": 0.3267,
+      "ensemble_fer_overall": 0.26
+    },
+    "e4_matched_control_whistles_high_pitch": {
+      "condition": "e4_matched_control_whistles_high_pitch",
+      "macro_f1_mean": 0.812,
+      "macro_f1_std": 0.0028,
+      "fer_confusers_mean": 0.34,
+      "fer_overall_mean": 0.2733,
+      "ensemble_macro_f1": 0.8205,
+      "ensemble_fer_confusers": 0.3267,
+      "ensemble_fer_overall": 0.2667
+    }
+  },
+  "primary_comparisons": {
+    "human_shouting": {
+      "category": "human_shouting",
+      "display_name": "Human Shouting",
+      "ablation_condition": "e4_minus_human_shouting",
+      "control_condition": "e4_matched_control_human_shouting",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_human_shouting",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 8,
+          "c": 1,
+          "total_discordant": 9,
+          "net_shift": 7,
+          "p_value": 0.039062,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_123": {
+          "b": 10,
+          "c": 1,
+          "total_discordant": 11,
+          "net_shift": 9,
+          "p_value": 0.011719,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.36,
+        "p_value": 0.000977,
+        "method": "exact_enumeration_2^12",
+        "non_zero_count": 12,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 10,
+        "c": 1,
+        "total_discordant": 11,
+        "net_shift": 9,
+        "p_value": 0.011719,
+        "statistically_significant_unadjusted": true
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.36,
+          "bootstrap_mean": 0.3585,
+          "ci_95": [
+            0.1867,
+            0.5333
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.36,
+          "bootstrap_mean": 0.3578,
+          "ci_95": [
+            0.12,
+            0.56
+          ],
+          "p_superior": 0.9992,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "human_shouting",
+        "raw_p_value": 0.000977,
+        "rank": 2,
+        "m": 7,
+        "alpha_threshold": 0.008333,
+        "adjusted_p_value": 0.005862,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "human_shouting",
+        "raw_p_value": 0.011719,
+        "rank": 2,
+        "m": 7,
+        "alpha_threshold": 0.008333,
+        "adjusted_p_value": 0.070314,
+        "rejected": false
+      }
+    },
+    "metal_impacts": {
+      "category": "metal_impacts",
+      "display_name": "Metal Impacts",
+      "ablation_condition": "e4_minus_metal_impacts",
+      "control_condition": "e4_matched_control_metal_impacts",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_metal_impacts",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.0,
+        "p_value": 1.0,
+        "method": "trivial_null",
+        "non_zero_count": 0,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 0,
+        "c": 0,
+        "total_discordant": 0,
+        "net_shift": 0,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.0,
+          "bootstrap_mean": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.0,
+          "bootstrap_mean": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "metal_impacts",
+        "raw_p_value": 1.0,
+        "rank": 7,
+        "m": 7,
+        "alpha_threshold": 0.05,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "metal_impacts",
+        "raw_p_value": 1.0,
+        "rank": 5,
+        "m": 7,
+        "alpha_threshold": 0.016667,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "door_slams": {
+      "category": "door_slams",
+      "display_name": "Door Slams",
+      "ablation_condition": "e4_minus_door_slams",
+      "control_condition": "e4_matched_control_door_slams",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_door_slams",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 3,
+          "c": 1,
+          "total_discordant": 4,
+          "net_shift": 2,
+          "p_value": 0.625,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 2,
+          "c": 0,
+          "total_discordant": 2,
+          "net_shift": 2,
+          "p_value": 0.5,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 2,
+          "c": 1,
+          "total_discordant": 3,
+          "net_shift": 1,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.0667,
+        "p_value": 0.1875,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.0667,
+          "bootstrap_mean": 0.0669,
+          "ci_95": [
+            -0.0,
+            0.1467
+          ],
+          "p_superior": 0.952,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0398,
+          "ci_95": [
+            0.0,
+            0.12
+          ],
+          "p_superior": 0.6397,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "door_slams",
+        "raw_p_value": 0.1875,
+        "rank": 5,
+        "m": 7,
+        "alpha_threshold": 0.016667,
+        "adjusted_p_value": 0.5625,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "door_slams",
+        "raw_p_value": 1.0,
+        "rank": 6,
+        "m": 7,
+        "alpha_threshold": 0.025,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "construction_tools": {
+      "category": "construction_tools",
+      "display_name": "Construction Tools",
+      "ablation_condition": "e4_minus_construction_tools",
+      "control_condition": "e4_matched_control_construction_tools",
+      "slice_type": "all_confusers_fallback",
+      "test_subdomain": "confuser_construction_tools",
+      "n_recordings": 150,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 10,
+          "c": 12,
+          "total_discordant": 22,
+          "net_shift": -2,
+          "p_value": 0.831812,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 12,
+          "total_discordant": 12,
+          "net_shift": -12,
+          "p_value": 0.000488,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 0,
+          "c": 5,
+          "total_discordant": 5,
+          "net_shift": -5,
+          "p_value": 0.0625,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": -0.0422,
+        "p_value": 0.00388,
+        "method": "monte_carlo_100000",
+        "non_zero_count": 23,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 0,
+        "c": 7,
+        "total_discordant": 7,
+        "net_shift": -7,
+        "p_value": 0.015625,
+        "statistically_significant_unadjusted": true
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": -0.0422,
+          "bootstrap_mean": -0.0422,
+          "ci_95": [
+            -0.0711,
+            -0.0156
+          ],
+          "p_superior": 0.0004,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": -0.0467,
+          "bootstrap_mean": -0.0467,
+          "ci_95": [
+            -0.08,
+            -0.0133
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "construction_tools",
+        "raw_p_value": 0.00388,
+        "rank": 3,
+        "m": 7,
+        "alpha_threshold": 0.01,
+        "adjusted_p_value": 0.0194,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "construction_tools",
+        "raw_p_value": 0.015625,
+        "rank": 3,
+        "m": 7,
+        "alpha_threshold": 0.01,
+        "adjusted_p_value": 0.078125,
+        "rejected": false
+      }
+    },
+    "car_alarms_detectors": {
+      "category": "car_alarms_detectors",
+      "display_name": "Car Alarms & Detectors",
+      "ablation_condition": "e4_minus_car_alarms_detectors",
+      "control_condition": "e4_matched_control_car_alarms_detectors",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_car_alarms_buzzers",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 5,
+          "c": 0,
+          "total_discordant": 5,
+          "net_shift": 5,
+          "p_value": 0.0625,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 3,
+          "c": 0,
+          "total_discordant": 3,
+          "net_shift": 3,
+          "p_value": 0.25,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 3,
+          "c": 0,
+          "total_discordant": 3,
+          "net_shift": 3,
+          "p_value": 0.25,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.1467,
+        "p_value": 0.03125,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 3,
+        "c": 0,
+        "total_discordant": 3,
+        "net_shift": 3,
+        "p_value": 0.25,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.1467,
+          "bootstrap_mean": 0.1474,
+          "ci_95": [
+            0.04,
+            0.2667
+          ],
+          "p_superior": 0.9988,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.12,
+          "bootstrap_mean": 0.1216,
+          "ci_95": [
+            0.0,
+            0.28
+          ],
+          "p_superior": 0.9637,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "car_alarms_detectors",
+        "raw_p_value": 0.03125,
+        "rank": 4,
+        "m": 7,
+        "alpha_threshold": 0.0125,
+        "adjusted_p_value": 0.125,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "car_alarms_detectors",
+        "raw_p_value": 0.25,
+        "rank": 4,
+        "m": 7,
+        "alpha_threshold": 0.0125,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "fireworks_firecrackers": {
+      "category": "fireworks_firecrackers",
+      "display_name": "Fireworks & Firecrackers",
+      "ablation_condition": "e4_minus_fireworks_firecrackers",
+      "control_condition": "e4_matched_control_fireworks_firecrackers",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_fireworks",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_123": {
+          "b": 11,
+          "c": 0,
+          "total_discordant": 11,
+          "net_shift": 11,
+          "p_value": 0.000977,
+          "statistically_significant_unadjusted": true
+        },
+        "seed_2026": {
+          "b": 9,
+          "c": 0,
+          "total_discordant": 9,
+          "net_shift": 9,
+          "p_value": 0.003906,
+          "statistically_significant_unadjusted": true
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.4133,
+        "p_value": 0.000244,
+        "method": "exact_enumeration_2^13",
+        "non_zero_count": 13,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 11,
+        "c": 0,
+        "total_discordant": 11,
+        "net_shift": 11,
+        "p_value": 0.000977,
+        "statistically_significant_unadjusted": true
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.4133,
+          "bootstrap_mean": 0.412,
+          "ci_95": [
+            0.24,
+            0.5867
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.44,
+          "bootstrap_mean": 0.439,
+          "ci_95": [
+            0.24,
+            0.64
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "fireworks_firecrackers",
+        "raw_p_value": 0.000244,
+        "rank": 1,
+        "m": 7,
+        "alpha_threshold": 0.007143,
+        "adjusted_p_value": 0.001708,
+        "rejected": true
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "fireworks_firecrackers",
+        "raw_p_value": 0.000977,
+        "rank": 1,
+        "m": 7,
+        "alpha_threshold": 0.007143,
+        "adjusted_p_value": 0.006839,
+        "rejected": true
+      }
+    },
+    "whistles_high_pitch": {
+      "category": "whistles_high_pitch",
+      "display_name": "Whistles & High Pitch",
+      "ablation_condition": "e4_minus_whistles_high_pitch",
+      "control_condition": "e4_matched_control_whistles_high_pitch",
+      "slice_type": "isolated_subdomain",
+      "test_subdomain": "confuser_whistles",
+      "n_recordings": 25,
+      "per_seed_mcnemar": {
+        "seed_42": {
+          "b": 1,
+          "c": 0,
+          "total_discordant": 1,
+          "net_shift": 1,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_123": {
+          "b": 0,
+          "c": 0,
+          "total_discordant": 0,
+          "net_shift": 0,
+          "p_value": 1.0,
+          "statistically_significant_unadjusted": false
+        },
+        "seed_2026": {
+          "b": 2,
+          "c": 0,
+          "total_discordant": 2,
+          "net_shift": 2,
+          "p_value": 0.5,
+          "statistically_significant_unadjusted": false
+        }
+      },
+      "theta_1_permutation": {
+        "obs_stat": 0.04,
+        "p_value": 0.5,
+        "method": "exact_enumeration_2^2",
+        "non_zero_count": 2,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0402,
+          "ci_95": [
+            0.0,
+            0.1067
+          ],
+          "p_superior": 0.8764,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0405,
+          "ci_95": [
+            0.0,
+            0.12
+          ],
+          "p_superior": 0.6478,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "whistles_high_pitch",
+        "raw_p_value": 0.5,
+        "rank": 6,
+        "m": 7,
+        "alpha_threshold": 0.025,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      },
+      "holm_bonferroni_ensemble": {
+        "category": "whistles_high_pitch",
+        "raw_p_value": 1.0,
+        "rank": 7,
+        "m": 7,
+        "alpha_threshold": 0.05,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    }
+  },
+  "secondary_comparisons": {
+    "human_shouting": {
+      "category": "human_shouting",
+      "display_name": "Human Shouting",
+      "ablation_condition": "e4_minus_human_shouting",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.5067,
+        "p_value": 3.1e-05,
+        "method": "exact_enumeration_2^16",
+        "non_zero_count": 16,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 13,
+        "c": 0,
+        "total_discordant": 13,
+        "net_shift": 13,
+        "p_value": 0.000244,
+        "statistically_significant_unadjusted": true
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.5067,
+          "bootstrap_mean": 0.5048,
+          "ci_95": [
+            0.3333,
+            0.6667
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.52,
+          "bootstrap_mean": 0.5178,
+          "ci_95": [
+            0.32,
+            0.72
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "human_shouting",
+        "raw_p_value": 3.1e-05,
+        "rank": 1,
+        "m": 7,
+        "alpha_threshold": 0.007143,
+        "adjusted_p_value": 0.000217,
+        "rejected": true
+      }
+    },
+    "metal_impacts": {
+      "category": "metal_impacts",
+      "display_name": "Metal Impacts",
+      "ablation_condition": "e4_minus_metal_impacts",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.0,
+        "p_value": 1.0,
+        "method": "trivial_null",
+        "non_zero_count": 0,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 0,
+        "c": 0,
+        "total_discordant": 0,
+        "net_shift": 0,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.0,
+          "bootstrap_mean": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.0,
+          "bootstrap_mean": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "metal_impacts",
+        "raw_p_value": 1.0,
+        "rank": 7,
+        "m": 7,
+        "alpha_threshold": 0.05,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "door_slams": {
+      "category": "door_slams",
+      "display_name": "Door Slams",
+      "ablation_condition": "e4_minus_door_slams",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.04,
+        "p_value": 0.375,
+        "method": "exact_enumeration_2^5",
+        "non_zero_count": 5,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0398,
+          "ci_95": [
+            -0.0133,
+            0.0933
+          ],
+          "p_superior": 0.8796,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0398,
+          "ci_95": [
+            0.0,
+            0.12
+          ],
+          "p_superior": 0.6397,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "door_slams",
+        "raw_p_value": 0.375,
+        "rank": 4,
+        "m": 7,
+        "alpha_threshold": 0.0125,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "construction_tools": {
+      "category": "construction_tools",
+      "display_name": "Construction Tools",
+      "ablation_condition": "e4_minus_construction_tools",
+      "reference_condition": "e2_full",
+      "n_recordings": 150,
+      "theta_1_permutation": {
+        "obs_stat": 0.0044,
+        "p_value": 0.6875,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 0,
+        "c": 0,
+        "total_discordant": 0,
+        "net_shift": 0,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.0044,
+          "bootstrap_mean": 0.0045,
+          "ci_95": [
+            -0.0067,
+            0.0156
+          ],
+          "p_superior": 0.7484,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.0,
+          "bootstrap_mean": 0.0,
+          "ci_95": [
+            0.0,
+            0.0
+          ],
+          "p_superior": 0.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "construction_tools",
+        "raw_p_value": 0.6875,
+        "rank": 6,
+        "m": 7,
+        "alpha_threshold": 0.025,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    },
+    "car_alarms_detectors": {
+      "category": "car_alarms_detectors",
+      "display_name": "Car Alarms & Detectors",
+      "ablation_condition": "e4_minus_car_alarms_detectors",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.1467,
+        "p_value": 0.03125,
+        "method": "exact_enumeration_2^6",
+        "non_zero_count": 6,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 3,
+        "c": 0,
+        "total_discordant": 3,
+        "net_shift": 3,
+        "p_value": 0.25,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.1467,
+          "bootstrap_mean": 0.1474,
+          "ci_95": [
+            0.04,
+            0.2667
+          ],
+          "p_superior": 0.9988,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.12,
+          "bootstrap_mean": 0.1216,
+          "ci_95": [
+            0.0,
+            0.28
+          ],
+          "p_superior": 0.9637,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "car_alarms_detectors",
+        "raw_p_value": 0.03125,
+        "rank": 3,
+        "m": 7,
+        "alpha_threshold": 0.01,
+        "adjusted_p_value": 0.15625,
+        "rejected": false
+      }
+    },
+    "fireworks_firecrackers": {
+      "category": "fireworks_firecrackers",
+      "display_name": "Fireworks & Firecrackers",
+      "ablation_condition": "e4_minus_fireworks_firecrackers",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.48,
+        "p_value": 0.000122,
+        "method": "exact_enumeration_2^14",
+        "non_zero_count": 14,
+        "statistically_significant_unadjusted": true
+      },
+      "ensemble_mcnemar": {
+        "b": 11,
+        "c": 0,
+        "total_discordant": 11,
+        "net_shift": 11,
+        "p_value": 0.000977,
+        "statistically_significant_unadjusted": true
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.48,
+          "bootstrap_mean": 0.4792,
+          "ci_95": [
+            0.2933,
+            0.6667
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.44,
+          "bootstrap_mean": 0.439,
+          "ci_95": [
+            0.24,
+            0.64
+          ],
+          "p_superior": 1.0,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "fireworks_firecrackers",
+        "raw_p_value": 0.000122,
+        "rank": 2,
+        "m": 7,
+        "alpha_threshold": 0.008333,
+        "adjusted_p_value": 0.000732,
+        "rejected": true
+      }
+    },
+    "whistles_high_pitch": {
+      "category": "whistles_high_pitch",
+      "display_name": "Whistles & High Pitch",
+      "ablation_condition": "e4_minus_whistles_high_pitch",
+      "reference_condition": "e2_full",
+      "n_recordings": 25,
+      "theta_1_permutation": {
+        "obs_stat": 0.04,
+        "p_value": 0.5,
+        "method": "exact_enumeration_2^2",
+        "non_zero_count": 2,
+        "statistically_significant_unadjusted": false
+      },
+      "ensemble_mcnemar": {
+        "b": 1,
+        "c": 0,
+        "total_discordant": 1,
+        "net_shift": 1,
+        "p_value": 1.0,
+        "statistically_significant_unadjusted": false
+      },
+      "cluster_bootstrap": {
+        "theta_1_avg_model": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0402,
+          "ci_95": [
+            0.0,
+            0.1067
+          ],
+          "p_superior": 0.8764,
+          "description": "Estimand 1: Three-seed average model false emergency difference (Ablation - Control)"
+        },
+        "theta_2_ensemble": {
+          "point_estimate": 0.04,
+          "bootstrap_mean": 0.0405,
+          "ci_95": [
+            0.0,
+            0.12
+          ],
+          "p_superior": 0.6478,
+          "description": "Estimand 2: Probability-ensemble false emergency difference (Ablation - Control)"
+        }
+      },
+      "holm_bonferroni": {
+        "category": "whistles_high_pitch",
+        "raw_p_value": 0.5,
+        "rank": 5,
+        "m": 7,
+        "alpha_threshold": 0.016667,
+        "adjusted_p_value": 1.0,
+        "rejected": false
+      }
+    }
+  }
+}

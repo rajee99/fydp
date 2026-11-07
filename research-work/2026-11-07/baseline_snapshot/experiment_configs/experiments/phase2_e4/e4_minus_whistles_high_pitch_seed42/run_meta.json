@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-02T18:51:55.549407",
+  "run_name": "e4_minus_whistles_high_pitch_seed42",
+  "condition_key": "e4_minus_whistles_high_pitch",
+  "display_name": "E4 Minus Whistles & High Pitch",
+  "type": "category_ablation",
+  "target_subdomain": "whistles_high_pitch",
+  "seed": 42,
+  "train_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\e4_ablations\\e4_minus_whistles_high_pitch_train.csv",
+  "train_manifest_sha256": "0a3d36c46065bce00fec6e1d99e2211fb7dbf29a958ceac089a25a9abdd03915",
+  "train_samples": 627,
+  "val_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\shared_val_split_manifest.csv",
+  "val_manifest_sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+  "hyperparameters": {
+    "model_name": "panns_cnn14",
+    "pretrained_path": "D:\\ml\\fydp\\MyNet\\models\\pretrained\\Cnn14_16k_mAP=0.438.pth",
+    "freeze_backbone": true,
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "patience": 7,
+    "early_stopping_metric": "macro_f1"
+  },
+  "command_line": "scripts/run_phase2_experiments.py"
+}

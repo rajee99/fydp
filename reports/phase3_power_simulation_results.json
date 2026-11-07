@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "n_simulations": 10000,
+    "target_delta": 0.15,
+    "date": "2026-11-02"
+  },
+  "slice_level_mcnemar": {
+    "Clean Unidirectional (p10=0.15, p01=0.00)": {
+      "N=25": {
+        "power_alpha_0.0125": 0.0255,
+        "power_alpha_0.05": 0.1583
+      },
+      "N=50": {
+        "power_alpha_0.0125": 0.485,
+        "power_alpha_0.05": 0.7816
+      },
+      "N=75": {
+        "power_alpha_0.0125": 0.8933,
+        "power_alpha_0.05": 0.9758
+      },
+      "N=100": {
+        "power_alpha_0.0125": 0.9868,
+        "power_alpha_0.05": 0.9984
+      }
+    },
+    "Moderate Noise (p10=0.20, p01=0.05)": {
+      "N=25": {
+        "power_alpha_0.0125": 0.0431,
+        "power_alpha_0.05": 0.1644
+      },
+      "N=50": {
+        "power_alpha_0.0125": 0.2582,
+        "power_alpha_0.05": 0.4771
+      },
+      "N=75": {
+        "power_alpha_0.0125": 0.4787,
+        "power_alpha_0.05": 0.7074
+      },
+      "N=100": {
+        "power_alpha_0.0125": 0.6589,
+        "power_alpha_0.05": 0.837
+      }
+    },
+    "High Noise (p10=0.25, p01=0.10)": {
+      "N=25": {
+        "power_alpha_0.0125": 0.0485,
+        "power_alpha_0.05": 0.1469
+      },
+      "N=50": {
+        "power_alpha_0.0125": 0.1684,
+        "power_alpha_0.05": 0.3575
+      },
+      "N=75": {
+        "power_alpha_0.0125": 0.3165,
+        "power_alpha_0.05": 0.5269
+      },
+      "N=100": {
+        "power_alpha_0.0125": 0.4564,
+        "power_alpha_0.05": 0.6678
+      }
+    }
+  },
+  "pooled_gate1_mcnemar": {
+    "Small Effect Delta = 0.05 (p10=0.15, p01=0.10)": {
+      "N": 350,
+      "delta": 0.04999999999999999,
+      "power_alpha_0.05": 0.4268
+    },
+    "Moderate Effect Delta = 0.10 (p10=0.20, p01=0.10)": {
+      "N": 350,
+      "delta": 0.1,
+      "power_alpha_0.05": 0.9229
+    },
+    "Observed Phase 1 Effect Delta = 0.218 (p10=0.32, p01=0.10)": {
+      "N": 350,
+      "delta": 0.22,
+      "power_alpha_0.05": 1.0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+video_id,start_seconds,end_seconds,target_class,matched_label,audio_set_mid,video_title,local_audio_path,audio_verified,sub_domain
+--aaILOrkII,200.0,210.0,gunshot,"Gunshot, gunfire",/m/032s66,Gamo pt-85 slide disassembly and reassembly,,,
+-4RWqM0UCCY,0.0,10.0,siren,Ambulance (siren),/m/012n7d,Ocean City PD,,,
+-RAdrtCW1hI,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66,Dm11 Efficiency,,,
+-Y1qiiugnk8,30.0,40.0,siren,Ambulance (siren),/m/012n7d,Как пропускают скорую помощь на рублёвке,,,
+0H2uMhzSitY,520.0,530.0,glass_breaking,Shatter,/m/07rn7sz,LEGO The Hobbit (PS4) 100% Guide - Chapter 14 - The Necromancer (All Minikits),,,
+0maiaspDy5k,110.0,120.0,glass_breaking,Glass,/m/039jq,Amélie Poulain - J'y Suis Jamais Allé  Yann Tiersen,,,
+,,,siren,,,,data/raw/pilot/siren_source.wav,True,
+3sYPuktlyDY,310.0,320.0,scream,Screaming,/m/03qc9zr,The Scream of The Banshee,data/raw/pilot/scream_3sYPuktlyDY_310_320.wav,True,
+9ZBR-dTCPrg,80.0,90.0,scream,Screaming,/m/03qc9zr,search and rescue,data/raw/pilot/scream_9ZBR-dTCPrg_80_90.wav,True,
+,,,glass_breaking,,,,data/raw/pilot/glass_breaking_test.wav,True,
+,,,gunshot,,,,data/raw/pilot/gunshot_test.wav,True,
+ZO5Y6WWLwh8,0.0,10.0,other,Speech,/m/09x0r,bode e cabrita cruzando.AVI,data/raw/pilot/other_speech_ZO5Y6WWLwh8_0_10.wav,True,speech
+Cr8E6wkiOP4,30.0,40.0,other,Speech,/m/09x0r,The Dog Aggression Test video,data/raw/pilot/other_speech_Cr8E6wkiOP4_30_40.wav,True,speech
+OPX9ukYun3o,10.0,20.0,other,Music,/m/04rlf,Zumba Kids with Krisi - Ghostbusters,data/raw/pilot/other_music_OPX9ukYun3o_10_20.wav,True,music
+qpwjSTEaswI,90.0,100.0,other,Music,/m/04rlf,Ukraine Epic Dubstep,data/raw/pilot/other_music_qpwjSTEaswI_90_100.wav,True,music
+OBSce-F-DWc,230.0,240.0,other,Bird,/m/015p6,All  pigeons skycutters Ukrainian,data/raw/pilot/other_animals_OBSce-F-DWc_230_240.wav,True,animals
+UT05UUIBDDk,10.0,20.0,other,Door,/m/02dgv,Composite Stable Door,data/raw/pilot/other_household_UT05UUIBDDk_10_20.wav,True,household
+ayPD5s4uiXM,70.0,80.0,other,"Dishes, pots, and pans",/m/04brg2,JMR 3-Speed Manual Tube bender,data/raw/pilot/other_household_ayPD5s4uiXM_70_80.wav,True,household
+OecEaoBtxpw,350.0,360.0,other,Vehicle,/m/07yv9,"Afternoon Heavy Departures | London Heathrow Airport, LHR 15/09/15",data/raw/pilot/other_environmental_OecEaoBtxpw_350_360.wav,True,environmental
+NWjZK1EFZBc,30.0,40.0,other,Wind,/m/03m9d0z,First time in a sailboat,data/raw/pilot/other_environmental_NWjZK1EFZBc_30_40.wav,True,environmental

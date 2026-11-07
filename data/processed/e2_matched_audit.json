@@ -1,0 +1,80 @@
+{
+  "timestamp": "2026-10-30T21:45:37.090333",
+  "random_seed": 42,
+  "full_e2_targeted_additions": 224,
+  "matched_e2_targeted_additions": 212,
+  "e3_general_background_additions": 212,
+  "baseline_train_samples": 422,
+  "shared_validation_samples": 105,
+  "matched_train_total": 634,
+  "matched_master_total": 739,
+  "excluded_from_matched": [
+    {
+      "video_id": "-OcK-WivMW4",
+      "subdomain": "fireworks_firecrackers",
+      "filename": "other_-OcK-WivMW4_50_60.wav"
+    },
+    {
+      "video_id": "6Ff07qMgr6Q",
+      "subdomain": "construction_tools",
+      "filename": "other_6Ff07qMgr6Q_120_130.wav"
+    },
+    {
+      "video_id": "7W0WEE3V2I0",
+      "subdomain": "fireworks_firecrackers",
+      "filename": "other_7W0WEE3V2I0_30_40.wav"
+    },
+    {
+      "video_id": "9FfGXUqa4K4",
+      "subdomain": "human_shouting",
+      "filename": "other_9FfGXUqa4K4_150_160.wav"
+    },
+    {
+      "video_id": "Hw_p5rCIUbY",
+      "subdomain": "human_shouting",
+      "filename": "other_Hw_p5rCIUbY_250_260.wav"
+    },
+    {
+      "video_id": "N0L2e_fGRcA",
+      "subdomain": "fireworks_firecrackers",
+      "filename": "other_N0L2e_fGRcA_0_6.wav"
+    },
+    {
+      "video_id": "YUE4DXquFdo",
+      "subdomain": "door_slams",
+      "filename": "other_YUE4DXquFdo_30_40.wav"
+    },
+    {
+      "video_id": "YZ5oYz6uufU",
+      "subdomain": "whistles_high_pitch",
+      "filename": "other_YZ5oYz6uufU_30_40.wav"
+    },
+    {
+      "video_id": "ZUlKLbr3GuQ",
+      "subdomain": "metal_impacts",
+      "filename": "other_ZUlKLbr3GuQ_15_25.wav"
+    },
+    {
+      "video_id": "_GGxDtGfQVg",
+      "subdomain": "metal_impacts",
+      "filename": "other__GGxDtGfQVg_30_40.wav"
+    },
+    {
+      "video_id": "_blZvAS1SeA",
+      "subdomain": "metal_impacts",
+      "filename": "other__blZvAS1SeA_560_570.wav"
+    },
+    {
+      "video_id": "nL2gkiwtFo8",
+      "subdomain": "car_alarms_detectors",
+      "filename": "other_nL2gkiwtFo8_80_90.wav"
+    }
+  ],
+  "file_hashes": {
+    "e2_matched_train_split_manifest.csv": "2b4487f098a98e2687cd9f2dd4bea0776190fb03cf666cd4467bef11d5ad339e",
+    "e2_matched_val_split_manifest.csv": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+    "e2_matched_manifest.csv": "42a7d41f3792cfa7d50bd831fb29285773a2d268482dbaadac6cb528b1aafb71",
+    "e3_train_split_manifest.csv": "434053b7911ccb9638622557fe7e5edcf92d22317f672e9f45850672ae206593",
+    "shared_val_split_manifest.csv": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf"
+  }
+}

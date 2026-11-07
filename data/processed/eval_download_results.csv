@@ -1,0 +1,745 @@
+video_id,start_seconds,end_seconds,target_class,matched_label,audio_set_mid,output_path,status,sample_rate,channels,duration_seconds,file_size_bytes,error_message,attempts,timestamp
+-6cTEqIcics,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_-6cTEqIcics_30_40.wav,ALREADY_EXISTS,16000,1,10.0,320078,,0,2026-10-30 10:50:44
+-9GUUhB3QV0,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_-9GUUhB3QV0_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -9GUUhB3QV0: Video unavailable,1,2026-10-30 10:50:45
+-Cdx8zogHI0,260.0,270.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_-Cdx8zogHI0_260_270.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -Cdx8zogHI0: Video unavailable,1,2026-10-30 10:50:48
+-FKrYTj_eCU,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_-FKrYTj_eCU_0_10.wav,ALREADY_EXISTS,16000,1,10.0,320078,,0,2026-10-30 10:50:48
+-RBs9pPhHY8,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_-RBs9pPhHY8_30_40.wav,ALREADY_EXISTS,16000,1,10.0,320078,,0,2026-10-30 10:50:48
+-W4WT0zFV2Q,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_-W4WT0zFV2Q_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -W4WT0zFV2Q: Private video,1,2026-10-30 10:50:49
+-inB65exXFU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_-inB65exXFU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:53
+-mt3Oo7t3aw,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_-mt3Oo7t3aw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:58
+-pSCyvWA9iM,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_-pSCyvWA9iM_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -pSCyvWA9iM: Video unavailable,1,2026-10-30 10:51:00
+02Ak1eIyj3M,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_02Ak1eIyj3M_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:04
+03Q2SbeP_cw,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_03Q2SbeP_cw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:08
+0CJFt950vOk,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_0CJFt950vOk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:12
+0G50t4FlbIA,60.0,70.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_0G50t4FlbIA_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:16
+0H_WUo2srs0,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_0H_WUo2srs0_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 0H_WUo2srs0: This video is unavailable,1,2026-10-30 10:51:18
+0K1mroXg8bs,9.0,19.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_0K1mroXg8bs_9_19.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 0K1mroXg8bs: This video is unavailable,1,2026-10-30 10:51:20
+0N0C0Wbe6AI,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_0N0C0Wbe6AI_30_40.wav,FAILED,,,,,TRANSIENT_EXHAUSTED: ERROR: ffmpeg exited with code 4294967274,2,2026-10-30 10:51:28
+0YTieIiZNN4,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_0YTieIiZNN4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:34
+0mD4OcdidBM,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_0mD4OcdidBM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:37
+0noFcocWRzw,10.0,20.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_0noFcocWRzw_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:42
+0xDlT_u31fg,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_0xDlT_u31fg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 0xDlT_u31fg: This video is unavailable,1,2026-10-30 10:51:44
+10lWpHyN0Ok,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_10lWpHyN0Ok_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:49
+145N68nh4m0,130.0,140.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_145N68nh4m0_130_140.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 145N68nh4m0: This video is unavailable,1,2026-10-30 10:51:50
+1F9zCsJyw6k,230.0,240.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_1F9zCsJyw6k_230_240.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:54
+1LA8BxMlXSY,80.0,90.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_1LA8BxMlXSY_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:59
+1LTxZ2aNytc,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_1LTxZ2aNytc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:03
+1ZEzs9zmZaU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_1ZEzs9zmZaU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:07
+1jhbNtCWC9w,50.0,60.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_1jhbNtCWC9w_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:23
+1vByeH2oiHU,260.0,270.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_1vByeH2oiHU_260_270.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1vByeH2oiHU: Video unavailable,1,2026-10-30 10:52:25
+1z16oAB1nMk,140.0,150.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_1z16oAB1nMk_140_150.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1z16oAB1nMk: This video is unavailable,1,2026-10-30 10:52:27
+2-h8MRSRvEg,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_2-h8MRSRvEg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:31
+209LviaOJL0,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_209LviaOJL0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:35
+25RWrqQol7Y,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_25RWrqQol7Y_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 25RWrqQol7Y: Private video,1,2026-10-30 10:52:37
+28ehZa0fzmo,28.0,38.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_28ehZa0fzmo_28_38.wav,SUCCESS,16000,1,9.505,304238,,1,2026-10-30 10:52:42
+2A63oYgod8Y,560.0,570.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_2A63oYgod8Y_560_570.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:46
+2W27eT4HqtE,10.0,20.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_2W27eT4HqtE_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:50
+2ffgd7k0vI8,40.0,50.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_2ffgd7k0vI8_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:54
+2pHfgh_G1yo,10.0,20.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_2pHfgh_G1yo_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 2pHfgh_G1yo: This video is not available,1,2026-10-30 10:52:57
+2v_KyNpsyKs,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_2v_KyNpsyKs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:01
+2zdYIRTUQYE,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_2zdYIRTUQYE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:05
+2zwNVAyInxs,15.0,25.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_2zwNVAyInxs_15_25.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:53:10
+3PVT0BcK-2I,40.0,50.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_3PVT0BcK-2I_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:15
+3PfWjclBA5I,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_3PfWjclBA5I_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:18
+3d6ismCJdos,50.0,60.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_3d6ismCJdos_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 3d6ismCJdos: Private video,1,2026-10-30 10:53:20
+3ptxRyVuU0w,520.0,530.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_3ptxRyVuU0w_520_530.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:26
+45iNSkfzOwM,190.0,200.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_45iNSkfzOwM_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:30
+45vBbOhzS6g,50.0,60.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_45vBbOhzS6g_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:35
+48zE-hRAYEA,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_48zE-hRAYEA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:41
+4A5lud7-cJo,21.0,31.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_4A5lud7-cJo_21_31.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:46
+4PYTtp78Ig0,60.0,70.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_4PYTtp78Ig0_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:50
+4Vq6WDtxTt4,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_4Vq6WDtxTt4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:53
+4_cfXx3iLes,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_4_cfXx3iLes_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:08
+4arad6my08E,25.0,35.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_4arad6my08E_25_35.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:54:12
+4ewhrrQCJic,120.0,130.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_4ewhrrQCJic_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:17
+4qevqi0-WYk,110.0,120.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_4qevqi0-WYk_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 4qevqi0-WYk: Private video,1,2026-10-30 10:54:19
+50_ZciPDHVA,60.0,70.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_50_ZciPDHVA_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 50_ZciPDHVA: This video is unavailable,1,2026-10-30 10:54:21
+5LvUzlaQzok,230.0,240.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_5LvUzlaQzok_230_240.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 5LvUzlaQzok: This video is not available,1,2026-10-30 10:54:23
+5QNq0IEPICQ,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_5QNq0IEPICQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:27
+5VElNpaNPoo,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_5VElNpaNPoo_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:30
+5YrFCAsnhJM,460.0,470.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_5YrFCAsnhJM_460_470.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 5YrFCAsnhJM: Private video,1,2026-10-30 10:54:33
+5asfoHsxI2w,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_5asfoHsxI2w_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:48
+5fjy_2ajEkg,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_5fjy_2ajEkg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:03
+5gJ_PWgJWIw,420.0,430.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_5gJ_PWgJWIw_420_430.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:08
+5kQF4r03yRI,0.0,6.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_5kQF4r03yRI_0_6.wav,VALIDATION_FAILED,,,,,Duration 5.00s deviates from expected 6.00s,1,2026-10-30 10:55:12
+5xklhqtPZho,20.0,30.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_5xklhqtPZho_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:16
+614LdgrE13A,110.0,120.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_614LdgrE13A_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:20
+69AIBPnJN5E,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_69AIBPnJN5E_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:24
+6MssjoV8tuU,280.0,290.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_6MssjoV8tuU_280_290.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:28
+6SVS8wrJ1yY,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_6SVS8wrJ1yY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:32
+77bRcIdLuT0,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_77bRcIdLuT0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:36
+7ARVgI_wx5Y,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_7ARVgI_wx5Y_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 7ARVgI_wx5Y: Private video,1,2026-10-30 10:55:38
+7OyCsvavJNA,40.0,50.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_7OyCsvavJNA_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:52
+7RlyBtFDd98,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_7RlyBtFDd98_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 7RlyBtFDd98: Private video,1,2026-10-30 10:55:54
+7eeN-fXbso8,20.0,30.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_7eeN-fXbso8_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 7eeN-fXbso8: This video is unavailable,1,2026-10-30 10:55:56
+7vCaMmP1fP8,190.0,200.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_7vCaMmP1fP8_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 7vCaMmP1fP8: This video is not available,1,2026-10-30 10:55:59
+82GoiIMS6Ig,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_82GoiIMS6Ig_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:03
+84b7NrzJWiI,420.0,430.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_84b7NrzJWiI_420_430.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 84b7NrzJWiI: This video is not available,1,2026-10-30 10:56:05
+8Aq2DyLbUBA,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_8Aq2DyLbUBA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:09
+8BP-zKvuq5c,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_8BP-zKvuq5c_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8BP-zKvuq5c: Private video,1,2026-10-30 10:56:11
+8Mnb35qaNBg,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_8Mnb35qaNBg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8Mnb35qaNBg: This video is unavailable,1,2026-10-30 10:56:13
+8NfGndNYYIg,220.0,230.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_8NfGndNYYIg_220_230.wav,SUCCESS,16000,1,10.0,320078,,2,2026-10-30 10:56:22
+8rICricPhh8,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_8rICricPhh8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:27
+93vN8AS4jHY,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_93vN8AS4jHY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:31
+9DyTx0hvmqE,60.0,70.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_9DyTx0hvmqE_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:36
+9MWHXCLAX8I,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_9MWHXCLAX8I_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:40
+9P6-DKN1XLA,320.0,330.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_9P6-DKN1XLA_320_330.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:44
+9WtK0gh4ugE,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_9WtK0gh4ugE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:48
+9ezA12O_aOE,170.0,180.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_9ezA12O_aOE_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:01
+9kyrVsiNZOU,90.0,100.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_9kyrVsiNZOU_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:06
+A-IzSI1ysmc,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_A-IzSI1ysmc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:10
+A-OZ4_eEMRo,150.0,160.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_A-OZ4_eEMRo_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:14
+A1RU-nmJwFw,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_A1RU-nmJwFw_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] A1RU-nmJwFw: Video unavailable,1,2026-10-30 10:57:17
+A3CJkhyupM0,10.0,20.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_A3CJkhyupM0_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] A3CJkhyupM0: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:57:20
+AAP5pAB-4jM,0.0,10.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_AAP5pAB-4jM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:24
+AAyqgdDOUYA,20.0,30.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_AAyqgdDOUYA_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:27
+AHm_49I6rzM,120.0,130.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_AHm_49I6rzM_120_130.wav,SUCCESS,16000,1,10.0,320078,,2,2026-10-30 10:57:37
+AKzmNMyyMms,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_AKzmNMyyMms_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:41
+Adwb_rxQRXI,590.0,600.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Adwb_rxQRXI_590_600.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Adwb_rxQRXI: Private video,1,2026-10-30 10:57:43
+AiO_W8zTBbc,80.0,90.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_AiO_W8zTBbc_80_90.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] AiO_W8zTBbc: This video is unavailable,1,2026-10-30 10:57:45
+AjAg6xI6uDA,40.0,50.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_AjAg6xI6uDA_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:49
+AkAdDFHQars,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_AkAdDFHQars_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:53
+AmhjSlnn8dc,0.0,7.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_AmhjSlnn8dc_0_7.wav,SUCCESS,16000,1,6.548,209616,,1,2026-10-30 10:57:57
+Ar-qKACbnkg,200.0,210.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Ar-qKACbnkg_200_210.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Ar-qKACbnkg: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:58:00
+Auyq_491HGc,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_Auyq_491HGc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:04
+Aw43FUCkIb8,20.0,30.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_Aw43FUCkIb8_20_30.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:58:09
+AwFuGITwrms,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_AwFuGITwrms_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] AwFuGITwrms: Private video,1,2026-10-30 10:58:11
+AxM2BofYfPY,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_AxM2BofYfPY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:15
+B22gKoTyOfM,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_B22gKoTyOfM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] B22gKoTyOfM: This video is not available,1,2026-10-30 10:58:18
+B8_Y9qmHFWQ,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_B8_Y9qmHFWQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:24
+B9Sd9ubebhY,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_B9Sd9ubebhY_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] B9Sd9ubebhY: This video is not available,1,2026-10-30 10:58:26
+BBmXMoI9Qus,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_BBmXMoI9Qus_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:30
+BCzUvCRiBZs,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_BCzUvCRiBZs_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] BCzUvCRiBZs: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:58:33
+BFqHyCoypfM,16.0,26.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_BFqHyCoypfM_16_26.wav,SUCCESS,16000,1,9.601,307310,,1,2026-10-30 10:58:37
+BGD7J6MP2C8,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_BGD7J6MP2C8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:42
+B_xDhQdVzPE,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_B_xDhQdVzPE_30_40.wav,SUCCESS,16000,1,9.974,319252,,1,2026-10-30 10:58:50
+Bdz-NtAD2SU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Bdz-NtAD2SU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:55
+Bk_xS_fKCpk,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_Bk_xS_fKCpk_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Bk_xS_fKCpk: Video unavailable,1,2026-10-30 10:58:57
+Bs2KqqI9F_k,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_Bs2KqqI9F_k_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Bs2KqqI9F_k: This video is unavailable,1,2026-10-30 10:58:59
+C4YMjmJ7tt4,90.0,100.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_C4YMjmJ7tt4_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:03
+CIiA39U8UTw,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_CIiA39U8UTw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:08
+CJXNdudcJrs,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_CJXNdudcJrs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:12
+CMWoAvgD0A0,9.0,19.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_CMWoAvgD0A0_9_19.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] CMWoAvgD0A0: This video is unavailable,1,2026-10-30 10:59:14
+CRIFRYhiKUA,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_CRIFRYhiKUA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:19
+CTWtiwntfgw,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_CTWtiwntfgw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:23
+CXISjTeWfTE,200.0,210.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_CXISjTeWfTE_200_210.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:28
+CaiH1jw4KT0,120.0,130.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_CaiH1jw4KT0_120_130.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] CaiH1jw4KT0: This video is not available,1,2026-10-30 10:59:30
+CzjyGormZVk,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_CzjyGormZVk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:45
+D05-MrPXqjw,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_D05-MrPXqjw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:49
+D1tajOObltQ,15.0,25.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_D1tajOObltQ_15_25.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:53
+D8G6YuWL230,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_D8G6YuWL230_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] D8G6YuWL230: This video is unavailable,1,2026-10-30 10:59:55
+DFyT6oOccoM,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_DFyT6oOccoM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:59
+DIKZP8-TnOQ,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_DIKZP8-TnOQ_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] DIKZP8-TnOQ: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:00:01
+DIxTruxPbdk,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_DIxTruxPbdk_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] DIxTruxPbdk: This video is unavailable,1,2026-10-30 11:00:04
+DJXQV_oKyjE,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_DJXQV_oKyjE_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] DJXQV_oKyjE: This video is unavailable,1,2026-10-30 11:00:05
+DK_6C29B2zs,14.0,24.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_DK_6C29B2zs_14_24.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:00:10
+DLMKy0_82iw,150.0,160.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_DLMKy0_82iw_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:14
+DLjN4-4EP-0,20.0,30.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_DLjN4-4EP-0_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:18
+DPdAsDw3chc,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_DPdAsDw3chc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:22
+DZfYFhywhRs,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_DZfYFhywhRs_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] DZfYFhywhRs: This video is unavailable,1,2026-10-30 11:00:24
+Daqv2F6SEmQ,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_Daqv2F6SEmQ_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Daqv2F6SEmQ: Video unavailable,1,2026-10-30 11:00:26
+DcbzE8AnLcE,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_DcbzE8AnLcE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:31
+Dj9gyAoqmQ0,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Dj9gyAoqmQ0_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Dj9gyAoqmQ0: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:00:33
+E-nunSOWtMs,70.0,80.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_E-nunSOWtMs_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:37
+E3oSg7bNxSg,170.0,180.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_E3oSg7bNxSg_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:41
+ECCSiRBy14M,10.0,20.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_ECCSiRBy14M_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:45
+EGR7EIz9JQ4,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_EGR7EIz9JQ4_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] EGR7EIz9JQ4: This video is unavailable,1,2026-10-30 11:00:47
+ELjlwgKhlyc,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_ELjlwgKhlyc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:51
+ENHpFkKiyrU,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_ENHpFkKiyrU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:55
+EYGwU_Hj8is,370.0,380.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_EYGwU_Hj8is_370_380.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] EYGwU_Hj8is: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:00:57
+EaTdesZG5PY,260.0,270.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_EaTdesZG5PY_260_270.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:02
+ElJFYwRtrH4,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_ElJFYwRtrH4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:06
+EzXThJXRdbI,17.0,27.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_EzXThJXRdbI_17_27.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:01:10
+F-Ly8CI7-Pc,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_F-Ly8CI7-Pc_20_30.wav,SUCCESS,16000,1,9.559,305966,,1,2026-10-30 11:01:14
+F0Lu_CBRLnM,10.0,20.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_F0Lu_CBRLnM_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:19
+F4lfyN85-5I,360.0,370.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_F4lfyN85-5I_360_370.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:23
+F6IUxAJutsk,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_F6IUxAJutsk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:27
+F6oEu35qy_A,25.0,35.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_F6oEu35qy_A_25_35.wav,SUCCESS,16000,1,9.784,313182,,1,2026-10-30 11:01:32
+F9Dbcxr-lAI,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_F9Dbcxr-lAI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] F9Dbcxr-lAI: This video is unavailable,1,2026-10-30 11:01:34
+FRPdQrAI6XY,280.0,290.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_FRPdQrAI6XY_280_290.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:38
+FcUVtXJMkJs,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_FcUVtXJMkJs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:43
+FgiGqzj8Hkk,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_FgiGqzj8Hkk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:57
+FhaxyhtVfCA,11.0,21.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_FhaxyhtVfCA_11_21.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:02:01
+FpsBLinFYik,12.0,22.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_FpsBLinFYik_12_22.wav,SUCCESS,16000,1,9.571,306362,,1,2026-10-30 11:02:06
+G--718JDmAQ,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_G--718JDmAQ_0_10.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:02:09
+G3GR-m8Q3Zk,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_G3GR-m8Q3Zk_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:13
+GB_lCwieXTc,420.0,430.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_GB_lCwieXTc_420_430.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GB_lCwieXTc: This video is unavailable,1,2026-10-30 11:02:15
+GL09sLcKW4M,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_GL09sLcKW4M_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GL09sLcKW4M: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:02:18
+GNYKzDo4w7w,110.0,120.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_GNYKzDo4w7w_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:22
+GNu_hiHGEp0,40.0,50.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_GNu_hiHGEp0_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:26
+GPJ1uQwmNHk,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_GPJ1uQwmNHk_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GPJ1uQwmNHk: This video is unavailable,1,2026-10-30 11:02:28
+GbIuxmaiCOk,122.0,132.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_GbIuxmaiCOk_122_132.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:32
+GmuaVhSlR-s,20.0,30.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_GmuaVhSlR-s_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:37
+GopccU3Am1w,20.0,30.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_GopccU3Am1w_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:41
+GtZEBM9fBts,5.0,15.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_GtZEBM9fBts_5_15.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GtZEBM9fBts: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:02:44
+H3vSRzkG82U,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_H3vSRzkG82U_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] H3vSRzkG82U: This video is unavailable,1,2026-10-30 11:02:46
+H6c8ZDrdUaM,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_H6c8ZDrdUaM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:50
+HAKTtmFemxQ,120.0,130.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_HAKTtmFemxQ_120_130.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] HAKTtmFemxQ: Video unavailable,1,2026-10-30 11:02:52
+HOOK6E_Hogg,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_HOOK6E_Hogg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:56
+HS28EUWt8dE,110.0,120.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_HS28EUWt8dE_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:19
+HV1J_actdHE,110.0,120.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_HV1J_actdHE_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] HV1J_actdHE: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:03:21
+HWjQnxlvwa0,430.0,440.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_HWjQnxlvwa0_430_440.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:26
+HacKJ1P6VlM,170.0,180.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_HacKJ1P6VlM_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:30
+HqF7uiKEjUA,50.0,60.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_HqF7uiKEjUA_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:38
+IArDDikQbAg,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_IArDDikQbAg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] IArDDikQbAg: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:03:40
+IIypdzgZAaI,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_IIypdzgZAaI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] IIypdzgZAaI: This video is unavailable,1,2026-10-30 11:03:42
+IIzMqbTNYOA,410.0,420.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_IIzMqbTNYOA_410_420.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] IIzMqbTNYOA: This video is unavailable,1,2026-10-30 11:03:43
+IVjCUVLnhFs,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_IVjCUVLnhFs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:47
+IWbfpkpsmeA,120.0,130.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_IWbfpkpsmeA_120_130.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] IWbfpkpsmeA: Private video,1,2026-10-30 10:50:45
+Ia6C4k0o2hc,20.0,30.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Ia6C4k0o2hc_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:49
+IiCh2H3JtsE,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_IiCh2H3JtsE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:54
+IiNZnbSHnBk,100.0,110.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_IiNZnbSHnBk_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:58
+Iiu5mcAA8pU,360.0,370.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_Iiu5mcAA8pU_360_370.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Iiu5mcAA8pU: This video is unavailable,1,2026-10-30 10:51:01
+InrS4Fdndr4,0.0,10.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_InrS4Fdndr4_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:05
+IzKed528MCk,70.0,80.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_IzKed528MCk_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:09
+J3yMNpeDo6Q,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_J3yMNpeDo6Q_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] J3yMNpeDo6Q: Private video,1,2026-10-30 10:51:11
+JKCvfKjTZX8,50.0,60.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_JKCvfKjTZX8_50_60.wav,SUCCESS,16000,1,10.0,320078,,2,2026-10-30 10:51:20
+JNDvDfDQnJQ,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_JNDvDfDQnJQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:25
+JWd6vF4yfG8,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_JWd6vF4yfG8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:29
+Jd9x5dQKzEM,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Jd9x5dQKzEM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:33
+JiVBO0dIuyY,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_JiVBO0dIuyY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:37
+Jt9JrcW5ais,460.0,470.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Jt9JrcW5ais_460_470.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Jt9JrcW5ais: Video unavailable,1,2026-10-30 10:51:39
+K7EITkM8vFI,130.0,140.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_K7EITkM8vFI_130_140.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] K7EITkM8vFI: This video has been removed for violating YouTube's Terms of Service,1,2026-10-30 10:51:41
+KhxVbkznUNI,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_KhxVbkznUNI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:45
+KkGTB8ESMCM,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_KkGTB8ESMCM_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] KkGTB8ESMCM: This video is unavailable,1,2026-10-30 10:51:47
+L5ohzqF0ZHQ,20.0,30.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_L5ohzqF0ZHQ_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:51
+LDerLa24zu0,100.0,110.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_LDerLa24zu0_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:56
+LHkkJM-LjHs,0.0,10.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_LHkkJM-LjHs_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:59
+LNQ7fzfdLiY,150.0,160.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_LNQ7fzfdLiY_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:04
+La56WBAJ2xk,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_La56WBAJ2xk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:08
+LmtTU7Ihc4M,350.0,360.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_LmtTU7Ihc4M_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:12
+LweDKxCcXAI,90.0,100.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_LweDKxCcXAI_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:19
+M7rGKqfZh6k,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_M7rGKqfZh6k_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] M7rGKqfZh6k: This video is unavailable,1,2026-10-30 10:52:21
+MEUcv-QM0cQ,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_MEUcv-QM0cQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:35
+MOr1AtMw1bw,40.0,50.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_MOr1AtMw1bw_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:40
+MQ0YasvMcuQ,1.0,11.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_MQ0YasvMcuQ_1_11.wav,SUCCESS,16000,1,9.658,309134,,1,2026-10-30 10:52:44
+MVM5RlkTh6E,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_MVM5RlkTh6E_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:48
+MZ1Yh6mRC-E,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_MZ1Yh6mRC-E_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:52
+M_UVzDEtBeM,40.0,50.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_M_UVzDEtBeM_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:56
+Mgd0Hsgl8gU,100.0,110.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Mgd0Hsgl8gU_100_110.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Mgd0Hsgl8gU: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:52:59
+MiQZ0dGQuIA,170.0,180.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_MiQZ0dGQuIA_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:07
+MiQZ0dGQuIA,170.0,180.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_MiQZ0dGQuIA_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:07
+MnEZwnRuQR8,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_MnEZwnRuQR8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:11
+N-6HKjQwPTo,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_N-6HKjQwPTo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:15
+N5MhzeOIJBs,150.0,160.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_N5MhzeOIJBs_150_160.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] N5MhzeOIJBs: Private video,1,2026-10-30 10:53:17
+N6YT8_jlt0E,140.0,150.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_N6YT8_jlt0E_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:21
+ND5nBdo7Lwo,90.0,100.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ND5nBdo7Lwo_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:26
+NDovY5OEt2o,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_NDovY5OEt2o_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:30
+NdbgG4EqKZc,10.0,20.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_NdbgG4EqKZc_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:34
+Ntn6YvZM3kA,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_Ntn6YvZM3kA_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Ntn6YvZM3kA: This video is not available,1,2026-10-30 10:53:36
+NxHHCNeQCX8,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_NxHHCNeQCX8_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:40
+O8DtnVJN_dY,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_O8DtnVJN_dY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:44
+OHjfSfqa804,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_OHjfSfqa804_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] OHjfSfqa804: This video is unavailable,1,2026-10-30 10:53:46
+OK2wE2xkGTM,90.0,100.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_OK2wE2xkGTM_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:51
+OMxgo6zoAIM,70.0,80.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_OMxgo6zoAIM_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] OMxgo6zoAIM: Private video,1,2026-10-30 10:53:53
+OOik9i9wrU8,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_OOik9i9wrU8_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:03
+OnRh-5IRG3A,0.0,8.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_OnRh-5IRG3A_0_8.wav,VALIDATION_FAILED,,,,,Duration 7.00s deviates from expected 8.00s,1,2026-10-30 10:54:07
+OrSfdkVVbOQ,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_OrSfdkVVbOQ_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] OrSfdkVVbOQ: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:54:10
+OuvUTzK6Ix4,40.0,50.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_OuvUTzK6Ix4_40_50.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] OuvUTzK6Ix4: This video is unavailable,1,2026-10-30 10:54:12
+P9fh7rOIKcM,270.0,280.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_P9fh7rOIKcM_270_280.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:16
+PD9qAU6kazY,270.0,280.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_PD9qAU6kazY_270_280.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:21
+PF6Mn51Nkvs,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_PF6Mn51Nkvs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:25
+PIJlDJhWEEg,70.0,80.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_PIJlDJhWEEg_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] PIJlDJhWEEg: This video is unavailable,1,2026-10-30 10:54:27
+PXtqK-mwyW0,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_PXtqK-mwyW0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:31
+PaRszXlUH4A,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_PaRszXlUH4A_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] PaRszXlUH4A: This video is unavailable,1,2026-10-30 10:54:33
+PlQibWaPAcM,90.0,100.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_PlQibWaPAcM_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:38
+PrWy40DYZQU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_PrWy40DYZQU_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] PrWy40DYZQU: This video has been removed for violating YouTube's Terms of Service,1,2026-10-30 10:54:40
+Q6CqAFnP2Fg,10.0,20.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Q6CqAFnP2Fg_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:43
+QDW_uCMnMMU,0.0,8.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_QDW_uCMnMMU_0_8.wav,SUCCESS,16000,1,7.546,241566,,1,2026-10-30 10:54:47
+QEDrleSvamI,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_QEDrleSvamI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:51
+QOqlkqTR82Q,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_QOqlkqTR82Q_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:55
+QS31Gm9tIig,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_QS31Gm9tIig_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] QS31Gm9tIig: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:54:58
+QZKH9-7cpq8,470.0,480.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_QZKH9-7cpq8_470_480.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:03
+Q_yoAT1Z3Yw,22.0,32.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_Q_yoAT1Z3Yw_22_32.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:07
+Qd5qSAXSLN4,10.0,20.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Qd5qSAXSLN4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:11
+QdoTdG_VNV4,90.0,100.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_QdoTdG_VNV4_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:16
+QoKi7hobTDQ,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_QoKi7hobTDQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:19
+QrUXDAhP3Fg,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_QrUXDAhP3Fg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:24
+R-NkPYfN3wA,150.0,160.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_R-NkPYfN3wA_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:29
+R0BNcrueMa4,0.0,2.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_R0BNcrueMa4_0_2.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] R0BNcrueMa4: This video has been removed for violating YouTube's Community Guidelines,1,2026-10-30 10:55:31
+R371djhXr9w,70.0,80.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_R371djhXr9w_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:35
+R5Voi53JHJE,20.0,30.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_R5Voi53JHJE_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:39
+R8XUrRCFkzs,40.0,50.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_R8XUrRCFkzs_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:42
+RAB0TWMYQHI,0.0,10.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_RAB0TWMYQHI_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:46
+RF8fPkV9HNc,10.0,20.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_RF8fPkV9HNc_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:50
+RHfFQSSPmCo,290.0,300.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_RHfFQSSPmCo_290_300.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:56
+RPuCtUVfntk,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_RPuCtUVfntk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:00
+RSAyz5c3JmM,160.0,170.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_RSAyz5c3JmM_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:04
+RTLvin_qGWs,260.0,270.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_RTLvin_qGWs_260_270.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:09
+RWZ8sRgIWBk,120.0,130.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_RWZ8sRgIWBk_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:13
+RXSyVeHp2yA,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_RXSyVeHp2yA_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] RXSyVeHp2yA: Private video,1,2026-10-30 10:56:15
+RzGho0_J5lM,60.0,70.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_RzGho0_J5lM_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] RzGho0_J5lM: This video is unavailable,1,2026-10-30 10:56:17
+S1RwxsoyACg,60.0,70.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_S1RwxsoyACg_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:21
+S8Wl9STNcHo,390.0,400.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_S8Wl9STNcHo_390_400.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:26
+SFNoSm2QqL0,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_SFNoSm2QqL0_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] SFNoSm2QqL0: Video unavailable,1,2026-10-30 10:56:28
+SLAmK__qyXM,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_SLAmK__qyXM_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] SLAmK__qyXM: This video is unavailable,1,2026-10-30 10:56:30
+SY35Ms-l_9E,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_SY35Ms-l_9E_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] SY35Ms-l_9E: Private video,1,2026-10-30 10:56:31
+ShzpJ0-Ms98,240.0,250.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_ShzpJ0-Ms98_240_250.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ShzpJ0-Ms98: This video is unavailable,1,2026-10-30 10:56:33
+Sin_EO-yWbA,510.0,520.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_Sin_EO-yWbA_510_520.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:57
+Sj9_5H1nqfo,200.0,210.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Sj9_5H1nqfo_200_210.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:02
+Sqpkv9fnxqw,210.0,220.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Sqpkv9fnxqw_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:06
+SwosBhJ0eYo,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_SwosBhJ0eYo_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:11
+SxI3Lnzzmkw,110.0,120.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_SxI3Lnzzmkw_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] SxI3Lnzzmkw: This video is not available,1,2026-10-30 10:57:13
+T2F6euNVT5Y,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_T2F6euNVT5Y_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:17
+T9wuwv7j-KE,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_T9wuwv7j-KE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:21
+TP_CVBCc4-U,90.0,100.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_TP_CVBCc4-U_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:26
+TVvbfuGu9eM,70.0,80.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_TVvbfuGu9eM_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] TVvbfuGu9eM: This video is unavailable,1,2026-10-30 10:57:28
+Tc9sb71px5I,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Tc9sb71px5I_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:33
+U9o30JY6aYc,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_U9o30JY6aYc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:36
+UGYPr1HTBW0,26.0,36.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_UGYPr1HTBW0_26_36.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:57:41
+UHOKL3Nptpk,410.0,420.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_UHOKL3Nptpk_410_420.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] UHOKL3Nptpk: Private video,1,2026-10-30 10:57:43
+UJaHzHwTTZs,300.0,310.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_UJaHzHwTTZs_300_310.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] UJaHzHwTTZs: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:57:45
+V-lj5QvZYBo,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_V-lj5QvZYBo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:52
+V2OjPsg7ydY,60.0,70.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_V2OjPsg7ydY_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] V2OjPsg7ydY: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:57:55
+VEmOUHxessE,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_VEmOUHxessE_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:59
+VHoOg4twnO0,60.0,70.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_VHoOg4twnO0_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:03
+VKVk7kyU4qA,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_VKVk7kyU4qA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:07
+VdruTK0Xpik,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_VdruTK0Xpik_20_30.wav,SUCCESS,16000,1,9.456,302654,,1,2026-10-30 10:58:11
+Vg5jwwjWWK8,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_Vg5jwwjWWK8_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:15
+VnQ_AfvX59E,320.0,330.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_VnQ_AfvX59E_320_330.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] VnQ_AfvX59E: This video is unavailable,1,2026-10-30 10:58:17
+WXsTHg_DiYA,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_WXsTHg_DiYA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:22
+WYf3GhFoYoE,100.0,110.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_WYf3GhFoYoE_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:27
+Wxiwqieqy2Y,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_Wxiwqieqy2Y_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:31
+WzQCthIGwsc,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_WzQCthIGwsc_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:40
+X2IUVELRuzs,110.0,120.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_X2IUVELRuzs_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:45
+X2MlmcY8UZU,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_X2MlmcY8UZU_30_40.wav,SUCCESS,16000,1,9.812,314050,,1,2026-10-30 10:58:48
+XC-QWABOjcg,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_XC-QWABOjcg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:53
+XH-3Ds2XG3I,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_XH-3Ds2XG3I_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:58
+XU_NdFULyOc,0.0,10.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_XU_NdFULyOc_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] XU_NdFULyOc: Private video,1,2026-10-30 10:59:00
+XYLDjkXAuec,380.0,390.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_XYLDjkXAuec_380_390.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:05
+XYLYSGfujKw,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_XYLYSGfujKw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:09
+XykxA0glDfo,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_XykxA0glDfo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:14
+XzsPKZf62G0,420.0,430.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_XzsPKZf62G0_420_430.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:18
+Y14cc6YTYH4,0.0,10.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_Y14cc6YTYH4_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:21
+Y9R6T5C1Pps,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_Y9R6T5C1Pps_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:26
+YCk9F0Uq3BE,70.0,80.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_YCk9F0Uq3BE_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] YCk9F0Uq3BE: Private video,1,2026-10-30 10:59:28
+YNfqO5oHGaA,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_YNfqO5oHGaA_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] YNfqO5oHGaA: This video is unavailable,1,2026-10-30 10:59:30
+YZ1h4yoBqZY,60.0,70.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_YZ1h4yoBqZY_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:34
+YfV9YjCSkYM,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_YfV9YjCSkYM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] YfV9YjCSkYM: Video unavailable,1,2026-10-30 10:59:36
+YjNQ5TGRChs,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_YjNQ5TGRChs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:41
+Z2CEJmFFDq4,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_Z2CEJmFFDq4_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Z2CEJmFFDq4: Video unavailable,1,2026-10-30 10:59:43
+Z2LG4gxn_j4,170.0,180.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_Z2LG4gxn_j4_170_180.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Z2LG4gxn_j4: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:59:46
+ZANp2W2q0XA,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_ZANp2W2q0XA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:50
+ZPBscuJXkO0,580.0,590.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ZPBscuJXkO0_580_590.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ZPBscuJXkO0: Private video,1,2026-10-30 10:59:52
+ZZO50JTetDE,580.0,590.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_ZZO50JTetDE_580_590.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:56
+ZduE8Mt5UP8,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_ZduE8Mt5UP8_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:00
+Zs3arUuPciY,240.0,250.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_Zs3arUuPciY_240_250.wav,FAILED,,,,,TRANSIENT_EXHAUSTED: ERROR: [youtube] Zs3arUuPciY: We're processing this video. Check back later.,2,2026-10-30 11:00:07
+ZtxAGRDyw-I,60.0,70.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_ZtxAGRDyw-I_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:11
+ZvcqyRbXyls,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_ZvcqyRbXyls_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:15
+_3O_oBEzWAE,210.0,220.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot__3O_oBEzWAE_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:20
+_A30xsFBMXA,40.0,50.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren__A30xsFBMXA_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:24
+_CVXWoVr9OU,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren__CVXWoVr9OU_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] _CVXWoVr9OU: This video is unavailable,1,2026-10-30 11:00:26
+_F3mcLocpMw,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot__F3mcLocpMw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:30
+_Fpn8NMnYNg,80.0,90.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking__Fpn8NMnYNg_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:34
+_IRW0owPIOA,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot__IRW0owPIOA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:38
+_Kqp53S6kuA,60.0,70.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren__Kqp53S6kuA_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:42
+_NxuW7UpFco,510.0,520.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking__NxuW7UpFco_510_520.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:46
+_O0n0l_tL1Q,150.0,160.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking__O0n0l_tL1Q_150_160.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] _O0n0l_tL1Q: Video unavailable,1,2026-10-30 11:00:48
+_b-7P-XsnUI,490.0,500.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking__b-7P-XsnUI_490_500.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:53
+_gesDZ5_rAg,17.0,27.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot__gesDZ5_rAg_17_27.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] _gesDZ5_rAg: This video is unavailable,1,2026-10-30 11:00:55
+_uswoJHYy14,60.0,70.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren__uswoJHYy14_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:58
+_x8Dyk0q-iA,500.0,510.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream__x8Dyk0q-iA_500_510.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] _x8Dyk0q-iA: This video is unavailable,1,2026-10-30 11:01:00
+_z5KQY02rYI,2.0,12.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren__z5KQY02rYI_2_12.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:01:04
+a59ivTlYoNk,310.0,320.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_a59ivTlYoNk_310_320.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:08
+a7I-8v9uZis,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_a7I-8v9uZis_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:12
+aAnCOKxPgaA,140.0,150.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_aAnCOKxPgaA_140_150.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] aAnCOKxPgaA: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:01:15
+aOqleVQCmwI,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_aOqleVQCmwI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:19
+a_vVwOuMpS4,110.0,120.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_a_vVwOuMpS4_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] a_vVwOuMpS4: This video is unavailable,1,2026-10-30 11:01:21
+auC_LgwFF8g,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_auC_LgwFF8g_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:25
+b8vONiPGMl8,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_b8vONiPGMl8_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:36
+bA8mt0JI0Ko,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_bA8mt0JI0Ko_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:40
+bI6hI2WEopM,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_bI6hI2WEopM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:44
+bOtUES6eNxs,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_bOtUES6eNxs_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:49
+bVPLdRReUZ8,13.0,23.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_bVPLdRReUZ8_13_23.wav,SUCCESS,16000,1,9.629,308202,,1,2026-10-30 11:01:53
+bciLCctZfjE,200.0,210.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_bciLCctZfjE_200_210.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:57
+bi8R9JbF2cc,80.0,90.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_bi8R9JbF2cc_80_90.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] bi8R9JbF2cc: Private video,1,2026-10-30 11:01:59
+bvDg9YVA7U8,230.0,240.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_bvDg9YVA7U8_230_240.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:03
+bz20Ve-c1xI,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_bz20Ve-c1xI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:08
+c33O-xi0sXY,210.0,220.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_c33O-xi0sXY_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:12
+c7YGJfuV_2Q,140.0,150.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_c7YGJfuV_2Q_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:16
+c9k4tTlQwmU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_c9k4tTlQwmU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:20
+cHm1cYBAXMI,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_cHm1cYBAXMI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] cHm1cYBAXMI: This video is unavailable,1,2026-10-30 11:02:21
+cImwD_Vy7lI,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_cImwD_Vy7lI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:26
+cLMvr2qKG6Y,50.0,60.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_cLMvr2qKG6Y_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:31
+cVgw01vB-yQ,0.0,10.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_cVgw01vB-yQ_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:35
+cWskti2sCCM,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_cWskti2sCCM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] cWskti2sCCM: This video is not available,1,2026-10-30 11:02:37
+cXpawpxoSq0,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_cXpawpxoSq0_30_40.wav,VALIDATION_FAILED,,,,,Duration 8.98s deviates from expected 10.00s,1,2026-10-30 11:02:40
+cdbYsoEasio,70.0,80.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_cdbYsoEasio_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:45
+chjb1YwdgS4,250.0,260.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_chjb1YwdgS4_250_260.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] chjb1YwdgS4: This video is unavailable,1,2026-10-30 11:02:47
+cqCYhJYEgRw,10.0,20.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_cqCYhJYEgRw_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] cqCYhJYEgRw: Private video,1,2026-10-30 11:02:49
+cxw91PSTRq8,120.0,130.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_cxw91PSTRq8_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:53
+dF4XD6bFsWY,290.0,300.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_dF4XD6bFsWY_290_300.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:58
+dHM1QdoRmiU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_dHM1QdoRmiU_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] dHM1QdoRmiU: This video is unavailable,1,2026-10-30 11:03:00
+dLRlnhW9_Pc,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_dLRlnhW9_Pc_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] dLRlnhW9_Pc: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:03:03
+dP2M0N8a-64,250.0,260.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_dP2M0N8a-64_250_260.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] dP2M0N8a-64: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:50:46
+dSzZWgbJ378,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_dSzZWgbJ378_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:50
+db7z5uroxsA,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_db7z5uroxsA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:55
+dfsvT5xImNg,80.0,90.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_dfsvT5xImNg_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:59
+dlmd3lyRg9A,260.0,270.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_dlmd3lyRg9A_260_270.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] dlmd3lyRg9A: This video is unavailable,1,2026-10-30 10:51:01
+dmaMs7gUxyU,230.0,240.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_dmaMs7gUxyU_230_240.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:05
+dxrg1wawqvY,0.0,10.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_dxrg1wawqvY_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:09
+e2AaF6siR1A,540.0,550.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_e2AaF6siR1A_540_550.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] e2AaF6siR1A: Private video,1,2026-10-30 10:51:11
+eGzcSSGZzqM,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_eGzcSSGZzqM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:16
+eHDm93tI4Ok,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_eHDm93tI4Ok_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:20
+eI85dun7yIo,20.0,30.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_eI85dun7yIo_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] eI85dun7yIo: This video is not available,1,2026-10-30 10:51:23
+eIMjkADTWzA,60.0,70.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_eIMjkADTWzA_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:27
+eZGa_sYbq5A,10.0,20.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_eZGa_sYbq5A_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:31
+ew-7SwLcHBg,70.0,80.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_ew-7SwLcHBg_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:35
+f7P1UqrkhdI,270.0,280.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_f7P1UqrkhdI_270_280.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] f7P1UqrkhdI: This video is unavailable,1,2026-10-30 10:51:38
+fAmA7zTw8SY,490.0,500.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_fAmA7zTw8SY_490_500.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:43
+fB_tldbRb28,220.0,230.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_fB_tldbRb28_220_230.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:48
+fTcSVQJ2h8g,50.0,60.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_fTcSVQJ2h8g_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:53
+fbH3SQk7X4k,60.0,70.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_fbH3SQk7X4k_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] fbH3SQk7X4k: Video unavailable,1,2026-10-30 10:51:55
+fjWN2sQcR2s,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_fjWN2sQcR2s_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:59
+fmSvZ3RR8YY,380.0,390.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_fmSvZ3RR8YY_380_390.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:04
+g0RkIkC2meo,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_g0RkIkC2meo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:09
+g1D25N2Q0fI,250.0,260.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_g1D25N2Q0fI_250_260.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] g1D25N2Q0fI: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:52:11
+gB1ytjgpcW4,190.0,200.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_gB1ytjgpcW4_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] gB1ytjgpcW4: Video unavailable,1,2026-10-30 10:52:14
+gCnOTL_Fzik,210.0,220.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_gCnOTL_Fzik_210_220.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] gCnOTL_Fzik: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:52:16
+gDm4IphrlYg,320.0,330.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_gDm4IphrlYg_320_330.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:21
+gE-0JxMtUh0,20.0,30.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_gE-0JxMtUh0_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] gE-0JxMtUh0: This video is unavailable,1,2026-10-30 10:52:23
+g_DBLppDZAs,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_g_DBLppDZAs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:28
+gnTJLRWwmso,20.0,30.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_gnTJLRWwmso_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:32
+gqwjKbcfNBY,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_gqwjKbcfNBY_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] gqwjKbcfNBY: This video is not available,1,2026-10-30 10:52:34
+gtOtZbjcRjY,260.0,270.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_gtOtZbjcRjY_260_270.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:39
+gwAP-vfQyRU,6.0,16.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_gwAP-vfQyRU_6_16.wav,SUCCESS,16000,1,9.581,306658,,1,2026-10-30 10:52:43
+h-Vk4f8pz-o,580.0,590.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_h-Vk4f8pz-o_580_590.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] h-Vk4f8pz-o: Private video,1,2026-10-30 10:52:45
+hGtkafUpJAk,190.0,200.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_hGtkafUpJAk_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:00
+hIYihNrwF2Q,440.0,450.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_hIYihNrwF2Q_440_450.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] hIYihNrwF2Q: Video unavailable,1,2026-10-30 10:53:03
+hNcoGGzNrhc,10.0,20.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_hNcoGGzNrhc_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:07
+hRdkmwuv13s,220.0,230.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_hRdkmwuv13s_220_230.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] hRdkmwuv13s: This video is not available,1,2026-10-30 10:53:09
+hSAVR0LcQp8,280.0,290.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_hSAVR0LcQp8_280_290.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:14
+h__4MI_GgpM,140.0,150.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_h__4MI_GgpM_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:19
+hmD1w6133Og,110.0,120.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_hmD1w6133Og_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] hmD1w6133Og: Private video,1,2026-10-30 10:53:21
+i1vLQZKoJLo,80.0,90.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_i1vLQZKoJLo_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:26
+i8aWCOfrrJU,100.0,110.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_i8aWCOfrrJU_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:30
+iE4ructiJNo,470.0,480.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_iE4ructiJNo_470_480.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] iE4ructiJNo: Private video,1,2026-10-30 10:53:32
+iE8pSulXDuc,90.0,100.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_iE8pSulXDuc_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:37
+iMNEd2l5Ff8,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_iMNEd2l5Ff8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:41
+igTZmll9MN8,21.0,31.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_igTZmll9MN8_21_31.wav,SUCCESS,16000,1,9.605,307436,,1,2026-10-30 10:53:45
+iik2__-67Ts,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_iik2__-67Ts_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] iik2__-67Ts: This video is unavailable,1,2026-10-30 10:53:47
+ijc6Ma6c4O0,90.0,100.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_ijc6Ma6c4O0_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:55
+iyw-57ExLDQ,250.0,260.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_iyw-57ExLDQ_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:58
+j0CcOZJLBDg,20.0,30.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_j0CcOZJLBDg_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:03
+jebjyCGohbQ,30.0,40.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_jebjyCGohbQ_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] jebjyCGohbQ: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:54:05
+jlgz0tRGQYM,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_jlgz0tRGQYM_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:09
+jnwZFv4uvys,60.0,70.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_jnwZFv4uvys_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] jnwZFv4uvys: Private video,1,2026-10-30 10:54:12
+k2a30--j37Q,460.0,470.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_k2a30--j37Q_460_470.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:19
+kLhsw3sB6sA,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_kLhsw3sB6sA_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kLhsw3sB6sA: This video is unavailable,1,2026-10-30 10:54:20
+kSer5vgSurk,1.0,11.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_kSer5vgSurk_1_11.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kSer5vgSurk: Private video,1,2026-10-30 10:54:22
+kSjvt2Z_pBo,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_kSjvt2Z_pBo_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kSjvt2Z_pBo: This video is unavailable,1,2026-10-30 10:54:24
+kTyq_6AnoSw,40.0,50.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_kTyq_6AnoSw_40_50.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kTyq_6AnoSw: This video has been removed for violating YouTube's Terms of Service,1,2026-10-30 10:54:26
+kb3tfk8dxvU,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_kb3tfk8dxvU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:31
+kf0YrFpuNKQ,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_kf0YrFpuNKQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:35
+khBMROWQq3c,20.0,30.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_khBMROWQq3c_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] khBMROWQq3c: Private video,1,2026-10-30 10:54:37
+kr8ssbrDDMY,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_kr8ssbrDDMY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:41
+kzFyGWdj6MI,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_kzFyGWdj6MI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kzFyGWdj6MI: This video is unavailable,1,2026-10-30 10:54:43
+l-iIfi3SNpw,120.0,130.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_l-iIfi3SNpw_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:51
+l-iIfi3SNpw,120.0,130.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_l-iIfi3SNpw_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:51
+l6HsxUNdkd4,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_l6HsxUNdkd4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:55
+l70yarlcd-I,29.0,39.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_l70yarlcd-I_29_39.wav,SUCCESS,16000,1,9.743,311870,,1,2026-10-30 10:54:59
+l7Wo_s7HFIY,190.0,200.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_l7Wo_s7HFIY_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:03
+l8JGt6Jqg8w,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_l8JGt6Jqg8w_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:07
+lBBqkex3VXI,60.0,70.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_lBBqkex3VXI_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:12
+lEiOrBH_fJI,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_lEiOrBH_fJI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] lEiOrBH_fJI: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:55:15
+lIgNQxTUvtc,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_lIgNQxTUvtc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:19
+lSr8MKcWTdo,130.0,140.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_lSr8MKcWTdo_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:26
+ldVtte9jK-s,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ldVtte9jK-s_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:30
+m-2-HsrBkak,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_m-2-HsrBkak_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:40
+m1GaYAKcH9g,50.0,60.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_m1GaYAKcH9g_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] m1GaYAKcH9g: This video is not available,1,2026-10-30 10:55:42
+m3LGopSVju4,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_m3LGopSVju4_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] m3LGopSVju4: This video is unavailable,1,2026-10-30 10:55:44
+mC7nCm_mnwA,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_mC7nCm_mnwA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:49
+mHiOGhxbmdo,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_mHiOGhxbmdo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:54
+mMA3mYG0s28,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_mMA3mYG0s28_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] mMA3mYG0s28: This video is unavailable,1,2026-10-30 10:55:56
+mT-f0lGk-JM,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_mT-f0lGk-JM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] mT-f0lGk-JM: Video unavailable,1,2026-10-30 10:55:59
+mTM0WQRcfNU,50.0,60.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_mTM0WQRcfNU_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:03
+meFnrQ6ZMr4,10.0,20.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_meFnrQ6ZMr4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:07
+ml07DEX7png,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ml07DEX7png_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:11
+mw1VGZoYQts,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_mw1VGZoYQts_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] mw1VGZoYQts: This video has been removed for violating YouTube's policy on hate speech. Learn more about combating hate speech in your country.,1,2026-10-30 10:56:13
+mwZ__VNBuJU,180.0,190.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_mwZ__VNBuJU_180_190.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:17
+n6SvDBZaCUQ,0.0,6.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_n6SvDBZaCUQ_0_6.wav,SUCCESS,16000,1,5.596,179150,,1,2026-10-30 10:56:21
+nApE_Biu13k,10.0,20.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_nApE_Biu13k_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] nApE_Biu13k: This video is unavailable,1,2026-10-30 10:56:23
+nCwLfofMoZM,40.0,50.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_nCwLfofMoZM_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:40
+nG_fip-JlWs,80.0,90.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_nG_fip-JlWs_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:45
+nLzSz0qDT68,10.0,20.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_nLzSz0qDT68_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:50
+nMBindLUA24,80.0,90.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_nMBindLUA24_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:54
+nQIXUnRyy2k,0.0,4.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_nQIXUnRyy2k_0_4.wav,VALIDATION_FAILED,,,,,Duration 3.00s deviates from expected 4.00s,1,2026-10-30 10:56:57
+nRMmafPUAEU,80.0,90.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_nRMmafPUAEU_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:01
+nWlDkrIzc0g,530.0,540.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_nWlDkrIzc0g_530_540.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:09
+nbuyVi6v7SY,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_nbuyVi6v7SY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:13
+nc4ZeV_zZfE,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_nc4ZeV_zZfE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:17
+ncutrrjM0Lw,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_ncutrrjM0Lw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:32
+nlYlNF30bVg,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_nlYlNF30bVg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:37
+nuu2iNisoQc,6.0,16.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_nuu2iNisoQc_6_16.wav,SUCCESS,16000,1,9.756,312262,,1,2026-10-30 10:57:40
+o3F3tUpmVaw,30.0,40.0,siren,Police car (siren),/m/04qvtq,data/raw/eval/siren/siren_o3F3tUpmVaw_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] o3F3tUpmVaw: This video is not available,1,2026-10-30 10:57:42
+oL_LsXoZSKE,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_oL_LsXoZSKE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:46
+oPR7tUEUptk,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_oPR7tUEUptk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:50
+oYeql9xE19k,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_oYeql9xE19k_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:54
+oZoJ26C6LrU,100.0,110.0,siren,Police car (siren),/m/04qvtq,data/raw/eval/siren/siren_oZoJ26C6LrU_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:59
+on-_oUajNso,200.0,210.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_on-_oUajNso_200_210.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:02
+opDCIytwapw,0.0,10.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_opDCIytwapw_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:06
+ovgelLpt148,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ovgelLpt148_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ovgelLpt148: Video unavailable,1,2026-10-30 10:58:08
+p1gQTumLv5M,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_p1gQTumLv5M_20_30.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] p1gQTumLv5M: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:58:11
+pEDafzZbNwE,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_pEDafzZbNwE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:15
+pJaLxsCM7rc,190.0,200.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_pJaLxsCM7rc_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:20
+pNrnDUg0dng,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_pNrnDUg0dng_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:24
+q3YnX6-OmYQ,160.0,170.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_q3YnX6-OmYQ_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:28
+q4Z8j3IalYs,100.0,110.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_q4Z8j3IalYs_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:33
+qIrGS-hyktE,520.0,530.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_qIrGS-hyktE_520_530.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:39
+qf8GGfWZw5Q,14.0,24.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_qf8GGfWZw5Q_14_24.wav,SUCCESS,16000,1,9.883,316326,,1,2026-10-30 10:58:44
+qhyrLOJ7LcQ,440.0,450.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_qhyrLOJ7LcQ_440_450.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:48
+qkvIEmIRP4g,30.0,40.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_qkvIEmIRP4g_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:51
+r56H0i4alFk,60.0,70.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_r56H0i4alFk_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:56
+rCQykaL8Hy4,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_rCQykaL8Hy4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:59
+rGUrM19BnJ8,110.0,120.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_rGUrM19BnJ8_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:05
+rTk0SCL7VP8,20.0,30.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_rTk0SCL7VP8_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:10
+rYojIIvr1w8,250.0,260.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_rYojIIvr1w8_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:14
+rYroEnnY3dE,50.0,60.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_rYroEnnY3dE_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:19
+rbjtk9WU33Q,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_rbjtk9WU33Q_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] rbjtk9WU33Q: This video is unavailable,1,2026-10-30 10:59:21
+rhMpRPQlwmY,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_rhMpRPQlwmY_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:26
+rnSSF1DaXww,420.0,430.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_rnSSF1DaXww_420_430.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:30
+rx3fg5zGSxg,350.0,360.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_rx3fg5zGSxg_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:37
+rysr8w7aTuQ,0.0,10.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_rysr8w7aTuQ_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:41
+s-xeIHv59yY,110.0,120.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_s-xeIHv59yY_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] s-xeIHv59yY: Video unavailable,1,2026-10-30 10:59:43
+sHfT0t3vgTg,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_sHfT0t3vgTg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] sHfT0t3vgTg: This video is not available,1,2026-10-30 10:59:45
+sKpc0yiNeiU,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_sKpc0yiNeiU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:50
+sMalEDVjJpc,170.0,180.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_sMalEDVjJpc_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:54
+sOMz0-rP-44,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_sOMz0-rP-44_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:58
+sXfgQsiJ1Rk,70.0,80.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_sXfgQsiJ1Rk_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:04
+stzU1dO7FQY,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_stzU1dO7FQY_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] stzU1dO7FQY: This video is unavailable,1,2026-10-30 11:00:06
+syIwNMo2TUA,0.0,7.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_syIwNMo2TUA_0_7.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] syIwNMo2TUA: Private video,1,2026-10-30 11:00:08
+t9PEpPvVNzI,310.0,320.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_t9PEpPvVNzI_310_320.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] t9PEpPvVNzI: Video unavailable,1,2026-10-30 11:00:10
+tGKf2NHry7g,40.0,50.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_tGKf2NHry7g_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:15
+tIeVWsRYmE0,40.0,50.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_tIeVWsRYmE0_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:19
+tLMbu8y8xAE,110.0,120.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_tLMbu8y8xAE_110_120.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] tLMbu8y8xAE: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:00:22
+tT1Y664gjFw,360.0,370.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_tT1Y664gjFw_360_370.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:26
+tYzEA52iKGg,80.0,90.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_tYzEA52iKGg_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:30
+tgqSbhlQntE,0.0,9.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_tgqSbhlQntE_0_9.wav,VALIDATION_FAILED,,,,,Duration 8.00s deviates from expected 9.00s,1,2026-10-30 11:00:34
+thCn14bf1r8,380.0,390.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_thCn14bf1r8_380_390.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:47
+tuvoP6QvMQ4,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_tuvoP6QvMQ4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:51
+txK943PxyAc,350.0,360.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_txK943PxyAc_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:57
+uCRAnDBXxgI,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_uCRAnDBXxgI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:01
+uRyLEBGX5ag,20.0,30.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_uRyLEBGX5ag_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:05
+uUcpzHx2ZR0,60.0,70.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_uUcpzHx2ZR0_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:09
+uX7mY7Y27ao,20.0,30.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_uX7mY7Y27ao_20_30.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:01:13
+uXVa0VyKdm0,24.0,34.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_uXVa0VyKdm0_24_34.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 11:01:17
+uZNVLZSACMc,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_uZNVLZSACMc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:22
+u_Nxu8TvonA,580.0,590.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_u_Nxu8TvonA_580_590.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:50
+ufGz6yyNXKc,10.0,20.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_ufGz6yyNXKc_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ufGz6yyNXKc: This video is unavailable,1,2026-10-30 11:01:52
+unOXaB3QoYk,170.0,180.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_unOXaB3QoYk_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:06
+urZASbmHOO8,130.0,140.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_urZASbmHOO8_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:11
+v94qdpJqK9w,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_v94qdpJqK9w_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:15
+vHESVUsvJ88,80.0,90.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_vHESVUsvJ88_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:21
+vQ9nY72Qlhc,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_vQ9nY72Qlhc_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] vQ9nY72Qlhc: Video unavailable,1,2026-10-30 11:02:23
+vfUgQTKgKDI,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_vfUgQTKgKDI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:27
+vn_LymlQAnc,440.0,450.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_vn_LymlQAnc_440_450.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:31
+wEydcWUSIRo,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_wEydcWUSIRo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:35
+wNpfisnFMtQ,10.0,20.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_wNpfisnFMtQ_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] wNpfisnFMtQ: This video is unavailable,1,2026-10-30 11:02:37
+wT8xI4PEU8c,110.0,120.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_wT8xI4PEU8c_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:41
+wgg6YgGx4Rk,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_wgg6YgGx4Rk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:47
+wlh0rZfrclI,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_wlh0rZfrclI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:01
+wuz0curb_hg,180.0,190.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_wuz0curb_hg_180_190.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:05
+wxCduHF0GKI,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_wxCduHF0GKI_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] wxCduHF0GKI: Private video,1,2026-10-30 11:03:07
+wzjeayE_MWo,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_wzjeayE_MWo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:21
+x7RLEgi_tGU,160.0,170.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_x7RLEgi_tGU_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:26
+xFdFAEY7eTc,0.0,7.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_xFdFAEY7eTc_0_7.wav,VALIDATION_FAILED,,,,,Duration 6.00s deviates from expected 7.00s,1,2026-10-30 11:03:29
+xLQF7S41XLE,20.0,30.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_xLQF7S41XLE_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:34
+xN9tKWgXLI4,310.0,320.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_xN9tKWgXLI4_310_320.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:37
+xVG7dfH5DL0,320.0,330.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_xVG7dfH5DL0_320_330.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] xVG7dfH5DL0: Private video,1,2026-10-30 11:03:40
+xZ8hQliZqhg,320.0,330.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_xZ8hQliZqhg_320_330.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] xZ8hQliZqhg: Private video,1,2026-10-30 11:03:42
+xlEcffvTWak,90.0,100.0,glass_breaking,Glass,/m/039jq,data/raw/eval/glass_breaking/glass_breaking_xlEcffvTWak_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:46
+xqILXIFBZfQ,30.0,40.0,siren,Ambulance (siren),/m/012n7d,data/raw/eval/siren/siren_xqILXIFBZfQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:50
+xs2gIcLi8DA,310.0,320.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_xs2gIcLi8DA_310_320.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] xs2gIcLi8DA: This video is unavailable,1,2026-10-30 11:03:52
+xvAQ44hx3_k,220.0,230.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_xvAQ44hx3_k_220_230.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] xvAQ44hx3_k: This video is unavailable,1,2026-10-30 11:03:54
+y5qxALuPZkY,100.0,110.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_y5qxALuPZkY_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:59
+yi4-kGV30qs,60.0,70.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_yi4-kGV30qs_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:04:03
+yszKc4m-W9U,30.0,40.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_yszKc4m-W9U_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:04:07
+z-PhNB64zoU,50.0,60.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_z-PhNB64zoU_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:04:11
+z6oqPB07X3o,30.0,40.0,glass_breaking,Shatter,/m/07rn7sz,data/raw/eval/glass_breaking/glass_breaking_z6oqPB07X3o_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:04:14
+z9kyyJH3WFM,0.0,10.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_z9kyyJH3WFM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:04:18
+zCdOEvduBTo,30.0,40.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_zCdOEvduBTo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:48
+zCnwAwXPDKk,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_zCnwAwXPDKk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:50:52
+zICAuYzrUQ0,2.0,12.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_zICAuYzrUQ0_2_12.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:50:56
+zMICvbCJ6zc,550.0,560.0,scream,Screaming,/m/03qc9zr,data/raw/eval/scream/scream_zMICvbCJ6zc_550_560.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] zMICvbCJ6zc: This video is unavailable,1,2026-10-30 10:50:58
+zMieepXr1Y4,580.0,590.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_zMieepXr1Y4_580_590.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] zMieepXr1Y4: This video is unavailable,1,2026-10-30 10:51:00
+zMveZHACzmo,90.0,100.0,siren,"Fire engine, fire truck (siren)",/m/012ndj,data/raw/eval/siren/siren_zMveZHACzmo_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:05
+zQPKy8HMbDc,60.0,70.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_zQPKy8HMbDc_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:09
+zW_741B6ugQ,100.0,110.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_zW_741B6ugQ_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:14
+zbiJEml563w,30.0,40.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_zbiJEml563w_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:19
+zjRKHV2YPxc,20.0,30.0,siren,Siren,/m/03kmc9,data/raw/eval/siren/siren_zjRKHV2YPxc_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:23
+ztfXxgXqHGM,10.0,20.0,gunshot,"Gunshot, gunfire",/m/032s66,data/raw/eval/gunshot/gunshot_ztfXxgXqHGM_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ztfXxgXqHGM: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 10:51:26
+IltZFWvvGDM,50.0,60.0,other,Bird,/m/015p6,data/raw/eval/other/other_IltZFWvvGDM_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:30
+IUdIAuoqEbM,0.0,10.0,other,Dog,/m/0bt9lr,data/raw/eval/other/other_IUdIAuoqEbM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:34
+lqnw0Q13tDc,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_lqnw0Q13tDc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:39
+q-bOXZszzkw,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_q-bOXZszzkw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:44
+U_mKoVq3kbE,40.0,50.0,other,Bird,/m/015p6,data/raw/eval/other/other_U_mKoVq3kbE_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:50
+7MXamVgKszI,30.0,40.0,other,Cat,/m/01yrx,data/raw/eval/other/other_7MXamVgKszI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:51:54
+hD5x033ZPnk,40.0,50.0,other,Cat,/m/01yrx,data/raw/eval/other/other_hD5x033ZPnk_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:00
+7l_TPfOhh5c,570.0,580.0,other,Bird,/m/015p6,data/raw/eval/other/other_7l_TPfOhh5c_570_580.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 7l_TPfOhh5c: Private video,1,2026-10-30 10:52:02
+cdhpPQr5xnU,17.0,27.0,other,Bird,/m/015p6,data/raw/eval/other/other_cdhpPQr5xnU_17_27.wav,SUCCESS,16000,1,9.634,308376,,1,2026-10-30 10:52:06
+8TWtLCjUI5I,0.0,7.0,other,Bark,/m/05tny_,data/raw/eval/other/other_8TWtLCjUI5I_0_7.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8TWtLCjUI5I: This video is not available,1,2026-10-30 10:52:08
+8sDQkl2g4AA,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_8sDQkl2g4AA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:12
+LIluVun_dJk,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_LIluVun_dJk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:16
+nHE8NQM5A24,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_nHE8NQM5A24_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:20
+o2y4WuK8wr8,250.0,260.0,other,Bird,/m/015p6,data/raw/eval/other/other_o2y4WuK8wr8_250_260.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] o2y4WuK8wr8: Video unavailable,1,2026-10-30 10:52:22
+N0jVgldCwAk,0.0,7.0,other,Bird,/m/015p6,data/raw/eval/other/other_N0jVgldCwAk_0_7.wav,VALIDATION_FAILED,,,,,Duration 6.00s deviates from expected 7.00s,1,2026-10-30 10:52:25
+upX4cNt_Reo,10.0,20.0,other,Cat,/m/01yrx,data/raw/eval/other/other_upX4cNt_Reo_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:29
+zxd98l89Prk,36.0,46.0,other,Cat,/m/01yrx,data/raw/eval/other/other_zxd98l89Prk_36_46.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] zxd98l89Prk: This video is unavailable,1,2026-10-30 10:52:31
+2XFrBXTnNY8,80.0,90.0,other,Bird,/m/015p6,data/raw/eval/other/other_2XFrBXTnNY8_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:35
+UBw5ujeODmE,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_UBw5ujeODmE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:39
+2Ssh4YWMroo,30.0,40.0,other,Cat,/m/01yrx,data/raw/eval/other/other_2Ssh4YWMroo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:44
+JgIXsVnfJ9o,60.0,70.0,other,Bird,/m/015p6,data/raw/eval/other/other_JgIXsVnfJ9o_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:48
+pSVtqy6NzH0,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_pSVtqy6NzH0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:53
+LPvJFjsxMj8,30.0,40.0,other,Cat,/m/01yrx,data/raw/eval/other/other_LPvJFjsxMj8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:52:57
+5tyZiD0-8z4,320.0,330.0,other,Bird,/m/015p6,data/raw/eval/other/other_5tyZiD0-8z4_320_330.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:01
+6uxFXWS8xvw,20.0,30.0,other,Dog,/m/0bt9lr,data/raw/eval/other/other_6uxFXWS8xvw_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:05
+6psjy93yoTA,30.0,40.0,other,Cat,/m/01yrx,data/raw/eval/other/other_6psjy93yoTA_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:09
+Nh0zABnSK6E,17.0,27.0,other,Bird,/m/015p6,data/raw/eval/other/other_Nh0zABnSK6E_17_27.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:53:13
+1YxcifClvo0,16.0,26.0,other,Bird,/m/015p6,data/raw/eval/other/other_1YxcifClvo0_16_26.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1YxcifClvo0: Private video,1,2026-10-30 10:53:15
+rhgBTv9bDQk,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_rhgBTv9bDQk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:19
+WrSpubuVkN0,330.0,340.0,other,Bird,/m/015p6,data/raw/eval/other/other_WrSpubuVkN0_330_340.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:23
+LI85dkBB3Ho,30.0,40.0,other,Bird,/m/015p6,data/raw/eval/other/other_LI85dkBB3Ho_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:28
+bZadyuv2utE,80.0,90.0,other,Cat,/m/01yrx,data/raw/eval/other/other_bZadyuv2utE_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:42
+UfMr4FFsS28,21.0,31.0,other,Cat,/m/01yrx,data/raw/eval/other/other_UfMr4FFsS28_21_31.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] UfMr4FFsS28: This video is not available,1,2026-10-30 10:53:45
+0CbBZ-XeZNU,250.0,260.0,other,Bird,/m/015p6,data/raw/eval/other/other_0CbBZ-XeZNU_250_260.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 0CbBZ-XeZNU: This video is unavailable,1,2026-10-30 10:53:47
+ehxbLaJSGMM,26.0,36.0,other,Bird,/m/015p6,data/raw/eval/other/other_ehxbLaJSGMM_26_36.wav,SUCCESS,16000,1,9.55,305670,,1,2026-10-30 10:53:51
+tAfucDIyRiM,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_tAfucDIyRiM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:55
+xqU_kVyxqgQ,40.0,50.0,other,Water,/m/0838f,data/raw/eval/other/other_xqU_kVyxqgQ_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:53:59
+x3rB8TSzscQ,30.0,40.0,other,Water,/m/0838f,data/raw/eval/other/other_x3rB8TSzscQ_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] x3rB8TSzscQ: This video is unavailable,1,2026-10-30 10:54:01
+-vRhQeleXzE,0.0,10.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_-vRhQeleXzE_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:05
+NUzNaWxhaX0,440.0,450.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_NUzNaWxhaX0_440_450.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:10
+9q2xqtfEgdo,280.0,290.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_9q2xqtfEgdo_280_290.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:15
+Os_DQIRQgXw,2.0,12.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_Os_DQIRQgXw_2_12.wav,SUCCESS,16000,1,9.734,311576,,1,2026-10-30 10:54:19
+nF0pJOjN0gw,120.0,130.0,other,Water,/m/0838f,data/raw/eval/other/other_nF0pJOjN0gw_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:25
+WzmlUCUX6WM,70.0,80.0,other,Water,/m/0838f,data/raw/eval/other/other_WzmlUCUX6WM_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:29
+j0F9mLuDDZo,550.0,560.0,other,Water,/m/0838f,data/raw/eval/other/other_j0F9mLuDDZo_550_560.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:35
+uUcUU6NpDUw,30.0,40.0,other,Water,/m/0838f,data/raw/eval/other/other_uUcUU6NpDUw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:41
+fvQeqBqqcVw,30.0,40.0,other,Rain,/m/06mb1,data/raw/eval/other/other_fvQeqBqqcVw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:55
+EmPv3XBRi-w,50.0,60.0,other,Water,/m/0838f,data/raw/eval/other/other_EmPv3XBRi-w_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:54:59
+rzxqz7XqLHA,220.0,230.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_rzxqz7XqLHA_220_230.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:04
+1V9CWQNZRF8,450.0,460.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_1V9CWQNZRF8_450_460.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:10
+eaLhdHS_3uU,130.0,140.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_eaLhdHS_3uU_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:13
+I7esm6vqqZ4,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_I7esm6vqqZ4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:18
+Owg_XU9XmRM,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_Owg_XU9XmRM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:21
+lb1awXgoyQE,0.0,10.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_lb1awXgoyQE_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:25
+-UTdhK0lwuw,30.0,40.0,other,Water,/m/0838f,data/raw/eval/other/other_-UTdhK0lwuw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:30
+myy-OtJbCfQ,100.0,110.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_myy-OtJbCfQ_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:36
+40s88hEcn5I,170.0,180.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_40s88hEcn5I_170_180.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 40s88hEcn5I: This video is unavailable,1,2026-10-30 10:55:37
+UqyvFyQthHo,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_UqyvFyQthHo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:41
+7LoVjl-6wlc,90.0,100.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_7LoVjl-6wlc_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:45
+l5zOsyE1LBE,10.0,20.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_l5zOsyE1LBE_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:49
+h3P2Si6bC6Y,560.0,570.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_h3P2Si6bC6Y_560_570.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:54
+MdGJApR9jpA,160.0,170.0,other,Water,/m/0838f,data/raw/eval/other/other_MdGJApR9jpA_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:55:58
+1Y2YtG9EX-g,300.0,310.0,other,Rain,/m/06mb1,data/raw/eval/other/other_1Y2YtG9EX-g_300_310.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1Y2YtG9EX-g: Video unavailable,1,2026-10-30 10:56:00
+Mp0486rsaAM,230.0,240.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_Mp0486rsaAM_230_240.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:06
+WtmvVWAwNrA,590.0,600.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_WtmvVWAwNrA_590_600.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:11
+2-Yz378XB2Q,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_2-Yz378XB2Q_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:15
+3nqcNxcTdFI,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_3nqcNxcTdFI_30_40.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 10:56:20
+krwEhbbxSw4,70.0,80.0,other,Wind,/m/03m9d0z,data/raw/eval/other/other_krwEhbbxSw4_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:23
+BsB01z1_MIs,30.0,40.0,other,Vehicle,/m/07yv9,data/raw/eval/other/other_BsB01z1_MIs_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] BsB01z1_MIs: Private video,1,2026-10-30 10:56:26
+8KOGC3reCi8,0.0,10.0,other,Water,/m/0838f,data/raw/eval/other/other_8KOGC3reCi8_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8KOGC3reCi8: This video has been removed for violating YouTube's Community Guidelines,1,2026-10-30 10:56:28
+Fs462T7ODUQ,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_Fs462T7ODUQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:32
+zU0ThM8ljAY,30.0,40.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_zU0ThM8ljAY_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] zU0ThM8ljAY: Private video,1,2026-10-30 10:56:34
+ZtCwrMvS6Eg,20.0,30.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_ZtCwrMvS6Eg_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:38
+d_3P7vuZwUY,190.0,200.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_d_3P7vuZwUY_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:42
+0OhqyNGlJYE,310.0,320.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_0OhqyNGlJYE_310_320.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:47
+mXhgTalUktk,540.0,550.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_mXhgTalUktk_540_550.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:51
+dbunjNOhz2w,210.0,220.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_dbunjNOhz2w_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:56:56
+BE1qG9iQZlg,190.0,200.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_BE1qG9iQZlg_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:01
+9q8N_KgH8SI,250.0,260.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_9q8N_KgH8SI_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:06
+oDpbnwNLyn8,0.0,4.0,other,Door,/m/02dgv,data/raw/eval/other/other_oDpbnwNLyn8_0_4.wav,VALIDATION_FAILED,,,,,Duration 3.00s deviates from expected 4.00s,1,2026-10-30 10:57:10
+DV9DC4wwhfo,50.0,60.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_DV9DC4wwhfo_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:15
+3477Yq9DSS8,6.0,16.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_3477Yq9DSS8_6_16.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 3477Yq9DSS8: This video is unavailable,1,2026-10-30 10:57:17
+nvd_moe8RQ0,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_nvd_moe8RQ0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:21
+ejo2aXEWSgo,0.0,10.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_ejo2aXEWSgo_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:25
+dg3oPBY_vXQ,0.0,4.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_dg3oPBY_vXQ_0_4.wav,SUCCESS,16000,1,3.622,115992,,1,2026-10-30 10:57:29
+FD2paju93aI,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_FD2paju93aI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:33
+Ri-tkp3IIic,10.0,20.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_Ri-tkp3IIic_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Ri-tkp3IIic: This video is unavailable,1,2026-10-30 10:57:35
+X3Oo3xTaL-I,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_X3Oo3xTaL-I_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:39
+Tf_mav3pAoc,30.0,40.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_Tf_mav3pAoc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:43
+6TMtqRGsNEE,570.0,580.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_6TMtqRGsNEE_570_580.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:47
+WNc2RfxdSm8,420.0,430.0,other,"Dishes, pots, and pans",/m/04brg2,data/raw/eval/other/other_WNc2RfxdSm8_420_430.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:52
+CD5VBM6pClk,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_CD5VBM6pClk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:57:57
+NyIzowSEuqQ,10.0,20.0,other,"Dishes, pots, and pans",/m/04brg2,data/raw/eval/other/other_NyIzowSEuqQ_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:01
+ChX3mPUgLok,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_ChX3mPUgLok_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:05
+dVTcTLLD9bo,30.0,40.0,other,"Dishes, pots, and pans",/m/04brg2,data/raw/eval/other/other_dVTcTLLD9bo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:09
+BSl9p4NxaRo,5.0,15.0,other,Door,/m/02dgv,data/raw/eval/other/other_BSl9p4NxaRo_5_15.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] BSl9p4NxaRo: This video is unavailable,1,2026-10-30 10:58:11
+TshlnQiWBEI,0.0,10.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_TshlnQiWBEI_0_10.wav,SUCCESS,16000,1,9.743,311858,,1,2026-10-30 10:58:15
+C9NqENVJqgE,70.0,80.0,other,Door,/m/02dgv,data/raw/eval/other/other_C9NqENVJqgE_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] C9NqENVJqgE: Private video,1,2026-10-30 10:58:17
+PtgNHlRcC60,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_PtgNHlRcC60_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:21
+9jty9kPV4E4,30.0,40.0,other,Knock,/m/07r4wb8,data/raw/eval/other/other_9jty9kPV4E4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:26
+snOVG0lAgkQ,470.0,480.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_snOVG0lAgkQ_470_480.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:31
+-PyXfNxnHKs,110.0,120.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_-PyXfNxnHKs_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:45
+FR9qGkCa78M,140.0,150.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_FR9qGkCa78M_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:50
+U0Cg_t_3TdI,30.0,40.0,other,"Cutlery, silverware",/m/023pjk,data/raw/eval/other/other_U0Cg_t_3TdI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:58:54
+EaBRGh2s0rU,30.0,40.0,other,Door,/m/02dgv,data/raw/eval/other/other_EaBRGh2s0rU_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] EaBRGh2s0rU: This video is unavailable,1,2026-10-30 10:58:56
+qZkM3QaeaUM,150.0,160.0,other,Music,/m/04rlf,data/raw/eval/other/other_qZkM3QaeaUM_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:01
+HS_ikHx4LIQ,190.0,200.0,other,Music,/m/04rlf,data/raw/eval/other/other_HS_ikHx4LIQ_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:05
+TyMZJqYmrwE,490.0,500.0,other,Music,/m/04rlf,data/raw/eval/other/other_TyMZJqYmrwE_490_500.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:09
+RV6trufvnQw,10.0,20.0,other,Music,/m/04rlf,data/raw/eval/other/other_RV6trufvnQw_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:13
+3nGCfxJsVZ0,150.0,160.0,other,Music,/m/04rlf,data/raw/eval/other/other_3nGCfxJsVZ0_150_160.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 3nGCfxJsVZ0: This video is not available,1,2026-10-30 10:59:16
+OB7GyVqufwQ,120.0,130.0,other,Music,/m/04rlf,data/raw/eval/other/other_OB7GyVqufwQ_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:20
+ipIutqQQDxY,270.0,280.0,other,Music,/m/04rlf,data/raw/eval/other/other_ipIutqQQDxY_270_280.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:24
+B1beLwV4yzw,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_B1beLwV4yzw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:29
+iX5fyNvNOuk,10.0,20.0,other,Piano,/m/05r5c,data/raw/eval/other/other_iX5fyNvNOuk_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:32
+D7W6QWflR3c,100.0,110.0,other,Music,/m/04rlf,data/raw/eval/other/other_D7W6QWflR3c_100_110.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] D7W6QWflR3c: This video is unavailable,1,2026-10-30 10:59:34
+DaiVfxATCEE,210.0,220.0,other,Music,/m/04rlf,data/raw/eval/other/other_DaiVfxATCEE_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:39
+1yWGmdevTuM,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_1yWGmdevTuM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:43
+x6zdZuTpMVM,300.0,310.0,other,Music,/m/04rlf,data/raw/eval/other/other_x6zdZuTpMVM_300_310.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:49
+bY7RRfJTat0,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_bY7RRfJTat0_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] bY7RRfJTat0: This video is unavailable,1,2026-10-30 10:59:51
+Q6hIvsdfCF8,10.0,20.0,other,Singing,/m/015lz1,data/raw/eval/other/other_Q6hIvsdfCF8_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 10:59:55
+NKDBwJIwWoU,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_NKDBwJIwWoU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:00
+fZ02KtM1tQQ,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_fZ02KtM1tQQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:05
+PnufGRe4QwE,10.0,20.0,other,Music,/m/04rlf,data/raw/eval/other/other_PnufGRe4QwE_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] PnufGRe4QwE: Video unavailable,1,2026-10-30 11:00:07
+-BHPu-dPmWQ,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_-BHPu-dPmWQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:12
+dO3VsX4rKNc,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_dO3VsX4rKNc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:17
+bLjOJRg2P_Q,100.0,110.0,other,Singing,/m/015lz1,data/raw/eval/other/other_bLjOJRg2P_Q_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:21
+-wwmAy7sUrM,29.0,39.0,other,Music,/m/04rlf,data/raw/eval/other/other_-wwmAy7sUrM_29_39.wav,SUCCESS,16000,1,9.523,304812,,1,2026-10-30 11:00:26
+Cchf2QH63bI,130.0,140.0,other,Singing,/m/015lz1,data/raw/eval/other/other_Cchf2QH63bI_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:30
+sY7OgsdiXHc,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_sY7OgsdiXHc_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] sY7OgsdiXHc: Private video,1,2026-10-30 11:00:32
+MsjeOXuUYG4,170.0,180.0,other,Music,/m/04rlf,data/raw/eval/other/other_MsjeOXuUYG4_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:37
+oh5XmtSAOuM,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_oh5XmtSAOuM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] oh5XmtSAOuM: This video is not available,1,2026-10-30 11:00:40
+QtjMlA_7dds,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_QtjMlA_7dds_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:45
+C6roSYqchkk,60.0,70.0,other,Music,/m/04rlf,data/raw/eval/other/other_C6roSYqchkk_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:49
+C25xvcl4YAU,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_C25xvcl4YAU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:00:53
+BaMBwXQwK3g,30.0,40.0,other,Singing,/m/015lz1,data/raw/eval/other/other_BaMBwXQwK3g_30_40.wav,SUCCESS,16000,1,10.001,320100,,1,2026-10-30 11:00:58
+nj6N7m8SeK4,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_nj6N7m8SeK4_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:02
+AtLB7oC6xtI,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_AtLB7oC6xtI_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] AtLB7oC6xtI: Video unavailable,1,2026-10-30 11:01:04
+vx5iuWuE2Ng,30.0,40.0,other,Music,/m/04rlf,data/raw/eval/other/other_vx5iuWuE2Ng_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:08
+1hDTYgABDRg,21.0,31.0,other,Music,/m/04rlf,data/raw/eval/other/other_1hDTYgABDRg_21_31.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1hDTYgABDRg: This video is unavailable,1,2026-10-30 11:01:10
+vKjC5HTH22o,160.0,170.0,other,Music,/m/04rlf,data/raw/eval/other/other_vKjC5HTH22o_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:14
+LuTub5GVCEg,30.0,40.0,other,"Narration, monologue",/m/02qldy,data/raw/eval/other/other_LuTub5GVCEg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:19
+IDhsBM5S1a0,170.0,180.0,other,Speech,/m/09x0r,data/raw/eval/other/other_IDhsBM5S1a0_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:24
+kUk2NQg4rVM,90.0,100.0,other,Speech,/m/09x0r,data/raw/eval/other/other_kUk2NQg4rVM_90_100.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] kUk2NQg4rVM: This video is unavailable,1,2026-10-30 11:01:26
+NArsqzuS8Fs,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_NArsqzuS8Fs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:30
+1z5KCCduAUM,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_1z5KCCduAUM_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 1z5KCCduAUM: Private video,1,2026-10-30 11:01:32
+oHp-J8QgAd8,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_oHp-J8QgAd8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:37
+DU6mbfegSmA,220.0,230.0,other,Speech,/m/09x0r,data/raw/eval/other/other_DU6mbfegSmA_220_230.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] DU6mbfegSmA: Private video,1,2026-10-30 11:01:38
+Lp0SqoV2e0A,70.0,80.0,other,Speech,/m/09x0r,data/raw/eval/other/other_Lp0SqoV2e0A_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Lp0SqoV2e0A: This video is unavailable,1,2026-10-30 11:01:40
+uKlEcyuauXg,20.0,30.0,other,Speech,/m/09x0r,data/raw/eval/other/other_uKlEcyuauXg_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:44
+o46GWTkVASI,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_o46GWTkVASI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:01:58
+RreABxxKirU,190.0,200.0,other,Speech,/m/09x0r,data/raw/eval/other/other_RreABxxKirU_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:03
+HYTIxabams8,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_HYTIxabams8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:11
+JO5CDrJHjHE,130.0,140.0,other,Speech,/m/09x0r,data/raw/eval/other/other_JO5CDrJHjHE_130_140.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] JO5CDrJHjHE: This video is not available,1,2026-10-30 11:02:13
+LK8NpgU9EZE,30.0,40.0,other,Whispering,/m/02rtxlg,data/raw/eval/other/other_LK8NpgU9EZE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:27
+4UnUrylORBM,19.0,29.0,other,Speech,/m/09x0r,data/raw/eval/other/other_4UnUrylORBM_19_29.wav,SUCCESS,16000,1,9.723,311218,,1,2026-10-30 11:02:31
+QMASKehSNQg,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_QMASKehSNQg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:35
+zOtQhdMBYD4,110.0,120.0,other,Speech,/m/09x0r,data/raw/eval/other/other_zOtQhdMBYD4_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:41
+9BGpWG8iqpQ,0.0,10.0,other,Speech,/m/09x0r,data/raw/eval/other/other_9BGpWG8iqpQ_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:45
+ttStg4-SLrk,580.0,590.0,other,Speech,/m/09x0r,data/raw/eval/other/other_ttStg4-SLrk_580_590.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] ttStg4-SLrk: This video is not available,1,2026-10-30 11:02:47
+CvZmBlCY-a8,180.0,190.0,other,Speech,/m/09x0r,data/raw/eval/other/other_CvZmBlCY-a8_180_190.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] CvZmBlCY-a8: This video is unavailable,1,2026-10-30 11:02:50
+arkgpTGrhz8,130.0,140.0,other,Speech,/m/09x0r,data/raw/eval/other/other_arkgpTGrhz8_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:02:54
+c4WHl22izOQ,530.0,540.0,other,Speech,/m/09x0r,data/raw/eval/other/other_c4WHl22izOQ_530_540.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] c4WHl22izOQ: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 11:02:56
+gsEgN-dbQjo,320.0,330.0,other,Speech,/m/09x0r,data/raw/eval/other/other_gsEgN-dbQjo_320_330.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:01
+GuEoGHNGYr4,30.0,40.0,other,Conversation,/m/01h8n0,data/raw/eval/other/other_GuEoGHNGYr4_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GuEoGHNGYr4: Video unavailable,1,2026-10-30 11:03:03
+gOB0nM0PRTc,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_gOB0nM0PRTc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:07
+OS4Cr2GleSA,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_OS4Cr2GleSA_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] OS4Cr2GleSA: This video has been removed for violating YouTube's policy on violent or graphic content,1,2026-10-30 11:03:09
+jko48cNdvFA,80.0,90.0,other,Speech,/m/09x0r,data/raw/eval/other/other_jko48cNdvFA_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:14
+8YSDo1wTo3M,28.0,38.0,other,Speech,/m/09x0r,data/raw/eval/other/other_8YSDo1wTo3M_28_38.wav,SUCCESS,16000,1,9.686,310030,,1,2026-10-30 11:03:18
+ieEjmmhW9Cw,180.0,190.0,other,Speech,/m/09x0r,data/raw/eval/other/other_ieEjmmhW9Cw_180_190.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:23
+-rrK6gbh3so,0.0,10.0,other,Speech,/m/09x0r,data/raw/eval/other/other_-rrK6gbh3so_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -rrK6gbh3so: This video is unavailable,1,2026-10-30 11:03:25
+QvkHf84VhsU,510.0,520.0,other,Conversation,/m/01h8n0,data/raw/eval/other/other_QvkHf84VhsU_510_520.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] QvkHf84VhsU: Video unavailable,1,2026-10-30 11:03:27
+TsqbxwQLeEE,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_TsqbxwQLeEE_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] TsqbxwQLeEE: Video unavailable,1,2026-10-30 11:03:29
+4vWKRuJ6iXU,440.0,450.0,other,Speech,/m/09x0r,data/raw/eval/other/other_4vWKRuJ6iXU_440_450.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 4vWKRuJ6iXU: Private video,1,2026-10-30 11:03:31
+sUutoTNhUok,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_sUutoTNhUok_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:35
+q76JvcGsN-c,30.0,40.0,other,Speech,/m/09x0r,data/raw/eval/other/other_q76JvcGsN-c_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 11:03:39

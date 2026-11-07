@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-10-30T13:02:51.531070",
+  "checkpoint": "D:\\ml\\fydp\\MyNet\\models\\experiments\\panns_cnn14\\best_model.pt",
+  "evaluated_clips": 519,
+  "metrics": {
+    "accuracy": 0.8478,
+    "macro_f1": 0.8195,
+    "macro_precision": 0.8044,
+    "macro_recall": 0.846,
+    "per_class": {
+      "scream": {
+        "precision": 0.6279,
+        "recall": 0.9,
+        "f1_score": 0.7397,
+        "support": 30
+      },
+      "glass_breaking": {
+        "precision": 0.7033,
+        "recall": 0.7529,
+        "f1_score": 0.7273,
+        "support": 85
+      },
+      "gunshot": {
+        "precision": 0.9266,
+        "recall": 0.9266,
+        "f1_score": 0.9266,
+        "support": 109
+      },
+      "siren": {
+        "precision": 0.9814,
+        "recall": 0.9634,
+        "f1_score": 0.9723,
+        "support": 164
+      },
+      "other": {
+        "precision": 0.7826,
+        "recall": 0.687,
+        "f1_score": 0.7317,
+        "support": 131
+      }
+    },
+    "confusion_matrix": [
+      [
+        27,
+        0,
+        0,
+        0,
+        3
+      ],
+      [
+        7,
+        64,
+        4,
+        0,
+        10
+      ],
+      [
+        0,
+        1,
+        101,
+        0,
+        7
+      ],
+      [
+        0,
+        1,
+        0,
+        158,
+        5
+      ],
+      [
+        9,
+        25,
+        4,
+        3,
+        90
+      ]
+    ]
+  },
+  "best_epoch": 7
+}

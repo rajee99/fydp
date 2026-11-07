@@ -1,0 +1,108 @@
+video_id,start_seconds,end_seconds,target_class,subdomain,audio_set_mid,matched_label,source_catalog,candidate_priority,manual_verification_status,flag_reason,overlapping_labels,all_labels
+np9gJOasdJU,130.0,140.0,other,metal_impacts,/m/023pjk,"Cutlery, silverware",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,"Cutlery, silverware; Dishes, pots, and pans"
+03ub5nEypcM,0.0,10.0,other,metal_impacts,/m/07qmpdm,Clatter,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,Clatter
+u7Ezwf9xcLk,30.0,40.0,other,metal_impacts,/m/07qmpdm,Clatter,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,Clatter
+5A-vYXggRWA,30.0,40.0,other,metal_impacts,/m/07qmpdm,Clatter,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,Clatter
+dS4GFdTyzw0,20.0,30.0,other,metal_impacts,/m/07qmpdm,Clatter,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,Clatter
+fJuVYNyyTwE,28.0,38.0,other,metal_impacts,/m/07qmpdm,Clatter,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,Clatter
+A48Hv7io53s,50.0,60.0,other,metal_impacts,/m/023pjk,"Cutlery, silverware",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (metal_impacts),None,"Cutlery, silverware; Dishes, pots, and pans"
+Ly9uAopo_8c,2.0,12.0,other,human_shouting,/m/07s2xch,Groan,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Groan
+fMJDfk62on0,400.0,410.0,other,human_shouting,/m/07s2xch,Groan,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Music; /m/05zppz; Groan; Speech
+BZfaulXWPDw,30.0,40.0,other,human_shouting,/m/07p6fty,Shout,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Music; Shout; Speech
+l7jWtXXTzC8,20.0,30.0,other,human_shouting,/m/0463cq4,"Crying, sobbing",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,"Crying, sobbing; Speech"
+GiqLP3YS8pM,0.0,10.0,other,human_shouting,/m/07s2xch,Groan,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Groan
+bC_hEEHqyiA,0.0,10.0,other,human_shouting,/m/07sr1lc,Yell,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Music; Yell
+WquKqszPxyk,30.0,40.0,other,human_shouting,/m/07s2xch,Groan,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Groan
+sM9e90vhUIA,20.0,30.0,other,human_shouting,/m/0463cq4,"Crying, sobbing",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,"Crying, sobbing; Speech; Baby cry, infant cry"
+BmsDamjyTCI,130.0,140.0,other,human_shouting,/m/07p6fty,Shout,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (human_shouting),None,Music; Shout
+Xk1SAcqbnBw,30.0,40.0,other,door_slams,/m/07r4wb8,Knock,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Knock; Speech
+UFAjYjyLfJ0,30.0,40.0,other,door_slams,/m/02dgv,Door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Door; Music; Speech
+9kFvLkMlQNo,30.0,40.0,other,door_slams,/m/02dgv,Door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Door
+I9k2khpmaI4,0.0,8.0,other,door_slams,/m/02dgv,Door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Door; Sliding door; Speech
+POzedZaLn8A,240.0,250.0,other,door_slams,/m/02y_763,Sliding door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Sliding door; Speech
+GpuIWHak8h4,27.0,37.0,other,door_slams,/m/02dgv,Door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Door; Music
+CrBT-ueaAhs,30.0,40.0,other,door_slams,/m/02dgv,Door,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (door_slams),None,Door; Speech
+2cLoIAMnddw,10.0,20.0,other,car_alarms_detectors,/m/07pp_mv,Alarm,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,"Alarm; Speech; Fire alarm; Inside, small room"
+TTxOyJm_edY,155.0,165.0,other,car_alarms_detectors,/m/01y3hg,"Smoke detector, smoke alarm",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,"Smoke detector, smoke alarm; Speech; Fire alarm"
+kIRzaq6bUdw,180.0,190.0,other,car_alarms_detectors,/m/0c3f7m,Fire alarm,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Fire alarm
+xFdUhqRf9Ck,0.0,10.0,other,car_alarms_detectors,/m/030rvx,Buzzer,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Buzzer
+QW0LXEG4UjM,230.0,240.0,other,car_alarms_detectors,/m/01y3hg,"Smoke detector, smoke alarm",audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,"Smoke detector, smoke alarm; Speech"
+AIoBW1pQOCk,30.0,40.0,other,car_alarms_detectors,/m/030rvx,Buzzer,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Buzzer
+v6qZ8SZHVBw,480.0,490.0,other,car_alarms_detectors,/m/0c3f7m,Fire alarm,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Speech; Fire alarm
+nL2gkiwtFo8,80.0,90.0,other,car_alarms_detectors,/m/07pp_mv,Alarm,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Alarm
+-lBGukHlpIk,6.0,16.0,other,car_alarms_detectors,/m/030rvx,Buzzer,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Buzzer
+Iigmz597BJ8,0.0,5.0,other,car_alarms_detectors,/m/030rvx,Buzzer,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (car_alarms_detectors),None,Buzzer
+0kCsHIERhR4,160.0,170.0,other,fireworks_firecrackers,/g/122z_qxw,Firecracker,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,"Firecracker; Speech; Outside, rural or natural"
+RXVFfz-_61c,20.0,30.0,other,fireworks_firecrackers,/g/122z_qxw,Firecracker,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Firecracker; Fireworks
+qxetWYHhZj0,60.0,70.0,other,fireworks_firecrackers,/g/122z_qxw,Firecracker,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Firecracker; Fireworks
+fEv3GPgcPdI,280.0,290.0,other,fireworks_firecrackers,/m/0g6b5,Fireworks,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Music; Fireworks
+N0L2e_fGRcA,0.0,6.0,other,fireworks_firecrackers,/g/122z_qxw,Firecracker,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Firecracker
+MIa_o5CyDOc,30.0,40.0,other,fireworks_firecrackers,/m/0g6b5,Fireworks,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Speech; Fireworks
+17zZjOGB-1c,10.0,20.0,other,fireworks_firecrackers,/m/0g6b5,Fireworks,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Fireworks
+irXG4eCATQk,0.0,10.0,other,fireworks_firecrackers,/m/0g6b5,Fireworks,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,Fireworks
+1Fe56MC1p2c,100.0,110.0,other,fireworks_firecrackers,/g/122z_qxw,Firecracker,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (fireworks_firecrackers),None,"Firecracker; Music; Burst, pop"
+x-pmdMwLjCg,150.0,160.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,"Tools; Speech; Outside, rural or natural"
+6lnnXHTj2iU,30.0,40.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Tools
+hENf5JVoRIw,230.0,240.0,other,construction_tools,/m/03l9g,Hammer,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Hammer
+2005bnEV2iU,110.0,120.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Tools; Wood
+NBONmkNn8e8,80.0,90.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Chainsaw; Tools; Speech
+iW7gLj32Iz8,10.0,20.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Tools
+6Ff07qMgr6Q,120.0,130.0,other,construction_tools,/m/01d380,Drill,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,"Drill; Inside, small room"
+4K0enAiXVFs,100.0,110.0,other,construction_tools,/m/07k1x,Tools,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (construction_tools),None,Tools; Speech
+0VBn_HKnIIU,0.0,10.0,other,whistles_high_pitch,/m/06hck5,Steam whistle,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,Engine; Steam whistle
+6lY5Z3Olge4,90.0,100.0,other,whistles_high_pitch,/m/0h9mv,Tire squeal,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,"Vehicle; Tire squeal; Race car, auto racing"
+_MH5E6PALeE,30.0,40.0,other,whistles_high_pitch,/m/04zmvq,Train whistle,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,"Train whistle; Rail transport; Steam whistle; Train; Vehicle; Outside, urban or manmade"
+-ZrFfJI1kOw,0.0,10.0,other,whistles_high_pitch,/m/0h9mv,Tire squeal,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,Skidding; Vehicle; Tire squeal
+vh7HmD7aeus,0.0,10.0,other,whistles_high_pitch,/m/0h9mv,Tire squeal,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,"Skidding; Vehicle; Tire squeal; Car; Race car, auto racing"
+QET_-LgOwb8,0.0,4.0,other,whistles_high_pitch,/m/0l156k,Whistle,audioset_unbalanced,P2_BACKUP,VERIFIED_NEGATIVE,Reserve backup hard negative (whistles_high_pitch),None,Whistle
+Ebsn_iQiico,200.0,210.0,glass_breaking,breaking_shatter,/m/07rn7sz,Shatter,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Breaking; Shatter; Speech
+65XNces8j9I,10.0,20.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Speech
+lKEApT6uvZE,110.0,120.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking
+BV0dcWS9C8g,0.0,4.0,glass_breaking,breaking_shatter,/m/07rn7sz,Shatter,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,"Glass; Breaking; Chink, clink; Shatter"
+jeMkJ0ri450,50.0,60.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Water
+pJ59lhK2sl0,0.0,10.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Water
+6eTbJvhaySk,10.0,20.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Water
+_-z_TCzWwEw,20.0,30.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Water
+cbYqDOd455U,0.0,10.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Water; Speech
+S6PrOGOaXtY,130.0,140.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Speech
+HLzxFQ4Rjhg,0.0,10.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid; Music; Water
+12q8WQccnrc,40.0,50.0,glass_breaking,bottle_liquid_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (bottle_liquid_shatter),None,Glass; Liquid
+TxljaTuaJVI,10.0,20.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Crack
+WT3-YRTB6Sw,30.0,40.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Speech
+-XHotSY1Eq8,50.0,60.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Speech
+utlhrFfzlro,0.0,7.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Sound effect
+QiAIaEtCqLA,30.0,40.0,glass_breaking,breaking_shatter,/m/039jq,Glass,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup glass shattering (breaking_shatter),None,Glass; Breaking; Crack
+6H3MUryE568,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+m6XM5JFsNjw,10.0,20.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+64OqJwbhHMQ,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+uQw4BjJHlLQ,0.0,10.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+QJDTh3wjfQo,210.0,220.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+25oh2YZKY6o,10.0,20.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+VYTGfbCcogo,0.0,10.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+SW-12VH0mD0,10.0,20.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+OiTicO257Dw,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Singing; Heavy metal; Screaming; Music
+uIWuyczg_K8,60.0,70.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+40l-BHSf4Q4,40.0,50.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+-SE3cHFmC4k,20.0,30.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+W69szvFyP1I,0.0,10.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+ZFNoJi4JsS8,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+7CPGD73Sou8,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+C07OgADP2y0,10.0,20.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+5_dZTmDLxSQ,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Sound effect
+D7oNBQLxbMY,60.0,70.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+1lFcPooQI8A,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+Flg0_TKSraQ,26.0,36.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+CkwtygLgFok,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+51YYDbq10A0,3.0,13.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech; Sound effect
+6HfwD2hpsFU,420.0,430.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,/m/02zsn; Screaming; Music; Speech
+SUW4z-GuuaE,20.0,30.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Television
+5yTNLH67SP4,30.0,40.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+OTk4P465UuE,0.0,10.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+2P-faHJs-1g,27.0,37.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+CLgiT1_V2Oo,15.0,25.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Pop music
+DlgCWtuseb8,0.0,9.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+9bM_mkoP3lw,270.0,280.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Heavy metal; Screaming; Music; Rock music
+2UUUivJa6DY,0.0,7.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music
+0uRLjhAsFGk,340.0,350.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+hBefVykN8_M,50.0,60.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music; Speech
+-gtVxQn4Dhc,80.0,90.0,scream,music_background,/m/03qc9zr,Screaming,audioset_unbalanced,P2_BACKUP,VERIFIED_TARGET,Reserve backup human scream (music_background),None,Screaming; Music

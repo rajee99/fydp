@@ -1,0 +1,9 @@
+video_id,start_seconds,end_seconds,target_class,matched_label,audio_set_mid
+--aaILOrkII,200.0,210.0,gunshot,"Gunshot, gunfire",/m/032s66
+-4RWqM0UCCY,0.0,10.0,siren,Ambulance (siren),/m/012n7d
+-GI5PbO6j50,30.0,40.0,scream,Screaming,/m/03qc9zr
+-QSNQGKiGT4,260.0,270.0,scream,Screaming,/m/03qc9zr
+-RAdrtCW1hI,70.0,80.0,gunshot,"Gunshot, gunfire",/m/032s66
+-Y1qiiugnk8,30.0,40.0,siren,Ambulance (siren),/m/012n7d
+0H2uMhzSitY,520.0,530.0,glass_breaking,Shatter,/m/07rn7sz
+0maiaspDy5k,110.0,120.0,glass_breaking,Glass,/m/039jq

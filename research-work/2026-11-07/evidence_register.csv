@@ -1,0 +1,6 @@
+id,phase,task_or_output,owner,status,evidence,notes
+P0-01,0,dated research workspace and required subfolders,Person B,complete,research-work/2026-11-07/,Created from the v4-1 folder structure.
+P0-02,0,repository and environment baseline,Person B,complete,audit/environment_and_repository_baseline.md,No commit or remote exists; CUDA runtime check remains open.
+P0-03,0,read-only manifest and config snapshot,Person B,complete,audit/baseline_snapshot_sha256.csv,Snapshot copies are under baseline_snapshot/; verify hash file after team handoff.
+P0-04,0,decision log,Person B,complete,decision_log.md,Initial setup decisions and unresolved source-control state recorded.
+P0-05,0,team agreement on shared folder branch naming and handoff cadence,Joint,open,,Requires coordination with Person A.

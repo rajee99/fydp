@@ -1,0 +1,170 @@
+{
+  "description": "E4 Subdomain Ablation & Matched-Size Random Controls (Shared Validation Design)",
+  "baseline_samples": 527,
+  "shared_validation_samples": 105,
+  "full_targeted_e2_samples": 751,
+  "random_seed": 42,
+  "experiments": {
+    "e4_minus_human_shouting": {
+      "type": "category_ablation",
+      "target_subdomain": "human_shouting",
+      "research_hypothesis": "Scream false alarm reduction (shouting/yelling)",
+      "train_samples": 602,
+      "val_samples": 105,
+      "total_samples": 707,
+      "excluded_samples": 44,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_human_shouting_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_human_shouting_val.csv"
+    },
+    "e4_matched_control_human_shouting": {
+      "type": "matched_size_control",
+      "target_subdomain": "human_shouting",
+      "research_hypothesis": "Control for sample-size effect of removing 44 hard-negative samples",
+      "train_samples": 602,
+      "val_samples": 105,
+      "total_samples": 707,
+      "excluded_samples": 44,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_human_shouting_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_human_shouting_val.csv"
+    },
+    "e4_minus_metal_impacts": {
+      "type": "category_ablation",
+      "target_subdomain": "metal_impacts",
+      "research_hypothesis": "Gunshot and glass shattering false alarm reduction (metal clangs/pans)",
+      "train_samples": 606,
+      "val_samples": 105,
+      "total_samples": 711,
+      "excluded_samples": 40,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_metal_impacts_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_metal_impacts_val.csv"
+    },
+    "e4_matched_control_metal_impacts": {
+      "type": "matched_size_control",
+      "target_subdomain": "metal_impacts",
+      "research_hypothesis": "Control for sample-size effect of removing 40 hard-negative samples",
+      "train_samples": 606,
+      "val_samples": 105,
+      "total_samples": 711,
+      "excluded_samples": 40,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_metal_impacts_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_metal_impacts_val.csv"
+    },
+    "e4_minus_door_slams": {
+      "type": "category_ablation",
+      "target_subdomain": "door_slams",
+      "research_hypothesis": "Gunshot false alarm reduction (sudden impulsive door slams)",
+      "train_samples": 613,
+      "val_samples": 105,
+      "total_samples": 718,
+      "excluded_samples": 33,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_door_slams_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_door_slams_val.csv"
+    },
+    "e4_matched_control_door_slams": {
+      "type": "matched_size_control",
+      "target_subdomain": "door_slams",
+      "research_hypothesis": "Control for sample-size effect of removing 33 hard-negative samples",
+      "train_samples": 613,
+      "val_samples": 105,
+      "total_samples": 718,
+      "excluded_samples": 33,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_door_slams_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_door_slams_val.csv"
+    },
+    "e4_minus_construction_tools": {
+      "type": "category_ablation",
+      "target_subdomain": "construction_tools",
+      "research_hypothesis": "Broad mechanical/industrial false alarm suppression (jackhammers, drilling)",
+      "train_samples": 616,
+      "val_samples": 105,
+      "total_samples": 721,
+      "excluded_samples": 30,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_construction_tools_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_construction_tools_val.csv"
+    },
+    "e4_matched_control_construction_tools": {
+      "type": "matched_size_control",
+      "target_subdomain": "construction_tools",
+      "research_hypothesis": "Control for sample-size effect of removing 30 hard-negative samples",
+      "train_samples": 616,
+      "val_samples": 105,
+      "total_samples": 721,
+      "excluded_samples": 30,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_construction_tools_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_construction_tools_val.csv"
+    },
+    "e4_minus_car_alarms_detectors": {
+      "type": "category_ablation",
+      "target_subdomain": "car_alarms_detectors",
+      "research_hypothesis": "Siren false alarm reduction (pulsed electronic alarms)",
+      "train_samples": 617,
+      "val_samples": 105,
+      "total_samples": 722,
+      "excluded_samples": 29,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_car_alarms_detectors_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_car_alarms_detectors_val.csv"
+    },
+    "e4_matched_control_car_alarms_detectors": {
+      "type": "matched_size_control",
+      "target_subdomain": "car_alarms_detectors",
+      "research_hypothesis": "Control for sample-size effect of removing 29 hard-negative samples",
+      "train_samples": 617,
+      "val_samples": 105,
+      "total_samples": 722,
+      "excluded_samples": 29,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_car_alarms_detectors_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_car_alarms_detectors_val.csv"
+    },
+    "e4_minus_fireworks_firecrackers": {
+      "type": "category_ablation",
+      "target_subdomain": "fireworks_firecrackers",
+      "research_hypothesis": "Gunshot false alarm reduction (explosive percussive bursts)",
+      "train_samples": 618,
+      "val_samples": 105,
+      "total_samples": 723,
+      "excluded_samples": 28,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_fireworks_firecrackers_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_fireworks_firecrackers_val.csv"
+    },
+    "e4_matched_control_fireworks_firecrackers": {
+      "type": "matched_size_control",
+      "target_subdomain": "fireworks_firecrackers",
+      "research_hypothesis": "Control for sample-size effect of removing 28 hard-negative samples",
+      "train_samples": 618,
+      "val_samples": 105,
+      "total_samples": 723,
+      "excluded_samples": 28,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_fireworks_firecrackers_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_fireworks_firecrackers_val.csv"
+    },
+    "e4_minus_whistles_high_pitch": {
+      "type": "category_ablation",
+      "target_subdomain": "whistles_high_pitch",
+      "research_hypothesis": "Siren and scream false alarm reduction (high frequency resonant tones)",
+      "train_samples": 627,
+      "val_samples": 105,
+      "total_samples": 732,
+      "excluded_samples": 19,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_whistles_high_pitch_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_whistles_high_pitch_val.csv"
+    },
+    "e4_matched_control_whistles_high_pitch": {
+      "type": "matched_size_control",
+      "target_subdomain": "whistles_high_pitch",
+      "research_hypothesis": "Control for sample-size effect of removing 19 hard-negative samples",
+      "train_samples": 627,
+      "val_samples": 105,
+      "total_samples": 732,
+      "excluded_samples": 19,
+      "random_seed": 42,
+      "train_manifest": "data/processed/e4_ablations/e4_matched_control_whistles_high_pitch_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_matched_control_whistles_high_pitch_val.csv"
+    }
+  }
+}

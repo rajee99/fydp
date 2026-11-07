@@ -1,0 +1,190 @@
+{
+  "epoch": 8,
+  "val_loss": 1.05491766804143,
+  "metrics": {
+    "accuracy": 0.8053,
+    "macro_f1": 0.8061,
+    "macro_precision": 0.7746,
+    "macro_recall": 0.8626,
+    "per_class": {
+      "scream": {
+        "precision": 0.85,
+        "recall": 0.9444,
+        "f1_score": 0.8947,
+        "support": 18
+      },
+      "glass_breaking": {
+        "precision": 0.625,
+        "recall": 0.7143,
+        "f1_score": 0.6667,
+        "support": 21
+      },
+      "gunshot": {
+        "precision": 0.7586,
+        "recall": 0.9565,
+        "f1_score": 0.8462,
+        "support": 23
+      },
+      "siren": {
+        "precision": 0.6957,
+        "recall": 1.0,
+        "f1_score": 0.8205,
+        "support": 32
+      },
+      "other": {
+        "precision": 0.9437,
+        "recall": 0.6979,
+        "f1_score": 0.8024,
+        "support": 96
+      }
+    },
+    "confusion_matrix": [
+      [
+        17,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        15,
+        2,
+        0,
+        4
+      ],
+      [
+        0,
+        1,
+        22,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        32,
+        0
+      ],
+      [
+        3,
+        8,
+        4,
+        14,
+        67
+      ]
+    ]
+  },
+  "classes": [
+    "scream",
+    "glass_breaking",
+    "gunshot",
+    "siren",
+    "other"
+  ],
+  "class_to_id": {
+    "scream": 0,
+    "glass_breaking": 1,
+    "gunshot": 2,
+    "siren": 3,
+    "other": 4
+  },
+  "config": {
+    "model": "PannsCNN14",
+    "finetuned_from": null,
+    "finetuned_layers": null,
+    "lr_head": 0.0001,
+    "lr_backbone": null,
+    "pretrained_path": "models\\pretrained\\Cnn14_16k_mAP=0.438.pth",
+    "freeze_backbone": true,
+    "early_stopping_metric": "macro_f1",
+    "total_parameters": 79963653,
+    "trainable_parameters": 10245,
+    "num_classes": 5,
+    "classes": [
+      "scream",
+      "glass_breaking",
+      "gunshot",
+      "siren",
+      "other"
+    ],
+    "class_to_id": {
+      "scream": 0,
+      "glass_breaking": 1,
+      "gunshot": 2,
+      "siren": 3,
+      "other": 4
+    },
+    "sample_rate": 16000,
+    "target_duration_sec": 10.0,
+    "target_samples": 160000,
+    "n_mels": 64,
+    "epochs": 30,
+    "batch_size": 16,
+    "initial_lr": 0.0001,
+    "weight_decay": 0.0001,
+    "optimizer": "ADAM",
+    "train_manifest": "data\\processed\\combined_train_split_manifest.csv",
+    "val_manifest": "data\\processed\\combined_val_split_manifest.csv",
+    "imbalance_strategy": "class_weights",
+    "train_class_weights": [
+      1.4936,
+      1.2751,
+      1.1365,
+      0.8233,
+      0.2716
+    ],
+    "train_samples": 756,
+    "val_samples": 190,
+    "train_counts": {
+      "scream": 70,
+      "glass_breaking": 82,
+      "gunshot": 92,
+      "siren": 127,
+      "other": 385
+    },
+    "val_counts": {
+      "scream": 18,
+      "glass_breaking": 21,
+      "gunshot": 23,
+      "siren": 32,
+      "other": 96
+    },
+    "dataset_distribution": {
+      "train": {
+        "AudioSet": {
+          "glass_breaking": 78,
+          "gunshot": 92,
+          "other": 91,
+          "scream": 30,
+          "siren": 127
+        },
+        "NIGENS": {
+          "other": 294,
+          "glass_breaking": 4,
+          "scream": 40
+        }
+      },
+      "val": {
+        "AudioSet": {
+          "glass_breaking": 18,
+          "gunshot": 23,
+          "other": 29,
+          "scream": 7,
+          "siren": 32
+        },
+        "NIGENS": {
+          "other": 67,
+          "glass_breaking": 3,
+          "scream": 11
+        }
+      }
+    },
+    "val_ratio": 0.2,
+    "seed": 42,
+    "device": "cuda",
+    "timestamp": "2026-10-30T12:46:12.920879"
+  },
+  "timestamp": "2026-10-30T12:49:36.059568"
+}

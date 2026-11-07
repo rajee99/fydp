@@ -1,0 +1,1155 @@
+{
+  "timestamp": "2026-10-30T23:15:17.152563",
+  "seeds": [
+    42,
+    123,
+    2026
+  ],
+  "summary_statistics": {
+    "e1_baseline": {
+      "display_name": "E1 Baseline",
+      "metrics": {
+        "accuracy": {
+          "values": [
+            0.8952,
+            0.8857,
+            0.8952
+          ],
+          "mean": 0.892,
+          "std": 0.0055,
+          "formatted": "0.8920 +/- 0.0055"
+        },
+        "macro_precision": {
+          "values": [
+            0.9008,
+            0.8916,
+            0.9008
+          ],
+          "mean": 0.8977,
+          "std": 0.0053,
+          "formatted": "0.8977 +/- 0.0053"
+        },
+        "macro_recall": {
+          "values": [
+            0.9038,
+            0.8955,
+            0.9038
+          ],
+          "mean": 0.901,
+          "std": 0.0048,
+          "formatted": "0.9010 +/- 0.0048"
+        },
+        "macro_f1": {
+          "values": [
+            0.8995,
+            0.8897,
+            0.8995
+          ],
+          "mean": 0.8962,
+          "std": 0.0057,
+          "formatted": "0.8962 +/- 0.0057"
+        },
+        "emergency_recall_macro": {
+          "values": [
+            0.9527,
+            0.9527,
+            0.9527
+          ],
+          "mean": 0.9527,
+          "std": 0.0,
+          "formatted": "0.9527 +/- 0.0000"
+        },
+        "emergency_recall_exact": {
+          "values": [
+            0.9506,
+            0.9506,
+            0.9506
+          ],
+          "mean": 0.9506,
+          "std": 0.0,
+          "formatted": "0.9506 +/- 0.0000"
+        },
+        "emergency_detection_rate": {
+          "values": [
+            0.963,
+            0.963,
+            0.963
+          ],
+          "mean": 0.963,
+          "std": 0.0,
+          "formatted": "0.9630 +/- 0.0000"
+        },
+        "emergency_precision_macro": {
+          "values": [
+            0.9135,
+            0.9039,
+            0.9135
+          ],
+          "mean": 0.9103,
+          "std": 0.0055,
+          "formatted": "0.9103 +/- 0.0055"
+        },
+        "other_recall": {
+          "values": [
+            0.7083,
+            0.6667,
+            0.7083
+          ],
+          "mean": 0.6944,
+          "std": 0.024,
+          "formatted": "0.6944 +/- 0.0240"
+        },
+        "false_emergency_rate": {
+          "values": [
+            0.2917,
+            0.3333,
+            0.2917
+          ],
+          "mean": 0.3056,
+          "std": 0.024,
+          "formatted": "0.3056 +/- 0.0240"
+        }
+      }
+    },
+    "e2_matched": {
+      "display_name": "E2 Matched",
+      "metrics": {
+        "accuracy": {
+          "values": [
+            0.8952,
+            0.9048,
+            0.9143
+          ],
+          "mean": 0.9048,
+          "std": 0.0096,
+          "formatted": "0.9048 +/- 0.0096"
+        },
+        "macro_precision": {
+          "values": [
+            0.901,
+            0.9091,
+            0.9193
+          ],
+          "mean": 0.9098,
+          "std": 0.0092,
+          "formatted": "0.9098 +/- 0.0092"
+        },
+        "macro_recall": {
+          "values": [
+            0.9038,
+            0.9122,
+            0.9227
+          ],
+          "mean": 0.9129,
+          "std": 0.0095,
+          "formatted": "0.9129 +/- 0.0095"
+        },
+        "macro_f1": {
+          "values": [
+            0.9003,
+            0.9094,
+            0.9187
+          ],
+          "mean": 0.9095,
+          "std": 0.0092,
+          "formatted": "0.9095 +/- 0.0092"
+        },
+        "emergency_recall_macro": {
+          "values": [
+            0.9527,
+            0.9527,
+            0.9659
+          ],
+          "mean": 0.9571,
+          "std": 0.0076,
+          "formatted": "0.9571 +/- 0.0076"
+        },
+        "emergency_recall_exact": {
+          "values": [
+            0.9506,
+            0.9506,
+            0.963
+          ],
+          "mean": 0.9547,
+          "std": 0.0072,
+          "formatted": "0.9547 +/- 0.0072"
+        },
+        "emergency_detection_rate": {
+          "values": [
+            0.9506,
+            0.9506,
+            0.963
+          ],
+          "mean": 0.9547,
+          "std": 0.0072,
+          "formatted": "0.9547 +/- 0.0072"
+        },
+        "emergency_precision_macro": {
+          "values": [
+            0.9239,
+            0.9318,
+            0.9348
+          ],
+          "mean": 0.9302,
+          "std": 0.0056,
+          "formatted": "0.9302 +/- 0.0056"
+        },
+        "other_recall": {
+          "values": [
+            0.7083,
+            0.75,
+            0.75
+          ],
+          "mean": 0.7361,
+          "std": 0.0241,
+          "formatted": "0.7361 +/- 0.0241"
+        },
+        "false_emergency_rate": {
+          "values": [
+            0.2917,
+            0.25,
+            0.25
+          ],
+          "mean": 0.2639,
+          "std": 0.0241,
+          "formatted": "0.2639 +/- 0.0241"
+        }
+      }
+    },
+    "e3_general": {
+      "display_name": "E3 General",
+      "metrics": {
+        "accuracy": {
+          "values": [
+            0.9143,
+            0.9143,
+            0.9143
+          ],
+          "mean": 0.9143,
+          "std": 0.0,
+          "formatted": "0.9143 +/- 0.0000"
+        },
+        "macro_precision": {
+          "values": [
+            0.9193,
+            0.9195,
+            0.9195
+          ],
+          "mean": 0.9194,
+          "std": 0.0001,
+          "formatted": "0.9194 +/- 0.0001"
+        },
+        "macro_recall": {
+          "values": [
+            0.9227,
+            0.9227,
+            0.9227
+          ],
+          "mean": 0.9227,
+          "std": 0.0,
+          "formatted": "0.9227 +/- 0.0000"
+        },
+        "macro_f1": {
+          "values": [
+            0.9187,
+            0.9181,
+            0.9181
+          ],
+          "mean": 0.9183,
+          "std": 0.0003,
+          "formatted": "0.9183 +/- 0.0003"
+        },
+        "emergency_recall_macro": {
+          "values": [
+            0.9659,
+            0.9659,
+            0.9659
+          ],
+          "mean": 0.9659,
+          "std": 0.0,
+          "formatted": "0.9659 +/- 0.0000"
+        },
+        "emergency_recall_exact": {
+          "values": [
+            0.963,
+            0.963,
+            0.963
+          ],
+          "mean": 0.963,
+          "std": 0.0,
+          "formatted": "0.9630 +/- 0.0000"
+        },
+        "emergency_detection_rate": {
+          "values": [
+            0.963,
+            0.9753,
+            0.9753
+          ],
+          "mean": 0.9712,
+          "std": 0.0071,
+          "formatted": "0.9712 +/- 0.0071"
+        },
+        "emergency_precision_macro": {
+          "values": [
+            0.9348,
+            0.9244,
+            0.9244
+          ],
+          "mean": 0.9279,
+          "std": 0.006,
+          "formatted": "0.9279 +/- 0.0060"
+        },
+        "other_recall": {
+          "values": [
+            0.75,
+            0.75,
+            0.75
+          ],
+          "mean": 0.75,
+          "std": 0.0,
+          "formatted": "0.7500 +/- 0.0000"
+        },
+        "false_emergency_rate": {
+          "values": [
+            0.25,
+            0.25,
+            0.25
+          ],
+          "mean": 0.25,
+          "std": 0.0,
+          "formatted": "0.2500 +/- 0.0000"
+        }
+      }
+    }
+  },
+  "conditions": {
+    "e1_baseline": {
+      "display_name": "E1 Baseline",
+      "description": "Original AudioSet baseline training dataset",
+      "runs": {
+        "42": {
+          "accuracy": 0.8952,
+          "macro_precision": 0.9008,
+          "macro_recall": 0.9038,
+          "macro_f1": 0.8995,
+          "emergency_recall_macro": 0.9527,
+          "emergency_recall_exact": 0.9506,
+          "emergency_detection_rate": 0.963,
+          "emergency_precision_macro": 0.9135,
+          "other_recall": 0.7083,
+          "other_precision": 0.85,
+          "false_emergency_rate": 0.2917,
+          "other_support": 24,
+          "other_predicted_as_emerg": 7,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.6957,
+              "recall": 0.8421,
+              "f1_score": 0.7619,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 0.9583,
+              "recall": 1.0,
+              "f1_score": 0.9787,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.85,
+              "recall": 0.7083,
+              "f1_score": 0.7727,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              16,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              17
+            ]
+          ],
+          "seed": 42,
+          "condition": "e1_baseline",
+          "best_epoch": 7,
+          "epochs_completed": 14,
+          "total_training_time_sec": 277.9,
+          "peak_gpu_memory_mb": 1356.97
+        },
+        "123": {
+          "accuracy": 0.8857,
+          "macro_precision": 0.8916,
+          "macro_recall": 0.8955,
+          "macro_f1": 0.8897,
+          "emergency_recall_macro": 0.9527,
+          "emergency_recall_exact": 0.9506,
+          "emergency_detection_rate": 0.963,
+          "emergency_precision_macro": 0.9039,
+          "other_recall": 0.6667,
+          "other_precision": 0.8421,
+          "false_emergency_rate": 0.3333,
+          "other_support": 24,
+          "other_predicted_as_emerg": 8,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.6957,
+              "recall": 0.8421,
+              "f1_score": 0.7619,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 0.92,
+              "recall": 1.0,
+              "f1_score": 0.9583,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.8421,
+              "recall": 0.6667,
+              "f1_score": 0.7442,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              16,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              7,
+              1,
+              0,
+              16
+            ]
+          ],
+          "seed": 123,
+          "condition": "e1_baseline",
+          "best_epoch": 10,
+          "epochs_completed": 17,
+          "total_training_time_sec": 382.49,
+          "peak_gpu_memory_mb": 1358.41
+        },
+        "2026": {
+          "accuracy": 0.8952,
+          "macro_precision": 0.9008,
+          "macro_recall": 0.9038,
+          "macro_f1": 0.8995,
+          "emergency_recall_macro": 0.9527,
+          "emergency_recall_exact": 0.9506,
+          "emergency_detection_rate": 0.963,
+          "emergency_precision_macro": 0.9135,
+          "other_recall": 0.7083,
+          "other_precision": 0.85,
+          "false_emergency_rate": 0.2917,
+          "other_support": 24,
+          "other_predicted_as_emerg": 7,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.6957,
+              "recall": 0.8421,
+              "f1_score": 0.7619,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 0.9583,
+              "recall": 1.0,
+              "f1_score": 0.9787,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.85,
+              "recall": 0.7083,
+              "f1_score": 0.7727,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              16,
+              1,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              17
+            ]
+          ],
+          "seed": 2026,
+          "condition": "e1_baseline",
+          "best_epoch": 11,
+          "epochs_completed": 18,
+          "total_training_time_sec": 527.88,
+          "peak_gpu_memory_mb": 1358.41
+        }
+      }
+    },
+    "e2_matched": {
+      "display_name": "E2 Matched",
+      "description": "422 baseline + 212 targeted hard-negative additions (Seed 42)",
+      "runs": {
+        "42": {
+          "accuracy": 0.8952,
+          "macro_precision": 0.901,
+          "macro_recall": 0.9038,
+          "macro_f1": 0.9003,
+          "emergency_recall_macro": 0.9527,
+          "emergency_recall_exact": 0.9506,
+          "emergency_detection_rate": 0.9506,
+          "emergency_precision_macro": 0.9239,
+          "other_recall": 0.7083,
+          "other_precision": 0.8095,
+          "false_emergency_rate": 0.2917,
+          "other_support": 24,
+          "other_predicted_as_emerg": 7,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.6957,
+              "recall": 0.8421,
+              "f1_score": 0.7619,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.8095,
+              "recall": 0.7083,
+              "f1_score": 0.7556,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              16,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              7,
+              0,
+              0,
+              17
+            ]
+          ],
+          "seed": 42,
+          "condition": "e2_matched",
+          "best_epoch": 7,
+          "epochs_completed": 14,
+          "total_training_time_sec": 340.89,
+          "peak_gpu_memory_mb": 1360.99
+        },
+        "123": {
+          "accuracy": 0.9048,
+          "macro_precision": 0.9091,
+          "macro_recall": 0.9122,
+          "macro_f1": 0.9094,
+          "emergency_recall_macro": 0.9527,
+          "emergency_recall_exact": 0.9506,
+          "emergency_detection_rate": 0.9506,
+          "emergency_precision_macro": 0.9318,
+          "other_recall": 0.75,
+          "other_precision": 0.8182,
+          "false_emergency_rate": 0.25,
+          "other_support": 24,
+          "other_predicted_as_emerg": 6,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.7273,
+              "recall": 0.8421,
+              "f1_score": 0.7805,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.8182,
+              "recall": 0.75,
+              "f1_score": 0.7826,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              16,
+              0,
+              0,
+              3
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              6,
+              0,
+              0,
+              18
+            ]
+          ],
+          "seed": 123,
+          "condition": "e2_matched",
+          "best_epoch": 18,
+          "epochs_completed": 25,
+          "total_training_time_sec": 682.4,
+          "peak_gpu_memory_mb": 1360.99
+        },
+        "2026": {
+          "accuracy": 0.9143,
+          "macro_precision": 0.9193,
+          "macro_recall": 0.9227,
+          "macro_f1": 0.9187,
+          "emergency_recall_macro": 0.9659,
+          "emergency_recall_exact": 0.963,
+          "emergency_detection_rate": 0.963,
+          "emergency_precision_macro": 0.9348,
+          "other_recall": 0.75,
+          "other_precision": 0.8571,
+          "false_emergency_rate": 0.25,
+          "other_support": 24,
+          "other_predicted_as_emerg": 6,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.7391,
+              "recall": 0.8947,
+              "f1_score": 0.8095,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.8571,
+              "recall": 0.75,
+              "f1_score": 0.8,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              17,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              6,
+              0,
+              0,
+              18
+            ]
+          ],
+          "seed": 2026,
+          "condition": "e2_matched",
+          "best_epoch": 14,
+          "epochs_completed": 21,
+          "total_training_time_sec": 629.82,
+          "peak_gpu_memory_mb": 1360.99
+        }
+      }
+    },
+    "e3_general": {
+      "display_name": "E3 General",
+      "description": "422 baseline + 212 general background additions",
+      "runs": {
+        "42": {
+          "accuracy": 0.9143,
+          "macro_precision": 0.9193,
+          "macro_recall": 0.9227,
+          "macro_f1": 0.9187,
+          "emergency_recall_macro": 0.9659,
+          "emergency_recall_exact": 0.963,
+          "emergency_detection_rate": 0.963,
+          "emergency_precision_macro": 0.9348,
+          "other_recall": 0.75,
+          "other_precision": 0.8571,
+          "false_emergency_rate": 0.25,
+          "other_support": 24,
+          "other_predicted_as_emerg": 6,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.7391,
+              "recall": 0.8947,
+              "f1_score": 0.8095,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.8571,
+              "recall": 0.75,
+              "f1_score": 0.8,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              17,
+              0,
+              0,
+              2
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              6,
+              0,
+              0,
+              18
+            ]
+          ],
+          "seed": 42,
+          "condition": "e3_general",
+          "best_epoch": 19,
+          "epochs_completed": 26,
+          "total_training_time_sec": 531.66,
+          "peak_gpu_memory_mb": 1360.99
+        },
+        "123": {
+          "accuracy": 0.9143,
+          "macro_precision": 0.9195,
+          "macro_recall": 0.9227,
+          "macro_f1": 0.9181,
+          "emergency_recall_macro": 0.9659,
+          "emergency_recall_exact": 0.963,
+          "emergency_detection_rate": 0.9753,
+          "emergency_precision_macro": 0.9244,
+          "other_recall": 0.75,
+          "other_precision": 0.9,
+          "false_emergency_rate": 0.25,
+          "other_support": 24,
+          "other_predicted_as_emerg": 6,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.7391,
+              "recall": 0.8947,
+              "f1_score": 0.8095,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 0.9583,
+              "recall": 1.0,
+              "f1_score": 0.9787,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.9,
+              "recall": 0.75,
+              "f1_score": 0.8182,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              17,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              6,
+              0,
+              0,
+              18
+            ]
+          ],
+          "seed": 123,
+          "condition": "e3_general",
+          "best_epoch": 13,
+          "epochs_completed": 20,
+          "total_training_time_sec": 626.64,
+          "peak_gpu_memory_mb": 1360.99
+        },
+        "2026": {
+          "accuracy": 0.9143,
+          "macro_precision": 0.9195,
+          "macro_recall": 0.9227,
+          "macro_f1": 0.9181,
+          "emergency_recall_macro": 0.9659,
+          "emergency_recall_exact": 0.963,
+          "emergency_detection_rate": 0.9753,
+          "emergency_precision_macro": 0.9244,
+          "other_recall": 0.75,
+          "other_precision": 0.9,
+          "false_emergency_rate": 0.25,
+          "other_support": 24,
+          "other_predicted_as_emerg": 6,
+          "per_class": {
+            "scream": {
+              "precision": 1.0,
+              "recall": 1.0,
+              "f1_score": 1.0,
+              "support": 7
+            },
+            "glass_breaking": {
+              "precision": 0.7391,
+              "recall": 0.8947,
+              "f1_score": 0.8095,
+              "support": 19
+            },
+            "gunshot": {
+              "precision": 0.9583,
+              "recall": 1.0,
+              "f1_score": 0.9787,
+              "support": 23
+            },
+            "siren": {
+              "precision": 1.0,
+              "recall": 0.9688,
+              "f1_score": 0.9841,
+              "support": 32
+            },
+            "other": {
+              "precision": 0.9,
+              "recall": 0.75,
+              "f1_score": 0.8182,
+              "support": 24
+            }
+          },
+          "confusion_matrix": [
+            [
+              7,
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              17,
+              1,
+              0,
+              1
+            ],
+            [
+              0,
+              0,
+              23,
+              0,
+              0
+            ],
+            [
+              0,
+              0,
+              0,
+              31,
+              1
+            ],
+            [
+              0,
+              6,
+              0,
+              0,
+              18
+            ]
+          ],
+          "seed": 2026,
+          "condition": "e3_general",
+          "best_epoch": 13,
+          "epochs_completed": 20,
+          "total_training_time_sec": 363.51,
+          "peak_gpu_memory_mb": 1360.99
+        }
+      }
+    }
+  }
+}

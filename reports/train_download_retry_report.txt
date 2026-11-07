@@ -1,0 +1,40 @@
+================================================================================
+  AUDIOSET EMERGENCY TRAINING AUDIO RETRY AUDIT REPORT
+  Generated at: 2026-10-29 21:48:33
+================================================================================
+
+[1] EXECUTIVE SUMMARY
+  Emergency Manifest Rows (Indices 0–564): 565
+  Successfully Downloaded & Valid WAVs  : 407 (72.0%)
+  Missing Segments Queued for Retry     : 158 (28.0%)
+  Catch-all 'other' Rows Excluded       : 175 (Indices 565–739)
+
+[2] EMERGENCY INVENTORY & RETRY GAPS BY TARGET CLASS
+  Class            Manifest Segs  Valid on Disk  Missing / Retry  Yield Rate
+  ------------------------------------------------------------------------
+  scream           59             37             22                 62.7%
+  glass_breaking   116            96             20                 82.8%
+  gunshot          178            115            63                 64.6%
+  siren            212            159            53                 75.0%
+  ------------------------------------------------------------------------
+  TOTAL            565            407            158                72.0%
+
+[3] RETRY PRIORITY BREAKDOWN
+  HIGH Priority   :  14 (Duration mismatches)
+  MEDIUM Priority :  22 (Age-gated / sign-in required)
+  LOW Priority    : 122 (Permanently unavailable, private videos, policy removals)
+
+[4] FAILURE CATEGORY BREAKDOWN
+  - PERMANENT_UNAVAILABLE   :  93 clips
+  - PRIVATE_VIDEO           :  24 clips
+  - AUTH_REQUIRED           :  22 clips
+  - DURATION_MISMATCH       :  14 clips
+  - POLICY_REMOVED          :   5 clips
+
+[5] INTEGRITY VERIFICATION CHECKLIST
+  [x] Index Range: Strictly covers manifest indices 0 to 564.
+  [x] Exclusion: Zero 'other' rows included (indices 565–739 strictly omitted).
+  [x] Completeness: Every emergency segment lacking a local valid WAV is cataloged.
+  [x] Exclusivity: Zero segments with a valid WAV on disk are present in retry list.
+  [x] Cross-Split Leakage: 0 overlap with eval_manifest.csv.
+================================================================================

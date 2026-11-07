@@ -1,0 +1,11 @@
+video_id,sub_domain,audio_set_label,start_seconds,end_seconds,output_path,status,sample_rate,channels,duration_seconds,file_size_bytes,error_message
+ZO5Y6WWLwh8,speech,Speech,0.0,10.0,data/raw/pilot/other_speech_ZO5Y6WWLwh8_0_10.wav,SUCCESS,16000,1,10.0,320078,
+Cr8E6wkiOP4,speech,Speech,30.0,40.0,data/raw/pilot/other_speech_Cr8E6wkiOP4_30_40.wav,SUCCESS,16000,1,10.0,320078,
+OPX9ukYun3o,music,Music,10.0,20.0,data/raw/pilot/other_music_OPX9ukYun3o_10_20.wav,SUCCESS,16000,1,10.0,320078,
+qpwjSTEaswI,music,Music,90.0,100.0,data/raw/pilot/other_music_qpwjSTEaswI_90_100.wav,SUCCESS,16000,1,10.0,320078,
+L52FAJDaa48,animals,"Bird vocalization, bird call, bird song",170.0,180.0,data/raw/pilot/other_animals_L52FAJDaa48_170_180.wav,FAILED,,,,,ERROR: ffmpeg exited with code 3436169992
+OBSce-F-DWc,animals,Bird,230.0,240.0,data/raw/pilot/other_animals_OBSce-F-DWc_230_240.wav,SUCCESS,16000,1,10.0,320078,
+UT05UUIBDDk,household,Door,10.0,20.0,data/raw/pilot/other_household_UT05UUIBDDk_10_20.wav,SUCCESS,16000,1,9.783,313148,
+ayPD5s4uiXM,household,"Dishes, pots, and pans",70.0,80.0,data/raw/pilot/other_household_ayPD5s4uiXM_70_80.wav,SUCCESS,16000,1,10.0,320078,
+OecEaoBtxpw,environmental,Vehicle,350.0,360.0,data/raw/pilot/other_environmental_OecEaoBtxpw_350_360.wav,SUCCESS,16000,1,10.0,320078,
+NWjZK1EFZBc,environmental,Wind,30.0,40.0,data/raw/pilot/other_environmental_NWjZK1EFZBc_30_40.wav,SUCCESS,16000,1,10.0,320078,

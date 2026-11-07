@@ -1,0 +1,101 @@
+{
+  "audit_timestamp": "2026-10-30T14:30:49.486520",
+  "manifest_path": "data\\processed\\targeted_expansion_candidates.csv",
+  "decision": "GO",
+  "candidate_counts": {
+    "total_manifest_rows": 672,
+    "primary_p1_count": 435,
+    "backup_p2_count": 180,
+    "review_p2_count": 30,
+    "review_p3_count": 27,
+    "total_backup_and_review": 237
+  },
+  "quota_compliance": {
+    "scream": {
+      "quota": 110,
+      "actual": 110,
+      "status": "PASS"
+    },
+    "glass_breaking": {
+      "quota": 85,
+      "actual": 85,
+      "status": "PASS"
+    },
+    "other": {
+      "quota": 240,
+      "actual": 240,
+      "status": "PASS",
+      "subdomains": {
+        "metal_impacts": {
+          "quota": 45,
+          "primary_selected": 45,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "human_shouting": {
+          "quota": 45,
+          "primary_selected": 45,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "door_slams": {
+          "quota": 35,
+          "primary_selected": 35,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "car_alarms_detectors": {
+          "quota": 35,
+          "primary_selected": 35,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "fireworks_firecrackers": {
+          "quota": 30,
+          "primary_selected": 30,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "construction_tools": {
+          "quota": 30,
+          "primary_selected": 30,
+          "delta": 0,
+          "status": "PASS"
+        },
+        "whistles_high_pitch": {
+          "quota": 20,
+          "primary_selected": 20,
+          "delta": 0,
+          "status": "PASS"
+        }
+      }
+    }
+  },
+  "integrity_checks": {
+    "unique_video_ids_p1": true,
+    "unique_video_ids_all": true,
+    "forbidden_vids_audited": 42531,
+    "leakage_count_p1": 0,
+    "leakage_count_all": 0,
+    "non_emergency_purity_other": true,
+    "valid_timestamps": true,
+    "valid_video_id_format": true
+  },
+  "downloader_compatibility": {
+    "downloader_script": "src/batch_downloader.py",
+    "custom_manifest_support": true,
+    "priority_filter_support": true,
+    "isolated_output_dir_support": true,
+    "dry_run_executed": true,
+    "dry_run_queued": 435,
+    "dry_run_skipped": 435,
+    "dry_run_downloaded": 0,
+    "dry_run_overwritten": 0,
+    "pilot_audio_reused": 0
+  },
+  "blockers": [],
+  "warnings": [
+    "15 of 435 P1 clips (3.4%) originate from short YouTube videos (duration < 10.0s, between 3.0s and 9.0s), matching standard AudioSet ontology behavior. AudioSetDataset automatically handles them via constant zero-padding."
+  ],
+  "recommendation": "GO - The manifest and downloader are fully verified and ready for execution."
+}

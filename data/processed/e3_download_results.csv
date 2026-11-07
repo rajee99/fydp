@@ -1,0 +1,225 @@
+video_id,start_seconds,end_seconds,target_class,subdomain,matched_label,audio_set_mid,output_path,status,sample_rate,channels,duration_seconds,file_size_bytes,error_message,attempts,timestamp
+-0DdlOuIFUI,50.0,60.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_-0DdlOuIFUI_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:40:30
+-QoZQDW4qjU,30.0,40.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_-QoZQDW4qjU_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -QoZQDW4qjU: Private video,1,2026-10-30 20:40:32
+-dUX-8UM_jo,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_-dUX-8UM_jo_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -dUX-8UM_jo: This video is unavailable,1,2026-10-30 20:40:34
+-efgThyiXWI,25.0,35.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_-efgThyiXWI_25_35.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 20:40:38
+-wfRMEaJkRk,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_-wfRMEaJkRk_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] -wfRMEaJkRk: This video is unavailable,1,2026-10-30 20:40:40
+0-DkUF7TnnI,60.0,70.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_0-DkUF7TnnI_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:40:45
+0UiTDRQBGcM,15.0,25.0,other,household,Door,/m/02dgv,data/raw/e3_general_background/other/other_0UiTDRQBGcM_15_25.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 20:40:48
+0_utuoBWKmo,17.0,27.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_0_utuoBWKmo_17_27.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 0_utuoBWKmo: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 20:40:51
+0fSgvtg_OhU,30.0,40.0,other,environmental,Stream,/m/0j6m2,data/raw/e3_general_background/other/other_0fSgvtg_OhU_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:40:55
+0m72FCNQQEI,40.0,50.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_0m72FCNQQEI_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:40:59
+0q-80dzp6PU,60.0,70.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_0q-80dzp6PU_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:03
+10mtAupS0I4,0.0,10.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_10mtAupS0I4_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:07
+18booxzbgjQ,70.0,80.0,other,environmental,Stream,/m/0j6m2,data/raw/e3_general_background/other/other_18booxzbgjQ_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:11
+1I7RdheghGs,360.0,370.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_1I7RdheghGs_360_370.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:15
+1Is1xfDjZrw,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_1Is1xfDjZrw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:19
+1_PQvsAw110,70.0,80.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_1_PQvsAw110_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:23
+1lBl4WXrFxE,30.0,40.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_1lBl4WXrFxE_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:28
+1n10YoQuAvw,140.0,150.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_1n10YoQuAvw_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:35
+1nZfKi2bxjg,210.0,220.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_1nZfKi2bxjg_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:39
+2BTD4IYcanQ,10.0,20.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_2BTD4IYcanQ_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:43
+2Cu_AdrrMks,30.0,40.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_2Cu_AdrrMks_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:48
+2PXcJCAVf38,30.0,40.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_2PXcJCAVf38_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:52
+2hBVVym00rc,30.0,40.0,other,speech,Conversation,/m/01h8n0,data/raw/e3_general_background/other/other_2hBVVym00rc_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 2hBVVym00rc: This video is not available,1,2026-10-30 20:41:55
+2yvAkx620Vo,250.0,260.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_2yvAkx620Vo_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:41:59
+3HaqTs1_Exg,30.0,40.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_3HaqTs1_Exg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:04
+3RKZM0WIRbk,0.0,10.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_3RKZM0WIRbk_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:07
+3YGB2o-lw6w,30.0,40.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_3YGB2o-lw6w_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:12
+3jC7ITn9tuU,470.0,480.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_3jC7ITn9tuU_470_480.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:16
+4eGybVgxNFk,350.0,360.0,other,household,"Dishes, pots, and pans",/m/04brg2,data/raw/e3_general_background/other/other_4eGybVgxNFk_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:21
+5DNl3DX4rr0,520.0,530.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_5DNl3DX4rr0_520_530.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:26
+5GI9PTo6iCI,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_5GI9PTo6iCI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:30
+5JPq68Fdqv0,0.0,10.0,other,music,Singing,/m/015lz1,data/raw/e3_general_background/other/other_5JPq68Fdqv0_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:33
+5P3aq2BJYa0,480.0,490.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_5P3aq2BJYa0_480_490.wav,SUCCESS,16000,1,10.0,320080,,1,2026-10-30 20:42:38
+5_QE-a9jmK4,60.0,70.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_5_QE-a9jmK4_60_70.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 5_QE-a9jmK4: Private video,1,2026-10-30 20:42:41
+5m2gMM1rt70,190.0,200.0,other,household,"Dishes, pots, and pans",/m/04brg2,data/raw/e3_general_background/other/other_5m2gMM1rt70_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 5m2gMM1rt70: Private video,1,2026-10-30 20:42:43
+5tOj-p8ANmM,0.0,10.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_5tOj-p8ANmM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:47
+5xrNiczwEQw,320.0,330.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_5xrNiczwEQw_320_330.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 5xrNiczwEQw: This video has been removed for violating YouTube's Community Guidelines,1,2026-10-30 20:42:49
+606_Owd6dHs,30.0,40.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_606_Owd6dHs_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 606_Owd6dHs: This video is not available,1,2026-10-30 20:42:51
+6MDGO4wqvPM,40.0,50.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_6MDGO4wqvPM_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:42:56
+6Sx8lqm2Lw0,20.0,30.0,other,music,Singing,/m/015lz1,data/raw/e3_general_background/other/other_6Sx8lqm2Lw0_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:00
+6de_mfVMVik,50.0,60.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_6de_mfVMVik_50_60.wav,SUCCESS,16000,1,9.56,306004,,1,2026-10-30 20:43:04
+6iBDxl3110Q,0.0,10.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_6iBDxl3110Q_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:09
+6yyToq9cW9A,60.0,70.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_6yyToq9cW9A_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:14
+6zsk7B4jgxk,140.0,150.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_6zsk7B4jgxk_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:18
+7FZjiXldgrc,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_7FZjiXldgrc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:22
+7RaP0v6zRcM,150.0,160.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_7RaP0v6zRcM_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:26
+7bvl9662aVc,90.0,100.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_7bvl9662aVc_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:31
+7cw7rDLcujI,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_7cw7rDLcujI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:36
+8MX03zX_ubE,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_8MX03zX_ubE_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8MX03zX_ubE: Video unavailable,1,2026-10-30 20:43:38
+8Ti-qa2gvoc,29.0,39.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_8Ti-qa2gvoc_29_39.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 20:43:41
+8iy3RjnVats,60.0,70.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_8iy3RjnVats_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:45
+8kGi5lkxZWc,90.0,100.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_8kGi5lkxZWc_90_100.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] 8kGi5lkxZWc: This video is unavailable,1,2026-10-30 20:43:47
+8sBAZm6SPQM,30.0,40.0,other,household,Door,/m/02dgv,data/raw/e3_general_background/other/other_8sBAZm6SPQM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:51
+9KD9_wsWudk,70.0,80.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_9KD9_wsWudk_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:55
+9MvouDWFXwk,590.0,600.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_9MvouDWFXwk_590_600.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:43:59
+9VUjBq2Mt-U,0.0,10.0,other,traffic,Motorcycle,/m/04_sv,data/raw/e3_general_background/other/other_9VUjBq2Mt-U_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:03
+9b0eMAf1rXo,300.0,310.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_9b0eMAf1rXo_300_310.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:07
+9rwfy8B5EB8,280.0,290.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_9rwfy8B5EB8_280_290.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:11
+AGHHdzjFNGI,340.0,350.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_AGHHdzjFNGI_340_350.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:14
+ARXXXMoqKig,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_ARXXXMoqKig_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:19
+B4l-0zH00nI,110.0,120.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_B4l-0zH00nI_110_120.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:23
+BJiPVGwmnU8,130.0,140.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_BJiPVGwmnU8_130_140.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] BJiPVGwmnU8: This video is not available,1,2026-10-30 20:44:26
+BiMI6fs8S6w,250.0,260.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_BiMI6fs8S6w_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:30
+BjeQlVr9KnM,90.0,100.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_BjeQlVr9KnM_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:35
+C-maOauMFZU,1.0,11.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_C-maOauMFZU_1_11.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] C-maOauMFZU: This video has been removed for violating YouTube's Terms of Service,1,2026-10-30 20:44:37
+CE8hMDPAJBk,80.0,90.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_CE8hMDPAJBk_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:41
+CEo4XP3Mb3M,24.0,34.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_CEo4XP3Mb3M_24_34.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] CEo4XP3Mb3M: This video is not available,1,2026-10-30 20:44:44
+CFLiUsZvjqw,30.0,40.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_CFLiUsZvjqw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:49
+CKO35LsM0XI,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_CKO35LsM0XI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:53
+CSfJWw9cM2s,100.0,110.0,other,environmental,Wind,/m/03m9d0z,data/raw/e3_general_background/other/other_CSfJWw9cM2s_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:44:58
+CgNKbp-L0Jk,0.0,10.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_CgNKbp-L0Jk_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:02
+DOtBB70Jgu4,60.0,70.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_DOtBB70Jgu4_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:06
+DUsgjCMYyxQ,30.0,40.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_DUsgjCMYyxQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:10
+E9MhfMjq6FI,90.0,100.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_E9MhfMjq6FI_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:14
+ECHU5LSEcw8,30.0,40.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_ECHU5LSEcw8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:19
+EGkAJINaFTk,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_EGkAJINaFTk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:23
+EQlvSJUawq8,29.0,39.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_EQlvSJUawq8_29_39.wav,SUCCESS,16000,1,9.511,304440,,1,2026-10-30 20:45:27
+FSm6Z98ALhw,350.0,360.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_FSm6Z98ALhw_350_360.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] FSm6Z98ALhw: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 20:45:30
+FpHpJJx5dt8,460.0,470.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_FpHpJJx5dt8_460_470.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:45
+Fx69-o3Vc-U,40.0,50.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_Fx69-o3Vc-U_40_50.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Fx69-o3Vc-U: Private video,1,2026-10-30 20:45:47
+Ga3wIYssNC8,20.0,30.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_Ga3wIYssNC8_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:51
+GamZltmhYuc,60.0,70.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_GamZltmhYuc_60_70.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:45:55
+GpEaVnWGeDg,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_GpEaVnWGeDg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] GpEaVnWGeDg: Video unavailable,1,2026-10-30 20:45:57
+Gt50mgYkDH0,100.0,110.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_Gt50mgYkDH0_100_110.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Gt50mgYkDH0: Video unavailable,1,2026-10-30 20:45:58
+Gx0OZaaeI6I,30.0,40.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_Gx0OZaaeI6I_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Gx0OZaaeI6I: This video is unavailable,1,2026-10-30 20:46:00
+H2w1DwepGx8,50.0,60.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_H2w1DwepGx8_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] H2w1DwepGx8: Private video,1,2026-10-30 20:46:02
+HAKA7KlwvmQ,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_HAKA7KlwvmQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:06
+H_Bcux0FRxM,30.0,40.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_H_Bcux0FRxM_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:11
+Ha1kgyD4HHI,0.0,10.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_Ha1kgyD4HHI_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:14
+HpWM0fc809Q,370.0,380.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_HpWM0fc809Q_370_380.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:18
+HwANigT-NEc,150.0,160.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_HwANigT-NEc_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:22
+IjhoBozb71k,0.0,10.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_IjhoBozb71k_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:25
+IlSUPclTdmg,210.0,220.0,other,household,Door,/m/02dgv,data/raw/e3_general_background/other/other_IlSUPclTdmg_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:29
+J33agHBxiTw,10.0,20.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_J33agHBxiTw_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:33
+JlqghQcIFfo,10.0,20.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_JlqghQcIFfo_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:37
+JtYFCtHTR18,220.0,230.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_JtYFCtHTR18_220_230.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:41
+Jz3aX3q3_is,80.0,90.0,other,household,Knock,/m/07r4wb8,data/raw/e3_general_background/other/other_Jz3aX3q3_is_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:46
+KJr8C2mY8u4,10.0,20.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_KJr8C2mY8u4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:50
+KMlfqvm-HFc,100.0,110.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_KMlfqvm-HFc_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:54
+KjT-QlB9fqg,250.0,260.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_KjT-QlB9fqg_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:46:59
+KnvLCqcDJw8,70.0,80.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_KnvLCqcDJw8_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:03
+L1kMJIKSEQc,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_L1kMJIKSEQc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:17
+LLOblSCR4Vs,10.0,20.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_LLOblSCR4Vs_10_20.wav,SUCCESS,16000,1,9.448,302406,,1,2026-10-30 20:47:20
+LgIgZL0dQxU,190.0,200.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_LgIgZL0dQxU_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] LgIgZL0dQxU: Private video,1,2026-10-30 20:47:22
+Ll9aZkJBLKc,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_Ll9aZkJBLKc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:26
+MIV0-6O-dLM,10.0,20.0,other,animals,"Bird vocalization, bird call, bird song",/m/020bb7,data/raw/e3_general_background/other/other_MIV0-6O-dLM_10_20.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] MIV0-6O-dLM: Private video,1,2026-10-30 20:47:28
+MdkxyB4R01c,90.0,100.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_MdkxyB4R01c_90_100.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:38
+N3I0bQOafN8,30.0,40.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_N3I0bQOafN8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:43
+NNUSApjfel8,350.0,360.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_NNUSApjfel8_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:46
+NnYfF7E12dk,190.0,200.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_NnYfF7E12dk_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:50
+O7SINEL58Ms,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_O7SINEL58Ms_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:54
+OHAlKNgoEiA,320.0,330.0,other,household,"Cutlery, silverware",/m/023pjk,data/raw/e3_general_background/other/other_OHAlKNgoEiA_320_330.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:47:58
+OMo7qvmsMu4,14.0,24.0,other,environmental,Wind,/m/03m9d0z,data/raw/e3_general_background/other/other_OMo7qvmsMu4_14_24.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:03
+OX5NXg4JMVs,10.0,20.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_OX5NXg4JMVs_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:07
+Ov0B-VnHu8c,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_Ov0B-VnHu8c_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:11
+PF84q5hweIg,270.0,280.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_PF84q5hweIg_270_280.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:16
+PrcZfyxcmwo,30.0,40.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_PrcZfyxcmwo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:20
+RKsto2FmBzM,50.0,60.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_RKsto2FmBzM_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:26
+RLQsZ62arAo,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_RLQsZ62arAo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:31
+RlcIJsgtU58,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_RlcIJsgtU58_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:35
+RmC3PV7x-ok,20.0,30.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_RmC3PV7x-ok_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:39
+StfGRdqiPxQ,80.0,90.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_StfGRdqiPxQ_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:53
+T-2QqkJi2Ec,180.0,190.0,other,music,Singing,/m/015lz1,data/raw/e3_general_background/other/other_T-2QqkJi2Ec_180_190.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:48:57
+TAgahC6ZeWM,290.0,300.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_TAgahC6ZeWM_290_300.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:02
+TZLnnULCTQQ,40.0,50.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_TZLnnULCTQQ_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:06
+TcMhxCxiKzU,310.0,320.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_TcMhxCxiKzU_310_320.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:10
+Tw-Zwd19wFI,0.0,4.0,other,household,Knock,/m/07r4wb8,data/raw/e3_general_background/other/other_Tw-Zwd19wFI_0_4.wav,VALIDATION_FAILED,,,,,Duration 3.00s deviates from expected 4.00s,1,2026-10-30 20:49:14
+U8LvZzg_ruc,210.0,220.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_U8LvZzg_ruc_210_220.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:18
+UWK7tH9GNSg,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_UWK7tH9GNSg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:25
+UXuLI7GBR8g,500.0,510.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_UXuLI7GBR8g_500_510.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:32
+UqeLmHmoBR0,19.0,29.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_UqeLmHmoBR0_19_29.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:37
+VEELbpPSTzA,0.0,10.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_VEELbpPSTzA_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:41
+VFxUtvYFRJg,30.0,40.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other_VFxUtvYFRJg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:46
+VJ535BuTdFM,0.0,10.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_VJ535BuTdFM_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:49
+Ve-RFG6nSsc,140.0,150.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_Ve-RFG6nSsc_140_150.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:53
+VrJgl3oF4YQ,130.0,140.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_VrJgl3oF4YQ_130_140.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:49:58
+Vvd_DY9Bjhw,140.0,150.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_Vvd_DY9Bjhw_140_150.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Vvd_DY9Bjhw: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 20:50:02
+WNmAlKrAPjQ,240.0,250.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_WNmAlKrAPjQ_240_250.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:05
+XKi2-b3YrWY,310.0,320.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_XKi2-b3YrWY_310_320.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:20
+Xyf_kzNG-iA,350.0,360.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_Xyf_kzNG-iA_350_360.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:24
+YIJBuXUi64U,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_YIJBuXUi64U_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] YIJBuXUi64U: Private video,1,2026-10-30 20:50:26
+Ym1xUHvG5Pc,50.0,60.0,other,household,Knock,/m/07r4wb8,data/raw/e3_general_background/other/other_Ym1xUHvG5Pc_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Ym1xUHvG5Pc: This video is not available,1,2026-10-30 20:50:29
+YtxP3yYuNPw,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_YtxP3yYuNPw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:33
+Yxdd4q90B0E,20.0,30.0,other,environmental,"Waves, surf",/m/034srq,data/raw/e3_general_background/other/other_Yxdd4q90B0E_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:37
+ZE31tSch9Lk,380.0,390.0,other,household,"Cutlery, silverware",/m/023pjk,data/raw/e3_general_background/other/other_ZE31tSch9Lk_380_390.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:53
+Za6RuIev_gg,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_Za6RuIev_gg_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] Za6RuIev_gg: This video is unavailable,1,2026-10-30 20:50:55
+_Rpn2FUAUgY,20.0,30.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other__Rpn2FUAUgY_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:50:59
+_ZLNh4X6uEw,30.0,40.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other__ZLNh4X6uEw_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:03
+_aTI-fEpD9Y,50.0,60.0,other,animals,Cat,/m/01yrx,data/raw/e3_general_background/other/other__aTI-fEpD9Y_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:08
+_eK3QgA_fo8,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other__eK3QgA_fo8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:12
+a1sIgQTCapM,0.0,10.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_a1sIgQTCapM_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] a1sIgQTCapM: This video is unavailable,1,2026-10-30 20:51:14
+aF8202ZbqVc,300.0,310.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_aF8202ZbqVc_300_310.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] aF8202ZbqVc: Video unavailable,1,2026-10-30 20:51:16
+afkfqCzgSzc,220.0,230.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_afkfqCzgSzc_220_230.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:22
+aqozZzRbHVg,0.0,10.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_aqozZzRbHVg_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:27
+bW_PMIAIHBE,40.0,50.0,other,environmental,Ocean,/m/05kq4,data/raw/e3_general_background/other/other_bW_PMIAIHBE_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:30
+bX9WV-IwkIk,470.0,480.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_bX9WV-IwkIk_470_480.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:35
+bqPkbvp8PK4,260.0,270.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_bqPkbvp8PK4_260_270.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:44
+bqbv_jZjuTM,50.0,60.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_bqbv_jZjuTM_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:48
+cNUUxbweblU,180.0,190.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_cNUUxbweblU_180_190.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] cNUUxbweblU: This video is unavailable,1,2026-10-30 20:51:50
+cYaeqUR39VQ,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_cYaeqUR39VQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:51:53
+dP1p1Yl63CI,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_dP1p1Yl63CI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:00
+dWOiYGb7ijg,500.0,510.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_dWOiYGb7ijg_500_510.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] dWOiYGb7ijg: Video unavailable,1,2026-10-30 20:52:02
+dzdSgKzQ0k8,30.0,40.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_dzdSgKzQ0k8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:16
+e0-cZH4OxC8,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_e0-cZH4OxC8_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:20
+e7qp3srbsps,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_e7qp3srbsps_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] e7qp3srbsps: Video unavailable,1,2026-10-30 20:52:22
+e85fHDAjlEA,0.0,10.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_e85fHDAjlEA_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:26
+fLcfd_-j0tA,70.0,80.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_fLcfd_-j0tA_70_80.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] fLcfd_-j0tA: This video is unavailable,1,2026-10-30 20:52:28
+fQK3MzMrkMQ,40.0,50.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_fQK3MzMrkMQ_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:32
+fm4gsZibPs0,80.0,90.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_fm4gsZibPs0_80_90.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] fm4gsZibPs0: This video is unavailable,1,2026-10-30 20:52:34
+fnUAeKbm14o,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_fnUAeKbm14o_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:39
+frNeSUlR8ZI,9.0,19.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_frNeSUlR8ZI_9_19.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:42
+fw7Y8n_0sYg,70.0,80.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_fw7Y8n_0sYg_70_80.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:46
+gMIfvgLZVwg,170.0,180.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_gMIfvgLZVwg_170_180.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:51
+gSH1W5Aky_k,120.0,130.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_gSH1W5Aky_k_120_130.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] gSH1W5Aky_k: Video unavailable,1,2026-10-30 20:52:52
+gubPviSUToo,20.0,30.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_gubPviSUToo_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:52:56
+h2EILZyumK0,0.0,5.0,other,household,Door,/m/02dgv,data/raw/e3_general_background/other/other_h2EILZyumK0_0_5.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] h2EILZyumK0: This video is unavailable,1,2026-10-30 20:52:58
+h6voPlJG0m0,500.0,510.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_h6voPlJG0m0_500_510.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:03
+h94gKeoWBSo,160.0,170.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_h94gKeoWBSo_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:06
+hJYU3nBSyFo,10.0,20.0,other,traffic,Car,/m/0k4j,data/raw/e3_general_background/other/other_hJYU3nBSyFo_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:11
+hNGGQVVLXpA,0.0,10.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_hNGGQVVLXpA_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:15
+i1hBIamABDQ,510.0,520.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_i1hBIamABDQ_510_520.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] i1hBIamABDQ: This video is not available,1,2026-10-30 20:53:17
+iKXpg0lgTVs,190.0,200.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_iKXpg0lgTVs_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] iKXpg0lgTVs: This video is not available,1,2026-10-30 20:53:20
+ie2xo6AYzMc,250.0,260.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_ie2xo6AYzMc_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:26
+jJ8Tpm1E33A,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_jJ8Tpm1E33A_30_40.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] jJ8Tpm1E33A: Private video,1,2026-10-30 20:53:28
+k7SgT11PwXo,20.0,30.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_k7SgT11PwXo_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:32
+k8qNBYDgHBA,190.0,200.0,other,animals,Bark,/m/05tny_,data/raw/e3_general_background/other/other_k8qNBYDgHBA_190_200.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:36
+kSu1zqB4Ttc,30.0,40.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_kSu1zqB4Ttc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:39
+kYrJadZmjm0,50.0,60.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_kYrJadZmjm0_50_60.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:55
+kiLbBNgiNMA,0.0,10.0,other,household,Clock,/m/01x3z,data/raw/e3_general_background/other/other_kiLbBNgiNMA_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:53:59
+lXrypwLQO3U,100.0,110.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_lXrypwLQO3U_100_110.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:03
+lm_K_5nwhCk,440.0,450.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_lm_K_5nwhCk_440_450.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:07
+mKygFOtbUDI,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_mKygFOtbUDI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:12
+mX45CiTjf8I,30.0,40.0,other,traffic,Motorcycle,/m/04_sv,data/raw/e3_general_background/other/other_mX45CiTjf8I_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:16
+mjCjss_Ot9g,160.0,170.0,other,household,Cupboard open or close,/m/0642b4,data/raw/e3_general_background/other/other_mjCjss_Ot9g_160_170.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:29
+mmFy-IgqOY8,40.0,50.0,other,environmental,"Waves, surf",/m/034srq,data/raw/e3_general_background/other/other_mmFy-IgqOY8_40_50.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:33
+nBEz-wfq8Ew,0.0,10.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_nBEz-wfq8Ew_0_10.wav,SUCCESS,16000,1,9.509,304352,,1,2026-10-30 20:54:38
+nFA1TD9ySXU,0.0,10.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_nFA1TD9ySXU_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:42
+oS9d51NeUWU,570.0,580.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_oS9d51NeUWU_570_580.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:48
+oxhFIoExrMk,30.0,40.0,other,music,Singing,/m/015lz1,data/raw/e3_general_background/other/other_oxhFIoExrMk_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:52
+phcb_32Cmbo,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_phcb_32Cmbo_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:54:56
+q1SEXCVrPcc,250.0,260.0,other,animals,Bird,/m/015p6,data/raw/e3_general_background/other/other_q1SEXCVrPcc_250_260.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:00
+q31kgMmfjTY,190.0,200.0,other,household,"Water tap, faucet",/m/02jz0l,data/raw/e3_general_background/other/other_q31kgMmfjTY_190_200.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] q31kgMmfjTY: This video is unavailable,1,2026-10-30 20:55:02
+r5kMQR8qbcQ,30.0,40.0,other,environmental,Wind,/m/03m9d0z,data/raw/e3_general_background/other/other_r5kMQR8qbcQ_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:06
+rad-iM5Ssbo,0.0,10.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_rad-iM5Ssbo_0_10.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] rad-iM5Ssbo: Private video,1,2026-10-30 20:55:09
+rs8K9PYWac4,330.0,340.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_rs8K9PYWac4_330_340.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:17
+s2oTwxnpiyQ,20.0,30.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_s2oTwxnpiyQ_20_30.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:21
+sVpj-evVHxs,150.0,160.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_sVpj-evVHxs_150_160.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:26
+sbhutZrQVrI,30.0,40.0,other,traffic,Motorcycle,/m/04_sv,data/raw/e3_general_background/other/other_sbhutZrQVrI_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:30
+sorRkcFRl3w,150.0,160.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_sorRkcFRl3w_150_160.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] sorRkcFRl3w: This video is unavailable,1,2026-10-30 20:55:32
+t8YAoflTglc,50.0,60.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_t8YAoflTglc_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] t8YAoflTglc: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,1,2026-10-30 20:55:34
+tNz5aSnvXjU,28.0,38.0,other,animals,Dog,/m/0bt9lr,data/raw/e3_general_background/other/other_tNz5aSnvXjU_28_38.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:38
+tPGV-DfTe2g,120.0,130.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_tPGV-DfTe2g_120_130.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:46
+tY0blkKvjPg,30.0,40.0,other,environmental,Rain,/m/06mb1,data/raw/e3_general_background/other/other_tY0blkKvjPg_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:51
+tZdlTmEuf5M,80.0,90.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_tZdlTmEuf5M_80_90.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:55:56
+u3jPL1N-0h4,230.0,240.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_u3jPL1N-0h4_230_240.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] u3jPL1N-0h4: This video is unavailable,1,2026-10-30 20:55:58
+uXFPcaIDdN0,0.0,10.0,other,traffic,Motorcycle,/m/04_sv,data/raw/e3_general_background/other/other_uXFPcaIDdN0_0_10.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:02
+u_KvEmvnBgc,30.0,40.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_u_KvEmvnBgc_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:06
+vCGSQaYp1AM,50.0,60.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_vCGSQaYp1AM_50_60.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] vCGSQaYp1AM: Video unavailable,1,2026-10-30 20:56:08
+vqVsEaMWYJQ,360.0,370.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_vqVsEaMWYJQ_360_370.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:12
+wJMuPzLT0cs,30.0,40.0,other,environmental,Water,/m/0838f,data/raw/e3_general_background/other/other_wJMuPzLT0cs_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:17
+ylaJ6AqoTR4,10.0,20.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_ylaJ6AqoTR4_10_20.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:21
+zlVvYUGTu94,6.0,16.0,other,speech,Speech,/m/09x0r,data/raw/e3_general_background/other/other_zlVvYUGTu94_6_16.wav,VALIDATION_FAILED,,,,,Duration 9.00s deviates from expected 10.00s,1,2026-10-30 20:56:25
+zxxjPPEujvU,3.0,13.0,other,music,Music,/m/04rlf,data/raw/e3_general_background/other/other_zxxjPPEujvU_3_13.wav,FAILED,,,,,PERMANENT: ERROR: [youtube] zxxjPPEujvU: This video is unavailable,1,2026-10-30 20:56:27
+zz0ddNfz0h0,30.0,40.0,other,traffic,Vehicle,/m/07yv9,data/raw/e3_general_background/other/other_zz0ddNfz0h0_30_40.wav,SUCCESS,16000,1,10.0,320078,,1,2026-10-30 20:56:31

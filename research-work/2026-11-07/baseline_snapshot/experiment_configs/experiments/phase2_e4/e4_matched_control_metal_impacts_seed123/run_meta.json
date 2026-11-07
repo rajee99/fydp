@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-11-02T19:06:58.892769",
+  "run_name": "e4_matched_control_metal_impacts_seed123",
+  "condition_key": "e4_matched_control_metal_impacts",
+  "display_name": "E4 Matched Control Metal Impacts",
+  "type": "matched_size_control",
+  "target_subdomain": "metal_impacts",
+  "seed": 123,
+  "train_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\e4_ablations\\e4_matched_control_metal_impacts_train.csv",
+  "train_manifest_sha256": "6c4ed680fe18dde675deb8fa1169bf4026a8426b3d799ce8c0009e62dcc27ef2",
+  "train_samples": 606,
+  "val_manifest": "D:\\ml\\fydp\\MyNet\\data\\processed\\shared_val_split_manifest.csv",
+  "val_manifest_sha256": "38569ae45dde50bfc4971544a3df87beb01f9a292a88c5c8a8a37c7c2d24a6bf",
+  "hyperparameters": {
+    "model_name": "panns_cnn14",
+    "pretrained_path": "D:\\ml\\fydp\\MyNet\\models\\pretrained\\Cnn14_16k_mAP=0.438.pth",
+    "freeze_backbone": true,
+    "epochs": 30,
+    "batch_size": 16,
+    "lr": 0.001,
+    "weight_decay": 0.0001,
+    "optimizer": "adam",
+    "patience": 7,
+    "early_stopping_metric": "macro_f1"
+  },
+  "command_line": "scripts/run_phase2_experiments.py"
+}

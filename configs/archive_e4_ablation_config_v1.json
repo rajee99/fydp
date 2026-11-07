@@ -1,0 +1,91 @@
+{
+  "description": "E4 Hard-Negative Subdomain Leave-One-Out Ablation Configuration",
+  "baseline_samples": 527,
+  "full_targeted_e2_samples": 751,
+  "experiments": {
+    "e4_minus_human_shouting": {
+      "excluded_subdomain": "human_shouting",
+      "research_hypothesis": "Scream false alarm reduction (shouting/yelling)",
+      "train_samples": 565,
+      "val_samples": 142,
+      "total_samples": 707,
+      "excluded_samples": 44,
+      "excluded_train": 35,
+      "excluded_val": 9,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_human_shouting_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_human_shouting_val.csv"
+    },
+    "e4_minus_metal_impacts": {
+      "excluded_subdomain": "metal_impacts",
+      "research_hypothesis": "Gunshot and glass shattering false alarm reduction (metal clangs/pans)",
+      "train_samples": 568,
+      "val_samples": 143,
+      "total_samples": 711,
+      "excluded_samples": 40,
+      "excluded_train": 32,
+      "excluded_val": 8,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_metal_impacts_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_metal_impacts_val.csv"
+    },
+    "e4_minus_door_slams": {
+      "excluded_subdomain": "door_slams",
+      "research_hypothesis": "Gunshot false alarm reduction (sudden impulsive door slams)",
+      "train_samples": 574,
+      "val_samples": 144,
+      "total_samples": 718,
+      "excluded_samples": 33,
+      "excluded_train": 26,
+      "excluded_val": 7,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_door_slams_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_door_slams_val.csv"
+    },
+    "e4_minus_construction_tools": {
+      "excluded_subdomain": "construction_tools",
+      "research_hypothesis": "Broad mechanical/industrial false alarm reduction (jackhammers, drilling)",
+      "train_samples": 576,
+      "val_samples": 145,
+      "total_samples": 721,
+      "excluded_samples": 30,
+      "excluded_train": 24,
+      "excluded_val": 6,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_construction_tools_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_construction_tools_val.csv"
+    },
+    "e4_minus_car_alarms_detectors": {
+      "excluded_subdomain": "car_alarms_detectors",
+      "research_hypothesis": "Siren false alarm reduction (pulsed electronic alarms)",
+      "train_samples": 577,
+      "val_samples": 145,
+      "total_samples": 722,
+      "excluded_samples": 29,
+      "excluded_train": 23,
+      "excluded_val": 6,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_car_alarms_detectors_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_car_alarms_detectors_val.csv"
+    },
+    "e4_minus_fireworks_firecrackers": {
+      "excluded_subdomain": "fireworks_firecrackers",
+      "research_hypothesis": "Gunshot false alarm reduction (explosive percussive bursts)",
+      "train_samples": 578,
+      "val_samples": 145,
+      "total_samples": 723,
+      "excluded_samples": 28,
+      "excluded_train": 22,
+      "excluded_val": 6,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_fireworks_firecrackers_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_fireworks_firecrackers_val.csv"
+    },
+    "e4_minus_whistles_high_pitch": {
+      "excluded_subdomain": "whistles_high_pitch",
+      "research_hypothesis": "Siren and scream false alarm reduction (high frequency resonant tones)",
+      "train_samples": 585,
+      "val_samples": 147,
+      "total_samples": 732,
+      "excluded_samples": 19,
+      "excluded_train": 15,
+      "excluded_val": 4,
+      "train_manifest": "data/processed/e4_ablations/e4_minus_whistles_high_pitch_train.csv",
+      "val_manifest": "data/processed/e4_ablations/e4_minus_whistles_high_pitch_val.csv"
+    }
+  }
+}

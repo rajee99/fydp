@@ -1,0 +1,958 @@
+{
+  "best_epoch": 15,
+  "early_stopping_metric": "macro_f1",
+  "best_val_loss": 0.2934,
+  "best_val_accuracy": 0.9143,
+  "best_val_macro_f1": 0.9187,
+  "total_training_time_sec": 143.99,
+  "peak_gpu_memory_mb": 1363.3,
+  "epochs_completed": 22,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.2951,
+      "train_accuracy": 0.5599,
+      "train_macro_f1": 0.5197,
+      "val_loss": 0.8733,
+      "val_accuracy": 0.8762,
+      "val_macro_f1": 0.8706,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.8571,
+          "recall": 0.6316,
+          "f1_score": 0.7273,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 0.9394,
+          "recall": 0.9688,
+          "f1_score": 0.9538,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7308,
+          "recall": 0.7917,
+          "f1_score": 0.76,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.44
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.8385,
+      "train_accuracy": 0.7654,
+      "train_macro_f1": 0.7359,
+      "val_loss": 0.6107,
+      "val_accuracy": 0.8571,
+      "val_macro_f1": 0.8534,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6364,
+          "recall": 0.7368,
+          "f1_score": 0.6829,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7143,
+          "recall": 0.625,
+          "f1_score": 0.6667,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.59
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.6753,
+      "train_accuracy": 0.7832,
+      "train_macro_f1": 0.7617,
+      "val_loss": 0.5017,
+      "val_accuracy": 0.8667,
+      "val_macro_f1": 0.8615,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6667,
+          "recall": 0.7368,
+          "f1_score": 0.7,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7619,
+          "recall": 0.6667,
+          "f1_score": 0.7111,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.48
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.5764,
+      "train_accuracy": 0.7977,
+      "train_macro_f1": 0.7691,
+      "val_loss": 0.4388,
+      "val_accuracy": 0.8762,
+      "val_macro_f1": 0.8719,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6667,
+          "recall": 0.8421,
+          "f1_score": 0.7442,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7895,
+          "recall": 0.625,
+          "f1_score": 0.6977,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.44
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.5375,
+      "train_accuracy": 0.788,
+      "train_macro_f1": 0.7704,
+      "val_loss": 0.4116,
+      "val_accuracy": 0.8857,
+      "val_macro_f1": 0.8813,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6957,
+          "recall": 0.8421,
+          "f1_score": 0.7619,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8,
+          "recall": 0.6667,
+          "f1_score": 0.7273,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.6
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4885,
+      "train_accuracy": 0.8091,
+      "train_macro_f1": 0.7929,
+      "val_loss": 0.387,
+      "val_accuracy": 0.8762,
+      "val_macro_f1": 0.8721,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6818,
+          "recall": 0.7895,
+          "f1_score": 0.7317,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7619,
+          "recall": 0.6667,
+          "f1_score": 0.7111,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.63
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.475,
+      "train_accuracy": 0.8074,
+      "train_macro_f1": 0.7891,
+      "val_loss": 0.3627,
+      "val_accuracy": 0.8857,
+      "val_macro_f1": 0.8813,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7143,
+          "recall": 0.7895,
+          "f1_score": 0.75,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7727,
+          "recall": 0.7083,
+          "f1_score": 0.7391,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.5
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.442,
+      "train_accuracy": 0.8285,
+      "train_macro_f1": 0.8045,
+      "val_loss": 0.3569,
+      "val_accuracy": 0.8952,
+      "val_macro_f1": 0.8907,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8095,
+          "recall": 0.7083,
+          "f1_score": 0.7556,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.48
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4234,
+      "train_accuracy": 0.8139,
+      "train_macro_f1": 0.7945,
+      "val_loss": 0.3417,
+      "val_accuracy": 0.8952,
+      "val_macro_f1": 0.9,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7143,
+          "recall": 0.7895,
+          "f1_score": 0.75,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7826,
+          "recall": 0.75,
+          "f1_score": 0.766,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.6
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.4053,
+      "train_accuracy": 0.8172,
+      "train_macro_f1": 0.7953,
+      "val_loss": 0.3441,
+      "val_accuracy": 0.8762,
+      "val_macro_f1": 0.8712,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6538,
+          "recall": 0.8947,
+          "f1_score": 0.7556,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8235,
+          "recall": 0.5833,
+          "f1_score": 0.6829,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.58
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.366,
+      "train_accuracy": 0.8172,
+      "train_macro_f1": 0.7983,
+      "val_loss": 0.3223,
+      "val_accuracy": 0.8857,
+      "val_macro_f1": 0.891,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6818,
+          "recall": 0.7895,
+          "f1_score": 0.7317,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7727,
+          "recall": 0.7083,
+          "f1_score": 0.7391,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.47
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.3909,
+      "train_accuracy": 0.8252,
+      "train_macro_f1": 0.8035,
+      "val_loss": 0.3053,
+      "val_accuracy": 0.8952,
+      "val_macro_f1": 0.9,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7143,
+          "recall": 0.7895,
+          "f1_score": 0.75,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.7826,
+          "recall": 0.75,
+          "f1_score": 0.766,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.48
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.3572,
+      "train_accuracy": 0.822,
+      "train_macro_f1": 0.8014,
+      "val_loss": 0.3062,
+      "val_accuracy": 0.8857,
+      "val_macro_f1": 0.8801,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.92,
+          "recall": 1.0,
+          "f1_score": 0.9583,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8421,
+          "recall": 0.6667,
+          "f1_score": 0.7442,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.45
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.3613,
+      "train_accuracy": 0.8285,
+      "train_macro_f1": 0.8066,
+      "val_loss": 0.3026,
+      "val_accuracy": 0.8952,
+      "val_macro_f1": 0.8899,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.85,
+          "recall": 0.7083,
+          "f1_score": 0.7727,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.48
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.3689,
+      "train_accuracy": 0.8026,
+      "train_macro_f1": 0.7875,
+      "val_loss": 0.2934,
+      "val_accuracy": 0.9143,
+      "val_macro_f1": 0.9187,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7391,
+          "recall": 0.8947,
+          "f1_score": 0.8095,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8571,
+          "recall": 0.75,
+          "f1_score": 0.8,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.351,
+      "train_accuracy": 0.8398,
+      "train_macro_f1": 0.8172,
+      "val_loss": 0.3016,
+      "val_accuracy": 0.8857,
+      "val_macro_f1": 0.8809,
+      "val_per_class": {
+        "scream": {
+          "precision": 0.875,
+          "recall": 1.0,
+          "f1_score": 0.9333,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.68,
+          "recall": 0.8947,
+          "f1_score": 0.7727,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8333,
+          "recall": 0.625,
+          "f1_score": 0.7143,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.55
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.3148,
+      "train_accuracy": 0.8544,
+      "train_macro_f1": 0.8429,
+      "val_loss": 0.2883,
+      "val_accuracy": 0.9048,
+      "val_macro_f1": 0.9094,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8182,
+          "recall": 0.75,
+          "f1_score": 0.7826,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.3275,
+      "train_accuracy": 0.8463,
+      "train_macro_f1": 0.8271,
+      "val_loss": 0.2703,
+      "val_accuracy": 0.9048,
+      "val_macro_f1": 0.9094,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8182,
+          "recall": 0.75,
+          "f1_score": 0.7826,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.3592,
+      "train_accuracy": 0.822,
+      "train_macro_f1": 0.8114,
+      "val_loss": 0.2789,
+      "val_accuracy": 0.8952,
+      "val_macro_f1": 0.8995,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.6957,
+          "recall": 0.8421,
+          "f1_score": 0.7619,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.85,
+          "recall": 0.7083,
+          "f1_score": 0.7727,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.3251,
+      "train_accuracy": 0.8333,
+      "train_macro_f1": 0.8154,
+      "val_loss": 0.2767,
+      "val_accuracy": 0.9048,
+      "val_macro_f1": 0.9087,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8571,
+          "recall": 0.75,
+          "f1_score": 0.8,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 21,
+      "train_loss": 0.3307,
+      "train_accuracy": 0.8528,
+      "train_macro_f1": 0.8336,
+      "val_loss": 0.2646,
+      "val_accuracy": 0.9048,
+      "val_macro_f1": 0.9087,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7273,
+          "recall": 0.8421,
+          "f1_score": 0.7805,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 0.9583,
+          "recall": 1.0,
+          "f1_score": 0.9787,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8571,
+          "recall": 0.75,
+          "f1_score": 0.8,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    },
+    {
+      "epoch": 22,
+      "train_loss": 0.3149,
+      "train_accuracy": 0.8447,
+      "train_macro_f1": 0.8257,
+      "val_loss": 0.2704,
+      "val_accuracy": 0.9143,
+      "val_macro_f1": 0.9187,
+      "val_per_class": {
+        "scream": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 7
+        },
+        "glass_breaking": {
+          "precision": 0.7391,
+          "recall": 0.8947,
+          "f1_score": 0.8095,
+          "support": 19
+        },
+        "gunshot": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1_score": 1.0,
+          "support": 23
+        },
+        "siren": {
+          "precision": 1.0,
+          "recall": 0.9688,
+          "f1_score": 0.9841,
+          "support": 32
+        },
+        "other": {
+          "precision": 0.8571,
+          "recall": 0.75,
+          "f1_score": 0.8,
+          "support": 24
+        }
+      },
+      "learning_rate": 0.001,
+      "duration_sec": 3.46
+    }
+  ]
+}

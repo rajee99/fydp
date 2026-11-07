@@ -1,0 +1,159 @@
+manifest_index,video_id,start_seconds,end_seconds,target_class,previous_status,failure_reason,retry_priority,failure_category
+2,-GI5PbO6j50,30.0,40.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] -GI5PbO6j50: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+3,-QSNQGKiGT4,260.0,270.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] -QSNQGKiGT4: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+19,1AlmsqlPdwM,450.0,460.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 1AlmsqlPdwM: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+26,2NznKe2WaOc,30.0,40.0,scream,FAILED,PERMANENT: ERROR: [youtube] 2NznKe2WaOc: Private video,LOW,PRIVATE_VIDEO
+38,3Z0Gl7RHThc,280.0,290.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] 3Z0Gl7RHThc: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+42,3oF7NLTzoxc,190.0,200.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] 3oF7NLTzoxc: Private video,LOW,PRIVATE_VIDEO
+45,3udWS-cMb-8,80.0,90.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 3udWS-cMb-8: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+48,4APBvMmKubU,10.0,20.0,siren,FAILED,PERMANENT: ERROR: [youtube] 4APBvMmKubU: This video is not available,LOW,PERMANENT_UNAVAILABLE
+49,4JnYkujJGRA,530.0,540.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 4JnYkujJGRA: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+50,4TQzd0lB8IQ,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] 4TQzd0lB8IQ: This video has been removed for violating YouTube's Community Guidelines,LOW,POLICY_REMOVED
+56,5H-RadrUSA4,20.0,30.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] 5H-RadrUSA4: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+68,7AfaA5FM4W0,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] 7AfaA5FM4W0: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+69,7Bfg94jYDVI,260.0,270.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 7Bfg94jYDVI: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+70,7G76uQj5eas,140.0,150.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] 7G76uQj5eas: Private video,LOW,PRIVATE_VIDEO
+71,7Hcizjr7zB8,140.0,150.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+72,7SZFvCNKCNg,540.0,550.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] 7SZFvCNKCNg: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+73,7_PrlSyBjfw,13.0,23.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 7_PrlSyBjfw: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+79,89hj7G1AWYY,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 89hj7G1AWYY: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+80,8D4L97zM7x4,60.0,70.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] 8D4L97zM7x4: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+84,8rZEOvULYzo,30.0,40.0,scream,FAILED,PERMANENT: ERROR: [youtube] 8rZEOvULYzo: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+89,9bEc6mhrnLI,400.0,410.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 9bEc6mhrnLI: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+90,9dzNWsw-W58,270.0,280.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] 9dzNWsw-W58: Private video,LOW,PRIVATE_VIDEO
+91,9iyQiuuF_CE,10.0,20.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] 9iyQiuuF_CE: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+95,ALjgoKbg4h4,180.0,190.0,siren,FAILED,PERMANENT: ERROR: [youtube] ALjgoKbg4h4: Private video,LOW,PRIVATE_VIDEO
+99,ATbEwmTJwD0,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] ATbEwmTJwD0: Private video,LOW,PRIVATE_VIDEO
+102,AVH1UWCXkbA,10.0,20.0,scream,FAILED,PERMANENT: ERROR: [youtube] AVH1UWCXkbA: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+103,AafHy3_jyRQ,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] AafHy3_jyRQ: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+108,Akx3uwhohmU,28.0,38.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] Akx3uwhohmU: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+110,AsQXL6yXbvs,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] AsQXL6yXbvs: This video is not available,LOW,PERMANENT_UNAVAILABLE
+111,Au5NjQaR_T0,340.0,350.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] Au5NjQaR_T0: This video is not available,LOW,PERMANENT_UNAVAILABLE
+112,Axov9pRGK7s,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] Axov9pRGK7s: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+116,BQWXKuFYuro,160.0,170.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] BQWXKuFYuro: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+117,BSPjTGVP1I4,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] BSPjTGVP1I4: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+118,BV49gEN-0l0,60.0,70.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] BV49gEN-0l0: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+120,BZtLVLGnILI,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] BZtLVLGnILI: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+122,BjKTGhSeGyE,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] BjKTGhSeGyE: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+136,CoKZ3cdGDBs,90.0,100.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] CoKZ3cdGDBs: Private video,LOW,PRIVATE_VIDEO
+138,Czmb6tEwFE8,0.0,5.0,scream,FAILED,PERMANENT: ERROR: [youtube] Czmb6tEwFE8: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+141,D6thZbNv148,13.0,23.0,scream,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+142,DKFz6eMHLfI,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] DKFz6eMHLfI: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+145,D_zlJGQz0Eg,30.0,40.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+147,Do9Dffb6vHA,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] Do9Dffb6vHA: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+154,E7tueVnDYDE,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] E7tueVnDYDE: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+165,FN7VIGq04qE,60.0,70.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] FN7VIGq04qE: Private video,LOW,PRIVATE_VIDEO
+166,FQGTts7xyr8,530.0,540.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] FQGTts7xyr8: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+167,FTkPTaI8eOo,440.0,450.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] FTkPTaI8eOo: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+173,FnkVyKnukpE,0.0,10.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] FnkVyKnukpE: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+176,G9M3de5mISY,0.0,10.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] G9M3de5mISY: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+191,II4UebN1Dxw,10.0,20.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] II4UebN1Dxw: Private video,LOW,PRIVATE_VIDEO
+192,IR_ks3y_UTA,200.0,210.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] IR_ks3y_UTA: Private video,LOW,PRIVATE_VIDEO
+204,Jk2B7Mvh6cE,320.0,330.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] Jk2B7Mvh6cE: Private video,LOW,PRIVATE_VIDEO
+207,K0op6i9ydnM,3.0,13.0,gunshot,VALIDATION_FAILED,Duration 8.99s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+210,KSLSsWlbZYk,9.0,19.0,siren,FAILED,PERMANENT: ERROR: [youtube] KSLSsWlbZYk: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+213,KqUD1AAGpJ4,50.0,60.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] KqUD1AAGpJ4: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+215,L1rAooQEnsk,0.0,7.0,glass_breaking,VALIDATION_FAILED,Duration 6.00s deviates from expected 7.00s,HIGH,DURATION_MISMATCH
+217,LJ8BY521EoI,30.0,40.0,scream,FAILED,PERMANENT: ERROR: [youtube] LJ8BY521EoI: This video is not available,LOW,PERMANENT_UNAVAILABLE
+224,M1kL1VKZ0uo,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] M1kL1VKZ0uo: Private video,LOW,PRIVATE_VIDEO
+229,MqUQb9pYHyw,0.0,10.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] MqUQb9pYHyw: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+240,O_FDe2fRpDM,210.0,220.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] O_FDe2fRpDM: This video has been removed for violating YouTube's Community Guidelines,LOW,POLICY_REMOVED
+241,Oqhb92tXzSk,80.0,90.0,siren,FAILED,PERMANENT: ERROR: [youtube] Oqhb92tXzSk: Private video,LOW,PRIVATE_VIDEO
+244,PO1eaJ7tQOg,250.0,260.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] PO1eaJ7tQOg: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+245,PPp4DcCy5v8,500.0,510.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] PPp4DcCy5v8: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+253,QBYtl0RfPIA,310.0,320.0,scream,FAILED,PERMANENT: ERROR: [youtube] QBYtl0RfPIA: This video is not available,LOW,PERMANENT_UNAVAILABLE
+255,QFTcdU-BDg8,30.0,40.0,scream,FAILED,PERMANENT: ERROR: [youtube] QFTcdU-BDg8: Private video,LOW,PRIVATE_VIDEO
+256,QH3RIg1ypDg,24.0,34.0,gunshot,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+261,QrvCNyQn3HU,20.0,30.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] QrvCNyQn3HU: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+262,Qu9368uYhc0,10.0,20.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] Qu9368uYhc0: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+263,QwlL3d075_E,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] QwlL3d075_E: This video is not available,LOW,PERMANENT_UNAVAILABLE
+267,RZIVGgQzUJU,0.0,10.0,siren,FAILED,PERMANENT: ERROR: [youtube] RZIVGgQzUJU: Private video,LOW,PRIVATE_VIDEO
+273,Rtel5iGCPO8,40.0,50.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+281,SsYJ8SRGCVg,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] SsYJ8SRGCVg: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+284,U7_IlUYZKa0,0.0,10.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] U7_IlUYZKa0: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+293,Uy99LWx_eXY,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] Uy99LWx_eXY: Private video,LOW,PRIVATE_VIDEO
+307,W8WFs-QDZnc,9.0,19.0,gunshot,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+312,WLjjbOBFt8g,440.0,450.0,scream,FAILED,PERMANENT: ERROR: [youtube] WLjjbOBFt8g: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+316,WcGvl6SBIko,10.0,20.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] WcGvl6SBIko: This video is not available,LOW,PERMANENT_UNAVAILABLE
+318,WhI_e7hH99w,120.0,130.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] WhI_e7hH99w: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+319,WoBYgyQqQKk,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] WoBYgyQqQKk: This video is not available,LOW,PERMANENT_UNAVAILABLE
+320,Wqn38dNWFsc,180.0,190.0,siren,FAILED,PERMANENT: ERROR: [youtube] Wqn38dNWFsc: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+322,X4jIkctapb8,40.0,50.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] X4jIkctapb8: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+325,XVJvCtE1hEU,110.0,120.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] XVJvCtE1hEU: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+328,Xoma_14dg08,10.0,20.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] Xoma_14dg08: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+331,YHW0XmpLi2k,0.0,7.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] YHW0XmpLi2k: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+332,YqGivcrdNhw,13.0,23.0,gunshot,VALIDATION_FAILED,Duration 8.97s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+339,ZVDtuzPVlgU,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] ZVDtuzPVlgU: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+341,_5x_-aTNCjU,100.0,110.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] _5x_-aTNCjU: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+342,_RUKvt068Po,100.0,110.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] _RUKvt068Po: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+349,a1PQCCz-Kw8,0.0,10.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] a1PQCCz-Kw8: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+356,aVuoBwZxcJ4,480.0,490.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] aVuoBwZxcJ4: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+359,awGEJJDYVGk,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] awGEJJDYVGk: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+361,bAl-i0g7rUM,0.0,8.0,glass_breaking,VALIDATION_FAILED,Duration 7.00s deviates from expected 8.00s,HIGH,DURATION_MISMATCH
+364,bo_KcZvGHJw,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] bo_KcZvGHJw: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+365,brbEtmu2_MA,100.0,110.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] brbEtmu2_MA: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+372,cnmE_P7-lHw,70.0,80.0,scream,FAILED,PERMANENT: ERROR: [youtube] cnmE_P7-lHw: Private video,LOW,PRIVATE_VIDEO
+373,d04-EBJMLsA,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] d04-EBJMLsA: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+375,d_6LsqvvEp0,180.0,190.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] d_6LsqvvEp0: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+380,dzSURcGk-iE,110.0,120.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] dzSURcGk-iE: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+381,eHmfCMcOVrM,300.0,310.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] eHmfCMcOVrM: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+384,f6v9gp1xyPM,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] f6v9gp1xyPM: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+386,fCljzvhZR4I,30.0,40.0,scream,FAILED,PERMANENT: ERROR: [youtube] fCljzvhZR4I: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+388,fJ36wVWhiio,40.0,50.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] fJ36wVWhiio: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+394,fu5PSTbkCTY,23.0,33.0,gunshot,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+396,gFsrWHtBfkU,390.0,400.0,scream,FAILED,PERMANENT: ERROR: [youtube] gFsrWHtBfkU: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+397,gPZscoUwABA,140.0,150.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] gPZscoUwABA: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+398,gg4mF4xZjfM,10.0,20.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] gg4mF4xZjfM: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+404,hAWnwjMmDO4,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] hAWnwjMmDO4: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+406,hGklLddzBQA,530.0,540.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] hGklLddzBQA: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+407,hIBfZ-rQutw,0.0,10.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] hIBfZ-rQutw: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+408,hQL9iS_Kcac,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] hQL9iS_Kcac: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+409,hVXaWkX_KOw,430.0,440.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] hVXaWkX_KOw: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+410,hWSvuq56hlM,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] hWSvuq56hlM: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+413,i-q5XKBVGWI,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] i-q5XKBVGWI: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+418,iz5BbJSFVgI,50.0,60.0,scream,FAILED,PERMANENT: ERROR: [youtube] iz5BbJSFVgI: This video has been removed for violating YouTube's policy on harassment and bullying,LOW,POLICY_REMOVED
+419,j1N909f8Obg,50.0,60.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] j1N909f8Obg: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+426,jdiphmOtFVU,50.0,60.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] jdiphmOtFVU: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+428,jhOQDoavJvk,210.0,220.0,siren,FAILED,PERMANENT: ERROR: [youtube] jhOQDoavJvk: This video has been removed for violating YouTube's Terms of Service,LOW,POLICY_REMOVED
+434,kAtGD0lrwTA,210.0,220.0,glass_breaking,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] kAtGD0lrwTA: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+438,lNnj9q0oVLY,90.0,100.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] lNnj9q0oVLY: This video is not available,LOW,PERMANENT_UNAVAILABLE
+442,laHuV00LwLI,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] laHuV00LwLI: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+443,ldPcujHM1RQ,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] ldPcujHM1RQ: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+450,mTkHFF-jcvE,10.0,20.0,siren,FAILED,PERMANENT: ERROR: [youtube] mTkHFF-jcvE: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+459,nRir6ObdoW4,180.0,190.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] nRir6ObdoW4: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+463,nuuykD2akvI,28.0,38.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] nuuykD2akvI: Private video,LOW,PRIVATE_VIDEO
+464,nwMHPaDYg4I,10.0,20.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] nwMHPaDYg4I: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+467,oLbYK5uBw0Q,130.0,140.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] oLbYK5uBw0Q: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+469,okXKlLF2lh0,230.0,240.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] okXKlLF2lh0: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+471,osFCx4URNyk,0.0,10.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] osFCx4URNyk: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+475,pD4AgkHStLU,190.0,200.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+481,psEwlH67wBM,0.0,10.0,siren,FAILED,PERMANENT: ERROR: [youtube] psEwlH67wBM: Private video,LOW,PRIVATE_VIDEO
+482,pteBmIy99io,17.0,27.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] pteBmIy99io: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+485,qBLiT_0wwM4,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] qBLiT_0wwM4: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+486,qqMCiiZOaIA,40.0,50.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] qqMCiiZOaIA: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+490,rK7LRuvEnHQ,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] rK7LRuvEnHQ: Private video,LOW,PRIVATE_VIDEO
+493,rTPuPvHg5rg,30.0,40.0,glass_breaking,FAILED,PERMANENT: ERROR: [youtube] rTPuPvHg5rg: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+496,rmfZ-r7wd6g,350.0,360.0,scream,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] rmfZ-r7wd6g: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+507,t1_81iXEZys,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] t1_81iXEZys: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+513,toDcLiHJUEA,140.0,150.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] toDcLiHJUEA: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+516,uCm-Rsvrw0s,0.0,8.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] uCm-Rsvrw0s: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+519,uqtwOTsOF7I,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] uqtwOTsOF7I: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+520,ut_8E40pK8Q,130.0,140.0,siren,FAILED,PERMANENT: ERROR: [youtube] ut_8E40pK8Q: This video has been removed for violating YouTube's Terms of Service,LOW,POLICY_REMOVED
+521,v56paXFFfig,20.0,30.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] v56paXFFfig: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+522,vAyqGgwby8w,0.0,10.0,siren,FAILED,PERMANENT: ERROR: [youtube] vAyqGgwby8w: Private video,LOW,PRIVATE_VIDEO
+523,vDqjk41i1Qs,30.0,40.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] vDqjk41i1Qs: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+526,vQWFMfbDJyI,110.0,120.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] vQWFMfbDJyI: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+527,vQdYJv4Mebk,10.0,20.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] vQdYJv4Mebk: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+529,vXOhbFavtqU,60.0,70.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] vXOhbFavtqU: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+530,vcmuZ3MDSK8,20.0,30.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] vcmuZ3MDSK8: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+535,wBxdxy9nTkg,20.0,30.0,siren,FAILED,PERMANENT: ERROR: [youtube] wBxdxy9nTkg: Private video,LOW,PRIVATE_VIDEO
+538,wNcauFdpks0,6.0,16.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+540,wdVYP2ijnew,120.0,130.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] wdVYP2ijnew: Private video,LOW,PRIVATE_VIDEO
+547,xHTMsmh7keA,28.0,38.0,siren,VALIDATION_FAILED,Duration 9.00s deviates from expected 10.00s,HIGH,DURATION_MISMATCH
+556,yyrvlwuFyMU,90.0,100.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] yyrvlwuFyMU: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+557,zC3MxGNQ4fY,30.0,40.0,gunshot,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] zC3MxGNQ4fY: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+558,zHy43cBfK9M,30.0,40.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] zHy43cBfK9M: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies,MEDIUM,AUTH_REQUIRED
+559,zReigRchBII,210.0,220.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] zReigRchBII: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+560,zRy6CacyT2E,80.0,90.0,siren,FAILED,TRANSIENT_EXHAUSTED: ERROR: [youtube] zRy6CacyT2E: This video is unavailable,LOW,PERMANENT_UNAVAILABLE
+562,zjk9aUW5c_0,30.0,40.0,siren,FAILED,PERMANENT: ERROR: [youtube] zjk9aUW5c_0: Video unavailable,LOW,PERMANENT_UNAVAILABLE
+563,zu53y8M2xBc,20.0,30.0,gunshot,FAILED,PERMANENT: ERROR: [youtube] zu53y8M2xBc: Private video,LOW,PRIVATE_VIDEO

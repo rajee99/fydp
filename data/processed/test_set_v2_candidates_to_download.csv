@@ -1,0 +1,1061 @@
+video_id,start_seconds,end_seconds,target_class,class_id,relative_path,subdomain,matched_label,audio_set_mid,source_dataset
+D7a5QMGqQUY,190.0,200.0,scream,0,data/raw/test_set_v2/scream/scream_D7a5QMGqQUY_190_200.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+HxlsfoSrHZE,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_HxlsfoSrHZE_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+suFIELb--3M,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_suFIELb--3M_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+dk99Dm1x3NY,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_dk99Dm1x3NY_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Hu18136at0Y,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_Hu18136at0Y_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+paHuu_ewwNI,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_paHuu_ewwNI_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Fm5qMu2CBbA,160.0,170.0,scream,0,data/raw/test_set_v2/scream/scream_Fm5qMu2CBbA_160_170.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ScetXKaIz68,150.0,160.0,scream,0,data/raw/test_set_v2/scream/scream_ScetXKaIz68_150_160.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+1rxsXvj5hQc,80.0,90.0,scream,0,data/raw/test_set_v2/scream/scream_1rxsXvj5hQc_80_90.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Wd6PT8nvXQ4,130.0,140.0,scream,0,data/raw/test_set_v2/scream/scream_Wd6PT8nvXQ4_130_140.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+3GKXi74m3RY,0.0,8.0,scream,0,data/raw/test_set_v2/scream/scream_3GKXi74m3RY_0_8.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CGpcgkjJrTs,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_CGpcgkjJrTs_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+6DZwNokgiPA,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_6DZwNokgiPA_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+_OAmHm2hHGk,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream__OAmHm2hHGk_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+7kL7i5VdAT4,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_7kL7i5VdAT4_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ajGS9Xe2-D0,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_ajGS9Xe2-D0_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+zkWoni28n64,70.0,80.0,scream,0,data/raw/test_set_v2/scream/scream_zkWoni28n64_70_80.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+kjaaZgdws80,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_kjaaZgdws80_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+-U13gX3yTzI,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_-U13gX3yTzI_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+gVfFKmGOcmQ,90.0,100.0,scream,0,data/raw/test_set_v2/scream/scream_gVfFKmGOcmQ_90_100.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+AKQqanWWPcI,110.0,120.0,scream,0,data/raw/test_set_v2/scream/scream_AKQqanWWPcI_110_120.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+7h8_xS7321c,280.0,290.0,scream,0,data/raw/test_set_v2/scream/scream_7h8_xS7321c_280_290.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ZHrf_y9q96Q,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_ZHrf_y9q96Q_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CjptxmccUBk,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_CjptxmccUBk_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+0b24w9l0flA,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_0b24w9l0flA_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+PTZXU780Egk,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_PTZXU780Egk_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CiuR39vrFwI,220.0,230.0,scream,0,data/raw/test_set_v2/scream/scream_CiuR39vrFwI_220_230.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+QaFvrx3r8k4,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_QaFvrx3r8k4_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+7Gtx7ooeows,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_7Gtx7ooeows_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ERx4CXw73XE,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_ERx4CXw73XE_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+iryMredYzj8,140.0,150.0,scream,0,data/raw/test_set_v2/scream/scream_iryMredYzj8_140_150.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+JTxVzRc452w,9.0,19.0,scream,0,data/raw/test_set_v2/scream/scream_JTxVzRc452w_9_19.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Prw2qAwHbtM,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_Prw2qAwHbtM_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+GhHgQwxW6cw,0.0,8.0,scream,0,data/raw/test_set_v2/scream/scream_GhHgQwxW6cw_0_8.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+8jN5OJJLfZ4,230.0,240.0,scream,0,data/raw/test_set_v2/scream/scream_8jN5OJJLfZ4_230_240.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+2YPEuBTGQoc,130.0,140.0,scream,0,data/raw/test_set_v2/scream/scream_2YPEuBTGQoc_130_140.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+97dfAgKJeL0,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_97dfAgKJeL0_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+t_vMIL89pNM,40.0,50.0,scream,0,data/raw/test_set_v2/scream/scream_t_vMIL89pNM_40_50.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+QNQVmbGQDEw,50.0,60.0,scream,0,data/raw/test_set_v2/scream/scream_QNQVmbGQDEw_50_60.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+X0ML02sw2d8,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_X0ML02sw2d8_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+iTc24qbBqT4,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_iTc24qbBqT4_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+E1OLhcgcvnQ,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_E1OLhcgcvnQ_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+q6j31iPnb0M,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_q6j31iPnb0M_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CvMFTC0yU1M,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_CvMFTC0yU1M_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+J94JtppGqTk,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_J94JtppGqTk_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+W3a-86LNTok,0.0,2.0,scream,0,data/raw/test_set_v2/scream/scream_W3a-86LNTok_0_2.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+6UP3giSp8cI,40.0,50.0,scream,0,data/raw/test_set_v2/scream/scream_6UP3giSp8cI_40_50.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+LgOZjFJXmCY,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_LgOZjFJXmCY_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+NXzU_2lYyLE,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_NXzU_2lYyLE_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+HIv0eu9Q6lE,0.0,9.0,scream,0,data/raw/test_set_v2/scream/scream_HIv0eu9Q6lE_0_9.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+c0lCWYckP2o,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_c0lCWYckP2o_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+mjlfWWepXQI,4.0,14.0,scream,0,data/raw/test_set_v2/scream/scream_mjlfWWepXQI_4_14.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+663Cy9dppf8,50.0,60.0,scream,0,data/raw/test_set_v2/scream/scream_663Cy9dppf8_50_60.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+je9QETpz8QU,0.0,9.0,scream,0,data/raw/test_set_v2/scream/scream_je9QETpz8QU_0_9.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+6S6kil3vpk8,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_6S6kil3vpk8_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+M-V_k_UfP7c,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_M-V_k_UfP7c_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+wcvUmhtQ6gY,50.0,60.0,scream,0,data/raw/test_set_v2/scream/scream_wcvUmhtQ6gY_50_60.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ROJ1PJrZidM,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_ROJ1PJrZidM_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+QDGnB6tufyQ,80.0,90.0,scream,0,data/raw/test_set_v2/scream/scream_QDGnB6tufyQ_80_90.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Al5Sm-Pfzjg,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_Al5Sm-Pfzjg_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+bmEAEVi31gA,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_bmEAEVi31gA_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+be5hFB7NALw,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_be5hFB7NALw_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+rLO4gR2MclQ,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_rLO4gR2MclQ_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+bJsyQ0hIbEA,80.0,90.0,scream,0,data/raw/test_set_v2/scream/scream_bJsyQ0hIbEA_80_90.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ryC321HB9Ww,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_ryC321HB9Ww_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CdpeaQjDJvY,160.0,170.0,scream,0,data/raw/test_set_v2/scream/scream_CdpeaQjDJvY_160_170.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+3PGk_NqInRs,0.0,5.0,scream,0,data/raw/test_set_v2/scream/scream_3PGk_NqInRs_0_5.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+xk2i1aLaDgQ,290.0,300.0,scream,0,data/raw/test_set_v2/scream/scream_xk2i1aLaDgQ_290_300.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+eW7-uZ18HQA,300.0,310.0,scream,0,data/raw/test_set_v2/scream/scream_eW7-uZ18HQA_300_310.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Mln0mA-PCSo,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_Mln0mA-PCSo_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+QHdnYnZ6AgA,120.0,130.0,scream,0,data/raw/test_set_v2/scream/scream_QHdnYnZ6AgA_120_130.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+aYV981DLt_A,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_aYV981DLt_A_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+UWftKt2tkNM,70.0,80.0,scream,0,data/raw/test_set_v2/scream/scream_UWftKt2tkNM_70_80.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+3_-yQpQ0o6I,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_3_-yQpQ0o6I_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+25j6vtYSIdk,160.0,170.0,scream,0,data/raw/test_set_v2/scream/scream_25j6vtYSIdk_160_170.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+TP-UZhOjxoo,180.0,190.0,scream,0,data/raw/test_set_v2/scream/scream_TP-UZhOjxoo_180_190.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Mgh78_iXT9g,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_Mgh78_iXT9g_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+m4msUIyEUBQ,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_m4msUIyEUBQ_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+hbULNdHS7_8,590.0,600.0,scream,0,data/raw/test_set_v2/scream/scream_hbULNdHS7_8_590_600.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+20qEIZlhruA,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_20qEIZlhruA_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+tnq1qScIcYE,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_tnq1qScIcYE_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+BFyA47oNp94,18.0,28.0,scream,0,data/raw/test_set_v2/scream/scream_BFyA47oNp94_18_28.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+eeG5d-BMKjA,90.0,100.0,scream,0,data/raw/test_set_v2/scream/scream_eeG5d-BMKjA_90_100.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+sCFHNV7HqnI,0.0,7.0,scream,0,data/raw/test_set_v2/scream/scream_sCFHNV7HqnI_0_7.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+UyKTWjb4jZ0,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_UyKTWjb4jZ0_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Ed2NH4yfBYg,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_Ed2NH4yfBYg_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Jmrgq0CPzVA,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_Jmrgq0CPzVA_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+0zTBKgGKflw,80.0,90.0,scream,0,data/raw/test_set_v2/scream/scream_0zTBKgGKflw_80_90.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+zo10roED5Qg,70.0,80.0,scream,0,data/raw/test_set_v2/scream/scream_zo10roED5Qg_70_80.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+5Mepf6JTIOw,140.0,150.0,scream,0,data/raw/test_set_v2/scream/scream_5Mepf6JTIOw_140_150.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+e2Ku4nh-vAA,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_e2Ku4nh-vAA_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+iWGZ4DwITA8,100.0,110.0,scream,0,data/raw/test_set_v2/scream/scream_iWGZ4DwITA8_100_110.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+0EymGuYWkFk,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_0EymGuYWkFk_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CPqoSdHicrc,230.0,240.0,scream,0,data/raw/test_set_v2/scream/scream_CPqoSdHicrc_230_240.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+AzKh6Z_TzfM,410.0,420.0,scream,0,data/raw/test_set_v2/scream/scream_AzKh6Z_TzfM_410_420.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+N2-i-Vv3fMA,170.0,180.0,scream,0,data/raw/test_set_v2/scream/scream_N2-i-Vv3fMA_170_180.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+GJbTRr4XPh4,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_GJbTRr4XPh4_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+35iZWkYaKPE,15.0,25.0,scream,0,data/raw/test_set_v2/scream/scream_35iZWkYaKPE_15_25.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+vFGn2s3Bdfs,17.0,27.0,scream,0,data/raw/test_set_v2/scream/scream_vFGn2s3Bdfs_17_27.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+aaOSaiHV8JM,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_aaOSaiHV8JM_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+IAXQeg7IkHI,40.0,50.0,scream,0,data/raw/test_set_v2/scream/scream_IAXQeg7IkHI_40_50.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Mat73jPIxFw,130.0,140.0,scream,0,data/raw/test_set_v2/scream/scream_Mat73jPIxFw_130_140.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+YTvcJaj4MYw,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_YTvcJaj4MYw_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Tc_sojS9nmI,130.0,140.0,scream,0,data/raw/test_set_v2/scream/scream_Tc_sojS9nmI_130_140.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+TlFSjfGa5Bc,170.0,180.0,scream,0,data/raw/test_set_v2/scream/scream_TlFSjfGa5Bc_170_180.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+vybhW44VVks,160.0,170.0,scream,0,data/raw/test_set_v2/scream/scream_vybhW44VVks_160_170.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+DbaGhZj6lAM,4.0,14.0,scream,0,data/raw/test_set_v2/scream/scream_DbaGhZj6lAM_4_14.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+ft6MH3dUVx0,360.0,370.0,scream,0,data/raw/test_set_v2/scream/scream_ft6MH3dUVx0_360_370.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+9Rw6ubVIKpE,40.0,50.0,scream,0,data/raw/test_set_v2/scream/scream_9Rw6ubVIKpE_40_50.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+vyQhsL4lcO0,460.0,470.0,scream,0,data/raw/test_set_v2/scream/scream_vyQhsL4lcO0_460_470.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+28tKdvh_rNk,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_28tKdvh_rNk_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+YsxXIExMnEU,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_YsxXIExMnEU_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+TsSr6RecQOk,40.0,50.0,scream,0,data/raw/test_set_v2/scream/scream_TsSr6RecQOk_40_50.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Fqw2Hf-74FQ,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_Fqw2Hf-74FQ_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+xNtX3g_67oc,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_xNtX3g_67oc_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+u-GtA9LKJU0,180.0,190.0,scream,0,data/raw/test_set_v2/scream/scream_u-GtA9LKJU0_180_190.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+FIPu0jd8I28,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_FIPu0jd8I28_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+CZ5Cx2EStQc,260.0,270.0,scream,0,data/raw/test_set_v2/scream/scream_CZ5Cx2EStQc_260_270.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+eAQC9olONU4,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_eAQC9olONU4_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+Szx_bifnnYM,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_Szx_bifnnYM_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+2G4_eviie4w,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_2G4_eviie4w_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+do5gd0lFHdY,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_do5gd0lFHdY_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+JNsG1IJDY6Y,0.0,6.0,scream,0,data/raw/test_set_v2/scream/scream_JNsG1IJDY6Y_0_6.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+1koqIX6Qcn4,0.0,9.0,scream,0,data/raw/test_set_v2/scream/scream_1koqIX6Qcn4_0_9.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+lUXp8RLkv_8,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_lUXp8RLkv_8_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+2o5phG83XgU,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_2o5phG83XgU_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+SiX-xhdaAlQ,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_SiX-xhdaAlQ_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+8Pw7Uw2ttcc,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_8Pw7Uw2ttcc_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+VICRPkhC4BY,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_VICRPkhC4BY_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+L0Oxu55Kxmk,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_L0Oxu55Kxmk_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+XV6TJSY6bYM,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_XV6TJSY6bYM_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+9pM3pzFnJIw,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_9pM3pzFnJIw_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+TF0GOg463JA,16.0,26.0,scream,0,data/raw/test_set_v2/scream/scream_TF0GOg463JA_16_26.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+JOio_mntPcE,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_JOio_mntPcE_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+-7R0ybQQAHg,60.0,70.0,scream,0,data/raw/test_set_v2/scream/scream_-7R0ybQQAHg_60_70.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+8e3DkVW9FFU,310.0,320.0,scream,0,data/raw/test_set_v2/scream/scream_8e3DkVW9FFU_310_320.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+j_Ppvr-yfzQ,110.0,120.0,scream,0,data/raw/test_set_v2/scream/scream_j_Ppvr-yfzQ_110_120.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+DF5LtYwhU9M,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_DF5LtYwhU9M_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+65V6hq-dgGg,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_65V6hq-dgGg_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+jgWHfYFMjOc,10.0,20.0,scream,0,data/raw/test_set_v2/scream/scream_jgWHfYFMjOc_10_20.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+oi-NyVxkKUc,0.0,5.0,scream,0,data/raw/test_set_v2/scream/scream_oi-NyVxkKUc_0_5.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+QIQOODNCaJk,0.0,6.0,scream,0,data/raw/test_set_v2/scream/scream_QIQOODNCaJk_0_6.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+971TB9uP1z4,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_971TB9uP1z4_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+XVowuyAe-PQ,0.0,10.0,scream,0,data/raw/test_set_v2/scream/scream_XVowuyAe-PQ_0_10.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+2EVWWafRWwY,30.0,40.0,scream,0,data/raw/test_set_v2/scream/scream_2EVWWafRWwY_30_40.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+9cMOLxEN1qM,130.0,140.0,scream,0,data/raw/test_set_v2/scream/scream_9cMOLxEN1qM_130_140.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+bL1E4-RznKg,300.0,310.0,scream,0,data/raw/test_set_v2/scream/scream_bL1E4-RznKg_300_310.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+LXD4fYFUKSA,80.0,90.0,scream,0,data/raw/test_set_v2/scream/scream_LXD4fYFUKSA_80_90.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+4yZFGlLSP0Q,20.0,30.0,scream,0,data/raw/test_set_v2/scream/scream_4yZFGlLSP0Q_20_30.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+g_yAFTSC5j4,210.0,220.0,scream,0,data/raw/test_set_v2/scream/scream_g_yAFTSC5j4_210_220.wav,human_vocal,Screaming,/m/03qc9zr,audioset_unbalanced
+I63o1_bQS3U,160.0,170.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_I63o1_bQS3U_160_170.wav,impact,Glass,/m/039jq,audioset_unbalanced
+e3-QUVkbbx4,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_e3-QUVkbbx4_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+jNM9Ki84tC8,410.0,420.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_jNM9Ki84tC8_410_420.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5m_mczN2Q9U,150.0,160.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5m_mczN2Q9U_150_160.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5EJvhqOelIU,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5EJvhqOelIU_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Qt1roFeiaCo,200.0,210.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Qt1roFeiaCo_200_210.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+HukeYeoN8Rs,280.0,290.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_HukeYeoN8Rs_280_290.wav,impact,Glass,/m/039jq,audioset_unbalanced
+VkmvW6W8ELQ,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_VkmvW6W8ELQ_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+bHfPVlZDGi8,280.0,290.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_bHfPVlZDGi8_280_290.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+f-r3G_bZoxs,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_f-r3G_bZoxs_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+vwHgdbwbWa4,180.0,190.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_vwHgdbwbWa4_180_190.wav,impact,Glass,/m/039jq,audioset_unbalanced
+GL5cup4QluE,70.0,80.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_GL5cup4QluE_70_80.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5On3XFQHg0U,240.0,250.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5On3XFQHg0U_240_250.wav,impact,Glass,/m/039jq,audioset_unbalanced
+_kjsEKj-uBE,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking__kjsEKj-uBE_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+xYB7s-UF4l0,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_xYB7s-UF4l0_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+7nyJikhr0xA,230.0,240.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_7nyJikhr0xA_230_240.wav,impact,Glass,/m/039jq,audioset_unbalanced
+uB1J3q5setw,60.0,70.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_uB1J3q5setw_60_70.wav,impact,Glass,/m/039jq,audioset_unbalanced
+vAld2w4Limw,0.0,9.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_vAld2w4Limw_0_9.wav,impact,Glass,/m/039jq,audioset_unbalanced
+T32jOfKgefg,110.0,120.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_T32jOfKgefg_110_120.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+r-PxJbvTHcM,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_r-PxJbvTHcM_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Y4K519KGzhM,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Y4K519KGzhM_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+TLD5t4FAO-M,160.0,170.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_TLD5t4FAO-M_160_170.wav,impact,Glass,/m/039jq,audioset_unbalanced
+WFpWmK4LCd8,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_WFpWmK4LCd8_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+GFJLOlXL3o0,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_GFJLOlXL3o0_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Yr1gOzv-yUI,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Yr1gOzv-yUI_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+yP9PtC7hGvQ,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_yP9PtC7hGvQ_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+qiuldb2r1ME,300.0,310.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_qiuldb2r1ME_300_310.wav,impact,Glass,/m/039jq,audioset_unbalanced
+1F_HuBvTYNg,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_1F_HuBvTYNg_40_50.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+GRTS2czOWdk,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_GRTS2czOWdk_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+AraDPsA9_MU,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_AraDPsA9_MU_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+05lFALsXhEE,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_05lFALsXhEE_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+L3fF5NAJgTs,80.0,90.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_L3fF5NAJgTs_80_90.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+jtYF0GA-Bjg,130.0,140.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_jtYF0GA-Bjg_130_140.wav,impact,Glass,/m/039jq,audioset_unbalanced
+utFQrg7IA64,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_utFQrg7IA64_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+VP_ztzAovcs,100.0,110.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_VP_ztzAovcs_100_110.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+RCnrGTdNL_0,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_RCnrGTdNL_0_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+QeudvgK9auU,260.0,270.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_QeudvgK9auU_260_270.wav,impact,Glass,/m/039jq,audioset_unbalanced
+F8laqdV_SW4,100.0,110.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_F8laqdV_SW4_100_110.wav,impact,Glass,/m/039jq,audioset_unbalanced
+NfMlW-jVGBk,380.0,390.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_NfMlW-jVGBk_380_390.wav,impact,Glass,/m/039jq,audioset_unbalanced
+asnk2K9HXSM,80.0,90.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_asnk2K9HXSM_80_90.wav,impact,Glass,/m/039jq,audioset_unbalanced
+c9Z7bd1qcno,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_c9Z7bd1qcno_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+BamyhsjXozs,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_BamyhsjXozs_90_100.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+D7xjedYUX6g,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_D7xjedYUX6g_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+vD-uqQOjwAw,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_vD-uqQOjwAw_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+alZX2MRcdtw,210.0,220.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_alZX2MRcdtw_210_220.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+723KuaTtsVc,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_723KuaTtsVc_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+0SmWy_kTHcI,180.0,190.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_0SmWy_kTHcI_180_190.wav,impact,Glass,/m/039jq,audioset_unbalanced
+8wJbyW5RhBs,250.0,260.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_8wJbyW5RhBs_250_260.wav,impact,Glass,/m/039jq,audioset_unbalanced
+jtL3pRACrWo,70.0,80.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_jtL3pRACrWo_70_80.wav,impact,Glass,/m/039jq,audioset_unbalanced
+WjKKKmpIk7w,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_WjKKKmpIk7w_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+avzyhROCCSI,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_avzyhROCCSI_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+xfzunkprFeI,280.0,290.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_xfzunkprFeI_280_290.wav,impact,Glass,/m/039jq,audioset_unbalanced
+ER6LxQBDpCg,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_ER6LxQBDpCg_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+rLh91hNdwfc,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_rLh91hNdwfc_10_20.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+JQAHxD3NiV8,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_JQAHxD3NiV8_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+mXTP3Ocr_Lo,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_mXTP3Ocr_Lo_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5YhaZSsAQ6M,70.0,80.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5YhaZSsAQ6M_70_80.wav,impact,Glass,/m/039jq,audioset_unbalanced
+KGlWvPs0Fy0,190.0,200.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_KGlWvPs0Fy0_190_200.wav,impact,Glass,/m/039jq,audioset_unbalanced
+0QlQLIvLpNI,170.0,180.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_0QlQLIvLpNI_170_180.wav,impact,Glass,/m/039jq,audioset_unbalanced
+mvs0qYvgS0E,250.0,260.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_mvs0qYvgS0E_250_260.wav,impact,Glass,/m/039jq,audioset_unbalanced
+XSITM-b1D_I,150.0,160.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_XSITM-b1D_I_150_160.wav,impact,Glass,/m/039jq,audioset_unbalanced
+tg8Ks5YNF7c,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_tg8Ks5YNF7c_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+Y7UFiy3d6IA,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Y7UFiy3d6IA_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+t0v24qbbKeg,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_t0v24qbbKeg_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+f9rUv9UQhb4,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_f9rUv9UQhb4_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+OxTF8sde9I0,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_OxTF8sde9I0_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+zC4lF6x8p_s,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_zC4lF6x8p_s_30_40.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+21xFcVKvHfw,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_21xFcVKvHfw_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+4lJmK8Hp4mg,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_4lJmK8Hp4mg_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+p4U0AtnT0x0,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_p4U0AtnT0x0_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+qKNu2DwzwNc,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_qKNu2DwzwNc_40_50.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+-aeNwr3wq2g,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_-aeNwr3wq2g_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+laZ-ENU31_I,460.0,470.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_laZ-ENU31_I_460_470.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+3qCf8wct2pc,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_3qCf8wct2pc_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+JswXy8W6WVs,580.0,590.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_JswXy8W6WVs_580_590.wav,impact,Glass,/m/039jq,audioset_unbalanced
+9q2ubQdUI3E,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_9q2ubQdUI3E_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Hp3kmf0_XrQ,180.0,190.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Hp3kmf0_XrQ_180_190.wav,impact,Glass,/m/039jq,audioset_unbalanced
+8R4b0wQYY80,100.0,110.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_8R4b0wQYY80_100_110.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Fc9RX597K4c,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Fc9RX597K4c_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+d3iB95Ek33g,580.0,590.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_d3iB95Ek33g_580_590.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+6JvQzZeMQfM,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_6JvQzZeMQfM_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+oYl4P96Yyc8,590.0,600.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_oYl4P96Yyc8_590_600.wav,impact,Glass,/m/039jq,audioset_unbalanced
+NEe5zzZYz_M,210.0,220.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_NEe5zzZYz_M_210_220.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+GKen9uPvoVY,130.0,140.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_GKen9uPvoVY_130_140.wav,impact,Glass,/m/039jq,audioset_unbalanced
+HFjiDWIwBkA,350.0,360.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_HFjiDWIwBkA_350_360.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+S24VVWenHz8,70.0,80.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_S24VVWenHz8_70_80.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+P_MNc92tT_o,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_P_MNc92tT_o_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+aK55NvCxMgU,0.0,5.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_aK55NvCxMgU_0_5.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+BAWOY4XilfM,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_BAWOY4XilfM_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+N0b_fbb4QHg,510.0,520.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_N0b_fbb4QHg_510_520.wav,impact,Glass,/m/039jq,audioset_unbalanced
+uG_yfRo7QsA,140.0,150.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_uG_yfRo7QsA_140_150.wav,impact,Glass,/m/039jq,audioset_unbalanced
+D133qotuiVc,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_D133qotuiVc_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+vCNVBpZUeyA,0.0,8.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_vCNVBpZUeyA_0_8.wav,impact,Glass,/m/039jq,audioset_unbalanced
+CJsKo3u7dsk,170.0,180.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_CJsKo3u7dsk_170_180.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+hmIljX4SE-Y,470.0,480.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_hmIljX4SE-Y_470_480.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Fa_gd9TQrrg,530.0,540.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Fa_gd9TQrrg_530_540.wav,impact,Glass,/m/039jq,audioset_unbalanced
+JRaawbY-0iQ,270.0,280.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_JRaawbY-0iQ_270_280.wav,impact,Glass,/m/039jq,audioset_unbalanced
+2GehEKSOgc8,80.0,90.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_2GehEKSOgc8_80_90.wav,impact,Glass,/m/039jq,audioset_unbalanced
+ySrWjoAhpFc,110.0,120.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_ySrWjoAhpFc_110_120.wav,impact,Glass,/m/039jq,audioset_unbalanced
+keH1aj2DQk8,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_keH1aj2DQk8_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+dUcA_WgfDpk,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_dUcA_WgfDpk_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+-H8_vUeUe9Y,190.0,200.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_-H8_vUeUe9Y_190_200.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+kkvKWIrm6yA,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_kkvKWIrm6yA_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+UtsJsCjgJKA,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_UtsJsCjgJKA_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+iJvBM4z1uHA,250.0,260.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_iJvBM4z1uHA_250_260.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+Bw3aCcwP938,130.0,140.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Bw3aCcwP938_130_140.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+Zo3Vu9AGmJo,60.0,70.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Zo3Vu9AGmJo_60_70.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5YOmLILWHyg,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5YOmLILWHyg_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+5cezddiPBAo,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5cezddiPBAo_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+wpo-AqzErQY,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_wpo-AqzErQY_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+LcSPDT299DE,370.0,380.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_LcSPDT299DE_370_380.wav,impact,Glass,/m/039jq,audioset_unbalanced
+UkrcILbBaVA,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_UkrcILbBaVA_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+SJXrTtzbUIg,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_SJXrTtzbUIg_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+g8g4zRShESY,440.0,450.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_g8g4zRShESY_440_450.wav,impact,Glass,/m/039jq,audioset_unbalanced
+MAu4Y0z7IEA,140.0,150.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_MAu4Y0z7IEA_140_150.wav,impact,Glass,/m/039jq,audioset_unbalanced
+y9krXjUBswo,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_y9krXjUBswo_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+-eUt1V7Pais,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_-eUt1V7Pais_10_20.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+06S0WuFc0-0,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_06S0WuFc0-0_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+uSZ4xb_peKg,20.0,30.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_uSZ4xb_peKg_20_30.wav,impact,Glass,/m/039jq,audioset_unbalanced
+zojRJTc9uag,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_zojRJTc9uag_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+nN82D2mB4CY,60.0,70.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_nN82D2mB4CY_60_70.wav,impact,Glass,/m/039jq,audioset_unbalanced
+sarghzICPs4,110.0,120.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_sarghzICPs4_110_120.wav,impact,Glass,/m/039jq,audioset_unbalanced
+UuO2V5Awjjw,370.0,380.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_UuO2V5Awjjw_370_380.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+5LweUhQmvjM,60.0,70.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_5LweUhQmvjM_60_70.wav,impact,Glass,/m/039jq,audioset_unbalanced
+sVY3UeE-HCo,130.0,140.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_sVY3UeE-HCo_130_140.wav,impact,Glass,/m/039jq,audioset_unbalanced
+kLYRNSLPcDg,240.0,250.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_kLYRNSLPcDg_240_250.wav,impact,Glass,/m/039jq,audioset_unbalanced
+9k-LNv2ek0k,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_9k-LNv2ek0k_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+JhL9gU71pg8,190.0,200.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_JhL9gU71pg8_190_200.wav,impact,Glass,/m/039jq,audioset_unbalanced
+vHrvxHUe10g,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_vHrvxHUe10g_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+lw8WLBVihIg,100.0,110.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_lw8WLBVihIg_100_110.wav,impact,Glass,/m/039jq,audioset_unbalanced
+0rZnHg698N8,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_0rZnHg698N8_40_50.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+cFQeXUc-D6Y,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_cFQeXUc-D6Y_10_20.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+9GtKsEPW17Y,70.0,80.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_9GtKsEPW17Y_70_80.wav,impact,Glass,/m/039jq,audioset_unbalanced
+pmqUhWzk124,290.0,300.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_pmqUhWzk124_290_300.wav,impact,Glass,/m/039jq,audioset_unbalanced
+AhA7Wzj7nw4,550.0,560.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_AhA7Wzj7nw4_550_560.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+xqAr3Jat5J8,90.0,100.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_xqAr3Jat5J8_90_100.wav,impact,Glass,/m/039jq,audioset_unbalanced
+P3Kp__LxCZw,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_P3Kp__LxCZw_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+gjkXTvABqys,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_gjkXTvABqys_0_10.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+F77-qB48bNc,410.0,420.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_F77-qB48bNc_410_420.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+ieb4IK9cclU,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_ieb4IK9cclU_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+mFl2Fs0mtTU,40.0,50.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_mFl2Fs0mtTU_40_50.wav,impact,Glass,/m/039jq,audioset_unbalanced
+cUK4IGP7L8o,30.0,40.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_cUK4IGP7L8o_30_40.wav,impact,Glass,/m/039jq,audioset_unbalanced
+aA4-7mpkr18,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_aA4-7mpkr18_50_60.wav,impact,Shatter,/m/07rn7sz,audioset_unbalanced
+SYMnDVETaIs,120.0,130.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_SYMnDVETaIs_120_130.wav,impact,Glass,/m/039jq,audioset_unbalanced
+pvhdxtDLsWM,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_pvhdxtDLsWM_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+ZPE0egSZWmo,10.0,20.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_ZPE0egSZWmo_10_20.wav,impact,Glass,/m/039jq,audioset_unbalanced
+Gk93WXk_tP0,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_Gk93WXk_tP0_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+ZbASsCFqD8g,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_ZbASsCFqD8g_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+xvRTdi5JU8c,50.0,60.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_xvRTdi5JU8c_50_60.wav,impact,Glass,/m/039jq,audioset_unbalanced
+WUjCVw0qqTQ,0.0,10.0,glass_breaking,1,data/raw/test_set_v2/glass_breaking/glass_breaking_WUjCVw0qqTQ_0_10.wav,impact,Glass,/m/039jq,audioset_unbalanced
+IBsmEkE40tM,500.0,510.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_IBsmEkE40tM_500_510.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+8qw0ssKRMR4,350.0,360.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_8qw0ssKRMR4_350_360.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+hKujW3j4URc,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_hKujW3j4URc_0_10.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+bZOjS8dIITo,340.0,350.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_bZOjS8dIITo_340_350.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+EtCBfB8oI_Y,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_EtCBfB8oI_Y_30_40.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+052BOxtN3G0,130.0,140.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_052BOxtN3G0_130_140.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+9EHhPawop30,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_9EHhPawop30_0_10.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+2k4xfsc_jDg,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_2k4xfsc_jDg_30_40.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+cZRcn8Kn_zc,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_cZRcn8Kn_zc_0_10.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+CfcKzsXrzLo,210.0,220.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_CfcKzsXrzLo_210_220.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+qvljTWNR140,150.0,160.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_qvljTWNR140_150_160.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+YMAyO08UClk,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_YMAyO08UClk_20_30.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+FXBVm1l3by8,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_FXBVm1l3by8_20_30.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+Vf-8nPvUQ5o,390.0,400.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Vf-8nPvUQ5o_390_400.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+-gygvnOTy3s,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_-gygvnOTy3s_20_30.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+gS4id2VnOeU,0.0,7.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_gS4id2VnOeU_0_7.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+CbBa2toCIUE,210.0,220.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_CbBa2toCIUE_210_220.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+4TpoNTEWlxQ,390.0,400.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_4TpoNTEWlxQ_390_400.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+DeeyaDOkPuE,0.0,3.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_DeeyaDOkPuE_0_3.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+ANyaBIp7o-0,0.0,8.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_ANyaBIp7o-0_0_8.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+TMMP6bWMWto,17.0,27.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_TMMP6bWMWto_17_27.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+DOTAu97_Lj0,510.0,520.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_DOTAu97_Lj0_510_520.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+gDrGJUP_QZU,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_gDrGJUP_QZU_0_10.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+U3DMVNbvaL4,340.0,350.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_U3DMVNbvaL4_340_350.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+I_jaxreQAs8,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_I_jaxreQAs8_0_10.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+37sfyhEXjV0,550.0,560.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_37sfyhEXjV0_550_560.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+arRtssXuouY,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_arRtssXuouY_0_10.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+HoTd9nQeRrw,0.0,9.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_HoTd9nQeRrw_0_9.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+NYpT8rL0qdc,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_NYpT8rL0qdc_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+mQ59yOcWrxs,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_mQ59yOcWrxs_20_30.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+R_CrC7D3FL0,0.0,5.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_R_CrC7D3FL0_0_5.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+w0ooEwyhzjw,130.0,140.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_w0ooEwyhzjw_130_140.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+8JnXd31gqkE,310.0,320.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_8JnXd31gqkE_310_320.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+mEFYNWFy9Kg,80.0,90.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_mEFYNWFy9Kg_80_90.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+I4pOnI9vGIY,60.0,70.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_I4pOnI9vGIY_60_70.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+gijXrLykagI,330.0,340.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_gijXrLykagI_330_340.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+Vfj8uDgVe0w,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Vfj8uDgVe0w_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+YMF0gy_LKKg,190.0,200.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_YMF0gy_LKKg_190_200.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+TDpNiRuXDVs,26.0,36.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_TDpNiRuXDVs_26_36.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+oCaoks1ULHo,60.0,70.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_oCaoks1ULHo_60_70.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+TZlUo0lh1kI,40.0,50.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_TZlUo0lh1kI_40_50.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+FCEs7mWD99A,280.0,290.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_FCEs7mWD99A_280_290.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+9MsFZzZR71M,15.0,25.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_9MsFZzZR71M_15_25.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+CpkRWOkSodA,240.0,250.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_CpkRWOkSodA_240_250.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+xwswvKps7NI,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_xwswvKps7NI_10_20.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+IzpndfuyB68,0.0,5.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_IzpndfuyB68_0_5.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+kOSikt6OKgU,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_kOSikt6OKgU_0_10.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+GvQ6CXvUo2A,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_GvQ6CXvUo2A_30_40.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+nFJwB77tcoA,290.0,300.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_nFJwB77tcoA_290_300.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+AUd6o65D5BU,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_AUd6o65D5BU_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+NeIMz0PEo2s,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_NeIMz0PEo2s_30_40.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+lUtC_tknKiA,70.0,80.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_lUtC_tknKiA_70_80.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+jdwka-Mg03A,250.0,260.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_jdwka-Mg03A_250_260.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+R8V9JskuqXg,420.0,430.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_R8V9JskuqXg_420_430.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+UEjjdJ3fV94,260.0,270.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_UEjjdJ3fV94_260_270.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+NCwDYX70r-A,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_NCwDYX70r-A_0_10.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+EkwFwua8DD8,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_EkwFwua8DD8_30_40.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+h4J0Y__UPg4,8.0,18.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_h4J0Y__UPg4_8_18.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+Upr8edIQQ98,390.0,400.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Upr8edIQQ98_390_400.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+Wdd2wKQnlfQ,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Wdd2wKQnlfQ_30_40.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+IN3DSGkFu98,110.0,120.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_IN3DSGkFu98_110_120.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+YuQD7n_MEq4,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_YuQD7n_MEq4_0_10.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+PZTSE-5sw1U,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_PZTSE-5sw1U_10_20.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+DBv0sxvxuGM,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_DBv0sxvxuGM_20_30.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+o14onxdVjw4,40.0,50.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_o14onxdVjw4_40_50.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+y1vxYiYvWA4,60.0,70.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_y1vxYiYvWA4_60_70.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+V-V1Uu1xPkk,370.0,380.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_V-V1Uu1xPkk_370_380.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+UgTkiY6iF90,50.0,60.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_UgTkiY6iF90_50_60.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+k38zHaSdJNI,140.0,150.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_k38zHaSdJNI_140_150.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+j-v4XME42os,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_j-v4XME42os_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+EP4glrsvAnU,59.0,69.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_EP4glrsvAnU_59_69.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+ccMo1egU_q4,5.0,15.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_ccMo1egU_q4_5_15.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+MG5aW_j-v1Q,120.0,130.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_MG5aW_j-v1Q_120_130.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+pwm5UVSEpfs,570.0,580.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_pwm5UVSEpfs_570_580.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+ugHrof6SCXM,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_ugHrof6SCXM_0_10.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+2NDpT1iQc6o,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_2NDpT1iQc6o_20_30.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+2C4nvMqXCCE,17.0,27.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_2C4nvMqXCCE_17_27.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+eJ0CyvU8Hjg,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_eJ0CyvU8Hjg_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+neoLwmaLz24,210.0,220.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_neoLwmaLz24_210_220.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+XJumR23P_c0,3.0,13.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_XJumR23P_c0_3_13.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+sQ4_H3LSO6E,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_sQ4_H3LSO6E_10_20.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+2AvWyMhYgkM,0.0,7.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_2AvWyMhYgkM_0_7.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+gH0HevSrwTQ,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_gH0HevSrwTQ_10_20.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+aX3nKqzqdN8,230.0,240.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_aX3nKqzqdN8_230_240.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+cbbXtPiRZYk,380.0,390.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_cbbXtPiRZYk_380_390.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+y03o3DGnlFw,17.0,27.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_y03o3DGnlFw_17_27.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+wuEJgfy7ZDM,260.0,270.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_wuEJgfy7ZDM_260_270.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+p5SJuE32zGQ,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_p5SJuE32zGQ_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+_0rN-OR7-zY,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot__0rN-OR7-zY_0_10.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+x0X1kzTM26M,0.0,10.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_x0X1kzTM26M_0_10.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+AJGVYfrHgZo,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_AJGVYfrHgZo_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+I-QMujXmqmY,60.0,70.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_I-QMujXmqmY_60_70.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+f9CNgIEWZAk,6.0,16.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_f9CNgIEWZAk_6_16.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+NL2R9ztM334,26.0,36.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_NL2R9ztM334_26_36.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+vbU3RdtA0zc,230.0,240.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_vbU3RdtA0zc_230_240.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+BjxXdtUxuXo,5.0,15.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_BjxXdtUxuXo_5_15.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+BRk4z0QEe70,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_BRk4z0QEe70_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+GueOh9nkQ38,80.0,90.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_GueOh9nkQ38_80_90.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+9xEsReDCwSM,12.0,22.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_9xEsReDCwSM_12_22.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+nnGcLH1cu74,50.0,60.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_nnGcLH1cu74_50_60.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+-HtRQ4ewyd4,210.0,220.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_-HtRQ4ewyd4_210_220.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+VPDUND6yZog,250.0,260.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_VPDUND6yZog_250_260.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+LXos7b2qYj4,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_LXos7b2qYj4_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+rLD2YAPA-mc,220.0,230.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_rLD2YAPA-mc_220_230.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+ZVuCcF6_6_4,0.0,6.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_ZVuCcF6_6_4_0_6.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+4GoLMvLuQco,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_4GoLMvLuQco_10_20.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+RCWFg0ztm_Y,70.0,80.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_RCWFg0ztm_Y_70_80.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+pbmn80emIm8,100.0,110.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_pbmn80emIm8_100_110.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+W2552XOV7_o,5.0,15.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_W2552XOV7_o_5_15.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+aNQVCbaWZ5c,270.0,280.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_aNQVCbaWZ5c_270_280.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+pphU2_pHu-M,230.0,240.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_pphU2_pHu-M_230_240.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+s8-JWRAaOS0,20.0,30.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_s8-JWRAaOS0_20_30.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+XQULlkyFPx0,50.0,60.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_XQULlkyFPx0_50_60.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+H-b4rSabW10,270.0,280.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_H-b4rSabW10_270_280.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+MPfnSaOw-kU,40.0,50.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_MPfnSaOw-kU_40_50.wav,weapon,Machine gun,/m/04zjc,audioset_unbalanced
+ry2aUai4UKQ,160.0,170.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_ry2aUai4UKQ_160_170.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+YpP7WSZHyUE,200.0,210.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_YpP7WSZHyUE_200_210.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+XM0aaZqxTrY,210.0,220.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_XM0aaZqxTrY_210_220.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+Fnsusr00Ftc,90.0,100.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Fnsusr00Ftc_90_100.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+vF9Ek88Rt2c,110.0,120.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_vF9Ek88Rt2c_110_120.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+Hfc2dU19LaY,170.0,180.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_Hfc2dU19LaY_170_180.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+vruDH_YLaPI,90.0,100.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_vruDH_YLaPI_90_100.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+hRuYfzReWpk,440.0,450.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_hRuYfzReWpk_440_450.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+2jsN5DSJzzs,170.0,180.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_2jsN5DSJzzs_170_180.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+sd2Ae7Ln0hw,0.0,8.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_sd2Ae7Ln0hw_0_8.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+L3EUR1YkeJI,100.0,110.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_L3EUR1YkeJI_100_110.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+OWwFbZ45Zqk,120.0,130.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_OWwFbZ45Zqk_120_130.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+LLKyUhdWu1k,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_LLKyUhdWu1k_30_40.wav,weapon,Fusillade,/m/02z32qm,audioset_unbalanced
+uU4D-jeVpHg,0.0,8.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_uU4D-jeVpHg_0_8.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+U3YQR0DG3Uc,510.0,520.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_U3YQR0DG3Uc_510_520.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+06ZsqTqN-no,7.0,17.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_06ZsqTqN-no_7_17.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+HbSm0b-NCgU,110.0,120.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_HbSm0b-NCgU_110_120.wav,weapon,Cap gun,/m/073cg4,audioset_unbalanced
+aVIwD29T7c4,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_aVIwD29T7c4_30_40.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+I57XQS1aN6s,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_I57XQS1aN6s_30_40.wav,weapon,Artillery fire,/m/0_1c,audioset_unbalanced
+6jTcq73AFB4,10.0,20.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_6jTcq73AFB4_10_20.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+quQxM5Ufvtc,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_quQxM5Ufvtc_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+goav4puIwtk,0.0,7.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_goav4puIwtk_0_7.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+-m8FiTbRnQI,7.0,17.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_-m8FiTbRnQI_7_17.wav,weapon,Explosion,/m/014zdl,audioset_unbalanced
+HEc9nxUpzW4,300.0,310.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_HEc9nxUpzW4_300_310.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+AuR26l0RaW8,30.0,40.0,gunshot,2,data/raw/test_set_v2/gunshot/gunshot_AuR26l0RaW8_30_40.wav,weapon,"Gunshot, gunfire",/m/032s66,audioset_unbalanced
+anS2dQ29R5Y,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_anS2dQ29R5Y_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+4Ol-HLrRhqg,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_4Ol-HLrRhqg_10_20.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+URkIXw5DOAs,11.0,21.0,siren,3,data/raw/test_set_v2/siren/siren_URkIXw5DOAs_11_21.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+BDcAsZpz92w,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_BDcAsZpz92w_60_70.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ENMIxLDigIQ,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_ENMIxLDigIQ_60_70.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+unsipAo8fs0,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_unsipAo8fs0_10_20.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+De7r6mittzE,16.0,26.0,siren,3,data/raw/test_set_v2/siren/siren_De7r6mittzE_16_26.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+7JaJ4DPnKvo,200.0,210.0,siren,3,data/raw/test_set_v2/siren/siren_7JaJ4DPnKvo_200_210.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+hS6aYTE90RY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_hS6aYTE90RY_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+tmlv4VNzmMs,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_tmlv4VNzmMs_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+hyKgwy274DU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_hyKgwy274DU_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ZgzGUUFTKIA,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ZgzGUUFTKIA_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+FzWwyDdKQUw,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_FzWwyDdKQUw_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+DRqKOlP8BmU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_DRqKOlP8BmU_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+xD_wk1Udifk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_xD_wk1Udifk_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+mrIqBgnXp0k,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_mrIqBgnXp0k_20_30.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+q5FwsIkJCXU,120.0,130.0,siren,3,data/raw/test_set_v2/siren/siren_q5FwsIkJCXU_120_130.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Y_mkJdolGTQ,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_Y_mkJdolGTQ_60_70.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+2Bv1aGIlbCM,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_2Bv1aGIlbCM_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+H6GMg3Qn5ZM,8.0,18.0,siren,3,data/raw/test_set_v2/siren/siren_H6GMg3Qn5ZM_8_18.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+zdAzOcn1-8s,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_zdAzOcn1-8s_0_10.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+r-_aSjH-3fU,180.0,190.0,siren,3,data/raw/test_set_v2/siren/siren_r-_aSjH-3fU_180_190.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Vu9kacBXAgM,90.0,100.0,siren,3,data/raw/test_set_v2/siren/siren_Vu9kacBXAgM_90_100.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+ddSJDyfFgnE,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_ddSJDyfFgnE_0_10.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+8ftRYV4tuiM,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_8ftRYV4tuiM_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+FdTl0ITxDJ0,430.0,440.0,siren,3,data/raw/test_set_v2/siren/siren_FdTl0ITxDJ0_430_440.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+sbgGB3DRo5g,130.0,140.0,siren,3,data/raw/test_set_v2/siren/siren_sbgGB3DRo5g_130_140.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+T1U74Mb-TEE,80.0,90.0,siren,3,data/raw/test_set_v2/siren/siren_T1U74Mb-TEE_80_90.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+gsUm47jOcY0,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_gsUm47jOcY0_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+jEdEmDHUi00,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_jEdEmDHUi00_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+Kd2HuaqKRm0,13.0,23.0,siren,3,data/raw/test_set_v2/siren/siren_Kd2HuaqKRm0_13_23.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+cof51kXndXU,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_cof51kXndXU_10_20.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+OjQ4F1Y0NJs,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_OjQ4F1Y0NJs_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+oLpSUt5ddxM,40.0,50.0,siren,3,data/raw/test_set_v2/siren/siren_oLpSUt5ddxM_40_50.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+UHXk8zuyalo,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_UHXk8zuyalo_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+T3Mt2LGjobk,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_T3Mt2LGjobk_0_10.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+553MPJIh70M,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_553MPJIh70M_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+r_QHrd3HcAk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_r_QHrd3HcAk_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+cg7Cw4YdKGw,190.0,200.0,siren,3,data/raw/test_set_v2/siren/siren_cg7Cw4YdKGw_190_200.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+UekdjdFyp6I,260.0,270.0,siren,3,data/raw/test_set_v2/siren/siren_UekdjdFyp6I_260_270.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ajbR8R6R7fQ,250.0,260.0,siren,3,data/raw/test_set_v2/siren/siren_ajbR8R6R7fQ_250_260.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+aoL7KMlC57Q,70.0,80.0,siren,3,data/raw/test_set_v2/siren/siren_aoL7KMlC57Q_70_80.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+S9-CGZH8-OY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_S9-CGZH8-OY_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+LD9mzdLBFBY,120.0,130.0,siren,3,data/raw/test_set_v2/siren/siren_LD9mzdLBFBY_120_130.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+T8eoD6rzW24,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_T8eoD6rzW24_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+PYe9EMPXUjo,29.0,39.0,siren,3,data/raw/test_set_v2/siren/siren_PYe9EMPXUjo_29_39.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+e6-dCWCBmXU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_e6-dCWCBmXU_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+K8rgboU4Le4,190.0,200.0,siren,3,data/raw/test_set_v2/siren/siren_K8rgboU4Le4_190_200.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+_z8y7fBAHM0,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren__z8y7fBAHM0_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+2kH3MLQhFTo,14.0,24.0,siren,3,data/raw/test_set_v2/siren/siren_2kH3MLQhFTo_14_24.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+tqZ-fnrxii8,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_tqZ-fnrxii8_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+j7lT0A3UI50,8.0,18.0,siren,3,data/raw/test_set_v2/siren/siren_j7lT0A3UI50_8_18.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+9ClMgiPpGCY,350.0,360.0,siren,3,data/raw/test_set_v2/siren/siren_9ClMgiPpGCY_350_360.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+mSr1DeUSN5g,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_mSr1DeUSN5g_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+yPq_NrLKRMA,70.0,80.0,siren,3,data/raw/test_set_v2/siren/siren_yPq_NrLKRMA_70_80.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+yOqfUCG4VEE,310.0,320.0,siren,3,data/raw/test_set_v2/siren/siren_yOqfUCG4VEE_310_320.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+JBLJwNIi_6I,80.0,90.0,siren,3,data/raw/test_set_v2/siren/siren_JBLJwNIi_6I_80_90.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+iudAvRC9BUE,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_iudAvRC9BUE_60_70.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+7hdXzJpOXiY,18.0,28.0,siren,3,data/raw/test_set_v2/siren/siren_7hdXzJpOXiY_18_28.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+3RDk19pu7xA,17.0,27.0,siren,3,data/raw/test_set_v2/siren/siren_3RDk19pu7xA_17_27.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+Top0ds4q4VU,120.0,130.0,siren,3,data/raw/test_set_v2/siren/siren_Top0ds4q4VU_120_130.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+9K2PkTFymr8,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_9K2PkTFymr8_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+bsU-6S90Qos,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_bsU-6S90Qos_0_10.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+9VA0BLgY7yg,150.0,160.0,siren,3,data/raw/test_set_v2/siren/siren_9VA0BLgY7yg_150_160.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+bFVZ1YGj2pw,80.0,90.0,siren,3,data/raw/test_set_v2/siren/siren_bFVZ1YGj2pw_80_90.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+_H5T-oEdU0s,510.0,520.0,siren,3,data/raw/test_set_v2/siren/siren__H5T-oEdU0s_510_520.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+_OV3RWqTPrg,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren__OV3RWqTPrg_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+NJ4hPf5QM6o,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_NJ4hPf5QM6o_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+lQO7mhuLRpI,23.0,33.0,siren,3,data/raw/test_set_v2/siren/siren_lQO7mhuLRpI_23_33.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+kMsUtm29Ikc,410.0,420.0,siren,3,data/raw/test_set_v2/siren/siren_kMsUtm29Ikc_410_420.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+mN2Cwi0JZzg,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_mN2Cwi0JZzg_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+ze0LsBtoDm0,0.0,1.0,siren,3,data/raw/test_set_v2/siren/siren_ze0LsBtoDm0_0_1.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+IqhcHwGcmzM,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_IqhcHwGcmzM_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+AwngxfILe08,40.0,50.0,siren,3,data/raw/test_set_v2/siren/siren_AwngxfILe08_40_50.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+08phkjI1dbc,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_08phkjI1dbc_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+1afqqNILjDo,24.0,34.0,siren,3,data/raw/test_set_v2/siren/siren_1afqqNILjDo_24_34.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+8po-6uxgiV4,50.0,60.0,siren,3,data/raw/test_set_v2/siren/siren_8po-6uxgiV4_50_60.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+gymAdyBpmfw,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_gymAdyBpmfw_20_30.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+b5Ql-dXjFTM,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_b5Ql-dXjFTM_0_10.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+oJvxBYDy5WU,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_oJvxBYDy5WU_20_30.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+IAj-meCa5N4,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_IAj-meCa5N4_30_40.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+9m6i3tZaqS0,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_9m6i3tZaqS0_60_70.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+SufPEtadr4g,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_SufPEtadr4g_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+izQUCKFHMI0,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_izQUCKFHMI0_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+xjMWeB9GU3M,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_xjMWeB9GU3M_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+SueqApKek28,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_SueqApKek28_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+DjV1SSd-xXU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_DjV1SSd-xXU_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+tV1jMnC4gF8,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_tV1jMnC4gF8_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+DNQBzb6sWQk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_DNQBzb6sWQk_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+riI4CyB18mU,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_riI4CyB18mU_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+9BuMNC0uv2M,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_9BuMNC0uv2M_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+s1ciUT98MvU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_s1ciUT98MvU_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+TfCaXZAya04,21.0,31.0,siren,3,data/raw/test_set_v2/siren/siren_TfCaXZAya04_21_31.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+f5oq8TRD7wY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_f5oq8TRD7wY_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+RPgAyWgOY8c,200.0,210.0,siren,3,data/raw/test_set_v2/siren/siren_RPgAyWgOY8c_200_210.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+CFsdbWSTqvA,80.0,90.0,siren,3,data/raw/test_set_v2/siren/siren_CFsdbWSTqvA_80_90.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+IJHDhkDsztU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_IJHDhkDsztU_30_40.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+41hXSY-DYYg,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_41hXSY-DYYg_0_10.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+dWhDrfNKFjs,40.0,50.0,siren,3,data/raw/test_set_v2/siren/siren_dWhDrfNKFjs_40_50.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+_q33qk6GMbQ,50.0,60.0,siren,3,data/raw/test_set_v2/siren/siren__q33qk6GMbQ_50_60.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+m7cu_33fbBg,50.0,60.0,siren,3,data/raw/test_set_v2/siren/siren_m7cu_33fbBg_50_60.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+DPAkjUF0gG0,8.0,18.0,siren,3,data/raw/test_set_v2/siren/siren_DPAkjUF0gG0_8_18.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+UZbNIRNjark,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_UZbNIRNjark_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+s0XY8HThKzk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_s0XY8HThKzk_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+Vg8p4AvhtOk,0.0,9.0,siren,3,data/raw/test_set_v2/siren/siren_Vg8p4AvhtOk_0_9.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+ZR3wDtFc7Tk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ZR3wDtFc7Tk_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+NptGIwHV91s,90.0,100.0,siren,3,data/raw/test_set_v2/siren/siren_NptGIwHV91s_90_100.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+CnJG3xCu6Fs,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_CnJG3xCu6Fs_30_40.wav,emergency_vehicle,Civil defense siren,/m/0dgbq,audioset_unbalanced
+XIh-zcuFB14,410.0,420.0,siren,3,data/raw/test_set_v2/siren/siren_XIh-zcuFB14_410_420.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+e27A7yUtPTo,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_e27A7yUtPTo_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+SO9yx3mOQlw,22.0,32.0,siren,3,data/raw/test_set_v2/siren/siren_SO9yx3mOQlw_22_32.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+zzkTERoqOoY,220.0,230.0,siren,3,data/raw/test_set_v2/siren/siren_zzkTERoqOoY_220_230.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Qq_zkt7i-Ug,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_Qq_zkt7i-Ug_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+lfzD0gCFpss,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_lfzD0gCFpss_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+LY21crejF-E,22.0,32.0,siren,3,data/raw/test_set_v2/siren/siren_LY21crejF-E_22_32.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+PFLdY6LG5RQ,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_PFLdY6LG5RQ_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+s4Oiw74D7TI,220.0,230.0,siren,3,data/raw/test_set_v2/siren/siren_s4Oiw74D7TI_220_230.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+I0cp1SlHt3c,60.0,70.0,siren,3,data/raw/test_set_v2/siren/siren_I0cp1SlHt3c_60_70.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+2810njbji-Q,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_2810njbji-Q_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+wWJ2kkXk50Q,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_wWJ2kkXk50Q_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+S0CobUgyhbk,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_S0CobUgyhbk_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ttAhQTD6mYM,370.0,380.0,siren,3,data/raw/test_set_v2/siren/siren_ttAhQTD6mYM_370_380.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+gLT4o6a46I0,22.0,32.0,siren,3,data/raw/test_set_v2/siren/siren_gLT4o6a46I0_22_32.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+Co2iMA6_FR8,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_Co2iMA6_FR8_0_10.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+_gpNcaJtUzo,13.0,23.0,siren,3,data/raw/test_set_v2/siren/siren__gpNcaJtUzo_13_23.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+WAZJOt9K1JM,210.0,220.0,siren,3,data/raw/test_set_v2/siren/siren_WAZJOt9K1JM_210_220.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+r3-7_mF71J4,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_r3-7_mF71J4_30_40.wav,emergency_vehicle,Civil defense siren,/m/0dgbq,audioset_unbalanced
+f5go-V0tVGw,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_f5go-V0tVGw_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+DqAedcp5q6s,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_DqAedcp5q6s_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+JbNoBhY4Etc,22.0,32.0,siren,3,data/raw/test_set_v2/siren/siren_JbNoBhY4Etc_22_32.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+JjgzX34EHWo,80.0,90.0,siren,3,data/raw/test_set_v2/siren/siren_JjgzX34EHWo_80_90.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+91icmlMqVDc,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_91icmlMqVDc_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+qydgkTB4W9Y,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_qydgkTB4W9Y_20_30.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+C-zGsxQcxMw,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_C-zGsxQcxMw_0_10.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+mTX07ADU7Ak,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_mTX07ADU7Ak_0_10.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+rPrslEDRR7s,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_rPrslEDRR7s_0_10.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+eZG1m4N2cPw,50.0,60.0,siren,3,data/raw/test_set_v2/siren/siren_eZG1m4N2cPw_50_60.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+Q_NNNZrVu-0,310.0,320.0,siren,3,data/raw/test_set_v2/siren/siren_Q_NNNZrVu-0_310_320.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+HnwbgnyMSmo,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_HnwbgnyMSmo_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+F3TEO8xCUAA,90.0,100.0,siren,3,data/raw/test_set_v2/siren/siren_F3TEO8xCUAA_90_100.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+rGUZA9RzOlE,3.0,13.0,siren,3,data/raw/test_set_v2/siren/siren_rGUZA9RzOlE_3_13.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ut1fqsFx4v0,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ut1fqsFx4v0_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+3qIzU14NNaY,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_3qIzU14NNaY_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+HNLuV_SiyCA,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_HNLuV_SiyCA_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+B6G0w_Bg5Nk,70.0,80.0,siren,3,data/raw/test_set_v2/siren/siren_B6G0w_Bg5Nk_70_80.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+4VSUe9b0eD0,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_4VSUe9b0eD0_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+dqyxyJOJdU8,70.0,80.0,siren,3,data/raw/test_set_v2/siren/siren_dqyxyJOJdU8_70_80.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+wGprM-vYN50,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_wGprM-vYN50_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+wWRSsvWtwPs,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_wWRSsvWtwPs_30_40.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+NwQD1pLvmrk,90.0,100.0,siren,3,data/raw/test_set_v2/siren/siren_NwQD1pLvmrk_90_100.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+HAfwGGjjD8w,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_HAfwGGjjD8w_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+1SxUdsWVkkI,190.0,200.0,siren,3,data/raw/test_set_v2/siren/siren_1SxUdsWVkkI_190_200.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+8_gWkfiTFlI,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_8_gWkfiTFlI_20_30.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+jMYSxUDbv1A,140.0,150.0,siren,3,data/raw/test_set_v2/siren/siren_jMYSxUDbv1A_140_150.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+SvQfOIxouFI,170.0,180.0,siren,3,data/raw/test_set_v2/siren/siren_SvQfOIxouFI_170_180.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ngm1xgtAaio,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ngm1xgtAaio_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+2bhg9MsRRkg,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_2bhg9MsRRkg_0_10.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+SA2ctPQLWy0,17.0,27.0,siren,3,data/raw/test_set_v2/siren/siren_SA2ctPQLWy0_17_27.wav,emergency_vehicle,Civil defense siren,/m/0dgbq,audioset_unbalanced
+q91mUNgSbSY,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_q91mUNgSbSY_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+wl5P8hTjkDc,90.0,100.0,siren,3,data/raw/test_set_v2/siren/siren_wl5P8hTjkDc_90_100.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+zeLEgKpkKj0,310.0,320.0,siren,3,data/raw/test_set_v2/siren/siren_zeLEgKpkKj0_310_320.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+7uZa2RBT9Xk,13.0,23.0,siren,3,data/raw/test_set_v2/siren/siren_7uZa2RBT9Xk_13_23.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Bu5NIpY0oYI,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_Bu5NIpY0oYI_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Q0NuYUO0BKE,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_Q0NuYUO0BKE_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+weIEZX8v5Kw,410.0,420.0,siren,3,data/raw/test_set_v2/siren/siren_weIEZX8v5Kw_410_420.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+3kuXJo9TDw8,0.0,5.0,siren,3,data/raw/test_set_v2/siren/siren_3kuXJo9TDw8_0_5.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+oqz0OOPYvN8,40.0,50.0,siren,3,data/raw/test_set_v2/siren/siren_oqz0OOPYvN8_40_50.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+F7vFZDM9jdY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_F7vFZDM9jdY_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+jiptw-a8Wgw,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_jiptw-a8Wgw_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+ffaebHphv4c,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ffaebHphv4c_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+s_dB_H-op7w,40.0,50.0,siren,3,data/raw/test_set_v2/siren/siren_s_dB_H-op7w_40_50.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+hF0tlT7Xux8,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_hF0tlT7Xux8_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+kccU3Qy5dGY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_kccU3Qy5dGY_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+p0fsKRuc48M,18.0,28.0,siren,3,data/raw/test_set_v2/siren/siren_p0fsKRuc48M_18_28.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+fdIj-BzqnmU,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_fdIj-BzqnmU_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+y9DLy5MYcPA,25.0,35.0,siren,3,data/raw/test_set_v2/siren/siren_y9DLy5MYcPA_25_35.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+-UCf_-3yzWU,290.0,300.0,siren,3,data/raw/test_set_v2/siren/siren_-UCf_-3yzWU_290_300.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+IHSh_z9E1-k,100.0,110.0,siren,3,data/raw/test_set_v2/siren/siren_IHSh_z9E1-k_100_110.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Ua3oTO67k08,270.0,280.0,siren,3,data/raw/test_set_v2/siren/siren_Ua3oTO67k08_270_280.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+2A0s2knQdqw,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_2A0s2knQdqw_30_40.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+LlHoQ4iQU1I,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_LlHoQ4iQU1I_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+AeQY28A72AE,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_AeQY28A72AE_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+ZfmYlwGMi-w,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_ZfmYlwGMi-w_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+uLAv5TD1WQM,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_uLAv5TD1WQM_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+phWVfoFL5yw,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_phWVfoFL5yw_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+XPG3qmPpJaY,460.0,470.0,siren,3,data/raw/test_set_v2/siren/siren_XPG3qmPpJaY_460_470.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+81VN0w_07rY,18.0,28.0,siren,3,data/raw/test_set_v2/siren/siren_81VN0w_07rY_18_28.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+iGIpG3BJ7uw,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_iGIpG3BJ7uw_10_20.wav,emergency_vehicle,Ambulance (siren),/m/012n7d,audioset_unbalanced
+N-xMOOEngJw,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_N-xMOOEngJw_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+9mjfxLFTeqI,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_9mjfxLFTeqI_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+f2opalJ-NQc,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_f2opalJ-NQc_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+KsyxK1XiM70,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_KsyxK1XiM70_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+E8lzro8HrMY,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_E8lzro8HrMY_30_40.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+LKov1VpG60E,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_LKov1VpG60E_20_30.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+96Sd2jVvlb8,30.0,40.0,siren,3,data/raw/test_set_v2/siren/siren_96Sd2jVvlb8_30_40.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+qGsz7IfJl1Y,0.0,10.0,siren,3,data/raw/test_set_v2/siren/siren_qGsz7IfJl1Y_0_10.wav,emergency_vehicle,Police car (siren),/m/04qvtq,audioset_unbalanced
+vvPbrRnm75E,20.0,30.0,siren,3,data/raw/test_set_v2/siren/siren_vvPbrRnm75E_20_30.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+8ZrOiT4MiII,10.0,20.0,siren,3,data/raw/test_set_v2/siren/siren_8ZrOiT4MiII_10_20.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+Ko7XD_6u4EI,250.0,260.0,siren,3,data/raw/test_set_v2/siren/siren_Ko7XD_6u4EI_250_260.wav,emergency_vehicle,Siren,/m/03kmc9,audioset_unbalanced
+PCDCLdplxZg,5.0,15.0,siren,3,data/raw/test_set_v2/siren/siren_PCDCLdplxZg_5_15.wav,emergency_vehicle,"Fire engine, fire truck (siren)",/m/012ndj,audioset_unbalanced
+rN5P9DileN4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_rN5P9DileN4_30_40.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+Tg7rvLmYIaE,170.0,180.0,other,4,data/raw/test_set_v2/other/other_Tg7rvLmYIaE_170_180.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+irDTrVaYY3E,70.0,80.0,other,4,data/raw/test_set_v2/other/other_irDTrVaYY3E_70_80.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+CTNBEpRrw30,320.0,330.0,other,4,data/raw/test_set_v2/other/other_CTNBEpRrw30_320_330.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+2kk95G0hzPc,490.0,500.0,other,4,data/raw/test_set_v2/other/other_2kk95G0hzPc_490_500.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+3BM0gDnXzoo,120.0,130.0,other,4,data/raw/test_set_v2/other/other_3BM0gDnXzoo_120_130.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+3AJuHcjE31w,30.0,40.0,other,4,data/raw/test_set_v2/other/other_3AJuHcjE31w_30_40.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+ynE8dceXYRo,0.0,10.0,other,4,data/raw/test_set_v2/other/other_ynE8dceXYRo_0_10.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+GNN6PhC6F8Q,290.0,300.0,other,4,data/raw/test_set_v2/other/other_GNN6PhC6F8Q_290_300.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+naZE-MvNpaI,90.0,100.0,other,4,data/raw/test_set_v2/other/other_naZE-MvNpaI_90_100.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+7ey4Ga1mJ2k,30.0,40.0,other,4,data/raw/test_set_v2/other/other_7ey4Ga1mJ2k_30_40.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+Js-NhMZb2U4,230.0,240.0,other,4,data/raw/test_set_v2/other/other_Js-NhMZb2U4_230_240.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+fzJz0-7i0D0,0.0,10.0,other,4,data/raw/test_set_v2/other/other_fzJz0-7i0D0_0_10.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+j1FwNX4bC9A,30.0,40.0,other,4,data/raw/test_set_v2/other/other_j1FwNX4bC9A_30_40.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+d--yuVh_Wqc,290.0,300.0,other,4,data/raw/test_set_v2/other/other_d--yuVh_Wqc_290_300.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+rab7TrU721I,280.0,290.0,other,4,data/raw/test_set_v2/other/other_rab7TrU721I_280_290.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+HgNaHA4LNxc,160.0,170.0,other,4,data/raw/test_set_v2/other/other_HgNaHA4LNxc_160_170.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+HxQgKit-huA,0.0,10.0,other,4,data/raw/test_set_v2/other/other_HxQgKit-huA_0_10.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+YBWqKAWsDfA,150.0,160.0,other,4,data/raw/test_set_v2/other/other_YBWqKAWsDfA_150_160.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+Xiaksz70A3c,520.0,530.0,other,4,data/raw/test_set_v2/other/other_Xiaksz70A3c_520_530.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+cydWCp1QrI0,16.0,26.0,other,4,data/raw/test_set_v2/other/other_cydWCp1QrI0_16_26.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+MplEgknxafE,0.0,10.0,other,4,data/raw/test_set_v2/other/other_MplEgknxafE_0_10.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+lU1hBy8ap10,40.0,50.0,other,4,data/raw/test_set_v2/other/other_lU1hBy8ap10_40_50.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+0sstijfm2nM,80.0,90.0,other,4,data/raw/test_set_v2/other/other_0sstijfm2nM_80_90.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+MaLZfIpWuJU,170.0,180.0,other,4,data/raw/test_set_v2/other/other_MaLZfIpWuJU_170_180.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+CWGj18ERpoU,10.0,20.0,other,4,data/raw/test_set_v2/other/other_CWGj18ERpoU_10_20.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+wAakKkBFdbU,30.0,40.0,other,4,data/raw/test_set_v2/other/other_wAakKkBFdbU_30_40.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+jU7OTseYKQ8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_jU7OTseYKQ8_30_40.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+jEeboSs9DTs,25.0,35.0,other,4,data/raw/test_set_v2/other/other_jEeboSs9DTs_25_35.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+7GjdyxNBxZQ,220.0,230.0,other,4,data/raw/test_set_v2/other/other_7GjdyxNBxZQ_220_230.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+wyLViHQxXTE,230.0,240.0,other,4,data/raw/test_set_v2/other/other_wyLViHQxXTE_230_240.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+cAujXxdt_XQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_cAujXxdt_XQ_30_40.wav,confuser_human_shouting,Yell,/m/07sr1lc,audioset_eval
+UaIc26ChugY,250.0,260.0,other,4,data/raw/test_set_v2/other/other_UaIc26ChugY_250_260.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+Ow77PtDRdEE,140.0,150.0,other,4,data/raw/test_set_v2/other/other_Ow77PtDRdEE_140_150.wav,confuser_human_shouting,Children shouting,/t/dd00135,audioset_eval
+F77rO5g2vNA,60.0,70.0,other,4,data/raw/test_set_v2/other/other_F77rO5g2vNA_60_70.wav,confuser_human_shouting,Shout,/m/07p6fty,audioset_eval
+1fD5B_VGkQk,30.0,40.0,other,4,data/raw/test_set_v2/other/other_1fD5B_VGkQk_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+6slrju_ar9U,280.0,290.0,other,4,data/raw/test_set_v2/other/other_6slrju_ar9U_280_290.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+MStLPkNFpJM,360.0,370.0,other,4,data/raw/test_set_v2/other/other_MStLPkNFpJM_360_370.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+7XTiQF56_lA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_7XTiQF56_lA_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+zQFkmIcqczE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_zQFkmIcqczE_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+L5LyCUPLtBs,23.0,33.0,other,4,data/raw/test_set_v2/other/other_L5LyCUPLtBs_23_33.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+MA9rigt5MiI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_MA9rigt5MiI_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+0VnKeRijmM8,150.0,160.0,other,4,data/raw/test_set_v2/other/other_0VnKeRijmM8_150_160.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+6DMa3Y8zhds,30.0,40.0,other,4,data/raw/test_set_v2/other/other_6DMa3Y8zhds_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+1J4FXUMOw8k,70.0,80.0,other,4,data/raw/test_set_v2/other/other_1J4FXUMOw8k_70_80.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+NgtSULTHItU,1.0,11.0,other,4,data/raw/test_set_v2/other/other_NgtSULTHItU_1_11.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+S8-rwpMWmug,420.0,430.0,other,4,data/raw/test_set_v2/other/other_S8-rwpMWmug_420_430.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+Ns7SFxyWx64,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Ns7SFxyWx64_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+-6Aq2fJwlgU,510.0,520.0,other,4,data/raw/test_set_v2/other/other_-6Aq2fJwlgU_510_520.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+mSLgj6uy-yE,80.0,90.0,other,4,data/raw/test_set_v2/other/other_mSLgj6uy-yE_80_90.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+trfLumgfnnw,130.0,140.0,other,4,data/raw/test_set_v2/other/other_trfLumgfnnw_130_140.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+NM-54_fq4Ng,90.0,100.0,other,4,data/raw/test_set_v2/other/other_NM-54_fq4Ng_90_100.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+x8LwVi2LrO4,80.0,90.0,other,4,data/raw/test_set_v2/other/other_x8LwVi2LrO4_80_90.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+0GBdXiumDQw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_0GBdXiumDQw_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+zadKyjzUPwE,40.0,50.0,other,4,data/raw/test_set_v2/other/other_zadKyjzUPwE_40_50.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+CNGhlimSzJg,300.0,310.0,other,4,data/raw/test_set_v2/other/other_CNGhlimSzJg_300_310.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+M1cndjn2Prk,30.0,40.0,other,4,data/raw/test_set_v2/other/other_M1cndjn2Prk_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+AWynHWLA31g,25.0,35.0,other,4,data/raw/test_set_v2/other/other_AWynHWLA31g_25_35.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+1UCNBHZQNVM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_1UCNBHZQNVM_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+jfJ7lR27d7g,40.0,50.0,other,4,data/raw/test_set_v2/other/other_jfJ7lR27d7g_40_50.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+D2o7XtW2-QA,210.0,220.0,other,4,data/raw/test_set_v2/other/other_D2o7XtW2-QA_210_220.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+-dL_J5KkKZQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_-dL_J5KkKZQ_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+jNjUU01quLs,100.0,110.0,other,4,data/raw/test_set_v2/other/other_jNjUU01quLs_100_110.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+VsdOoLvOZQ8,17.0,27.0,other,4,data/raw/test_set_v2/other/other_VsdOoLvOZQ8_17_27.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+po10-xWkfyc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_po10-xWkfyc_30_40.wav,confuser_metal_impacts,Bang,/m/07pws3f,audioset_eval
+81btQM0UoLk,5.0,15.0,other,4,data/raw/test_set_v2/other/other_81btQM0UoLk_5_15.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+C1dnk7pe_Vg,30.0,40.0,other,4,data/raw/test_set_v2/other/other_C1dnk7pe_Vg_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+vcQRjVZy-lI,70.0,80.0,other,4,data/raw/test_set_v2/other/other_vcQRjVZy-lI_70_80.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+mfr5D8eRuxY,160.0,170.0,other,4,data/raw/test_set_v2/other/other_mfr5D8eRuxY_160_170.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+r6E4PWjdHuI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_r6E4PWjdHuI_30_40.wav,confuser_metal_impacts,"Smash, crash",/m/07pjjrj,audioset_eval
+3tUlhM80ObM,0.0,8.0,other,4,data/raw/test_set_v2/other/other_3tUlhM80ObM_0_8.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+B_tbkQYT9N0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_B_tbkQYT9N0_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+TIjqdHhg6n0,220.0,230.0,other,4,data/raw/test_set_v2/other/other_TIjqdHhg6n0_220_230.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+kYvoPTLXwwE,0.0,6.0,other,4,data/raw/test_set_v2/other/other_kYvoPTLXwwE_0_6.wav,confuser_door_slams,Door,/m/02dgv,audioset_eval
+b_RtXz277T0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_b_RtXz277T0_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+CVVxdfUG-yg,0.0,7.0,other,4,data/raw/test_set_v2/other/other_CVVxdfUG-yg_0_7.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+OjG82keo43Y,15.0,25.0,other,4,data/raw/test_set_v2/other/other_OjG82keo43Y_15_25.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+7l7gdzbt294,0.0,7.0,other,4,data/raw/test_set_v2/other/other_7l7gdzbt294_0_7.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+LfbGHMumxIQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_LfbGHMumxIQ_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+pzbO6YfqYII,30.0,40.0,other,4,data/raw/test_set_v2/other/other_pzbO6YfqYII_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+WNv-YNn1cZ8,10.0,20.0,other,4,data/raw/test_set_v2/other/other_WNv-YNn1cZ8_10_20.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+yNqzpXyIB1o,30.0,40.0,other,4,data/raw/test_set_v2/other/other_yNqzpXyIB1o_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+q-Ar7M-NKW4,0.0,10.0,other,4,data/raw/test_set_v2/other/other_q-Ar7M-NKW4_0_10.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+CmAt9DymrbM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_CmAt9DymrbM_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+BbOVvWpZAWo,360.0,370.0,other,4,data/raw/test_set_v2/other/other_BbOVvWpZAWo_360_370.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+wEJp7WdmDWQ,80.0,90.0,other,4,data/raw/test_set_v2/other/other_wEJp7WdmDWQ_80_90.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+xlxNGgr9dq4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_xlxNGgr9dq4_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+yoHl3S7uHxc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_yoHl3S7uHxc_30_40.wav,confuser_door_slams,Door,/m/02dgv,audioset_eval
+H8gY8KC4vwI,0.0,7.0,other,4,data/raw/test_set_v2/other/other_H8gY8KC4vwI_0_7.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+LCb5ac7dWyM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_LCb5ac7dWyM_30_40.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+ZylkgLeV-bU,23.0,33.0,other,4,data/raw/test_set_v2/other/other_ZylkgLeV-bU_23_33.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+lGZCODwfn0g,30.0,40.0,other,4,data/raw/test_set_v2/other/other_lGZCODwfn0g_30_40.wav,confuser_door_slams,Door,/m/02dgv,audioset_eval
+Ct7wWRJHPE0,140.0,150.0,other,4,data/raw/test_set_v2/other/other_Ct7wWRJHPE0_140_150.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+K6gTAlFe7tI,0.0,7.0,other,4,data/raw/test_set_v2/other/other_K6gTAlFe7tI_0_7.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+kADGYLx9BNg,24.0,34.0,other,4,data/raw/test_set_v2/other/other_kADGYLx9BNg_24_34.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+8-D_LgbKshE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_8-D_LgbKshE_30_40.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+9DQf6EgjbNE,11.0,21.0,other,4,data/raw/test_set_v2/other/other_9DQf6EgjbNE_11_21.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+GGILl1DBto8,10.0,20.0,other,4,data/raw/test_set_v2/other/other_GGILl1DBto8_10_20.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+GnmgSQq6E54,180.0,190.0,other,4,data/raw/test_set_v2/other/other_GnmgSQq6E54_180_190.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+6eSMimdQZKM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_6eSMimdQZKM_30_40.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+02-0m4RbDUI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_02-0m4RbDUI_30_40.wav,confuser_door_slams,Knock,/m/07r4wb8,audioset_eval
+EMbSpcMCnpU,40.0,50.0,other,4,data/raw/test_set_v2/other/other_EMbSpcMCnpU_40_50.wav,confuser_door_slams,Door,/m/02dgv,audioset_eval
+V3srC9WNp4c,30.0,40.0,other,4,data/raw/test_set_v2/other/other_V3srC9WNp4c_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+C1ZHFE6tU7o,30.0,40.0,other,4,data/raw/test_set_v2/other/other_C1ZHFE6tU7o_30_40.wav,confuser_door_slams,Door,/m/02dgv,audioset_eval
+Yttw9U0CB98,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Yttw9U0CB98_30_40.wav,confuser_door_slams,Slam,/m/07rjzl8,audioset_eval
+CkHKkAQdQGs,40.0,50.0,other,4,data/raw/test_set_v2/other/other_CkHKkAQdQGs_40_50.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+0KKTw8pfNjg,290.0,300.0,other,4,data/raw/test_set_v2/other/other_0KKTw8pfNjg_290_300.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+qM-_kJ7VlBA,260.0,270.0,other,4,data/raw/test_set_v2/other/other_qM-_kJ7VlBA_260_270.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+1u_8Qg1npAM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_1u_8Qg1npAM_30_40.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+2OQk3XjLPvU,180.0,190.0,other,4,data/raw/test_set_v2/other/other_2OQk3XjLPvU_180_190.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+XE-nlMOCKHY,0.0,10.0,other,4,data/raw/test_set_v2/other/other_XE-nlMOCKHY_0_10.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+1hMZbDz2KH8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_1hMZbDz2KH8_30_40.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+R0VxYDfjyAU,80.0,90.0,other,4,data/raw/test_set_v2/other/other_R0VxYDfjyAU_80_90.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+dODtKQA4ptc,130.0,140.0,other,4,data/raw/test_set_v2/other/other_dODtKQA4ptc_130_140.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+qpwL14Qhlss,460.0,470.0,other,4,data/raw/test_set_v2/other/other_qpwL14Qhlss_460_470.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+K7Cn10EssFU,0.0,10.0,other,4,data/raw/test_set_v2/other/other_K7Cn10EssFU_0_10.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+qD1shl_-oCc,0.0,10.0,other,4,data/raw/test_set_v2/other/other_qD1shl_-oCc_0_10.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+_ZZpAj4rIRk,80.0,90.0,other,4,data/raw/test_set_v2/other/other__ZZpAj4rIRk_80_90.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+uaXovgMIDNc,20.0,30.0,other,4,data/raw/test_set_v2/other/other_uaXovgMIDNc_20_30.wav,confuser_car_alarms_buzzers,Alarm,/m/07pp_mv,audioset_eval
+Q_irhm3HCQw,40.0,50.0,other,4,data/raw/test_set_v2/other/other_Q_irhm3HCQw_40_50.wav,confuser_car_alarms_buzzers,Buzzer,/m/030rvx,audioset_eval
+TrQGIZqrW0s,30.0,40.0,other,4,data/raw/test_set_v2/other/other_TrQGIZqrW0s_30_40.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+fcsGkE89Qi8,150.0,160.0,other,4,data/raw/test_set_v2/other/other_fcsGkE89Qi8_150_160.wav,confuser_car_alarms_buzzers,Alarm,/m/07pp_mv,audioset_eval
+sGfVpUSCOLs,350.0,360.0,other,4,data/raw/test_set_v2/other/other_sGfVpUSCOLs_350_360.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+_liHBzAlVrE,390.0,400.0,other,4,data/raw/test_set_v2/other/other__liHBzAlVrE_390_400.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+_de3PGooIx4,370.0,380.0,other,4,data/raw/test_set_v2/other/other__de3PGooIx4_370_380.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+TW-lRARx47c,30.0,40.0,other,4,data/raw/test_set_v2/other/other_TW-lRARx47c_30_40.wav,confuser_car_alarms_buzzers,Alarm,/m/07pp_mv,audioset_eval
+XPoN8VrfBCY,80.0,90.0,other,4,data/raw/test_set_v2/other/other_XPoN8VrfBCY_80_90.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+3lV776A-TDk,110.0,120.0,other,4,data/raw/test_set_v2/other/other_3lV776A-TDk_110_120.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+30UGn3EFhbo,90.0,100.0,other,4,data/raw/test_set_v2/other/other_30UGn3EFhbo_90_100.wav,confuser_car_alarms_buzzers,Alarm,/m/07pp_mv,audioset_eval
+utn4Mrd9BcM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_utn4Mrd9BcM_30_40.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+ablBCBK9ZHM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_ablBCBK9ZHM_30_40.wav,confuser_car_alarms_buzzers,Buzzer,/m/030rvx,audioset_eval
+LxQSG54ld_4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_LxQSG54ld_4_30_40.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+xIFZ6-5rPFE,210.0,220.0,other,4,data/raw/test_set_v2/other/other_xIFZ6-5rPFE_210_220.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+62PBPzMAz50,30.0,40.0,other,4,data/raw/test_set_v2/other/other_62PBPzMAz50_30_40.wav,confuser_car_alarms_buzzers,Buzzer,/m/030rvx,audioset_eval
+AC41T8MHStg,30.0,40.0,other,4,data/raw/test_set_v2/other/other_AC41T8MHStg_30_40.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+CTPIP-PXQh4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_CTPIP-PXQh4_30_40.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+5V9NCu-O1jw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_5V9NCu-O1jw_30_40.wav,confuser_car_alarms_buzzers,"Smoke detector, smoke alarm",/m/01y3hg,audioset_eval
+A-GNszKtjJc,93.0,103.0,other,4,data/raw/test_set_v2/other/other_A-GNszKtjJc_93_103.wav,confuser_car_alarms_buzzers,Car alarm,/m/02mfyn,audioset_eval
+iiZKa6dlp7k,30.0,40.0,other,4,data/raw/test_set_v2/other/other_iiZKa6dlp7k_30_40.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+F1bjL__mBXk,190.0,200.0,other,4,data/raw/test_set_v2/other/other_F1bjL__mBXk_190_200.wav,confuser_car_alarms_buzzers,Fire alarm,/m/0c3f7m,audioset_eval
+P68FS_ooLAE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_P68FS_ooLAE_30_40.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+XN-DpGI7W4U,340.0,350.0,other,4,data/raw/test_set_v2/other/other_XN-DpGI7W4U_340_350.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+l_w8juMmu4k,30.0,40.0,other,4,data/raw/test_set_v2/other/other_l_w8juMmu4k_30_40.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+xVylfJbxcm0,70.0,80.0,other,4,data/raw/test_set_v2/other/other_xVylfJbxcm0_70_80.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+MCa8xcBlBe8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_MCa8xcBlBe8_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+2YXcqoFlYFY,160.0,170.0,other,4,data/raw/test_set_v2/other/other_2YXcqoFlYFY_160_170.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+ZnEEAfLC9Sg,170.0,180.0,other,4,data/raw/test_set_v2/other/other_ZnEEAfLC9Sg_170_180.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+lo3yvn1av2E,30.0,40.0,other,4,data/raw/test_set_v2/other/other_lo3yvn1av2E_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+AxJI24BcHxs,16.0,26.0,other,4,data/raw/test_set_v2/other/other_AxJI24BcHxs_16_26.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+JXmpEFLhr9E,30.0,40.0,other,4,data/raw/test_set_v2/other/other_JXmpEFLhr9E_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+moLATfN79Yo,40.0,50.0,other,4,data/raw/test_set_v2/other/other_moLATfN79Yo_40_50.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+_51Fwp7Ns_s,20.0,30.0,other,4,data/raw/test_set_v2/other/other__51Fwp7Ns_s_20_30.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+pdXr166xPeU,240.0,250.0,other,4,data/raw/test_set_v2/other/other_pdXr166xPeU_240_250.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+TF5OXDXtTu8,22.0,32.0,other,4,data/raw/test_set_v2/other/other_TF5OXDXtTu8_22_32.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+XvkNRGfbdw8,17.0,27.0,other,4,data/raw/test_set_v2/other/other_XvkNRGfbdw8_17_27.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+XMVoH1JjXw8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_XMVoH1JjXw8_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+tHn6hIcRqcY,550.0,560.0,other,4,data/raw/test_set_v2/other/other_tHn6hIcRqcY_550_560.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+vG1VlFJZVbA,0.0,10.0,other,4,data/raw/test_set_v2/other/other_vG1VlFJZVbA_0_10.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+1cxvg7qu0G0,70.0,80.0,other,4,data/raw/test_set_v2/other/other_1cxvg7qu0G0_70_80.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+PxV5flu0hi4,60.0,70.0,other,4,data/raw/test_set_v2/other/other_PxV5flu0hi4_60_70.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+dkpsxpeLY-M,150.0,160.0,other,4,data/raw/test_set_v2/other/other_dkpsxpeLY-M_150_160.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+u-Ik39r_yTc,510.0,520.0,other,4,data/raw/test_set_v2/other/other_u-Ik39r_yTc_510_520.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+fXdrKhNxjCo,30.0,40.0,other,4,data/raw/test_set_v2/other/other_fXdrKhNxjCo_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+UxEyOSK9nxo,30.0,40.0,other,4,data/raw/test_set_v2/other/other_UxEyOSK9nxo_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+csl70KUkeKI,17.0,27.0,other,4,data/raw/test_set_v2/other/other_csl70KUkeKI_17_27.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+Ap_IlJVRHtw,230.0,240.0,other,4,data/raw/test_set_v2/other/other_Ap_IlJVRHtw_230_240.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+mT3IKxlLgEc,190.0,200.0,other,4,data/raw/test_set_v2/other/other_mT3IKxlLgEc_190_200.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+IcXF-j6aCfY,30.0,40.0,other,4,data/raw/test_set_v2/other/other_IcXF-j6aCfY_30_40.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+Jboz8dp-8nM,0.0,10.0,other,4,data/raw/test_set_v2/other/other_Jboz8dp-8nM_0_10.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+BxwBO7QkroA,80.0,90.0,other,4,data/raw/test_set_v2/other/other_BxwBO7QkroA_80_90.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+LmlCcoUOaOs,30.0,40.0,other,4,data/raw/test_set_v2/other/other_LmlCcoUOaOs_30_40.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+GEwEOl3uxC4,250.0,260.0,other,4,data/raw/test_set_v2/other/other_GEwEOl3uxC4_250_260.wav,confuser_fireworks,Fireworks,/m/0g6b5,audioset_eval
+QtHBqpRDuoo,7.0,17.0,other,4,data/raw/test_set_v2/other/other_QtHBqpRDuoo_7_17.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+_U8kAFAm8tQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other__U8kAFAm8tQ_30_40.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+fJSPEVGTAPQ,80.0,90.0,other,4,data/raw/test_set_v2/other/other_fJSPEVGTAPQ_80_90.wav,confuser_fireworks,Firecracker,/g/122z_qxw,audioset_eval
+DNOT6k-6xcs,60.0,70.0,other,4,data/raw/test_set_v2/other/other_DNOT6k-6xcs_60_70.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+lJpsGi1ZL08,20.0,30.0,other,4,data/raw/test_set_v2/other/other_lJpsGi1ZL08_20_30.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+Tn8gASbAxkA,440.0,450.0,other,4,data/raw/test_set_v2/other/other_Tn8gASbAxkA_440_450.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+XDTlBb3aYqo,50.0,60.0,other,4,data/raw/test_set_v2/other/other_XDTlBb3aYqo_50_60.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+sdAiFOiBy-E,160.0,170.0,other,4,data/raw/test_set_v2/other/other_sdAiFOiBy-E_160_170.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+HSnav23MKKo,100.0,110.0,other,4,data/raw/test_set_v2/other/other_HSnav23MKKo_100_110.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+c33tVGlM0Z8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_c33tVGlM0Z8_30_40.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+bl36ZJVAP9Y,30.0,40.0,other,4,data/raw/test_set_v2/other/other_bl36ZJVAP9Y_30_40.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+feq--hyBxtE,0.0,10.0,other,4,data/raw/test_set_v2/other/other_feq--hyBxtE_0_10.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+_hwQaOpscso,30.0,40.0,other,4,data/raw/test_set_v2/other/other__hwQaOpscso_30_40.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+rC-3un6cmUw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_rC-3un6cmUw_30_40.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+sJbvLdDONjs,50.0,60.0,other,4,data/raw/test_set_v2/other/other_sJbvLdDONjs_50_60.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+QWYhU1l_074,260.0,270.0,other,4,data/raw/test_set_v2/other/other_QWYhU1l_074_260_270.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+jhwjyU-jsHg,280.0,290.0,other,4,data/raw/test_set_v2/other/other_jhwjyU-jsHg_280_290.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+Rhvy7V4F95Q,40.0,50.0,other,4,data/raw/test_set_v2/other/other_Rhvy7V4F95Q_40_50.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+TU7DNkZtG1I,30.0,40.0,other,4,data/raw/test_set_v2/other/other_TU7DNkZtG1I_30_40.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+OfeB4NhwE_Y,0.0,10.0,other,4,data/raw/test_set_v2/other/other_OfeB4NhwE_Y_0_10.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+AS67HA4YMCs,70.0,80.0,other,4,data/raw/test_set_v2/other/other_AS67HA4YMCs_70_80.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+HpDgnUgkNTo,120.0,130.0,other,4,data/raw/test_set_v2/other/other_HpDgnUgkNTo_120_130.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+when3v7NVFk,0.0,10.0,other,4,data/raw/test_set_v2/other/other_when3v7NVFk_0_10.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+GecPVTYJTOQ,50.0,60.0,other,4,data/raw/test_set_v2/other/other_GecPVTYJTOQ_50_60.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+_VdCrHztInA,400.0,410.0,other,4,data/raw/test_set_v2/other/other__VdCrHztInA_400_410.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+65fXqyhO5fQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_65fXqyhO5fQ_30_40.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+6zTszR6wgys,200.0,210.0,other,4,data/raw/test_set_v2/other/other_6zTszR6wgys_200_210.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+h8f-Wkv0VI8,130.0,140.0,other,4,data/raw/test_set_v2/other/other_h8f-Wkv0VI8_130_140.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+Ft5y1fAOU0o,390.0,400.0,other,4,data/raw/test_set_v2/other/other_Ft5y1fAOU0o_390_400.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+pSA-1u89oHM,40.0,50.0,other,4,data/raw/test_set_v2/other/other_pSA-1u89oHM_40_50.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+GiFor0Xd-GA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_GiFor0Xd-GA_30_40.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+6_TGlFO0DCk,10.0,20.0,other,4,data/raw/test_set_v2/other/other_6_TGlFO0DCk_10_20.wav,confuser_whistles,Train whistle,/m/04zmvq,audioset_eval
+pURKzxLEKjw,150.0,160.0,other,4,data/raw/test_set_v2/other/other_pURKzxLEKjw_150_160.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+w_YNi4YL9h4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_w_YNi4YL9h4_30_40.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+Cix9AYzHNdE,10.0,20.0,other,4,data/raw/test_set_v2/other/other_Cix9AYzHNdE_10_20.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+iZgzRfa-xPQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_iZgzRfa-xPQ_30_40.wav,confuser_whistles,Steam whistle,/m/06hck5,audioset_eval
+627Ax9rUfKo,540.0,550.0,other,4,data/raw/test_set_v2/other/other_627Ax9rUfKo_540_550.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+kE4uzVn69XQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_kE4uzVn69XQ_30_40.wav,confuser_whistles,Whistle,/m/0l156k,audioset_eval
+Mezw0XLVHgA,220.0,230.0,other,4,data/raw/test_set_v2/other/other_Mezw0XLVHgA_220_230.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+PzoI3ejuEnc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_PzoI3ejuEnc_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+AGqCcrX619E,60.0,70.0,other,4,data/raw/test_set_v2/other/other_AGqCcrX619E_60_70.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+9zfId46t1vM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_9zfId46t1vM_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+qeQT1rjrtkE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_qeQT1rjrtkE_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+r_zQIxdTdAg,150.0,160.0,other,4,data/raw/test_set_v2/other/other_r_zQIxdTdAg_150_160.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+Ma0Ye2xMqXA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Ma0Ye2xMqXA_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+QlCmeCxFr4A,50.0,60.0,other,4,data/raw/test_set_v2/other/other_QlCmeCxFr4A_50_60.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+Z3POdYMoARY,230.0,240.0,other,4,data/raw/test_set_v2/other/other_Z3POdYMoARY_230_240.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+kDqQCjkuxuo,90.0,100.0,other,4,data/raw/test_set_v2/other/other_kDqQCjkuxuo_90_100.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+U9K3zy7YRLs,60.0,70.0,other,4,data/raw/test_set_v2/other/other_U9K3zy7YRLs_60_70.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+s09rjHTHH8Y,290.0,300.0,other,4,data/raw/test_set_v2/other/other_s09rjHTHH8Y_290_300.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+p42W37beu88,90.0,100.0,other,4,data/raw/test_set_v2/other/other_p42W37beu88_90_100.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+ScQ2F8LTkuY,21.0,31.0,other,4,data/raw/test_set_v2/other/other_ScQ2F8LTkuY_21_31.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+5tt23l-wcjA,17.0,27.0,other,4,data/raw/test_set_v2/other/other_5tt23l-wcjA_17_27.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+VsLgHTWOo6k,30.0,40.0,other,4,data/raw/test_set_v2/other/other_VsLgHTWOo6k_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+HIDb-C5YRa4,10.0,20.0,other,4,data/raw/test_set_v2/other/other_HIDb-C5YRa4_10_20.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+HKoTIR9xSnQ,150.0,160.0,other,4,data/raw/test_set_v2/other/other_HKoTIR9xSnQ_150_160.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+zCtsh_uLxU4,150.0,160.0,other,4,data/raw/test_set_v2/other/other_zCtsh_uLxU4_150_160.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+a0fymQ8ppG0,150.0,160.0,other,4,data/raw/test_set_v2/other/other_a0fymQ8ppG0_150_160.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+pEUp-2atU5I,130.0,140.0,other,4,data/raw/test_set_v2/other/other_pEUp-2atU5I_130_140.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+z2EHq_0aV3Q,5.0,15.0,other,4,data/raw/test_set_v2/other/other_z2EHq_0aV3Q_5_15.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+PF5yTLzWyBU,60.0,70.0,other,4,data/raw/test_set_v2/other/other_PF5yTLzWyBU_60_70.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+-t-htrAtNvM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_-t-htrAtNvM_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+-nJbGyPg6BY,60.0,70.0,other,4,data/raw/test_set_v2/other/other_-nJbGyPg6BY_60_70.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+XrJurJGQtnU,170.0,180.0,other,4,data/raw/test_set_v2/other/other_XrJurJGQtnU_170_180.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+UjlwtQeFdWY,540.0,550.0,other,4,data/raw/test_set_v2/other/other_UjlwtQeFdWY_540_550.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+YjScrri_F7U,0.0,10.0,other,4,data/raw/test_set_v2/other/other_YjScrri_F7U_0_10.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+4Q1DDOpej1o,0.0,10.0,other,4,data/raw/test_set_v2/other/other_4Q1DDOpej1o_0_10.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+QXnJ2manIdI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_QXnJ2manIdI_30_40.wav,benign_speech,Conversation,/m/01h8n0,audioset_eval
+0lPip_ffJbk,40.0,50.0,other,4,data/raw/test_set_v2/other/other_0lPip_ffJbk_40_50.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+zHPegoquV5I,20.0,30.0,other,4,data/raw/test_set_v2/other/other_zHPegoquV5I_20_30.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+1DS0AE3vTwA,140.0,150.0,other,4,data/raw/test_set_v2/other/other_1DS0AE3vTwA_140_150.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+KZ1j9f31yN4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_KZ1j9f31yN4_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+2u4zDo5-upw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_2u4zDo5-upw_30_40.wav,benign_speech,Speech,/m/09x0r,audioset_eval
+5bsUYmXIgMA,0.0,10.0,other,4,data/raw/test_set_v2/other/other_5bsUYmXIgMA_0_10.wav,benign_music,Music,/m/04rlf,audioset_eval
+8pc8fjPIV-Q,30.0,40.0,other,4,data/raw/test_set_v2/other/other_8pc8fjPIV-Q_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+yNIZaqTHUnc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_yNIZaqTHUnc_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+FE_TIViRu7g,30.0,40.0,other,4,data/raw/test_set_v2/other/other_FE_TIViRu7g_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+jK7JW0J21_8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_jK7JW0J21_8_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+T9dKp1EN4p8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_T9dKp1EN4p8_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+KXuB62SMFvA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_KXuB62SMFvA_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+zPMiMXCazAI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_zPMiMXCazAI_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+RmyyW-TMkVc,10.0,20.0,other,4,data/raw/test_set_v2/other/other_RmyyW-TMkVc_10_20.wav,benign_music,Music,/m/04rlf,audioset_eval
+zJrQiK-0-6E,30.0,40.0,other,4,data/raw/test_set_v2/other/other_zJrQiK-0-6E_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+XKp670Yh0E0,0.0,10.0,other,4,data/raw/test_set_v2/other/other_XKp670Yh0E0_0_10.wav,benign_music,Music,/m/04rlf,audioset_eval
+xyAbP5XfGz8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_xyAbP5XfGz8_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+UtCRBs5p4EQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_UtCRBs5p4EQ_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+RQOrv1EmrJk,30.0,40.0,other,4,data/raw/test_set_v2/other/other_RQOrv1EmrJk_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+JiBAkAwK0GM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_JiBAkAwK0GM_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+YE2rN3xknlk,30.0,40.0,other,4,data/raw/test_set_v2/other/other_YE2rN3xknlk_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+g8USMvt9np0,10.0,20.0,other,4,data/raw/test_set_v2/other/other_g8USMvt9np0_10_20.wav,benign_music,Music,/m/04rlf,audioset_eval
+sB00iMj-IJc,120.0,130.0,other,4,data/raw/test_set_v2/other/other_sB00iMj-IJc_120_130.wav,benign_music,Music,/m/04rlf,audioset_eval
+-d6lM-axSS8,170.0,180.0,other,4,data/raw/test_set_v2/other/other_-d6lM-axSS8_170_180.wav,benign_music,Music,/m/04rlf,audioset_eval
+VVRWxB_JtH0,21.0,31.0,other,4,data/raw/test_set_v2/other/other_VVRWxB_JtH0_21_31.wav,benign_music,Music,/m/04rlf,audioset_eval
+RS43EP1EXz4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_RS43EP1EXz4_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+DsAp3b1poeA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_DsAp3b1poeA_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+TWm_2QncYXg,30.0,40.0,other,4,data/raw/test_set_v2/other/other_TWm_2QncYXg_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+xSDkn9PtQm0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_xSDkn9PtQm0_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+Utl5it7YMUs,330.0,340.0,other,4,data/raw/test_set_v2/other/other_Utl5it7YMUs_330_340.wav,benign_music,Music,/m/04rlf,audioset_eval
+eWGGj4duzIo,110.0,120.0,other,4,data/raw/test_set_v2/other/other_eWGGj4duzIo_110_120.wav,benign_music,Music,/m/04rlf,audioset_eval
+10aBef0Ghkc,40.0,50.0,other,4,data/raw/test_set_v2/other/other_10aBef0Ghkc_40_50.wav,benign_music,Piano,/m/05r5c,audioset_eval
+HLXGkzzQHUU,30.0,40.0,other,4,data/raw/test_set_v2/other/other_HLXGkzzQHUU_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+vNPx6RS8PiM,210.0,220.0,other,4,data/raw/test_set_v2/other/other_vNPx6RS8PiM_210_220.wav,benign_music,Music,/m/04rlf,audioset_eval
+Lrhy2auO6hY,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Lrhy2auO6hY_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+-KTabIWnPSg,21.0,31.0,other,4,data/raw/test_set_v2/other/other_-KTabIWnPSg_21_31.wav,benign_music,Music,/m/04rlf,audioset_eval
+JPVRBbdykSw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_JPVRBbdykSw_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+9TkW1M_ZRr0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_9TkW1M_ZRr0_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+2MpzHv5KNZU,30.0,40.0,other,4,data/raw/test_set_v2/other/other_2MpzHv5KNZU_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+AVJ-NxMmF6E,30.0,40.0,other,4,data/raw/test_set_v2/other/other_AVJ-NxMmF6E_30_40.wav,benign_music,Music,/m/04rlf,audioset_eval
+fhAAzi6MSXw,70.0,80.0,other,4,data/raw/test_set_v2/other/other_fhAAzi6MSXw_70_80.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+20qZLse0acs,30.0,40.0,other,4,data/raw/test_set_v2/other/other_20qZLse0acs_30_40.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+6Kn4bXCPvaA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_6Kn4bXCPvaA_30_40.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+UWizNEHrzCY,17.0,27.0,other,4,data/raw/test_set_v2/other/other_UWizNEHrzCY_17_27.wav,benign_animals,Bark,/m/05tny_,audioset_eval
+EUy-RsUXJ00,30.0,40.0,other,4,data/raw/test_set_v2/other/other_EUy-RsUXJ00_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+MaG2BHKuTD8,0.0,10.0,other,4,data/raw/test_set_v2/other/other_MaG2BHKuTD8_0_10.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+5GFPIlxS67k,190.0,200.0,other,4,data/raw/test_set_v2/other/other_5GFPIlxS67k_190_200.wav,benign_animals,"Bird vocalization, bird call, bird song",/m/020bb7,audioset_eval
+VbLQAZ83nis,0.0,10.0,other,4,data/raw/test_set_v2/other/other_VbLQAZ83nis_0_10.wav,benign_animals,Bird,/m/015p6,audioset_eval
+v9SgeyyfYv0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_v9SgeyyfYv0_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+fPFpRsKbzfU,0.0,6.0,other,4,data/raw/test_set_v2/other/other_fPFpRsKbzfU_0_6.wav,benign_animals,Bird,/m/015p6,audioset_eval
+Xrvio1TAIt8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Xrvio1TAIt8_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+gKcq3s0xtzo,360.0,370.0,other,4,data/raw/test_set_v2/other/other_gKcq3s0xtzo_360_370.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+g_p6sqfaXHM,110.0,120.0,other,4,data/raw/test_set_v2/other/other_g_p6sqfaXHM_110_120.wav,benign_animals,Bird,/m/015p6,audioset_eval
+Au8g9kAlrLQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Au8g9kAlrLQ_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+5bHKmOv3XzE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_5bHKmOv3XzE_30_40.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+-qS77R0Y1K8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_-qS77R0Y1K8_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+_gQFB_Utuf0,30.0,40.0,other,4,data/raw/test_set_v2/other/other__gQFB_Utuf0_30_40.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+jna6r3skNeg,180.0,190.0,other,4,data/raw/test_set_v2/other/other_jna6r3skNeg_180_190.wav,benign_animals,Bird,/m/015p6,audioset_eval
+qIVmvxv7Yi8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_qIVmvxv7Yi8_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+nzqXNoDHdc8,60.0,70.0,other,4,data/raw/test_set_v2/other/other_nzqXNoDHdc8_60_70.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+m5I_M9d80Wg,30.0,40.0,other,4,data/raw/test_set_v2/other/other_m5I_M9d80Wg_30_40.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+-uGHAvfqs2I,30.0,40.0,other,4,data/raw/test_set_v2/other/other_-uGHAvfqs2I_30_40.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+fLMDVMm1uV8,170.0,180.0,other,4,data/raw/test_set_v2/other/other_fLMDVMm1uV8_170_180.wav,benign_animals,"Bird vocalization, bird call, bird song",/m/020bb7,audioset_eval
+SuLMpKx0LF0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_SuLMpKx0LF0_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+x3NgArwHRYY,30.0,40.0,other,4,data/raw/test_set_v2/other/other_x3NgArwHRYY_30_40.wav,benign_animals,Bark,/m/05tny_,audioset_eval
+LyIhmCTPLUc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_LyIhmCTPLUc_30_40.wav,benign_animals,Cat,/m/01yrx,audioset_eval
+8CrTpWNBiTo,120.0,130.0,other,4,data/raw/test_set_v2/other/other_8CrTpWNBiTo_120_130.wav,benign_animals,Bark,/m/05tny_,audioset_eval
+l7wdJtEJrRc,30.0,40.0,other,4,data/raw/test_set_v2/other/other_l7wdJtEJrRc_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+eaYJfcK4R-o,30.0,40.0,other,4,data/raw/test_set_v2/other/other_eaYJfcK4R-o_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+-116CjQ3MAg,160.0,170.0,other,4,data/raw/test_set_v2/other/other_-116CjQ3MAg_160_170.wav,benign_animals,Bird,/m/015p6,audioset_eval
+Y1wU6l8M3Ts,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Y1wU6l8M3Ts_30_40.wav,benign_animals,Bird,/m/015p6,audioset_eval
+cv901tRE0rQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_cv901tRE0rQ_30_40.wav,benign_animals,Dog,/m/0bt9lr,audioset_eval
+a_ruWnMK1MA,350.0,360.0,other,4,data/raw/test_set_v2/other/other_a_ruWnMK1MA_350_360.wav,benign_animals,Bird,/m/015p6,audioset_eval
+gMaUQCIYVSY,450.0,460.0,other,4,data/raw/test_set_v2/other/other_gMaUQCIYVSY_450_460.wav,benign_animals,Bird,/m/015p6,audioset_eval
+DRSs6q_sTr4,0.0,10.0,other,4,data/raw/test_set_v2/other/other_DRSs6q_sTr4_0_10.wav,benign_animals,Bird,/m/015p6,audioset_eval
+Hc9XRuMWTLY,350.0,360.0,other,4,data/raw/test_set_v2/other/other_Hc9XRuMWTLY_350_360.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+v8Kry1CbTkM,310.0,320.0,other,4,data/raw/test_set_v2/other/other_v8Kry1CbTkM_310_320.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+zdA3_n7rbVA,350.0,360.0,other,4,data/raw/test_set_v2/other/other_zdA3_n7rbVA_350_360.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+5b_wMMwPlbY,110.0,120.0,other,4,data/raw/test_set_v2/other/other_5b_wMMwPlbY_110_120.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+FHuxuM-iRo4,160.0,170.0,other,4,data/raw/test_set_v2/other/other_FHuxuM-iRo4_160_170.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+f-4xmt1Ny_A,20.0,30.0,other,4,data/raw/test_set_v2/other/other_f-4xmt1Ny_A_20_30.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+xK9xhQM7mLo,150.0,160.0,other,4,data/raw/test_set_v2/other/other_xK9xhQM7mLo_150_160.wav,benign_household,Clock,/m/01x3z,audioset_eval
+oa4YcV6VRgA,40.0,50.0,other,4,data/raw/test_set_v2/other/other_oa4YcV6VRgA_40_50.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+O1sS0ahb4MA,160.0,170.0,other,4,data/raw/test_set_v2/other/other_O1sS0ahb4MA_160_170.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+f2lVkHEwEgs,150.0,160.0,other,4,data/raw/test_set_v2/other/other_f2lVkHEwEgs_150_160.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+BvQz8thsH1A,230.0,240.0,other,4,data/raw/test_set_v2/other/other_BvQz8thsH1A_230_240.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+uPYNx8lT1gY,40.0,50.0,other,4,data/raw/test_set_v2/other/other_uPYNx8lT1gY_40_50.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+-0nqfRcnAYE,370.0,380.0,other,4,data/raw/test_set_v2/other/other_-0nqfRcnAYE_370_380.wav,benign_household,"Dishes, pots, and pans",/m/04brg2,audioset_eval
+jEGElZwMzYM,0.0,10.0,other,4,data/raw/test_set_v2/other/other_jEGElZwMzYM_0_10.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+lUIqPVoadK0,90.0,100.0,other,4,data/raw/test_set_v2/other/other_lUIqPVoadK0_90_100.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+a2prr9ZiFxA,580.0,590.0,other,4,data/raw/test_set_v2/other/other_a2prr9ZiFxA_580_590.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+DNUA-JB8rik,70.0,80.0,other,4,data/raw/test_set_v2/other/other_DNUA-JB8rik_70_80.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+muxjFOPvR1I,320.0,330.0,other,4,data/raw/test_set_v2/other/other_muxjFOPvR1I_320_330.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+BtWJne3JKys,20.0,30.0,other,4,data/raw/test_set_v2/other/other_BtWJne3JKys_20_30.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+UGVQvxU4bS8,0.0,10.0,other,4,data/raw/test_set_v2/other/other_UGVQvxU4bS8_0_10.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+Taw3uTEkfSo,530.0,540.0,other,4,data/raw/test_set_v2/other/other_Taw3uTEkfSo_530_540.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+ySP__fCD5AQ,20.0,30.0,other,4,data/raw/test_set_v2/other/other_ySP__fCD5AQ_20_30.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+PS5KAEgrtMA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_PS5KAEgrtMA_30_40.wav,benign_household,Clock,/m/01x3z,audioset_eval
+MA2MTloAjr8,10.0,20.0,other,4,data/raw/test_set_v2/other/other_MA2MTloAjr8_10_20.wav,benign_household,Clock,/m/01x3z,audioset_eval
+O9X4yWqQubQ,30.0,40.0,other,4,data/raw/test_set_v2/other/other_O9X4yWqQubQ_30_40.wav,benign_household,Clock,/m/01x3z,audioset_eval
+_4SU3suJMvk,370.0,380.0,other,4,data/raw/test_set_v2/other/other__4SU3suJMvk_370_380.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+T21ElXBt27A,10.0,20.0,other,4,data/raw/test_set_v2/other/other_T21ElXBt27A_10_20.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+qp8s5Vhi3WA,140.0,150.0,other,4,data/raw/test_set_v2/other/other_qp8s5Vhi3WA_140_150.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+1iYDrXdxkpg,170.0,180.0,other,4,data/raw/test_set_v2/other/other_1iYDrXdxkpg_170_180.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+wL2cPmHH_ow,0.0,10.0,other,4,data/raw/test_set_v2/other/other_wL2cPmHH_ow_0_10.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+Uj2Os8tYIIQ,400.0,410.0,other,4,data/raw/test_set_v2/other/other_Uj2Os8tYIIQ_400_410.wav,benign_household,"Cutlery, silverware",/m/023pjk,audioset_eval
+iI3sh9Ir0Go,280.0,290.0,other,4,data/raw/test_set_v2/other/other_iI3sh9Ir0Go_280_290.wav,benign_household,Cupboard open or close,/m/0642b4,audioset_eval
+9LeGCCvrsbs,30.0,40.0,other,4,data/raw/test_set_v2/other/other_9LeGCCvrsbs_30_40.wav,benign_household,"Dishes, pots, and pans",/m/04brg2,audioset_eval
+A_RIRJV5AxE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_A_RIRJV5AxE_30_40.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+GYYskltCavk,130.0,140.0,other,4,data/raw/test_set_v2/other/other_GYYskltCavk_130_140.wav,benign_household,"Water tap, faucet",/m/02jz0l,audioset_eval
+PxsS4fCVYpY,90.0,100.0,other,4,data/raw/test_set_v2/other/other_PxsS4fCVYpY_90_100.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+3hLxPQpmfQo,30.0,40.0,other,4,data/raw/test_set_v2/other/other_3hLxPQpmfQo_30_40.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+TjfFiTqWOoo,30.0,40.0,other,4,data/raw/test_set_v2/other/other_TjfFiTqWOoo_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+96a4smrM_30,30.0,40.0,other,4,data/raw/test_set_v2/other/other_96a4smrM_30_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+KiCB6pP6EEo,100.0,110.0,other,4,data/raw/test_set_v2/other/other_KiCB6pP6EEo_100_110.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+moZ49NEGqfk,310.0,320.0,other,4,data/raw/test_set_v2/other/other_moZ49NEGqfk_310_320.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+VqBGj3jhiJ0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_VqBGj3jhiJ0_30_40.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+DEs_Sp9S1Nw,30.0,40.0,other,4,data/raw/test_set_v2/other/other_DEs_Sp9S1Nw_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+9Ti98L4PRCo,17.0,27.0,other,4,data/raw/test_set_v2/other/other_9Ti98L4PRCo_17_27.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+CuaBHNKycvI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_CuaBHNKycvI_30_40.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+MgYaibd2E-Q,30.0,40.0,other,4,data/raw/test_set_v2/other/other_MgYaibd2E-Q_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+BK_hqG0d5QE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_BK_hqG0d5QE_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+4Tpy1lsfcSM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_4Tpy1lsfcSM_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+8ba-w5Pk6ho,170.0,180.0,other,4,data/raw/test_set_v2/other/other_8ba-w5Pk6ho_170_180.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+42P93B_GzGA,30.0,40.0,other,4,data/raw/test_set_v2/other/other_42P93B_GzGA_30_40.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+klZPGhxTk-s,10.0,20.0,other,4,data/raw/test_set_v2/other/other_klZPGhxTk-s_10_20.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+Poi51D2XdPQ,510.0,520.0,other,4,data/raw/test_set_v2/other/other_Poi51D2XdPQ_510_520.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+cVQsteRY8F4,20.0,30.0,other,4,data/raw/test_set_v2/other/other_cVQsteRY8F4_20_30.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+XGammZXc2Eo,30.0,40.0,other,4,data/raw/test_set_v2/other/other_XGammZXc2Eo_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+_VmxkpgiURA,80.0,90.0,other,4,data/raw/test_set_v2/other/other__VmxkpgiURA_80_90.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+UWOaC3qgE3A,27.0,37.0,other,4,data/raw/test_set_v2/other/other_UWOaC3qgE3A_27_37.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+2HZcxlRs-hg,30.0,40.0,other,4,data/raw/test_set_v2/other/other_2HZcxlRs-hg_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+F8OkghIn9L8,320.0,330.0,other,4,data/raw/test_set_v2/other/other_F8OkghIn9L8_320_330.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+e9EUmQBO498,0.0,10.0,other,4,data/raw/test_set_v2/other/other_e9EUmQBO498_0_10.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+R92tGFJYj1w,330.0,340.0,other,4,data/raw/test_set_v2/other/other_R92tGFJYj1w_330_340.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+bSxca8xb-Fs,10.0,20.0,other,4,data/raw/test_set_v2/other/other_bSxca8xb-Fs_10_20.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+BxnLAGsByCI,10.0,20.0,other,4,data/raw/test_set_v2/other/other_BxnLAGsByCI_10_20.wav,benign_traffic,Motorcycle,/m/04_sv,audioset_eval
+zCuKYr_oMlE,60.0,70.0,other,4,data/raw/test_set_v2/other/other_zCuKYr_oMlE_60_70.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+AcJXSEfGGcI,30.0,40.0,other,4,data/raw/test_set_v2/other/other_AcJXSEfGGcI_30_40.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+x-gEIjKPzYQ,290.0,300.0,other,4,data/raw/test_set_v2/other/other_x-gEIjKPzYQ_290_300.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+JNyPaJvjmUk,0.0,10.0,other,4,data/raw/test_set_v2/other/other_JNyPaJvjmUk_0_10.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+WI4Qiccct40,530.0,540.0,other,4,data/raw/test_set_v2/other/other_WI4Qiccct40_530_540.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+NKMN9rU1x-A,290.0,300.0,other,4,data/raw/test_set_v2/other/other_NKMN9rU1x-A_290_300.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+aQwf4Db8_z4,130.0,140.0,other,4,data/raw/test_set_v2/other/other_aQwf4Db8_z4_130_140.wav,benign_traffic,Car,/m/0k4j,audioset_eval
+gseEDpDIWxM,250.0,260.0,other,4,data/raw/test_set_v2/other/other_gseEDpDIWxM_250_260.wav,benign_traffic,Vehicle,/m/07yv9,audioset_eval
+Ao2kCRHTpJM,30.0,40.0,other,4,data/raw/test_set_v2/other/other_Ao2kCRHTpJM_30_40.wav,benign_environmental,Water,/m/0838f,audioset_eval
+-V9U5F14AVY,40.0,50.0,other,4,data/raw/test_set_v2/other/other_-V9U5F14AVY_40_50.wav,benign_environmental,Water,/m/0838f,audioset_eval
+4BO6EbCTKwM,16.0,26.0,other,4,data/raw/test_set_v2/other/other_4BO6EbCTKwM_16_26.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+3UPrsAryNBc,20.0,30.0,other,4,data/raw/test_set_v2/other/other_3UPrsAryNBc_20_30.wav,benign_environmental,Water,/m/0838f,audioset_eval
+-3rHVsIj1M8,30.0,40.0,other,4,data/raw/test_set_v2/other/other_-3rHVsIj1M8_30_40.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+54wNjdYr8ww,30.0,40.0,other,4,data/raw/test_set_v2/other/other_54wNjdYr8ww_30_40.wav,benign_environmental,Rain,/m/06mb1,audioset_eval
+4hl-3oay7c0,7.0,17.0,other,4,data/raw/test_set_v2/other/other_4hl-3oay7c0_7_17.wav,benign_environmental,Water,/m/0838f,audioset_eval
+hY1yRiy-Zy4,270.0,280.0,other,4,data/raw/test_set_v2/other/other_hY1yRiy-Zy4_270_280.wav,benign_environmental,Stream,/m/0j6m2,audioset_eval
+8bB2BcjSzBU,40.0,50.0,other,4,data/raw/test_set_v2/other/other_8bB2BcjSzBU_40_50.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+FneEc150gSY,120.0,130.0,other,4,data/raw/test_set_v2/other/other_FneEc150gSY_120_130.wav,benign_environmental,Water,/m/0838f,audioset_eval
+XwhCwPTpKQw,400.0,410.0,other,4,data/raw/test_set_v2/other/other_XwhCwPTpKQw_400_410.wav,benign_environmental,Water,/m/0838f,audioset_eval
+su5kYzAyFt4,10.0,20.0,other,4,data/raw/test_set_v2/other/other_su5kYzAyFt4_10_20.wav,benign_environmental,Water,/m/0838f,audioset_eval
+C3yqIuEs_zQ,430.0,440.0,other,4,data/raw/test_set_v2/other/other_C3yqIuEs_zQ_430_440.wav,benign_environmental,"Waves, surf",/m/034srq,audioset_eval
+RLJYigWchf0,30.0,40.0,other,4,data/raw/test_set_v2/other/other_RLJYigWchf0_30_40.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+Yn2KgQjK5R4,200.0,210.0,other,4,data/raw/test_set_v2/other/other_Yn2KgQjK5R4_200_210.wav,benign_environmental,Water,/m/0838f,audioset_eval
+CkutJYIfghs,30.0,40.0,other,4,data/raw/test_set_v2/other/other_CkutJYIfghs_30_40.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+NDLPoJsqqoA,60.0,70.0,other,4,data/raw/test_set_v2/other/other_NDLPoJsqqoA_60_70.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+f1MZbxQ9qgg,390.0,400.0,other,4,data/raw/test_set_v2/other/other_f1MZbxQ9qgg_390_400.wav,benign_environmental,Stream,/m/0j6m2,audioset_eval
+r2jHs1Nbrqw,430.0,440.0,other,4,data/raw/test_set_v2/other/other_r2jHs1Nbrqw_430_440.wav,benign_environmental,Rain,/m/06mb1,audioset_eval
+Q3QQ8PbHwXo,0.0,10.0,other,4,data/raw/test_set_v2/other/other_Q3QQ8PbHwXo_0_10.wav,benign_environmental,Water,/m/0838f,audioset_eval
+_AfYlb7oEsg,330.0,340.0,other,4,data/raw/test_set_v2/other/other__AfYlb7oEsg_330_340.wav,benign_environmental,Water,/m/0838f,audioset_eval
+CZlQbIE6FXQ,50.0,60.0,other,4,data/raw/test_set_v2/other/other_CZlQbIE6FXQ_50_60.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+HXgSs8-iOvg,70.0,80.0,other,4,data/raw/test_set_v2/other/other_HXgSs8-iOvg_70_80.wav,benign_environmental,Water,/m/0838f,audioset_eval
+4gFbCdHle0w,30.0,40.0,other,4,data/raw/test_set_v2/other/other_4gFbCdHle0w_30_40.wav,benign_environmental,Water,/m/0838f,audioset_eval
+-1pPw9zZopA,190.0,200.0,other,4,data/raw/test_set_v2/other/other_-1pPw9zZopA_190_200.wav,benign_environmental,Water,/m/0838f,audioset_eval
+ZC2-HlTYjqA,50.0,60.0,other,4,data/raw/test_set_v2/other/other_ZC2-HlTYjqA_50_60.wav,benign_environmental,"Waves, surf",/m/034srq,audioset_eval
+lS3jp74mLHk,60.0,70.0,other,4,data/raw/test_set_v2/other/other_lS3jp74mLHk_60_70.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+E81-l2bwh40,190.0,200.0,other,4,data/raw/test_set_v2/other/other_E81-l2bwh40_190_200.wav,benign_environmental,Water,/m/0838f,audioset_eval
+c6VWQGFmNUE,30.0,40.0,other,4,data/raw/test_set_v2/other/other_c6VWQGFmNUE_30_40.wav,benign_environmental,Rain,/m/06mb1,audioset_eval
+yu0De8n7Tog,30.0,40.0,other,4,data/raw/test_set_v2/other/other_yu0De8n7Tog_30_40.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+fvWS01GjKIw,10.0,20.0,other,4,data/raw/test_set_v2/other/other_fvWS01GjKIw_10_20.wav,benign_environmental,"Waves, surf",/m/034srq,audioset_eval
+B-60jGEds7M,30.0,40.0,other,4,data/raw/test_set_v2/other/other_B-60jGEds7M_30_40.wav,benign_environmental,"Waves, surf",/m/034srq,audioset_eval
+8sd513xQzV4,30.0,40.0,other,4,data/raw/test_set_v2/other/other_8sd513xQzV4_30_40.wav,benign_environmental,Wind,/m/03m9d0z,audioset_eval
+ObX2V23qOMc,330.0,340.0,other,4,data/raw/test_set_v2/other/other_ObX2V23qOMc_330_340.wav,benign_environmental,Stream,/m/0j6m2,audioset_eval
+9F1Tw0VnG38,10.0,20.0,other,4,data/raw/test_set_v2/other/other_9F1Tw0VnG38_10_20.wav,benign_environmental,"Waves, surf",/m/034srq,audioset_eval

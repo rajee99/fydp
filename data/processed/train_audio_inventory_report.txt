@@ -1,0 +1,235 @@
+================================================================================
+  AUDIOSET TRAINING AUDIO INVENTORY AUDIT REPORT
+  Generated at: 2026-10-29 20:14:09
+================================================================================
+
+[1] TRAINING MANIFEST COMPOSITION
+  Total manifest segments   : 740
+  Unique video IDs          : 740
+  Duplicate segment keys    : 0 (None - PASSED)
+  Segments by target class:
+    - scream         :   59 segments
+    - glass_breaking :  116 segments
+    - gunshot        :  178 segments
+    - siren          :  212 segments
+    - other          :  175 segments
+
+[2] CROSS-SPLIT LEAKAGE VERIFICATION
+  Train unique video IDs    : 740
+  Eval unique video IDs     : 742
+  Video ID overlap count    : 0 (Zero leakage confirmed - PASSED)
+
+[3] LOCAL AUDIO FILE VERIFICATION (data/raw/train/)
+  Total WAV files on disk   : 407
+  Valid 16kHz mono 16-bit   : 407
+  Invalid / unreadable files: 0
+  Valid audio files by class:
+    - scream         :   37 files
+    - glass_breaking :   96 files
+    - gunshot        :  115 files
+    - siren          :  159 files
+    - other          :    0 files
+
+[4] DOWNLOAD LOG STATUS SUMMARY (data/processed/train_download_results.csv)
+  Distinct operations logged: 565
+  Class            SUCCESS    ALREADY_EXISTS   COPIED_PILOT   FAILED  
+  ------------------------------------------------------------------
+  scream           37         0                0              22      
+  glass_breaking   96         0                0              20      
+  gunshot          115        0                0              63      
+  siren            159        0                0              53      
+  other            0          0                0              0       
+
+[5] MANIFEST SEGMENT MATCHING & GAP ANALYSIS
+  Class            Available    In Pilot Only   Failed     Unattempted    Total 
+  ---------------------------------------------------------------------------
+  scream           37           0               22         0              59    
+  glass_breaking   96           0               20         0              116   
+  gunshot          115          0               63         0              178   
+  siren            159          0               53         0              212   
+  other            0            9               0          166            175   
+
+  Failed Attempts Summary (5 clips logged):
+    * [scream] -GI5PbO6j50 (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] -GI5PbO6j50: This video is unavailable
+    * [scream] -QSNQGKiGT4 (260.0s-270.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] -QSNQGKiGT4: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] 1AlmsqlPdwM (450.0s-460.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 1AlmsqlPdwM: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [scream] 2NznKe2WaOc (30.0s-40.0s): PERMANENT: ERROR: [youtube] 2NznKe2WaOc: Private video
+    * [glass_breaking] 3Z0Gl7RHThc (280.0s-290.0s): PERMANENT: ERROR: [youtube] 3Z0Gl7RHThc: Video unavailable
+    * [gunshot] 3oF7NLTzoxc (190.0s-200.0s): PERMANENT: ERROR: [youtube] 3oF7NLTzoxc: Private video
+    * [gunshot] 3udWS-cMb-8 (80.0s-90.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 3udWS-cMb-8: This video is unavailable
+    * [siren] 4APBvMmKubU (10.0s-20.0s): PERMANENT: ERROR: [youtube] 4APBvMmKubU: This video is not available
+    * [gunshot] 4JnYkujJGRA (530.0s-540.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 4JnYkujJGRA: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] 4TQzd0lB8IQ (30.0s-40.0s): PERMANENT: ERROR: [youtube] 4TQzd0lB8IQ: This video has been removed for violating YouTube's Community Guidelines
+    * [glass_breaking] 5H-RadrUSA4 (20.0s-30.0s): PERMANENT: ERROR: [youtube] 5H-RadrUSA4: Video unavailable
+    * [siren] 7AfaA5FM4W0 (30.0s-40.0s): PERMANENT: ERROR: [youtube] 7AfaA5FM4W0: Video unavailable
+    * [gunshot] 7Bfg94jYDVI (260.0s-270.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 7Bfg94jYDVI: This video is unavailable
+    * [glass_breaking] 7G76uQj5eas (140.0s-150.0s): PERMANENT: ERROR: [youtube] 7G76uQj5eas: Private video
+    * [siren] 7Hcizjr7zB8 (140.0s-150.0s): Duration 9.00s deviates from expected 10.00s
+    * [glass_breaking] 7SZFvCNKCNg (540.0s-550.0s): PERMANENT: ERROR: [youtube] 7SZFvCNKCNg: Video unavailable
+    * [siren] 7_PrlSyBjfw (13.0s-23.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 7_PrlSyBjfw: This video is unavailable
+    * [gunshot] 89hj7G1AWYY (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 89hj7G1AWYY: This video is unavailable
+    * [gunshot] 8D4L97zM7x4 (60.0s-70.0s): PERMANENT: ERROR: [youtube] 8D4L97zM7x4: Video unavailable
+    * [scream] 8rZEOvULYzo (30.0s-40.0s): PERMANENT: ERROR: [youtube] 8rZEOvULYzo: Video unavailable
+    * [scream] 9bEc6mhrnLI (400.0s-410.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 9bEc6mhrnLI: This video is unavailable
+    * [gunshot] 9dzNWsw-W58 (270.0s-280.0s): PERMANENT: ERROR: [youtube] 9dzNWsw-W58: Private video
+    * [gunshot] 9iyQiuuF_CE (10.0s-20.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] 9iyQiuuF_CE: This video is unavailable
+    * [siren] ALjgoKbg4h4 (180.0s-190.0s): PERMANENT: ERROR: [youtube] ALjgoKbg4h4: Private video
+    * [siren] ATbEwmTJwD0 (30.0s-40.0s): PERMANENT: ERROR: [youtube] ATbEwmTJwD0: Private video
+    * [scream] AVH1UWCXkbA (10.0s-20.0s): PERMANENT: ERROR: [youtube] AVH1UWCXkbA: Video unavailable
+    * [siren] AafHy3_jyRQ (30.0s-40.0s): PERMANENT: ERROR: [youtube] AafHy3_jyRQ: Video unavailable
+    * [scream] Akx3uwhohmU (28.0s-38.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] Akx3uwhohmU: This video is unavailable
+    * [siren] AsQXL6yXbvs (30.0s-40.0s): PERMANENT: ERROR: [youtube] AsQXL6yXbvs: This video is not available
+    * [gunshot] Au5NjQaR_T0 (340.0s-350.0s): PERMANENT: ERROR: [youtube] Au5NjQaR_T0: This video is not available
+    * [siren] Axov9pRGK7s (30.0s-40.0s): PERMANENT: ERROR: [youtube] Axov9pRGK7s: Video unavailable
+    * [gunshot] BQWXKuFYuro (160.0s-170.0s): PERMANENT: ERROR: [youtube] BQWXKuFYuro: Video unavailable
+    * [gunshot] BSPjTGVP1I4 (30.0s-40.0s): PERMANENT: ERROR: [youtube] BSPjTGVP1I4: Video unavailable
+    * [siren] BV49gEN-0l0 (60.0s-70.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] BV49gEN-0l0: This video is unavailable
+    * [siren] BZtLVLGnILI (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] BZtLVLGnILI: This video is unavailable
+    * [siren] BjKTGhSeGyE (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] BjKTGhSeGyE: This video is unavailable
+    * [gunshot] CoKZ3cdGDBs (90.0s-100.0s): PERMANENT: ERROR: [youtube] CoKZ3cdGDBs: Private video
+    * [scream] Czmb6tEwFE8 (0.0s-5.0s): PERMANENT: ERROR: [youtube] Czmb6tEwFE8: Video unavailable
+    * [scream] D6thZbNv148 (13.0s-23.0s): Duration 9.00s deviates from expected 10.00s
+    * [siren] DKFz6eMHLfI (30.0s-40.0s): PERMANENT: ERROR: [youtube] DKFz6eMHLfI: Video unavailable
+    * [siren] D_zlJGQz0Eg (30.0s-40.0s): Duration 9.00s deviates from expected 10.00s
+    * [siren] Do9Dffb6vHA (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] Do9Dffb6vHA: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] E7tueVnDYDE (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] E7tueVnDYDE: This video is unavailable
+    * [gunshot] FN7VIGq04qE (60.0s-70.0s): PERMANENT: ERROR: [youtube] FN7VIGq04qE: Private video
+    * [gunshot] FQGTts7xyr8 (530.0s-540.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] FQGTts7xyr8: This video is unavailable
+    * [glass_breaking] FTkPTaI8eOo (440.0s-450.0s): PERMANENT: ERROR: [youtube] FTkPTaI8eOo: Video unavailable
+    * [gunshot] FnkVyKnukpE (0.0s-10.0s): PERMANENT: ERROR: [youtube] FnkVyKnukpE: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] G9M3de5mISY (0.0s-10.0s): PERMANENT: ERROR: [youtube] G9M3de5mISY: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [glass_breaking] II4UebN1Dxw (10.0s-20.0s): PERMANENT: ERROR: [youtube] II4UebN1Dxw: Private video
+    * [gunshot] IR_ks3y_UTA (200.0s-210.0s): PERMANENT: ERROR: [youtube] IR_ks3y_UTA: Private video
+    * [gunshot] Jk2B7Mvh6cE (320.0s-330.0s): PERMANENT: ERROR: [youtube] Jk2B7Mvh6cE: Private video
+    * [gunshot] K0op6i9ydnM (3.0s-13.0s): Duration 8.99s deviates from expected 10.00s
+    * [siren] KSLSsWlbZYk (9.0s-19.0s): PERMANENT: ERROR: [youtube] KSLSsWlbZYk: Video unavailable
+    * [siren] KqUD1AAGpJ4 (50.0s-60.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] KqUD1AAGpJ4: This video is unavailable
+    * [glass_breaking] L1rAooQEnsk (0.0s-7.0s): Duration 6.00s deviates from expected 7.00s
+    * [scream] LJ8BY521EoI (30.0s-40.0s): PERMANENT: ERROR: [youtube] LJ8BY521EoI: This video is not available
+    * [siren] M1kL1VKZ0uo (30.0s-40.0s): PERMANENT: ERROR: [youtube] M1kL1VKZ0uo: Private video
+    * [glass_breaking] MqUQb9pYHyw (0.0s-10.0s): PERMANENT: ERROR: [youtube] MqUQb9pYHyw: Video unavailable
+    * [gunshot] O_FDe2fRpDM (210.0s-220.0s): PERMANENT: ERROR: [youtube] O_FDe2fRpDM: This video has been removed for violating YouTube's Community Guidelines
+    * [siren] Oqhb92tXzSk (80.0s-90.0s): PERMANENT: ERROR: [youtube] Oqhb92tXzSk: Private video
+    * [gunshot] PO1eaJ7tQOg (250.0s-260.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] PO1eaJ7tQOg: This video is unavailable
+    * [glass_breaking] PPp4DcCy5v8 (500.0s-510.0s): PERMANENT: ERROR: [youtube] PPp4DcCy5v8: Video unavailable
+    * [scream] QBYtl0RfPIA (310.0s-320.0s): PERMANENT: ERROR: [youtube] QBYtl0RfPIA: This video is not available
+    * [scream] QFTcdU-BDg8 (30.0s-40.0s): PERMANENT: ERROR: [youtube] QFTcdU-BDg8: Private video
+    * [gunshot] QH3RIg1ypDg (24.0s-34.0s): Duration 9.00s deviates from expected 10.00s
+    * [gunshot] QrvCNyQn3HU (20.0s-30.0s): PERMANENT: ERROR: [youtube] QrvCNyQn3HU: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [glass_breaking] Qu9368uYhc0 (10.0s-20.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] Qu9368uYhc0: This video is unavailable
+    * [siren] QwlL3d075_E (30.0s-40.0s): PERMANENT: ERROR: [youtube] QwlL3d075_E: This video is not available
+    * [siren] RZIVGgQzUJU (0.0s-10.0s): PERMANENT: ERROR: [youtube] RZIVGgQzUJU: Private video
+    * [siren] Rtel5iGCPO8 (40.0s-50.0s): Duration 9.00s deviates from expected 10.00s
+    * [siren] SsYJ8SRGCVg (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] SsYJ8SRGCVg: This video is unavailable
+    * [glass_breaking] U7_IlUYZKa0 (0.0s-10.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] U7_IlUYZKa0: This video is unavailable
+    * [siren] Uy99LWx_eXY (30.0s-40.0s): PERMANENT: ERROR: [youtube] Uy99LWx_eXY: Private video
+    * [gunshot] W8WFs-QDZnc (9.0s-19.0s): Duration 9.00s deviates from expected 10.00s
+    * [scream] WLjjbOBFt8g (440.0s-450.0s): PERMANENT: ERROR: [youtube] WLjjbOBFt8g: Video unavailable
+    * [glass_breaking] WcGvl6SBIko (10.0s-20.0s): PERMANENT: ERROR: [youtube] WcGvl6SBIko: This video is not available
+    * [glass_breaking] WhI_e7hH99w (120.0s-130.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] WhI_e7hH99w: This video is unavailable
+    * [gunshot] WoBYgyQqQKk (30.0s-40.0s): PERMANENT: ERROR: [youtube] WoBYgyQqQKk: This video is not available
+    * [siren] Wqn38dNWFsc (180.0s-190.0s): PERMANENT: ERROR: [youtube] Wqn38dNWFsc: Video unavailable
+    * [scream] X4jIkctapb8 (40.0s-50.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] X4jIkctapb8: This video is unavailable
+    * [gunshot] XVJvCtE1hEU (110.0s-120.0s): PERMANENT: ERROR: [youtube] XVJvCtE1hEU: Video unavailable
+    * [gunshot] Xoma_14dg08 (10.0s-20.0s): PERMANENT: ERROR: [youtube] Xoma_14dg08: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] YHW0XmpLi2k (0.0s-7.0s): PERMANENT: ERROR: [youtube] YHW0XmpLi2k: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] YqGivcrdNhw (13.0s-23.0s): Duration 8.97s deviates from expected 10.00s
+    * [siren] ZVDtuzPVlgU (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] ZVDtuzPVlgU: This video is unavailable
+    * [gunshot] _5x_-aTNCjU (100.0s-110.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] _5x_-aTNCjU: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] _RUKvt068Po (100.0s-110.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] _RUKvt068Po: This video is unavailable
+    * [siren] a1PQCCz-Kw8 (0.0s-10.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] a1PQCCz-Kw8: This video is unavailable
+    * [gunshot] aVuoBwZxcJ4 (480.0s-490.0s): PERMANENT: ERROR: [youtube] aVuoBwZxcJ4: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] awGEJJDYVGk (30.0s-40.0s): PERMANENT: ERROR: [youtube] awGEJJDYVGk: Video unavailable
+    * [glass_breaking] bAl-i0g7rUM (0.0s-8.0s): Duration 7.00s deviates from expected 8.00s
+    * [siren] bo_KcZvGHJw (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] bo_KcZvGHJw: This video is unavailable
+    * [gunshot] brbEtmu2_MA (100.0s-110.0s): PERMANENT: ERROR: [youtube] brbEtmu2_MA: Video unavailable
+    * [scream] cnmE_P7-lHw (70.0s-80.0s): PERMANENT: ERROR: [youtube] cnmE_P7-lHw: Private video
+    * [siren] d04-EBJMLsA (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] d04-EBJMLsA: This video is unavailable
+    * [gunshot] d_6LsqvvEp0 (180.0s-190.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] d_6LsqvvEp0: This video is unavailable
+    * [scream] dzSURcGk-iE (110.0s-120.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] dzSURcGk-iE: This video is unavailable
+    * [glass_breaking] eHmfCMcOVrM (300.0s-310.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] eHmfCMcOVrM: This video is unavailable
+    * [siren] f6v9gp1xyPM (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] f6v9gp1xyPM: This video is unavailable
+    * [scream] fCljzvhZR4I (30.0s-40.0s): PERMANENT: ERROR: [youtube] fCljzvhZR4I: Video unavailable
+    * [glass_breaking] fJ36wVWhiio (40.0s-50.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] fJ36wVWhiio: This video is unavailable
+    * [gunshot] fu5PSTbkCTY (23.0s-33.0s): Duration 9.00s deviates from expected 10.00s
+    * [scream] gFsrWHtBfkU (390.0s-400.0s): PERMANENT: ERROR: [youtube] gFsrWHtBfkU: Video unavailable
+    * [gunshot] gPZscoUwABA (140.0s-150.0s): PERMANENT: ERROR: [youtube] gPZscoUwABA: Video unavailable
+    * [siren] gg4mF4xZjfM (10.0s-20.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] gg4mF4xZjfM: This video is unavailable
+    * [gunshot] hAWnwjMmDO4 (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] hAWnwjMmDO4: This video is unavailable
+    * [gunshot] hGklLddzBQA (530.0s-540.0s): PERMANENT: ERROR: [youtube] hGklLddzBQA: Video unavailable
+    * [glass_breaking] hIBfZ-rQutw (0.0s-10.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] hIBfZ-rQutw: This video is unavailable
+    * [siren] hQL9iS_Kcac (30.0s-40.0s): PERMANENT: ERROR: [youtube] hQL9iS_Kcac: Video unavailable
+    * [gunshot] hVXaWkX_KOw (430.0s-440.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] hVXaWkX_KOw: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] hWSvuq56hlM (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] hWSvuq56hlM: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] i-q5XKBVGWI (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] i-q5XKBVGWI: This video is unavailable
+    * [scream] iz5BbJSFVgI (50.0s-60.0s): PERMANENT: ERROR: [youtube] iz5BbJSFVgI: This video has been removed for violating YouTube's policy on harassment and bullying
+    * [siren] j1N909f8Obg (50.0s-60.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] j1N909f8Obg: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] jdiphmOtFVU (50.0s-60.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] jdiphmOtFVU: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] jhOQDoavJvk (210.0s-220.0s): PERMANENT: ERROR: [youtube] jhOQDoavJvk: This video has been removed for violating YouTube's Terms of Service
+    * [glass_breaking] kAtGD0lrwTA (210.0s-220.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] kAtGD0lrwTA: This video is unavailable
+    * [gunshot] lNnj9q0oVLY (90.0s-100.0s): PERMANENT: ERROR: [youtube] lNnj9q0oVLY: This video is not available
+    * [siren] laHuV00LwLI (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] laHuV00LwLI: This video is unavailable
+    * [siren] ldPcujHM1RQ (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] ldPcujHM1RQ: This video is unavailable
+    * [siren] mTkHFF-jcvE (10.0s-20.0s): PERMANENT: ERROR: [youtube] mTkHFF-jcvE: Video unavailable
+    * [scream] nRir6ObdoW4 (180.0s-190.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] nRir6ObdoW4: This video is unavailable
+    * [gunshot] nuuykD2akvI (28.0s-38.0s): PERMANENT: ERROR: [youtube] nuuykD2akvI: Private video
+    * [scream] nwMHPaDYg4I (10.0s-20.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] nwMHPaDYg4I: Please sign in. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [glass_breaking] oLbYK5uBw0Q (130.0s-140.0s): PERMANENT: ERROR: [youtube] oLbYK5uBw0Q: Video unavailable
+    * [gunshot] okXKlLF2lh0 (230.0s-240.0s): PERMANENT: ERROR: [youtube] okXKlLF2lh0: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] osFCx4URNyk (0.0s-10.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] osFCx4URNyk: This video is unavailable
+    * [siren] pD4AgkHStLU (190.0s-200.0s): Duration 9.00s deviates from expected 10.00s
+    * [siren] psEwlH67wBM (0.0s-10.0s): PERMANENT: ERROR: [youtube] psEwlH67wBM: Private video
+    * [siren] pteBmIy99io (17.0s-27.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] pteBmIy99io: This video is unavailable
+    * [gunshot] qBLiT_0wwM4 (30.0s-40.0s): PERMANENT: ERROR: [youtube] qBLiT_0wwM4: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] qqMCiiZOaIA (40.0s-50.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] qqMCiiZOaIA: This video is unavailable
+    * [gunshot] rK7LRuvEnHQ (30.0s-40.0s): PERMANENT: ERROR: [youtube] rK7LRuvEnHQ: Private video
+    * [glass_breaking] rTPuPvHg5rg (30.0s-40.0s): PERMANENT: ERROR: [youtube] rTPuPvHg5rg: Video unavailable
+    * [scream] rmfZ-r7wd6g (350.0s-360.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] rmfZ-r7wd6g: This video is unavailable
+    * [siren] t1_81iXEZys (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] t1_81iXEZys: This video is unavailable
+    * [gunshot] toDcLiHJUEA (140.0s-150.0s): PERMANENT: ERROR: [youtube] toDcLiHJUEA: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] uCm-Rsvrw0s (0.0s-8.0s): PERMANENT: ERROR: [youtube] uCm-Rsvrw0s: Video unavailable
+    * [gunshot] uqtwOTsOF7I (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] uqtwOTsOF7I: This video is unavailable
+    * [siren] ut_8E40pK8Q (130.0s-140.0s): PERMANENT: ERROR: [youtube] ut_8E40pK8Q: This video has been removed for violating YouTube's Terms of Service
+    * [gunshot] v56paXFFfig (20.0s-30.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] v56paXFFfig: This video is unavailable
+    * [siren] vAyqGgwby8w (0.0s-10.0s): PERMANENT: ERROR: [youtube] vAyqGgwby8w: Private video
+    * [siren] vDqjk41i1Qs (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] vDqjk41i1Qs: This video is unavailable
+    * [gunshot] vQWFMfbDJyI (110.0s-120.0s): PERMANENT: ERROR: [youtube] vQWFMfbDJyI: Video unavailable
+    * [gunshot] vQdYJv4Mebk (10.0s-20.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] vQdYJv4Mebk: This video is unavailable
+    * [gunshot] vXOhbFavtqU (60.0s-70.0s): PERMANENT: ERROR: [youtube] vXOhbFavtqU: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [gunshot] vcmuZ3MDSK8 (20.0s-30.0s): PERMANENT: ERROR: [youtube] vcmuZ3MDSK8: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] wBxdxy9nTkg (20.0s-30.0s): PERMANENT: ERROR: [youtube] wBxdxy9nTkg: Private video
+    * [siren] wNcauFdpks0 (6.0s-16.0s): Duration 9.00s deviates from expected 10.00s
+    * [gunshot] wdVYP2ijnew (120.0s-130.0s): PERMANENT: ERROR: [youtube] wdVYP2ijnew: Private video
+    * [siren] xHTMsmh7keA (28.0s-38.0s): Duration 9.00s deviates from expected 10.00s
+    * [gunshot] yyrvlwuFyMU (90.0s-100.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] yyrvlwuFyMU: This video is unavailable
+    * [gunshot] zC3MxGNQ4fY (30.0s-40.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] zC3MxGNQ4fY: This video is unavailable
+    * [gunshot] zHy43cBfK9M (30.0s-40.0s): PERMANENT: ERROR: [youtube] zHy43cBfK9M: Sign in to confirm your age. Use --cookies-from-browser or --cookies for the authentication. See  https://github.com/yt-dlp/yt-dlp/wiki/FAQ#how-do-i-pass-cookies-to-yt-dlp  for how to manually pass cookies. Also see  https://github.com/yt-dlp/yt-dlp/wiki/Extractors#exporting-youtube-cookies  for tips on effectively exporting YouTube cookies
+    * [siren] zReigRchBII (210.0s-220.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] zReigRchBII: This video is unavailable
+    * [siren] zRy6CacyT2E (80.0s-90.0s): TRANSIENT_EXHAUSTED: ERROR: [youtube] zRy6CacyT2E: This video is unavailable
+    * [siren] zjk9aUW5c_0 (30.0s-40.0s): PERMANENT: ERROR: [youtube] zjk9aUW5c_0: Video unavailable
+    * [gunshot] zu53y8M2xBc (20.0s-30.0s): PERMANENT: ERROR: [youtube] zu53y8M2xBc: Private video
+
+  Verified Pilot Audio Ready for Auto-Reuse: 9 segments
+    - other: 9 segments available in pilot cache
+
+[6] AVAILABILITY RATES (Denominator: Unique Manifest Segments)
+  Class            Manifest Segments    Available WAVs   Availability Rate 
+  ------------------------------------------------------------------------
+  scream           59                   37                62.71%
+  glass_breaking   116                  96                82.76%
+  gunshot          178                  115               64.61%
+  siren            212                  159               75.00%
+  other            175                  0                  0.00%
+  ------------------------------------------------------------------------
+  OVERALL          740                  407               55.00%
+
+[7] FILENAME MATCHING CONVENTIONS & LIMITATIONS
+  1. Standard Pattern: {target_class}_{video_id}_{int(start)}_{int(end)}.wav
+  2. Integer Timestamp Truncation: AudioSet timestamps are typically whole integers.
+     In rare cases of fractional cuts (e.g. 0.0s-8.0s), int() casting retains collision safety
+     provided no sub-second variant exists for the identical video and class.
+  3. Direct Path Verification: Every available file was checked both by filename match and
+     by direct wave header inspection on disk.
+  4. Pilot Separation: Pilot audio files reside under data/raw/pilot/ and are tracked separately
+     from data/raw/train/ until auto-copied during scheduled batch execution.
+================================================================================

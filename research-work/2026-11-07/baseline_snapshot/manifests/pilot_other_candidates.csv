@@ -1,0 +1,11 @@
+video_id,start_seconds,end_seconds,audio_set_label,sub_domain,target_class,intended_output_path,audio_set_mid,video_title,video_duration
+ZO5Y6WWLwh8,0.0,10.0,Speech,speech,other,data/raw/pilot/other_speech_ZO5Y6WWLwh8_0_10.wav,/m/09x0r,bode e cabrita cruzando.AVI,91
+Cr8E6wkiOP4,30.0,40.0,Speech,speech,other,data/raw/pilot/other_speech_Cr8E6wkiOP4_30_40.wav,/m/09x0r,The Dog Aggression Test video,77
+OPX9ukYun3o,10.0,20.0,Music,music,other,data/raw/pilot/other_music_OPX9ukYun3o_10_20.wav,/m/04rlf,Zumba Kids with Krisi - Ghostbusters,259
+qpwjSTEaswI,90.0,100.0,Music,music,other,data/raw/pilot/other_music_qpwjSTEaswI_90_100.wav,/m/04rlf,Ukraine Epic Dubstep,373
+L52FAJDaa48,170.0,180.0,"Bird vocalization, bird call, bird song",animals,other,data/raw/pilot/other_animals_L52FAJDaa48_170_180.wav,/m/020bb7,Sky - short film by shirly in sri lanka,471
+OBSce-F-DWc,230.0,240.0,Bird,animals,other,data/raw/pilot/other_animals_OBSce-F-DWc_230_240.wav,/m/015p6,All  pigeons skycutters Ukrainian,270
+UT05UUIBDDk,10.0,20.0,Door,household,other,data/raw/pilot/other_household_UT05UUIBDDk_10_20.wav,/m/02dgv,Composite Stable Door,20
+ayPD5s4uiXM,70.0,80.0,"Dishes, pots, and pans",household,other,data/raw/pilot/other_household_ayPD5s4uiXM_70_80.wav,/m/04brg2,JMR 3-Speed Manual Tube bender,582
+OecEaoBtxpw,350.0,360.0,Vehicle,environmental,other,data/raw/pilot/other_environmental_OecEaoBtxpw_350_360.wav,/m/07yv9,"Afternoon Heavy Departures | London Heathrow Airport, LHR 15/09/15",713
+NWjZK1EFZBc,30.0,40.0,Wind,environmental,other,data/raw/pilot/other_environmental_NWjZK1EFZBc_30_40.wav,/m/03m9d0z,First time in a sailboat,270

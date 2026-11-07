@@ -1,0 +1,32 @@
+{
+  "classes": [
+    "scream",
+    "glass_breaking",
+    "gunshot",
+    "siren",
+    "other"
+  ],
+  "class_to_id": {
+    "scream": 0,
+    "glass_breaking": 1,
+    "gunshot": 2,
+    "siren": 3,
+    "other": 4
+  },
+  "id_to_class": {
+    "0": "scream",
+    "1": "glass_breaking",
+    "2": "gunshot",
+    "3": "siren",
+    "4": "other"
+  },
+  "num_classes": 5,
+  "emergency_classes": [
+    "scream",
+    "glass_breaking",
+    "gunshot",
+    "siren"
+  ],
+  "non_target_class": "other",
+  "description": "Exactly five target classes. 'other' encapsulates all non-emergency background, speech, and ambient noise."
+}

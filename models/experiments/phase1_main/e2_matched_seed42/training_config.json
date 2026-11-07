@@ -1,0 +1,89 @@
+{
+  "model": "PannsCNN14",
+  "finetuned_from": null,
+  "finetuned_layers": null,
+  "lr_head": 0.001,
+  "lr_backbone": null,
+  "pretrained_path": "D:\\ml\\fydp\\MyNet\\models\\pretrained\\Cnn14_16k_mAP=0.438.pth",
+  "freeze_backbone": true,
+  "early_stopping_metric": "macro_f1",
+  "total_parameters": 79963653,
+  "trainable_parameters": 10245,
+  "num_classes": 5,
+  "classes": [
+    "scream",
+    "glass_breaking",
+    "gunshot",
+    "siren",
+    "other"
+  ],
+  "class_to_id": {
+    "scream": 0,
+    "glass_breaking": 1,
+    "gunshot": 2,
+    "siren": 3,
+    "other": 4
+  },
+  "sample_rate": 16000,
+  "target_duration_sec": 10.0,
+  "target_samples": 160000,
+  "n_mels": 64,
+  "epochs": 30,
+  "batch_size": 16,
+  "initial_lr": 0.001,
+  "weight_decay": 0.0001,
+  "optimizer": "ADAM",
+  "train_manifest": "data\\processed\\e2_matched_train_split_manifest.csv",
+  "val_manifest": "data\\processed\\shared_val_split_manifest.csv",
+  "imbalance_strategy": "class_weights",
+  "train_class_weights": [
+    2.4398,
+    0.9506,
+    0.7956,
+    0.5763,
+    0.2376
+  ],
+  "train_samples": 634,
+  "val_samples": 105,
+  "train_counts": {
+    "scream": 30,
+    "glass_breaking": 77,
+    "gunshot": 92,
+    "siren": 127,
+    "other": 308
+  },
+  "val_counts": {
+    "scream": 7,
+    "glass_breaking": 19,
+    "gunshot": 23,
+    "siren": 32,
+    "other": 24
+  },
+  "dataset_distribution": {
+    "train": {
+      "audioset": {
+        "glass_breaking": 77,
+        "gunshot": 92,
+        "other": 96,
+        "scream": 30,
+        "siren": 127
+      },
+      "audioset_targeted_expansion": {
+        "other": 212
+      }
+    },
+    "val": {
+      "audioset": {
+        "glass_breaking": 19,
+        "gunshot": 23,
+        "other": 24,
+        "scream": 7,
+        "siren": 32
+      }
+    }
+  },
+  "val_ratio": 0.2,
+  "seed": 42,
+  "device": "cuda",
+  "timestamp": "2026-10-30T22:18:56.372636"
+}

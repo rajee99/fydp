@@ -1,0 +1,53 @@
+﻿# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# IDE & Editor settings
+.vscode/
+.idea/
+.codex/
+*.sublime-project
+*.sublime-workspace
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Heavy Model Checkpoints & Pretrained Weights (>100MB)
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.h5
+models/pretrained/
+models/**/best_model.pt
+models/**/latest_checkpoint.pt
+models/**/checkpoint_epoch_*.pt
+
+# Large Raw Datasets & Audio Media Files
+NIGENS/
+data/raw/
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.tar.gz
+*.zip
+*.7z
+
+# Temporary & Log files
+*.log
+*.tmp

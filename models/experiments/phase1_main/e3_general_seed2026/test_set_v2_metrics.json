@@ -1,0 +1,219 @@
+{
+  "accuracy": 0.8027,
+  "macro_precision": 0.7859,
+  "macro_recall": 0.8507,
+  "macro_f1": 0.8071,
+  "emergency_recall_macro": 0.9033,
+  "emergency_precision_macro": 0.7581,
+  "emergency_recall_exact": 0.9111,
+  "emergency_recall_ci_95": [
+    0.8812,
+    0.934
+  ],
+  "emergency_detection_rate": 0.9511,
+  "other_recall": 0.64,
+  "false_emergency_rate_overall": 0.36,
+  "fer_overall_ci_95": [
+    0.3078,
+    0.4158
+  ],
+  "other_predicted_as_emerg": 108,
+  "other_support": 300,
+  "fer_confusers": 0.5733,
+  "fer_confusers_ci_95": [
+    0.4933,
+    0.6497
+  ],
+  "fer_confusers_count": "86/150",
+  "fer_benign": 0.1467,
+  "fer_benign_ci_95": [
+    0.0989,
+    0.2121
+  ],
+  "fer_benign_count": "22/150",
+  "per_class": {
+    "scream": {
+      "precision": 0.7807,
+      "recall": 0.89,
+      "f1_score": 0.8318,
+      "support": 100
+    },
+    "glass_breaking": {
+      "precision": 0.68,
+      "recall": 0.85,
+      "f1_score": 0.7556,
+      "support": 100
+    },
+    "gunshot": {
+      "precision": 0.6475,
+      "recall": 0.9,
+      "f1_score": 0.7531,
+      "support": 100
+    },
+    "siren": {
+      "precision": 0.9241,
+      "recall": 0.9733,
+      "f1_score": 0.9481,
+      "support": 150
+    },
+    "other": {
+      "precision": 0.8972,
+      "recall": 0.64,
+      "f1_score": 0.7471,
+      "support": 300
+    }
+  },
+  "confusion_matrix": [
+    [
+      89,
+      1,
+      2,
+      0,
+      8
+    ],
+    [
+      0,
+      85,
+      4,
+      1,
+      10
+    ],
+    [
+      2,
+      6,
+      90,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      1,
+      146,
+      2
+    ],
+    [
+      22,
+      33,
+      42,
+      11,
+      192
+    ]
+  ],
+  "subdomain_metrics": {
+    "benign_animals": {
+      "support": 25,
+      "correct": 25,
+      "accuracy": 1.0,
+      "false_emergencies": 0,
+      "false_emergency_rate": 0.0
+    },
+    "benign_environmental": {
+      "support": 25,
+      "correct": 21,
+      "accuracy": 0.84,
+      "false_emergencies": 4,
+      "false_emergency_rate": 0.16
+    },
+    "benign_household": {
+      "support": 25,
+      "correct": 18,
+      "accuracy": 0.72,
+      "false_emergencies": 7,
+      "false_emergency_rate": 0.28
+    },
+    "benign_music": {
+      "support": 25,
+      "correct": 21,
+      "accuracy": 0.84,
+      "false_emergencies": 4,
+      "false_emergency_rate": 0.16
+    },
+    "benign_speech": {
+      "support": 25,
+      "correct": 20,
+      "accuracy": 0.8,
+      "false_emergencies": 5,
+      "false_emergency_rate": 0.2
+    },
+    "benign_traffic": {
+      "support": 25,
+      "correct": 23,
+      "accuracy": 0.92,
+      "false_emergencies": 2,
+      "false_emergency_rate": 0.08
+    },
+    "confuser_car_alarms_buzzers": {
+      "support": 25,
+      "correct": 16,
+      "accuracy": 0.64,
+      "false_emergencies": 9,
+      "false_emergency_rate": 0.36
+    },
+    "confuser_door_slams": {
+      "support": 25,
+      "correct": 13,
+      "accuracy": 0.52,
+      "false_emergencies": 12,
+      "false_emergency_rate": 0.48
+    },
+    "confuser_fireworks": {
+      "support": 25,
+      "correct": 0,
+      "accuracy": 0.0,
+      "false_emergencies": 25,
+      "false_emergency_rate": 1.0
+    },
+    "confuser_human_shouting": {
+      "support": 25,
+      "correct": 11,
+      "accuracy": 0.44,
+      "false_emergencies": 14,
+      "false_emergency_rate": 0.56
+    },
+    "confuser_metal_impacts": {
+      "support": 25,
+      "correct": 6,
+      "accuracy": 0.24,
+      "false_emergencies": 19,
+      "false_emergency_rate": 0.76
+    },
+    "confuser_whistles": {
+      "support": 25,
+      "correct": 18,
+      "accuracy": 0.72,
+      "false_emergencies": 7,
+      "false_emergency_rate": 0.28
+    },
+    "emergency_vehicle": {
+      "support": 150,
+      "correct": 146,
+      "accuracy": 0.9733,
+      "false_emergencies": 0,
+      "false_emergency_rate": 0.0
+    },
+    "human_vocal": {
+      "support": 100,
+      "correct": 89,
+      "accuracy": 0.89,
+      "false_emergencies": 0,
+      "false_emergency_rate": 0.0
+    },
+    "impact": {
+      "support": 100,
+      "correct": 85,
+      "accuracy": 0.85,
+      "false_emergencies": 0,
+      "false_emergency_rate": 0.0
+    },
+    "weapon": {
+      "support": 99,
+      "correct": 90,
+      "accuracy": 0.9091,
+      "false_emergencies": 0,
+      "false_emergency_rate": 0.0
+    }
+  },
+  "seed": 2026,
+  "condition": "e3_general"
+}
